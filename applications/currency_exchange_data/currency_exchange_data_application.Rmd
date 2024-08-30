@@ -1,0 +1,533 @@
+---
+title: "currency_exchange_data_application"
+output: pdf_document
+date: "2024-07-30"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+First, we load the required packages, where notably `graphicalExtremes` is required for methods related to the majority voting algorithm, `EGlearn` (see: https://arxiv.org/pdf/2111.00840). 
+
+```{r load-packages}
+library(graphicalExtremes)
+library(igraph)
+library(tidyverse)
+library(pbapply)
+library(here)
+library(Matrix)
+library(MASS)
+library(glassoFast)
+library(latex2exp)
+library(gridExtra)
+library(ggplot2)
+library(dplyr)
+```
+
+Next, we load the relevant `R` datasets, originally downloaded from: https://github.com/sebastian-engelke/extremal_tree_learning/tree/master/application/data and https://github.com/sebastian-engelke/extremal_graph_learning/tree/master/applications/data.
+
+```{r}
+load(here("applications/currency_exchange_data/data/BoE_exchange_rates.Rdata")) # The unfiltered daily spot foreign exchange rates,in terms of British pound sterling, from 1 October 2005 to 30 September 2020
+load(here("applications/currency_exchange_data/data/currency.Rdata")) # The filtered daily log-returns, loaded into the environment as `X`
+load(here("applications/currency_exchange_data/data/coords_exchange.Rdata")) # Encodes spatial positioning of nodes in plotted EGMs
+```
+
+Then, we define the relevant methods for the `Eglearn` majority voting algorithm, which has been lifted from the following https://github.com/sebastian-engelke/extremal_graph_learning/blob/master/simulations/functions_paper.R, to ensure that our approach is identical to that of https://arxiv.org/pdf/2111.00840. 
+
+```{r extremal-graph-learning-functions}
+mychol <- function(M){
+  d <- nrow(M)
+  n <- rankMatrix(M)
+  if(n==d) return(chol(M))
+  else{
+    R <- chol(M, pivot=TRUE)
+    o <- order(attr(R, "pivot"))
+    return(R[1:n,o])
+  }
+}
+
+aic <- function(n, p) 2
+bic <- function(n, p) log(n)
+mbic <- function(n, p) log(n) * log(log(p)) # modified BIC of Wang & Leng, JRSSB 2009
+
+
+
+glasso_mb2 <- function(data, samp_size, lambda, thr_zero = 1e-10, ic = FALSE, refit = TRUE){
+  
+  # Initialize variables
+  dd <- ncol(data)
+  S_tmp <- t(data) %*% data
+  data_std <- data %*% diag(diag(S_tmp)^(-1/2))
+  adj.est <- array(NA, dim = c(dd, dd, length(lambda)))
+  if(ic) adj.ic.est <- array(NA, dim = c(dd, dd, 3))
+  lambda_order <- order(lambda, decreasing = TRUE)
+  lambda_dec <- sort(lambda, decreasing = TRUE)
+  
+  # Loop through variables
+  for(i in (1:dd)){
+    X <- data_std[,-i]
+    Y <- data_std[,i]
+    lasso_fit <- glmnet::glmnet(x = X, y = Y, family = "gaussian",
+                                lambda = lambda_dec/nrow(X)*samp_size/(samp_size-1),
+                                standardize = F, intercept = F)
+    if(i==1){
+      null.vote <- array(0, dim = c(dd, dd, length(lambda)))
+      if(ic) null.vote.ic <- array(0, dim = c(dd, dd, 3))
+    }
+    null.vote[i, -i, ] <- null.vote[i, -i, ] +
+      (abs(as.matrix(lasso_fit$beta)) <= thr_zero)
+    null.vote[-i, i, ] <- null.vote[-i, i, ] +
+      (abs(as.matrix(lasso_fit$beta)) <= thr_zero)
+    
+    if(ic){
+      # refitting the estimated models without penalty to extract the likelihood value
+      if(refit){
+        dev <- sapply(1:length(lambda), function(l){
+          to_excl <- which(abs(as.matrix(lasso_fit$beta)[,l]) <= 1e-10)
+          if(length(to_excl) == ncol(X)) return(samp_size * sum(Y^2))
+          else{
+            # Calculating the regression residuals directly (squared norm of (I - X (X^T X)^{-1} X^T) Y)
+            X_tmp <- as.matrix(X[,-to_excl])
+            return(
+              samp_size * sum(((diag(nrow(X_tmp)) - X_tmp %*% solve(t(X_tmp) %*% X_tmp) %*% t(X_tmp)) %*% Y)^2)
+            )
+          }
+        })
+      }
+      # otherwise calculating the likelihood from the original (penalized) fit
+      else dev <- samp_size * (1 - lasso_fit$dev.ratio) * lasso_fit$nulldev
+      
+      dfs <- lasso_fit$df
+      aic.idx <- which.min( dev + aic(samp_size, dd) * dfs )
+      bic.idx <- which.min( dev + bic(samp_size, dd) * dfs )
+      mbic.idx <- which.min( dev + mbic(samp_size, dd) * dfs )
+      
+      null.vote.ic[i, -i, ] <- null.vote.ic[i, -i,] +
+        (abs(as.matrix(lasso_fit$beta[,c(aic.idx, bic.idx, mbic.idx)])) <= thr_zero)
+      null.vote.ic[-i, i, ] <- null.vote.ic[-i, i,] +
+        (abs(as.matrix(lasso_fit$beta[,c(aic.idx, bic.idx, mbic.idx)])) <= thr_zero)
+    }
+  }
+  
+  adj.est[,,lambda_order] <- null.vote <= 1
+  if(ic){
+    adj.ic.est <- null.vote.ic <= 1
+    return(list(adj.est = adj.est, adj.ic.est = adj.ic.est))
+  }
+  else return(list(adj.est = adj.est))
+}
+
+
+
+# information criteria as before: ic = "ns"
+# information criteria by refitting the regression models inside neighborhood selection: ic = "ns", refit = TRUE
+# information criteria by HR likelihood (always selects a connected graph): ic = "hr" (default)
+eglearn2 <- function(data,
+                     p = NULL,
+                     rholist = c(0.1, 0.15, 0.19, 0.205),
+                     thr_zero = 1e-5,
+                     reg_method = c("ns", "glasso"),
+                     ic = c("hr", "ns"),
+                     refit = FALSE,
+                     return_Gamma = FALSE) {
+  
+  # Check arguments
+  reg_method <- match.arg(reg_method)
+  ic <- match.arg(ic)
+  if(ic == "hr") return_Gamma <- TRUE
+  
+  if (any(rholist < 0)) {
+    stop("The regularization parameters in `rholist` must be non-negative.",
+         call. = FALSE
+    )
+  }
+  
+  # Normalize data
+  if (!is.null(p)) {
+    data.std <- data2mpareto(data, p)
+  }
+  else {
+    data.std <- data
+  }
+  
+  # Initialize variables
+  Gamma <- emp_vario(data=data.std)
+  sel_methods <- c("aic", "bic", "mbic")
+  
+  r <- length(rholist)
+  n <- nrow(data.std)
+  d <- ncol(Gamma)
+  
+  # votes for absence of edges
+  null.vote <- array(0, dim = c(d, d, r))
+  null.vote.ic <- array(0, dim = c(d, d, length(sel_methods)))
+  
+  # Loop through variables
+  for (k in 1:d) {
+    Sk <- Gamma2Sigma(Gamma = Gamma, k=k)
+    if (reg_method == "glasso") {
+      gl.fit <- lapply(1:length(rholist), FUN = function(i) {
+        glassoFast::glassoFast(S = Sk, rho = rholist[i], thr = 1e-8, maxIt = 100000)$wi
+      })
+      gl.tmp <- array(unlist(gl.fit), dim = c(d - 1, d - 1, r))
+      null.vote[-k, -k, ] <- null.vote[-k, -k, , drop = FALSE] +
+        (abs(gl.tmp) <= thr_zero)
+    }
+    else if (reg_method == "ns") {
+      samp_size <- length(which(data.std[, k] > 1))
+      X <- mychol(Sk)
+      gl.tmp <- glasso_mb2(data = X, samp_size = samp_size, lambda = rholist, thr_zero = thr_zero,
+                           ic = (ic == "ns"), refit = refit)
+      null.vote[-k, -k, ] <- null.vote[-k, -k, , drop = FALSE] + (!gl.tmp$adj.est)
+      if(ic == "ns") null.vote.ic[-k, -k, ] <- null.vote.ic[-k, -k, , drop = FALSE] + (!gl.tmp$adj.ic.est)
+    }
+  }
+  
+  # majority voting procedure
+  adj.est <- (null.vote / (d-2)) < 0.5
+  # only makes sense for "ns" (if using "glasso", returns NA's)
+  adj.ic.est <- (null.vote.ic / (d-2)) < 0.5
+  
+  
+  
+  # create the list of estimated graphs and Gammas (if return_Gamma = TRUE)
+  graphs <- list()
+  Gammas <- list()
+  rhos <- list()
+  if(ic == "hr"){
+    logliks <- rep(-Inf, r)
+    n_edges <- rep(Inf, r)
+  }
+  
+  for (j in 1:r) {
+    rho <- rholist[j]
+    est_graph <- igraph::graph_from_adjacency_matrix(
+      adj.est[, ,j], mode = "undirected", diag = FALSE)
+    
+    Gamma_curr <- NA
+    if(return_Gamma & igraph::is_connected(est_graph)){
+      try(
+        Gamma_curr <- graphicalExtremes::complete_Gamma(graph=est_graph, Gamma=Gamma),
+        silent = TRUE
+      )
+    }
+    
+    if(ic == "hr" & igraph::is_connected(est_graph)){
+      if(is_valid_Gamma(Gamma_curr)){
+        logliks[j] <- graphicalExtremes:::logLH_HR(data = data.std, Gamma = Gamma_curr) # for true HR ll
+        n_edges[j] <- length(E(est_graph))
+      }
+    }
+    
+    graphs[[j]] <- est_graph
+    Gammas[[j]] <- Gamma_curr
+    rhos[[j]] <- rho
+  }
+  
+  # create the estimated graphs and Gammas corresponding to the information criteria (if return_Gamma = TRUE)
+  graphs_ic <-  list(aic = NA, bic = NA, mbic = NA)
+  Gammas_ic <-  list(aic = NA, bic = NA, mbic = NA)
+  
+  if (reg_method == "ns" & ic == "ns") {
+    for (l in seq_along(sel_methods)){
+      
+      est_graph <-  igraph::graph_from_adjacency_matrix(
+        adj.ic.est[, ,l], mode = "undirected", diag = FALSE)
+      
+      if(return_Gamma){
+        Gamma_curr <- graphicalExtremes::complete_Gamma(graph=est_graph, Gamma=Gamma)
+      }
+      else Gamma_curr <- NA
+      
+      graphs_ic[[l]] <- est_graph
+      Gammas_ic[[l]] <- Gamma_curr
+    }
+    graph_ic <- list(aic = graphs_ic[[1]], bic = graphs_ic[[2]], mbic = graphs_ic[[3]])
+    Gamma_ic <- list(aic = Gammas_ic[[1]], bic = Gammas_ic[[2]], mbic = Gammas_ic[[3]])
+  }
+  
+  else if(ic == "hr" & any(is.finite(logliks))){
+    aic_id <- which.max(logliks - 2 * n_edges)
+    bic_id <- which.max(logliks - log(n) * n_edges)
+    mbic_id <- which.max(logliks - log(n) * max(1, log(log(d))) * n_edges)
+    
+    graph_ic <- list(aic = graphs[[aic_id]], bic = graphs[[bic_id]], mbic = graphs[[mbic_id]])
+    Gamma_ic <- list(aic = Gammas[[aic_id]], bic = Gammas[[bic_id]], mbic = Gammas[[mbic_id]])
+  }
+  
+  else{
+    graph_ic <- list(aic = NULL, bic = NULL, mbic = NULL)
+    Gamma_ic <- list(aic = NULL, bic = NULL, mbic = NULL)
+  }
+  
+  return(list(graph = graphs,
+              Gamma = Gammas,
+              rholist = rhos,
+              graph_ic = graph_ic,
+              Gamma_ic = Gamma_ic))
+}
+
+
+
+set_graph_parameters <- function(graph) {
+  # set parameters
+  igraph::V(graph)$color <- grDevices::adjustcolor(col = "#4477AA", alpha.f = 0.4)
+  igraph::V(graph)$frame.color <- grDevices::adjustcolor(col = "#4477AA", alpha.f = 1)
+  igraph::V(graph)$label.color <- "black"
+  igraph::V(graph)$size <- 15
+  igraph::E(graph)$width <- 2
+  igraph::E(graph)$color <- "darkgrey"
+
+  # return graph
+  return(graph)
+}
+```
+
+We consider a subset of currencies, specifically that of: DNK, EUR, NOR, POL, SWE, CHE, RUS, USA, AUS, CHN.
+
+```{r}
+column_names_subset = c("DNK", "EUR", "NOR", "POL", "SWE", "CHE", "RUS", "USA", "AUS", "CHN")
+column_indices_subset = match(column_names_subset, colnames(X))
+X_subset = X[, column_names_subset]
+n_subset = nrow(X_subset)
+```
+
+We then generate the stability plots of the empirical estimate of the extremal correlation, for various currency pairs.
+
+```{r}
+# Values of p we visualise in stability plot
+p_values = seq(0.7, 0.99, by = 0.001)
+
+# Specify the currency pairs to visualise
+alpha_beta_pairs = list(c(4, 10), c(6, 8), c(1, 9), c(2, 7))
+
+# These pairs correspond to the following currencies
+alpha_values = c("POL", "CHE", "DNK", "EUR")
+beta_values = c("CHN", "USD", "AUS", "RUS")
+
+# Instantiate empty list to store dataframes for each plot
+plot_data_list = list()
+
+# Loop through each pair to generate data for stability plots
+for (idx in seq_along(alpha_beta_pairs)) {
+  pair = alpha_beta_pairs[[idx]]
+  alpha = pair[1]
+  beta = pair[2]
+  
+  variogram_entries = numeric(length(p_values))
+  
+  for (k in seq_along(p_values)) {
+    p = p_values[k]
+    
+    emp_extremal_correlation = emp_chi(X_subset, p = p)
+    emp_extremal_correlation_matrix = as.matrix(emp_extremal_correlation)
+    variogram_entries[k] = emp_extremal_correlation_matrix[alpha, beta]
+  }
+  
+  plot_data = data.frame(
+    p = p_values,
+    variogram_entry = variogram_entries,
+    alpha = alpha_values[idx],
+    beta = beta_values[idx]
+  )
+  
+  plot_data_list[[idx]] = plot_data
+}
+
+combined_data = bind_rows(plot_data_list)
+
+vlines = c(
+  1 - floor(n_subset^0.8) / n_subset,
+  1 - floor(n_subset^0.7) / n_subset,
+  1 - floor(n_subset^0.75) / n_subset
+)
+
+plots = lapply(seq_along(plot_data_list), function(idx) {
+  plot_data = plot_data_list[[idx]]
+  alpha = plot_data$alpha[1]
+  beta = plot_data$beta[1]
+  y_label_text = bquote(hat(chi)[" "*.(alpha) * ", " * .(beta)])
+  
+  ggplot(plot_data, aes(x = p, y = variogram_entry)) +
+    geom_line(color = "black") +
+    geom_vline(xintercept = vlines[1], linetype = "dashed", color = "black") +
+    geom_vline(xintercept = vlines[2], linetype = "dashed", color = "blue") +
+    geom_vline(xintercept = vlines[3], linetype = "dashed", color = "red") +
+    labs(
+      x = expression(1-q),
+      y = y_label_text
+    ) +
+    theme_minimal()
+})
+
+pdf("plots/empirical_variogram_plots.pdf", width = 8, height = 8)
+grid.arrange(grobs = plots, ncol = 2)
+dev.off()
+```
+
+Based on the stability plots, we select $k = \lfloor n^{0.75} \rfloor$, which we use to obtain an approximate sample from $\mathbf{Y}_{i}^{(m)}$.
+
+```{r}
+p_subset = 1 - floor(n_subset^.75)/n_subset
+Y_subset = data2mpareto(X_subset, p_subset)
+
+write.csv(X_subset, "data/currency_data_subset.csv", row.names = FALSE)
+write.csv(Y_subset, "data/currency_data_subset_approximate_sample.csv", row.names = FALSE)
+```
+
+Then, for $m \in [d]$, we apply $\varphi_{m}$, to obtain $d$ datasets, which we differentiate through the node $m$.
+```{r}
+for (m in 1:ncol(Y_subset)) {
+  idx_m = which(Y_subset[, m] > 1)
+  transformed_X_m = log(Y_subset[idx_m, -m, drop = FALSE] / Y_subset[idx_m, m])
+  transformed_X_m_with_idx = cbind(idx_m, transformed_X_m)
+  transformed_X_m_with_idx_df = as.data.frame(transformed_X_m_with_idx)
+  colnames(transformed_X_m_with_idx_df)[1] = "original_index"
+  
+  output_filepath = paste0("data/currency_data_subset_approximate_sample_transformed_subset/node", m, ".csv")
+  
+  write.csv(transformed_X_m_with_idx_df, output_filepath, row.names = FALSE)
+}
+```
+
+We then apply Algorithm 1, and obtain the set, $\hat{\mathcal{T}}$ of change point location estimates, that correspond to the index of $\mathbf{Y}_{i}^{(m)}$, which note needs to further mapped back to $\mathcal{I}$.
+
+
+We first fit an HRGM on the whole data, using neighborhood selection and MBIC selection method.
+
+```{r}
+rholist = seq(.005, 1, length.out=200)
+
+eglearn_fit_subset = eglearn2(Y_subset, rholist=rholist, reg_method="ns", ic="hr")
+
+connected_tmp_subset = sapply(eglearn_fit_subset$graph, is_connected)
+
+eglearn_fit_subset$graph = lapply(eglearn_fit_subset$graph, function(gr) {
+  vertex_attr(gr) = list(name = colnames(X_subset))
+  return(set_graph_parameters(gr))
+})
+eglearn_fit_subset$graph_ic = lapply(eglearn_fit_subset$graph_ic, function(gr) {
+  vertex_attr(gr) = list(name = colnames(X_subset))
+  return(set_graph_parameters(gr))
+})
+```
+
+We subsequently save a plot of the recovered graph.
+```{r}
+plot_directory = here("applications/currency_exchange_data/plots")
+pdf(file = file.path(plot_directory, "exchange_mbic_subset.pdf"), width = 5, height = 5)
+par(cex = 0.6, cex.lab = 1.5, cex.axis = 1.5, cex.main = 1.5, pty="s", mar = c(5,5,4,2) +.1)
+plot(eglearn_fit_subset$graph_ic$mbic, layout = coords_exchange[column_indices_subset, ])
+dev.off()
+```
+
+
+Then, for the partitions corresponding to the estimated change points, we fit HRGMs accordingly.
+```{r}
+rholist = seq(.005, 1, length.out=200)
+changepoints_subset = c(1, 373, 515, 719, 997, nrow(Y_subset))
+data_partitions_subset = list()
+
+for (i in 1:(length(changepoints_subset) - 1)) {
+  start_idx = changepoints_subset[i]
+  end_idx = changepoints_subset[i + 1] - 1
+  data_partitions_subset[[i]] = Y_subset[start_idx:end_idx, ]
+}
+
+graph_fits_subset = list()
+
+for (i in 1:length(data_partitions_subset)) {
+  partition_data_subset = data_partitions_subset[[i]]
+  
+  graph_fits_subset[[i]] = eglearn2(partition_data_subset, rholist=rholist, reg_method="ns", ic="hr")
+  
+  graph_fits_subset[[i]]$graph = lapply(graph_fits_subset[[i]]$graph, function(gr) {
+    vertex_attr(gr) = list(name = colnames(X_subset))
+    return(set_graph_parameters(gr))
+  })
+  
+  graph_fits_subset[[i]]$graph_ic = lapply(graph_fits_subset[[i]]$graph_ic, function(gr) {
+    vertex_attr(gr) = list(name = colnames(X_subset))
+    return(set_graph_parameters(gr))
+  })
+}
+
+```
+
+We similarly save plots of the recovered graphs.
+```{r}
+for (i in 1:length(graph_fits_subset)) {
+  
+  pdf_file = file.path(plot_directory, paste0("exchange_mbic_subset_partition_", i, ".pdf"))
+  
+  pdf(file = pdf_file, width = 5, height = 5)
+  par(cex = 0.6, cex.lab = 1.5, cex.axis = 1.5, cex.main = 1.5, pty = "s", mar = c(5, 5, 4, 2) + .1)
+  
+  # Plot the graph with appropriate layout
+  plot(graph_fits_subset[[i]]$graph_ic$mbic, layout = coords_exchange[column_indices_subset, ])
+  
+  # Close the PDF device
+  dev.off()
+}
+```
+
+We also visualise these graphs in a single figure.
+```{r}
+pdf(file = file.path(plot_directory, "exchange_mbic_combined.pdf"), width = 10, height = 6)
+
+par(mfrow = c(2, 3),
+    cex = 0.6, 
+    pty = "s", 
+    mar = c(0, 0, 0, 0)+0.1,
+    mai = c(0,0,0,0),
+    oma = c(0, 0, 0, 0))
+
+# No partition differentiation
+plot(eglearn_fit_subset$graph_ic$mbic, layout = coords_exchange[column_indices_subset, ], vertex.color="gold", vertex.frame.color = "black", edge.color="gray", vertex.size=25)
+
+partition_vertex_colors = c("lightgoldenrodyellow", "lightgoldenrod1", "lightgoldenrod2", "lightgoldenrod3", "lightgoldenrod4")
+
+# Loop through each partitioned plot and add them to the figure
+for (i in 1:length(graph_fits_subset)) {
+  plot(graph_fits_subset[[i]]$graph_ic$mbic, layout = coords_exchange[column_indices_subset, ], vertex.size=25, vertex.color= partition_vertex_colors[i], vertex.frame.color = "black")
+}
+
+dev.off()
+```
+
+
+Finally, we recover the original index values, of the estimates, on $\mathcal{T}$.
+```{r}
+data2mpareto_updated = function(data, p, na.rm = FALSE) {
+  if (na.rm) {
+    naInRow = apply(is.na(data), 1, any)
+    data = data[!naInRow, , drop = FALSE]
+  }
+  
+  if (nrow(data) == 0) {
+    return(list(data = data, original_indices = integer(0)))
+  }
+  
+  dataPar = matrix(1/(1 - apply(data, 2,  graphicalExtremes:::unif)), nrow(data), ncol(data))
+  pPar = 1/(1 - p)
+  
+  idx = suppressWarnings(apply(dataPar, 1, max, na.rm = TRUE) > pPar)
+  
+  original_indices = which(idx)
+  
+  dataPar = dataPar[idx, , drop = FALSE]/pPar
+  
+  return(list(data = dataPar, original_indices = original_indices))
+}
+
+X_subset_with_original_indices = data2mpareto_updated(X_subset, p_subset)
+```
+
+
+```{r}
+BoE_exchange_rates[,1][X_subset_with_original_indices$original_indices[373]]
+BoE_exchange_rates[,1][X_subset_with_original_indices$original_indices[515]]
+BoE_exchange_rates[,1][X_subset_with_original_indices$original_indices[719]]
+BoE_exchange_rates[,1][X_subset_with_original_indices$original_indices[997]]
+```

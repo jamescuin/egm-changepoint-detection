@@ -1,0 +1,12 @@
+2024-08-30 16:30:58,973 - INFO - Substituting symbol T from STIXNonUnicode
+2024-08-30 16:30:59,001 - INFO - Substituting symbol T from STIXNonUnicode
+2024-08-30 16:30:59,080 - INFO - Plot created for DataFrame 5
+2024-08-30 16:30:59,080 - INFO - Starting simulation: 1
+2024-08-30 16:30:59,080 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=17.58, total_original_samples=1758)
+2024-08-30 16:30:59,080 - INFO - Running Simulation 1
+2024-08-30 16:30:59,080 - INFO - Analyzing Dataset 5
+2024-08-30 16:30:59,080 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 16:32:07,316 - INFO - Parameter evaluation completed in 68.24 seconds
+2024-08-30 16:32:07,316 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.044964772422347817
+2024-08-30 16:32:12,094 - INFO - Analyzing Dataset 4
+2024-08-30 16:32:12,095 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
