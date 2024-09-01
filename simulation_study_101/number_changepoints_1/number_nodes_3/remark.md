@@ -1,0 +1,1 @@
+Re generated data using set.seed(421) and achieved comparable, but slightly worse results!

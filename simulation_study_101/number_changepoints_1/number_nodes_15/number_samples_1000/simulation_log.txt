@@ -1,0 +1,2507 @@
+2024-08-11 11:06:09,584 - INFO - Starting simulation in directory: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000
+2024-08-11 11:06:09,585 - INFO - Loading data from directory: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/csv_files
+2024-08-11 11:06:14,760 - INFO - Loaded 50 simulations and 50 changepoints
+2024-08-11 11:06:14,761 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=20.0, total_original_samples=1000)
+2024-08-11 11:06:14,764 - INFO - Running Simulation 31, Permutation 1
+2024-08-11 11:06:14,764 - INFO - Analyzing Dataset 7
+2024-08-11 11:06:14,764 - INFO - Computing tilde_S for dataframe with shape: (380, 15)
+2024-08-11 11:06:14,765 - INFO - Starting regularization parameter optimization
+2024-08-11 11:06:48,768 - INFO - Analyzing Dataset 9
+2024-08-11 11:06:48,768 - INFO - Computing tilde_S for dataframe with shape: (387, 15)
+2024-08-11 11:06:48,769 - INFO - Starting regularization parameter optimization
+2024-08-11 11:07:25,030 - INFO - Analyzing Dataset 11
+2024-08-11 11:07:25,031 - INFO - Computing tilde_S for dataframe with shape: (388, 15)
+2024-08-11 11:07:25,032 - INFO - Starting regularization parameter optimization
+2024-08-11 11:07:58,754 - INFO - Analyzing Dataset 8
+2024-08-11 11:07:58,754 - INFO - Computing tilde_S for dataframe with shape: (391, 15)
+2024-08-11 11:07:58,755 - INFO - Starting regularization parameter optimization
+2024-08-11 11:08:33,561 - INFO - Analyzing Dataset 1
+2024-08-11 11:08:33,561 - INFO - Computing tilde_S for dataframe with shape: (387, 15)
+2024-08-11 11:08:33,562 - INFO - Starting regularization parameter optimization
+2024-08-11 11:09:08,331 - INFO - Analyzing Dataset 6
+2024-08-11 11:09:08,331 - INFO - Computing tilde_S for dataframe with shape: (391, 15)
+2024-08-11 11:09:08,332 - INFO - Starting regularization parameter optimization
+2024-08-11 11:09:42,547 - INFO - Analyzing Dataset 10
+2024-08-11 11:09:42,547 - INFO - Computing tilde_S for dataframe with shape: (387, 15)
+2024-08-11 11:09:42,548 - INFO - Starting regularization parameter optimization
+2024-08-11 11:10:17,861 - INFO - Analyzing Dataset 14
+2024-08-11 11:10:17,862 - INFO - Computing tilde_S for dataframe with shape: (382, 15)
+2024-08-11 11:10:17,862 - INFO - Starting regularization parameter optimization
+2024-08-11 11:10:51,789 - INFO - Analyzing Dataset 13
+2024-08-11 11:10:51,789 - INFO - Computing tilde_S for dataframe with shape: (398, 15)
+2024-08-11 11:10:51,790 - INFO - Starting regularization parameter optimization
+2024-08-11 11:11:26,963 - INFO - Analyzing Dataset 5
+2024-08-11 11:11:26,963 - INFO - Computing tilde_S for dataframe with shape: (396, 15)
+2024-08-11 11:11:26,964 - INFO - Starting regularization parameter optimization
+2024-08-11 11:12:03,285 - INFO - Analyzing Dataset 2
+2024-08-11 11:12:03,286 - INFO - Computing tilde_S for dataframe with shape: (374, 15)
+2024-08-11 11:12:03,286 - INFO - Starting regularization parameter optimization
+2024-08-11 11:12:38,468 - INFO - Analyzing Dataset 12
+2024-08-11 11:12:38,469 - INFO - Computing tilde_S for dataframe with shape: (394, 15)
+2024-08-11 11:12:38,469 - INFO - Starting regularization parameter optimization
+2024-08-11 11:13:14,129 - INFO - Analyzing Dataset 15
+2024-08-11 11:13:14,130 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 11:13:14,130 - INFO - Starting regularization parameter optimization
+2024-08-11 11:13:49,377 - INFO - Analyzing Dataset 3
+2024-08-11 11:13:49,378 - INFO - Computing tilde_S for dataframe with shape: (394, 15)
+2024-08-11 11:13:49,378 - INFO - Starting regularization parameter optimization
+2024-08-11 11:14:22,663 - INFO - Analyzing Dataset 4
+2024-08-11 11:14:22,664 - INFO - Computing tilde_S for dataframe with shape: (404, 15)
+2024-08-11 11:14:22,664 - INFO - Starting regularization parameter optimization
+2024-08-11 11:14:58,272 - INFO - Estimating changepoints
+2024-08-11 11:14:58,273 - INFO - Estimated 1 changepoints
+2024-08-11 11:14:58,661 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim31_perm1.png'
+2024-08-11 11:14:58,681 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 11:14:58,682 - INFO - Running Simulation 9, Permutation 1
+2024-08-11 11:14:58,682 - INFO - Analyzing Dataset 13
+2024-08-11 11:14:58,682 - INFO - Computing tilde_S for dataframe with shape: (480, 15)
+2024-08-11 11:14:58,683 - INFO - Starting regularization parameter optimization
+2024-08-11 11:15:41,743 - INFO - Analyzing Dataset 14
+2024-08-11 11:15:41,743 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 11:15:41,744 - INFO - Starting regularization parameter optimization
+2024-08-11 11:16:25,655 - INFO - Analyzing Dataset 2
+2024-08-11 11:16:25,655 - INFO - Computing tilde_S for dataframe with shape: (481, 15)
+2024-08-11 11:16:25,656 - INFO - Starting regularization parameter optimization
+2024-08-11 11:17:12,809 - INFO - Analyzing Dataset 5
+2024-08-11 11:17:12,809 - INFO - Computing tilde_S for dataframe with shape: (490, 15)
+2024-08-11 11:17:12,810 - INFO - Starting regularization parameter optimization
+2024-08-11 11:17:58,551 - INFO - Analyzing Dataset 15
+2024-08-11 11:17:58,551 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 11:17:58,552 - INFO - Starting regularization parameter optimization
+2024-08-11 11:18:43,068 - INFO - Analyzing Dataset 12
+2024-08-11 11:18:43,068 - INFO - Computing tilde_S for dataframe with shape: (484, 15)
+2024-08-11 11:18:43,069 - INFO - Starting regularization parameter optimization
+2024-08-11 11:19:29,905 - INFO - Analyzing Dataset 4
+2024-08-11 11:19:29,906 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 11:19:29,906 - INFO - Starting regularization parameter optimization
+2024-08-11 11:20:15,649 - INFO - Analyzing Dataset 3
+2024-08-11 11:20:15,649 - INFO - Computing tilde_S for dataframe with shape: (485, 15)
+2024-08-11 11:20:15,650 - INFO - Starting regularization parameter optimization
+2024-08-11 11:20:59,178 - INFO - Analyzing Dataset 9
+2024-08-11 11:20:59,178 - INFO - Computing tilde_S for dataframe with shape: (481, 15)
+2024-08-11 11:20:59,179 - INFO - Starting regularization parameter optimization
+2024-08-11 11:21:44,539 - INFO - Analyzing Dataset 7
+2024-08-11 11:21:44,539 - INFO - Computing tilde_S for dataframe with shape: (467, 15)
+2024-08-11 11:21:44,540 - INFO - Starting regularization parameter optimization
+2024-08-11 11:22:27,855 - INFO - Analyzing Dataset 11
+2024-08-11 11:22:27,855 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 11:22:27,856 - INFO - Starting regularization parameter optimization
+2024-08-11 11:23:12,302 - INFO - Analyzing Dataset 6
+2024-08-11 11:23:12,302 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 11:23:12,303 - INFO - Starting regularization parameter optimization
+2024-08-11 11:23:56,633 - INFO - Analyzing Dataset 1
+2024-08-11 11:23:56,634 - INFO - Computing tilde_S for dataframe with shape: (481, 15)
+2024-08-11 11:23:56,634 - INFO - Starting regularization parameter optimization
+2024-08-11 11:24:42,120 - INFO - Analyzing Dataset 8
+2024-08-11 11:24:42,120 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 11:24:42,121 - INFO - Starting regularization parameter optimization
+2024-08-11 11:25:26,346 - INFO - Analyzing Dataset 10
+2024-08-11 11:25:26,346 - INFO - Computing tilde_S for dataframe with shape: (446, 15)
+2024-08-11 11:25:26,347 - INFO - Starting regularization parameter optimization
+2024-08-11 11:26:06,794 - INFO - Estimating changepoints
+2024-08-11 11:26:06,795 - INFO - Estimated 1 changepoints
+2024-08-11 11:26:07,114 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim9_perm1.png'
+2024-08-11 11:26:07,136 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 11:26:07,136 - INFO - Running Simulation 50, Permutation 1
+2024-08-11 11:26:07,136 - INFO - Analyzing Dataset 3
+2024-08-11 11:26:07,137 - INFO - Computing tilde_S for dataframe with shape: (379, 15)
+2024-08-11 11:26:07,137 - INFO - Starting regularization parameter optimization
+2024-08-11 11:26:41,942 - INFO - Analyzing Dataset 4
+2024-08-11 11:26:41,943 - INFO - Computing tilde_S for dataframe with shape: (364, 15)
+2024-08-11 11:26:41,943 - INFO - Starting regularization parameter optimization
+2024-08-11 11:27:15,217 - INFO - Analyzing Dataset 14
+2024-08-11 11:27:15,218 - INFO - Computing tilde_S for dataframe with shape: (367, 15)
+2024-08-11 11:27:15,219 - INFO - Starting regularization parameter optimization
+2024-08-11 11:27:48,264 - INFO - Analyzing Dataset 13
+2024-08-11 11:27:48,265 - INFO - Computing tilde_S for dataframe with shape: (362, 15)
+2024-08-11 11:27:48,266 - INFO - Starting regularization parameter optimization
+2024-08-11 11:28:20,295 - INFO - Analyzing Dataset 12
+2024-08-11 11:28:20,295 - INFO - Computing tilde_S for dataframe with shape: (354, 15)
+2024-08-11 11:28:20,296 - INFO - Starting regularization parameter optimization
+2024-08-11 11:28:51,264 - INFO - Analyzing Dataset 15
+2024-08-11 11:28:51,264 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 11:28:51,265 - INFO - Starting regularization parameter optimization
+2024-08-11 11:29:24,413 - INFO - Analyzing Dataset 5
+2024-08-11 11:29:24,413 - INFO - Computing tilde_S for dataframe with shape: (361, 15)
+2024-08-11 11:29:24,414 - INFO - Starting regularization parameter optimization
+2024-08-11 11:29:56,893 - INFO - Analyzing Dataset 2
+2024-08-11 11:29:56,893 - INFO - Computing tilde_S for dataframe with shape: (356, 15)
+2024-08-11 11:29:56,894 - INFO - Starting regularization parameter optimization
+2024-08-11 11:30:28,784 - INFO - Analyzing Dataset 11
+2024-08-11 11:30:28,785 - INFO - Computing tilde_S for dataframe with shape: (349, 15)
+2024-08-11 11:30:28,785 - INFO - Starting regularization parameter optimization
+2024-08-11 11:30:59,608 - INFO - Analyzing Dataset 8
+2024-08-11 11:30:59,608 - INFO - Computing tilde_S for dataframe with shape: (361, 15)
+2024-08-11 11:30:59,609 - INFO - Starting regularization parameter optimization
+2024-08-11 11:31:31,734 - INFO - Analyzing Dataset 1
+2024-08-11 11:31:31,734 - INFO - Computing tilde_S for dataframe with shape: (362, 15)
+2024-08-11 11:31:31,735 - INFO - Starting regularization parameter optimization
+2024-08-11 11:32:04,370 - INFO - Analyzing Dataset 6
+2024-08-11 11:32:04,370 - INFO - Computing tilde_S for dataframe with shape: (379, 15)
+2024-08-11 11:32:04,371 - INFO - Starting regularization parameter optimization
+2024-08-11 11:32:38,955 - INFO - Analyzing Dataset 7
+2024-08-11 11:32:38,955 - INFO - Computing tilde_S for dataframe with shape: (372, 15)
+2024-08-11 11:32:38,956 - INFO - Starting regularization parameter optimization
+2024-08-11 11:33:13,435 - INFO - Analyzing Dataset 9
+2024-08-11 11:33:13,435 - INFO - Computing tilde_S for dataframe with shape: (357, 15)
+2024-08-11 11:33:13,436 - INFO - Starting regularization parameter optimization
+2024-08-11 11:33:44,446 - INFO - Analyzing Dataset 10
+2024-08-11 11:33:44,446 - INFO - Computing tilde_S for dataframe with shape: (374, 15)
+2024-08-11 11:33:44,447 - INFO - Starting regularization parameter optimization
+2024-08-11 11:34:18,712 - INFO - Estimating changepoints
+2024-08-11 11:34:18,713 - INFO - Estimated 1 changepoints
+2024-08-11 11:34:19,228 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim50_perm1.png'
+2024-08-11 11:34:19,234 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 11:34:19,235 - INFO - Running Simulation 17, Permutation 1
+2024-08-11 11:34:19,235 - INFO - Analyzing Dataset 12
+2024-08-11 11:34:19,235 - INFO - Computing tilde_S for dataframe with shape: (348, 15)
+2024-08-11 11:34:19,236 - INFO - Starting regularization parameter optimization
+2024-08-11 11:34:48,534 - INFO - Analyzing Dataset 6
+2024-08-11 11:34:48,535 - INFO - Computing tilde_S for dataframe with shape: (325, 15)
+2024-08-11 11:34:48,535 - INFO - Starting regularization parameter optimization
+2024-08-11 11:35:17,426 - INFO - Analyzing Dataset 1
+2024-08-11 11:35:17,426 - INFO - Computing tilde_S for dataframe with shape: (334, 15)
+2024-08-11 11:35:17,427 - INFO - Starting regularization parameter optimization
+2024-08-11 11:35:44,746 - INFO - Analyzing Dataset 15
+2024-08-11 11:35:44,747 - INFO - Computing tilde_S for dataframe with shape: (333, 15)
+2024-08-11 11:35:44,747 - INFO - Starting regularization parameter optimization
+2024-08-11 11:36:13,390 - INFO - Analyzing Dataset 8
+2024-08-11 11:36:13,390 - INFO - Computing tilde_S for dataframe with shape: (324, 15)
+2024-08-11 11:36:13,391 - INFO - Starting regularization parameter optimization
+2024-08-11 11:36:41,311 - INFO - Analyzing Dataset 9
+2024-08-11 11:36:41,311 - INFO - Computing tilde_S for dataframe with shape: (353, 15)
+2024-08-11 11:36:41,312 - INFO - Starting regularization parameter optimization
+2024-08-11 11:37:12,142 - INFO - Analyzing Dataset 14
+2024-08-11 11:37:12,142 - INFO - Computing tilde_S for dataframe with shape: (326, 15)
+2024-08-11 11:37:12,142 - INFO - Starting regularization parameter optimization
+2024-08-11 11:37:40,182 - INFO - Analyzing Dataset 13
+2024-08-11 11:37:40,182 - INFO - Computing tilde_S for dataframe with shape: (347, 15)
+2024-08-11 11:37:40,183 - INFO - Starting regularization parameter optimization
+2024-08-11 11:38:09,207 - INFO - Analyzing Dataset 7
+2024-08-11 11:38:09,208 - INFO - Computing tilde_S for dataframe with shape: (339, 15)
+2024-08-11 11:38:09,208 - INFO - Starting regularization parameter optimization
+2024-08-11 11:38:38,580 - INFO - Analyzing Dataset 10
+2024-08-11 11:38:38,580 - INFO - Computing tilde_S for dataframe with shape: (328, 15)
+2024-08-11 11:38:38,581 - INFO - Starting regularization parameter optimization
+2024-08-11 11:39:06,896 - INFO - Analyzing Dataset 4
+2024-08-11 11:39:06,896 - INFO - Computing tilde_S for dataframe with shape: (363, 15)
+2024-08-11 11:39:06,897 - INFO - Starting regularization parameter optimization
+2024-08-11 11:39:40,152 - INFO - Analyzing Dataset 3
+2024-08-11 11:39:40,152 - INFO - Computing tilde_S for dataframe with shape: (333, 15)
+2024-08-11 11:39:40,153 - INFO - Starting regularization parameter optimization
+2024-08-11 11:40:07,508 - INFO - Analyzing Dataset 2
+2024-08-11 11:40:07,508 - INFO - Computing tilde_S for dataframe with shape: (355, 15)
+2024-08-11 11:40:07,509 - INFO - Starting regularization parameter optimization
+2024-08-11 11:40:38,720 - INFO - Analyzing Dataset 11
+2024-08-11 11:40:38,721 - INFO - Computing tilde_S for dataframe with shape: (355, 15)
+2024-08-11 11:40:38,722 - INFO - Starting regularization parameter optimization
+2024-08-11 11:41:09,546 - INFO - Analyzing Dataset 5
+2024-08-11 11:41:09,547 - INFO - Computing tilde_S for dataframe with shape: (328, 15)
+2024-08-11 11:41:09,547 - INFO - Starting regularization parameter optimization
+2024-08-11 11:41:37,347 - INFO - Estimating changepoints
+2024-08-11 11:41:37,348 - INFO - Estimated 3 changepoints
+2024-08-11 11:41:37,696 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim17_perm1.png'
+2024-08-11 11:41:37,708 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 11:41:37,708 - INFO - Running Simulation 33, Permutation 1
+2024-08-11 11:41:37,708 - INFO - Analyzing Dataset 15
+2024-08-11 11:41:37,708 - INFO - Computing tilde_S for dataframe with shape: (352, 15)
+2024-08-11 11:41:37,709 - INFO - Starting regularization parameter optimization
+2024-08-11 11:42:08,714 - INFO - Analyzing Dataset 12
+2024-08-11 11:42:08,714 - INFO - Computing tilde_S for dataframe with shape: (356, 15)
+2024-08-11 11:42:08,715 - INFO - Starting regularization parameter optimization
+2024-08-11 11:42:39,725 - INFO - Analyzing Dataset 8
+2024-08-11 11:42:39,726 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 11:42:39,726 - INFO - Starting regularization parameter optimization
+2024-08-11 11:43:12,830 - INFO - Analyzing Dataset 6
+2024-08-11 11:43:12,830 - INFO - Computing tilde_S for dataframe with shape: (375, 15)
+2024-08-11 11:43:12,831 - INFO - Starting regularization parameter optimization
+2024-08-11 11:43:47,057 - INFO - Analyzing Dataset 1
+2024-08-11 11:43:47,058 - INFO - Computing tilde_S for dataframe with shape: (369, 15)
+2024-08-11 11:43:47,058 - INFO - Starting regularization parameter optimization
+2024-08-11 11:44:20,041 - INFO - Analyzing Dataset 13
+2024-08-11 11:44:20,041 - INFO - Computing tilde_S for dataframe with shape: (364, 15)
+2024-08-11 11:44:20,042 - INFO - Starting regularization parameter optimization
+2024-08-11 11:44:52,043 - INFO - Analyzing Dataset 14
+2024-08-11 11:44:52,043 - INFO - Computing tilde_S for dataframe with shape: (350, 15)
+2024-08-11 11:44:52,044 - INFO - Starting regularization parameter optimization
+2024-08-11 11:45:22,861 - INFO - Analyzing Dataset 7
+2024-08-11 11:45:22,861 - INFO - Computing tilde_S for dataframe with shape: (354, 15)
+2024-08-11 11:45:22,862 - INFO - Starting regularization parameter optimization
+2024-08-11 11:45:54,013 - INFO - Analyzing Dataset 9
+2024-08-11 11:45:54,013 - INFO - Computing tilde_S for dataframe with shape: (366, 15)
+2024-08-11 11:45:54,013 - INFO - Starting regularization parameter optimization
+2024-08-11 11:46:27,556 - INFO - Analyzing Dataset 4
+2024-08-11 11:46:27,556 - INFO - Computing tilde_S for dataframe with shape: (371, 15)
+2024-08-11 11:46:27,557 - INFO - Starting regularization parameter optimization
+2024-08-11 11:47:01,710 - INFO - Analyzing Dataset 3
+2024-08-11 11:47:01,710 - INFO - Computing tilde_S for dataframe with shape: (364, 15)
+2024-08-11 11:47:01,711 - INFO - Starting regularization parameter optimization
+2024-08-11 11:47:34,737 - INFO - Analyzing Dataset 10
+2024-08-11 11:47:34,737 - INFO - Computing tilde_S for dataframe with shape: (381, 15)
+2024-08-11 11:47:34,738 - INFO - Starting regularization parameter optimization
+2024-08-11 11:48:09,392 - INFO - Analyzing Dataset 2
+2024-08-11 11:48:09,393 - INFO - Computing tilde_S for dataframe with shape: (347, 15)
+2024-08-11 11:48:09,393 - INFO - Starting regularization parameter optimization
+2024-08-11 11:48:40,431 - INFO - Analyzing Dataset 5
+2024-08-11 11:48:40,431 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 11:48:40,432 - INFO - Starting regularization parameter optimization
+2024-08-11 11:49:14,337 - INFO - Analyzing Dataset 11
+2024-08-11 11:49:14,337 - INFO - Computing tilde_S for dataframe with shape: (341, 15)
+2024-08-11 11:49:14,338 - INFO - Starting regularization parameter optimization
+2024-08-11 11:49:45,114 - INFO - Estimating changepoints
+2024-08-11 11:49:45,115 - INFO - Estimated 1 changepoints
+2024-08-11 11:49:45,488 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim33_perm1.png'
+2024-08-11 11:49:45,580 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 11:49:45,581 - INFO - Running Simulation 41, Permutation 1
+2024-08-11 11:49:45,581 - INFO - Analyzing Dataset 11
+2024-08-11 11:49:45,581 - INFO - Computing tilde_S for dataframe with shape: (492, 15)
+2024-08-11 11:49:45,582 - INFO - Starting regularization parameter optimization
+2024-08-11 11:50:31,679 - INFO - Analyzing Dataset 8
+2024-08-11 11:50:31,679 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 11:50:31,680 - INFO - Starting regularization parameter optimization
+2024-08-11 11:51:17,150 - INFO - Analyzing Dataset 1
+2024-08-11 11:51:17,150 - INFO - Computing tilde_S for dataframe with shape: (499, 15)
+2024-08-11 11:51:17,151 - INFO - Starting regularization parameter optimization
+2024-08-11 11:52:05,651 - INFO - Analyzing Dataset 6
+2024-08-11 11:52:05,651 - INFO - Computing tilde_S for dataframe with shape: (507, 15)
+2024-08-11 11:52:05,652 - INFO - Starting regularization parameter optimization
+2024-08-11 11:52:52,182 - INFO - Analyzing Dataset 10
+2024-08-11 11:52:52,182 - INFO - Computing tilde_S for dataframe with shape: (510, 15)
+2024-08-11 11:52:52,183 - INFO - Starting regularization parameter optimization
+2024-08-11 11:53:42,734 - INFO - Analyzing Dataset 7
+2024-08-11 11:53:42,734 - INFO - Computing tilde_S for dataframe with shape: (507, 15)
+2024-08-11 11:53:42,735 - INFO - Starting regularization parameter optimization
+2024-08-11 11:54:29,543 - INFO - Analyzing Dataset 9
+2024-08-11 11:54:29,544 - INFO - Computing tilde_S for dataframe with shape: (512, 15)
+2024-08-11 11:54:29,545 - INFO - Starting regularization parameter optimization
+2024-08-11 11:55:16,899 - INFO - Analyzing Dataset 3
+2024-08-11 11:55:16,899 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 11:55:16,900 - INFO - Starting regularization parameter optimization
+2024-08-11 11:56:02,641 - INFO - Analyzing Dataset 4
+2024-08-11 11:56:02,641 - INFO - Computing tilde_S for dataframe with shape: (503, 15)
+2024-08-11 11:56:02,642 - INFO - Starting regularization parameter optimization
+2024-08-11 11:56:49,535 - INFO - Analyzing Dataset 13
+2024-08-11 11:56:49,535 - INFO - Computing tilde_S for dataframe with shape: (496, 15)
+2024-08-11 11:56:49,536 - INFO - Starting regularization parameter optimization
+2024-08-11 11:57:37,320 - INFO - Analyzing Dataset 14
+2024-08-11 11:57:37,321 - INFO - Computing tilde_S for dataframe with shape: (496, 15)
+2024-08-11 11:57:37,322 - INFO - Starting regularization parameter optimization
+2024-08-11 11:58:25,851 - INFO - Analyzing Dataset 5
+2024-08-11 11:58:25,852 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 11:58:25,852 - INFO - Starting regularization parameter optimization
+2024-08-11 11:59:10,707 - INFO - Analyzing Dataset 2
+2024-08-11 11:59:10,707 - INFO - Computing tilde_S for dataframe with shape: (508, 15)
+2024-08-11 11:59:10,707 - INFO - Starting regularization parameter optimization
+2024-08-11 11:59:56,417 - INFO - Analyzing Dataset 15
+2024-08-11 11:59:56,418 - INFO - Computing tilde_S for dataframe with shape: (476, 15)
+2024-08-11 11:59:56,418 - INFO - Starting regularization parameter optimization
+2024-08-11 12:00:41,106 - INFO - Analyzing Dataset 12
+2024-08-11 12:00:41,106 - INFO - Computing tilde_S for dataframe with shape: (502, 15)
+2024-08-11 12:00:41,107 - INFO - Starting regularization parameter optimization
+2024-08-11 12:01:27,563 - INFO - Estimating changepoints
+2024-08-11 12:01:27,564 - INFO - Estimated 1 changepoints
+2024-08-11 12:01:27,890 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim41_perm1.png'
+2024-08-11 12:01:27,918 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:01:27,918 - INFO - Running Simulation 7, Permutation 1
+2024-08-11 12:01:27,918 - INFO - Analyzing Dataset 10
+2024-08-11 12:01:27,919 - INFO - Computing tilde_S for dataframe with shape: (350, 15)
+2024-08-11 12:01:27,919 - INFO - Starting regularization parameter optimization
+2024-08-11 12:01:58,410 - INFO - Analyzing Dataset 1
+2024-08-11 12:01:58,410 - INFO - Computing tilde_S for dataframe with shape: (350, 15)
+2024-08-11 12:01:58,411 - INFO - Starting regularization parameter optimization
+2024-08-11 12:02:29,425 - INFO - Analyzing Dataset 6
+2024-08-11 12:02:29,426 - INFO - Computing tilde_S for dataframe with shape: (353, 15)
+2024-08-11 12:02:29,426 - INFO - Starting regularization parameter optimization
+2024-08-11 12:03:01,184 - INFO - Analyzing Dataset 8
+2024-08-11 12:03:01,185 - INFO - Computing tilde_S for dataframe with shape: (335, 15)
+2024-08-11 12:03:01,185 - INFO - Starting regularization parameter optimization
+2024-08-11 12:03:31,198 - INFO - Analyzing Dataset 9
+2024-08-11 12:03:31,198 - INFO - Computing tilde_S for dataframe with shape: (351, 15)
+2024-08-11 12:03:31,199 - INFO - Starting regularization parameter optimization
+2024-08-11 12:04:02,203 - INFO - Analyzing Dataset 7
+2024-08-11 12:04:02,203 - INFO - Computing tilde_S for dataframe with shape: (343, 15)
+2024-08-11 12:04:02,204 - INFO - Starting regularization parameter optimization
+2024-08-11 12:04:32,608 - INFO - Analyzing Dataset 11
+2024-08-11 12:04:32,608 - INFO - Computing tilde_S for dataframe with shape: (363, 15)
+2024-08-11 12:04:32,609 - INFO - Starting regularization parameter optimization
+2024-08-11 12:05:04,571 - INFO - Analyzing Dataset 12
+2024-08-11 12:05:04,572 - INFO - Computing tilde_S for dataframe with shape: (350, 15)
+2024-08-11 12:05:04,572 - INFO - Starting regularization parameter optimization
+2024-08-11 12:05:35,821 - INFO - Analyzing Dataset 3
+2024-08-11 12:05:35,821 - INFO - Computing tilde_S for dataframe with shape: (336, 15)
+2024-08-11 12:05:35,822 - INFO - Starting regularization parameter optimization
+2024-08-11 12:06:06,290 - INFO - Analyzing Dataset 15
+2024-08-11 12:06:06,290 - INFO - Computing tilde_S for dataframe with shape: (335, 15)
+2024-08-11 12:06:06,291 - INFO - Starting regularization parameter optimization
+2024-08-11 12:06:36,124 - INFO - Analyzing Dataset 4
+2024-08-11 12:06:36,125 - INFO - Computing tilde_S for dataframe with shape: (357, 15)
+2024-08-11 12:06:36,125 - INFO - Starting regularization parameter optimization
+2024-08-11 12:07:08,285 - INFO - Analyzing Dataset 14
+2024-08-11 12:07:08,286 - INFO - Computing tilde_S for dataframe with shape: (342, 15)
+2024-08-11 12:07:08,286 - INFO - Starting regularization parameter optimization
+2024-08-11 12:07:39,600 - INFO - Analyzing Dataset 5
+2024-08-11 12:07:39,601 - INFO - Computing tilde_S for dataframe with shape: (369, 15)
+2024-08-11 12:07:39,601 - INFO - Starting regularization parameter optimization
+2024-08-11 12:08:13,276 - INFO - Analyzing Dataset 13
+2024-08-11 12:08:13,276 - INFO - Computing tilde_S for dataframe with shape: (354, 15)
+2024-08-11 12:08:13,277 - INFO - Starting regularization parameter optimization
+2024-08-11 12:08:44,944 - INFO - Analyzing Dataset 2
+2024-08-11 12:08:44,945 - INFO - Computing tilde_S for dataframe with shape: (336, 15)
+2024-08-11 12:08:44,946 - INFO - Starting regularization parameter optimization
+2024-08-11 12:09:14,203 - INFO - Estimating changepoints
+2024-08-11 12:09:14,204 - INFO - Estimated 1 changepoints
+2024-08-11 12:09:14,545 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim7_perm1.png'
+2024-08-11 12:09:14,557 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:09:14,557 - INFO - Running Simulation 22, Permutation 1
+2024-08-11 12:09:14,557 - INFO - Analyzing Dataset 4
+2024-08-11 12:09:14,557 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 12:09:14,558 - INFO - Starting regularization parameter optimization
+2024-08-11 12:10:01,722 - INFO - Analyzing Dataset 3
+2024-08-11 12:10:01,722 - INFO - Computing tilde_S for dataframe with shape: (545, 15)
+2024-08-11 12:10:01,724 - INFO - Starting regularization parameter optimization
+2024-08-11 12:10:55,944 - INFO - Analyzing Dataset 10
+2024-08-11 12:10:55,944 - INFO - Computing tilde_S for dataframe with shape: (544, 15)
+2024-08-11 12:10:55,945 - INFO - Starting regularization parameter optimization
+2024-08-11 12:11:43,622 - INFO - Analyzing Dataset 11
+2024-08-11 12:11:43,623 - INFO - Computing tilde_S for dataframe with shape: (551, 15)
+2024-08-11 12:11:43,623 - INFO - Starting regularization parameter optimization
+2024-08-11 12:12:32,073 - INFO - Analyzing Dataset 2
+2024-08-11 12:12:32,074 - INFO - Computing tilde_S for dataframe with shape: (536, 15)
+2024-08-11 12:12:32,074 - INFO - Starting regularization parameter optimization
+2024-08-11 12:13:18,738 - INFO - Analyzing Dataset 5
+2024-08-11 12:13:18,738 - INFO - Computing tilde_S for dataframe with shape: (545, 15)
+2024-08-11 12:13:18,739 - INFO - Starting regularization parameter optimization
+2024-08-11 12:14:06,434 - INFO - Analyzing Dataset 12
+2024-08-11 12:14:06,434 - INFO - Computing tilde_S for dataframe with shape: (542, 15)
+2024-08-11 12:14:06,435 - INFO - Starting regularization parameter optimization
+2024-08-11 12:14:53,763 - INFO - Analyzing Dataset 15
+2024-08-11 12:14:53,763 - INFO - Computing tilde_S for dataframe with shape: (553, 15)
+2024-08-11 12:14:53,764 - INFO - Starting regularization parameter optimization
+2024-08-11 12:15:42,460 - INFO - Analyzing Dataset 8
+2024-08-11 12:15:42,460 - INFO - Computing tilde_S for dataframe with shape: (546, 15)
+2024-08-11 12:15:42,461 - INFO - Starting regularization parameter optimization
+2024-08-11 12:16:30,432 - INFO - Analyzing Dataset 6
+2024-08-11 12:16:30,432 - INFO - Computing tilde_S for dataframe with shape: (542, 15)
+2024-08-11 12:16:30,433 - INFO - Starting regularization parameter optimization
+2024-08-11 12:17:18,132 - INFO - Analyzing Dataset 1
+2024-08-11 12:17:18,132 - INFO - Computing tilde_S for dataframe with shape: (548, 15)
+2024-08-11 12:17:18,133 - INFO - Starting regularization parameter optimization
+2024-08-11 12:18:06,192 - INFO - Analyzing Dataset 7
+2024-08-11 12:18:06,192 - INFO - Computing tilde_S for dataframe with shape: (547, 15)
+2024-08-11 12:18:06,193 - INFO - Starting regularization parameter optimization
+2024-08-11 12:18:56,856 - INFO - Analyzing Dataset 9
+2024-08-11 12:18:56,856 - INFO - Computing tilde_S for dataframe with shape: (545, 15)
+2024-08-11 12:18:56,857 - INFO - Starting regularization parameter optimization
+2024-08-11 12:19:45,347 - INFO - Analyzing Dataset 14
+2024-08-11 12:19:45,347 - INFO - Computing tilde_S for dataframe with shape: (554, 15)
+2024-08-11 12:19:45,348 - INFO - Starting regularization parameter optimization
+2024-08-11 12:20:34,824 - INFO - Analyzing Dataset 13
+2024-08-11 12:20:34,824 - INFO - Computing tilde_S for dataframe with shape: (578, 15)
+2024-08-11 12:20:34,826 - INFO - Starting regularization parameter optimization
+2024-08-11 12:21:34,591 - INFO - Estimating changepoints
+2024-08-11 12:21:34,592 - INFO - Estimated 1 changepoints
+2024-08-11 12:21:34,915 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim22_perm1.png'
+2024-08-11 12:21:34,927 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:21:34,928 - INFO - Running Simulation 28, Permutation 1
+2024-08-11 12:21:34,928 - INFO - Analyzing Dataset 14
+2024-08-11 12:21:34,928 - INFO - Computing tilde_S for dataframe with shape: (397, 15)
+2024-08-11 12:21:34,929 - INFO - Starting regularization parameter optimization
+2024-08-11 12:22:08,606 - INFO - Analyzing Dataset 13
+2024-08-11 12:22:08,607 - INFO - Computing tilde_S for dataframe with shape: (414, 15)
+2024-08-11 12:22:08,607 - INFO - Starting regularization parameter optimization
+2024-08-11 12:22:43,839 - INFO - Analyzing Dataset 4
+2024-08-11 12:22:43,839 - INFO - Computing tilde_S for dataframe with shape: (413, 15)
+2024-08-11 12:22:43,840 - INFO - Starting regularization parameter optimization
+2024-08-11 12:23:19,514 - INFO - Analyzing Dataset 3
+2024-08-11 12:23:19,514 - INFO - Computing tilde_S for dataframe with shape: (406, 15)
+2024-08-11 12:23:19,515 - INFO - Starting regularization parameter optimization
+2024-08-11 12:23:54,867 - INFO - Analyzing Dataset 12
+2024-08-11 12:23:54,867 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 12:23:54,868 - INFO - Starting regularization parameter optimization
+2024-08-11 12:24:29,594 - INFO - Analyzing Dataset 15
+2024-08-11 12:24:29,594 - INFO - Computing tilde_S for dataframe with shape: (420, 15)
+2024-08-11 12:24:29,595 - INFO - Starting regularization parameter optimization
+2024-08-11 12:25:08,438 - INFO - Analyzing Dataset 2
+2024-08-11 12:25:08,438 - INFO - Computing tilde_S for dataframe with shape: (406, 15)
+2024-08-11 12:25:08,439 - INFO - Starting regularization parameter optimization
+2024-08-11 12:25:45,350 - INFO - Analyzing Dataset 5
+2024-08-11 12:25:45,350 - INFO - Computing tilde_S for dataframe with shape: (416, 15)
+2024-08-11 12:25:45,351 - INFO - Starting regularization parameter optimization
+2024-08-11 12:26:20,524 - INFO - Analyzing Dataset 6
+2024-08-11 12:26:20,524 - INFO - Computing tilde_S for dataframe with shape: (416, 15)
+2024-08-11 12:26:20,525 - INFO - Starting regularization parameter optimization
+2024-08-11 12:26:57,287 - INFO - Analyzing Dataset 1
+2024-08-11 12:26:57,287 - INFO - Computing tilde_S for dataframe with shape: (430, 15)
+2024-08-11 12:26:57,288 - INFO - Starting regularization parameter optimization
+2024-08-11 12:27:37,009 - INFO - Analyzing Dataset 8
+2024-08-11 12:27:37,010 - INFO - Computing tilde_S for dataframe with shape: (413, 15)
+2024-08-11 12:27:37,010 - INFO - Starting regularization parameter optimization
+2024-08-11 12:28:14,375 - INFO - Analyzing Dataset 11
+2024-08-11 12:28:14,375 - INFO - Computing tilde_S for dataframe with shape: (401, 15)
+2024-08-11 12:28:14,376 - INFO - Starting regularization parameter optimization
+2024-08-11 12:28:49,193 - INFO - Analyzing Dataset 9
+2024-08-11 12:28:49,194 - INFO - Computing tilde_S for dataframe with shape: (419, 15)
+2024-08-11 12:28:49,195 - INFO - Starting regularization parameter optimization
+2024-08-11 12:29:25,357 - INFO - Analyzing Dataset 7
+2024-08-11 12:29:25,357 - INFO - Computing tilde_S for dataframe with shape: (415, 15)
+2024-08-11 12:29:25,358 - INFO - Starting regularization parameter optimization
+2024-08-11 12:30:02,746 - INFO - Analyzing Dataset 10
+2024-08-11 12:30:02,746 - INFO - Computing tilde_S for dataframe with shape: (417, 15)
+2024-08-11 12:30:02,747 - INFO - Starting regularization parameter optimization
+2024-08-11 12:30:37,905 - INFO - Estimating changepoints
+2024-08-11 12:30:37,906 - INFO - Estimated 1 changepoints
+2024-08-11 12:30:38,239 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim28_perm1.png'
+2024-08-11 12:30:38,251 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:30:38,252 - INFO - Running Simulation 19, Permutation 1
+2024-08-11 12:30:38,252 - INFO - Analyzing Dataset 11
+2024-08-11 12:30:38,252 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 12:30:38,253 - INFO - Starting regularization parameter optimization
+2024-08-11 12:31:19,600 - INFO - Analyzing Dataset 5
+2024-08-11 12:31:19,600 - INFO - Computing tilde_S for dataframe with shape: (475, 15)
+2024-08-11 12:31:19,602 - INFO - Starting regularization parameter optimization
+2024-08-11 12:32:02,590 - INFO - Analyzing Dataset 2
+2024-08-11 12:32:02,591 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 12:32:02,591 - INFO - Starting regularization parameter optimization
+2024-08-11 12:32:47,352 - INFO - Analyzing Dataset 10
+2024-08-11 12:32:47,352 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 12:32:47,353 - INFO - Starting regularization parameter optimization
+2024-08-11 12:33:30,391 - INFO - Analyzing Dataset 3
+2024-08-11 12:33:30,392 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 12:33:30,392 - INFO - Starting regularization parameter optimization
+2024-08-11 12:34:17,079 - INFO - Analyzing Dataset 4
+2024-08-11 12:34:17,079 - INFO - Computing tilde_S for dataframe with shape: (456, 15)
+2024-08-11 12:34:17,080 - INFO - Starting regularization parameter optimization
+2024-08-11 12:34:59,598 - INFO - Analyzing Dataset 9
+2024-08-11 12:34:59,598 - INFO - Computing tilde_S for dataframe with shape: (467, 15)
+2024-08-11 12:34:59,599 - INFO - Starting regularization parameter optimization
+2024-08-11 12:35:42,338 - INFO - Analyzing Dataset 7
+2024-08-11 12:35:42,338 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 12:35:42,339 - INFO - Starting regularization parameter optimization
+2024-08-11 12:36:24,605 - INFO - Analyzing Dataset 13
+2024-08-11 12:36:24,606 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 12:36:24,606 - INFO - Starting regularization parameter optimization
+2024-08-11 12:37:08,508 - INFO - Analyzing Dataset 14
+2024-08-11 12:37:08,509 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 12:37:08,509 - INFO - Starting regularization parameter optimization
+2024-08-11 12:37:50,333 - INFO - Analyzing Dataset 1
+2024-08-11 12:37:50,333 - INFO - Computing tilde_S for dataframe with shape: (447, 15)
+2024-08-11 12:37:50,334 - INFO - Starting regularization parameter optimization
+2024-08-11 12:38:29,272 - INFO - Analyzing Dataset 6
+2024-08-11 12:38:29,272 - INFO - Computing tilde_S for dataframe with shape: (449, 15)
+2024-08-11 12:38:29,273 - INFO - Starting regularization parameter optimization
+2024-08-11 12:39:10,504 - INFO - Analyzing Dataset 8
+2024-08-11 12:39:10,504 - INFO - Computing tilde_S for dataframe with shape: (463, 15)
+2024-08-11 12:39:10,505 - INFO - Starting regularization parameter optimization
+2024-08-11 12:39:53,221 - INFO - Analyzing Dataset 15
+2024-08-11 12:39:53,221 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 12:39:53,222 - INFO - Starting regularization parameter optimization
+2024-08-11 12:40:38,157 - INFO - Analyzing Dataset 12
+2024-08-11 12:40:38,157 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 12:40:38,158 - INFO - Starting regularization parameter optimization
+2024-08-11 12:41:22,488 - INFO - Estimating changepoints
+2024-08-11 12:41:22,489 - INFO - Estimated 1 changepoints
+2024-08-11 12:41:22,847 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim19_perm1.png'
+2024-08-11 12:41:22,866 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:41:22,867 - INFO - Running Simulation 29, Permutation 1
+2024-08-11 12:41:22,867 - INFO - Analyzing Dataset 4
+2024-08-11 12:41:22,867 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 12:41:22,867 - INFO - Starting regularization parameter optimization
+2024-08-11 12:41:58,167 - INFO - Analyzing Dataset 3
+2024-08-11 12:41:58,167 - INFO - Computing tilde_S for dataframe with shape: (421, 15)
+2024-08-11 12:41:58,168 - INFO - Starting regularization parameter optimization
+2024-08-11 12:42:37,828 - INFO - Analyzing Dataset 11
+2024-08-11 12:42:37,828 - INFO - Computing tilde_S for dataframe with shape: (382, 15)
+2024-08-11 12:42:37,829 - INFO - Starting regularization parameter optimization
+2024-08-11 12:43:13,303 - INFO - Analyzing Dataset 10
+2024-08-11 12:43:13,303 - INFO - Computing tilde_S for dataframe with shape: (390, 15)
+2024-08-11 12:43:13,304 - INFO - Starting regularization parameter optimization
+2024-08-11 12:43:48,813 - INFO - Analyzing Dataset 2
+2024-08-11 12:43:48,813 - INFO - Computing tilde_S for dataframe with shape: (396, 15)
+2024-08-11 12:43:48,814 - INFO - Starting regularization parameter optimization
+2024-08-11 12:44:25,357 - INFO - Analyzing Dataset 5
+2024-08-11 12:44:25,358 - INFO - Computing tilde_S for dataframe with shape: (402, 15)
+2024-08-11 12:44:25,358 - INFO - Starting regularization parameter optimization
+2024-08-11 12:45:01,608 - INFO - Analyzing Dataset 14
+2024-08-11 12:45:01,608 - INFO - Computing tilde_S for dataframe with shape: (404, 15)
+2024-08-11 12:45:01,609 - INFO - Starting regularization parameter optimization
+2024-08-11 12:45:38,712 - INFO - Analyzing Dataset 13
+2024-08-11 12:45:38,712 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 12:45:38,713 - INFO - Starting regularization parameter optimization
+2024-08-11 12:46:14,793 - INFO - Analyzing Dataset 8
+2024-08-11 12:46:14,793 - INFO - Computing tilde_S for dataframe with shape: (391, 15)
+2024-08-11 12:46:14,794 - INFO - Starting regularization parameter optimization
+2024-08-11 12:46:50,675 - INFO - Analyzing Dataset 6
+2024-08-11 12:46:50,675 - INFO - Computing tilde_S for dataframe with shape: (386, 15)
+2024-08-11 12:46:50,676 - INFO - Starting regularization parameter optimization
+2024-08-11 12:47:26,295 - INFO - Analyzing Dataset 1
+2024-08-11 12:47:26,295 - INFO - Computing tilde_S for dataframe with shape: (389, 15)
+2024-08-11 12:47:26,296 - INFO - Starting regularization parameter optimization
+2024-08-11 12:48:01,408 - INFO - Analyzing Dataset 7
+2024-08-11 12:48:01,409 - INFO - Computing tilde_S for dataframe with shape: (375, 15)
+2024-08-11 12:48:01,409 - INFO - Starting regularization parameter optimization
+2024-08-11 12:48:35,791 - INFO - Analyzing Dataset 9
+2024-08-11 12:48:35,792 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 12:48:35,793 - INFO - Starting regularization parameter optimization
+2024-08-11 12:49:13,469 - INFO - Analyzing Dataset 12
+2024-08-11 12:49:13,469 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 12:49:13,471 - INFO - Starting regularization parameter optimization
+2024-08-11 12:49:47,835 - INFO - Analyzing Dataset 15
+2024-08-11 12:49:47,836 - INFO - Computing tilde_S for dataframe with shape: (391, 15)
+2024-08-11 12:49:47,836 - INFO - Starting regularization parameter optimization
+2024-08-11 12:50:23,575 - INFO - Estimating changepoints
+2024-08-11 12:50:23,576 - INFO - Estimated 1 changepoints
+2024-08-11 12:50:23,967 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim29_perm1.png'
+2024-08-11 12:50:23,977 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 12:50:23,978 - INFO - Running Simulation 43, Permutation 1
+2024-08-11 12:50:23,978 - INFO - Analyzing Dataset 7
+2024-08-11 12:50:23,978 - INFO - Computing tilde_S for dataframe with shape: (556, 15)
+2024-08-11 12:50:23,979 - INFO - Starting regularization parameter optimization
+2024-08-11 12:51:17,561 - INFO - Analyzing Dataset 9
+2024-08-11 12:51:17,562 - INFO - Computing tilde_S for dataframe with shape: (558, 15)
+2024-08-11 12:51:17,562 - INFO - Starting regularization parameter optimization
+2024-08-11 12:52:11,958 - INFO - Analyzing Dataset 12
+2024-08-11 12:52:11,959 - INFO - Computing tilde_S for dataframe with shape: (541, 15)
+2024-08-11 12:52:11,960 - INFO - Starting regularization parameter optimization
+2024-08-11 12:53:02,382 - INFO - Analyzing Dataset 15
+2024-08-11 12:53:02,382 - INFO - Computing tilde_S for dataframe with shape: (558, 15)
+2024-08-11 12:53:02,383 - INFO - Starting regularization parameter optimization
+2024-08-11 12:53:54,602 - INFO - Analyzing Dataset 8
+2024-08-11 12:53:54,602 - INFO - Computing tilde_S for dataframe with shape: (540, 15)
+2024-08-11 12:53:54,603 - INFO - Starting regularization parameter optimization
+2024-08-11 12:54:44,589 - INFO - Analyzing Dataset 6
+2024-08-11 12:54:44,590 - INFO - Computing tilde_S for dataframe with shape: (561, 15)
+2024-08-11 12:54:44,590 - INFO - Starting regularization parameter optimization
+2024-08-11 12:55:36,774 - INFO - Analyzing Dataset 1
+2024-08-11 12:55:36,774 - INFO - Computing tilde_S for dataframe with shape: (532, 15)
+2024-08-11 12:55:36,775 - INFO - Starting regularization parameter optimization
+2024-08-11 12:56:30,245 - INFO - Analyzing Dataset 14
+2024-08-11 12:56:30,245 - INFO - Computing tilde_S for dataframe with shape: (535, 15)
+2024-08-11 12:56:30,247 - INFO - Starting regularization parameter optimization
+2024-08-11 12:57:20,000 - INFO - Analyzing Dataset 13
+2024-08-11 12:57:20,000 - INFO - Computing tilde_S for dataframe with shape: (553, 15)
+2024-08-11 12:57:20,001 - INFO - Starting regularization parameter optimization
+2024-08-11 12:58:11,749 - INFO - Analyzing Dataset 10
+2024-08-11 12:58:11,750 - INFO - Computing tilde_S for dataframe with shape: (540, 15)
+2024-08-11 12:58:11,751 - INFO - Starting regularization parameter optimization
+2024-08-11 12:59:00,050 - INFO - Analyzing Dataset 2
+2024-08-11 12:59:00,050 - INFO - Computing tilde_S for dataframe with shape: (547, 15)
+2024-08-11 12:59:00,051 - INFO - Starting regularization parameter optimization
+2024-08-11 12:59:52,754 - INFO - Analyzing Dataset 5
+2024-08-11 12:59:52,755 - INFO - Computing tilde_S for dataframe with shape: (535, 15)
+2024-08-11 12:59:52,755 - INFO - Starting regularization parameter optimization
+2024-08-11 13:00:44,122 - INFO - Analyzing Dataset 11
+2024-08-11 13:00:44,123 - INFO - Computing tilde_S for dataframe with shape: (548, 15)
+2024-08-11 13:00:44,123 - INFO - Starting regularization parameter optimization
+2024-08-11 13:01:33,844 - INFO - Analyzing Dataset 4
+2024-08-11 13:01:33,844 - INFO - Computing tilde_S for dataframe with shape: (543, 15)
+2024-08-11 13:01:33,845 - INFO - Starting regularization parameter optimization
+2024-08-11 13:02:25,809 - INFO - Analyzing Dataset 3
+2024-08-11 13:02:25,810 - INFO - Computing tilde_S for dataframe with shape: (562, 15)
+2024-08-11 13:02:25,810 - INFO - Starting regularization parameter optimization
+2024-08-11 13:03:22,973 - INFO - Estimating changepoints
+2024-08-11 13:03:22,975 - INFO - Estimated 1 changepoints
+2024-08-11 13:03:23,382 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim43_perm1.png'
+2024-08-11 13:03:23,401 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:03:23,401 - INFO - Running Simulation 48, Permutation 1
+2024-08-11 13:03:23,401 - INFO - Analyzing Dataset 7
+2024-08-11 13:03:23,401 - INFO - Computing tilde_S for dataframe with shape: (372, 15)
+2024-08-11 13:03:23,402 - INFO - Starting regularization parameter optimization
+2024-08-11 13:03:55,782 - INFO - Analyzing Dataset 9
+2024-08-11 13:03:55,782 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 13:03:55,783 - INFO - Starting regularization parameter optimization
+2024-08-11 13:04:31,931 - INFO - Analyzing Dataset 14
+2024-08-11 13:04:31,932 - INFO - Computing tilde_S for dataframe with shape: (377, 15)
+2024-08-11 13:04:31,932 - INFO - Starting regularization parameter optimization
+2024-08-11 13:05:06,669 - INFO - Analyzing Dataset 13
+2024-08-11 13:05:06,669 - INFO - Computing tilde_S for dataframe with shape: (372, 15)
+2024-08-11 13:05:06,670 - INFO - Starting regularization parameter optimization
+2024-08-11 13:05:39,585 - INFO - Analyzing Dataset 8
+2024-08-11 13:05:39,586 - INFO - Computing tilde_S for dataframe with shape: (363, 15)
+2024-08-11 13:05:39,586 - INFO - Starting regularization parameter optimization
+2024-08-11 13:06:12,440 - INFO - Analyzing Dataset 6
+2024-08-11 13:06:12,440 - INFO - Computing tilde_S for dataframe with shape: (379, 15)
+2024-08-11 13:06:12,441 - INFO - Starting regularization parameter optimization
+2024-08-11 13:06:47,587 - INFO - Analyzing Dataset 1
+2024-08-11 13:06:47,587 - INFO - Computing tilde_S for dataframe with shape: (366, 15)
+2024-08-11 13:06:47,588 - INFO - Starting regularization parameter optimization
+2024-08-11 13:07:20,697 - INFO - Analyzing Dataset 12
+2024-08-11 13:07:20,697 - INFO - Computing tilde_S for dataframe with shape: (373, 15)
+2024-08-11 13:07:20,698 - INFO - Starting regularization parameter optimization
+2024-08-11 13:07:54,976 - INFO - Analyzing Dataset 15
+2024-08-11 13:07:54,976 - INFO - Computing tilde_S for dataframe with shape: (369, 15)
+2024-08-11 13:07:54,977 - INFO - Starting regularization parameter optimization
+2024-08-11 13:08:28,013 - INFO - Analyzing Dataset 11
+2024-08-11 13:08:28,014 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 13:08:28,014 - INFO - Starting regularization parameter optimization
+2024-08-11 13:09:04,777 - INFO - Analyzing Dataset 2
+2024-08-11 13:09:04,777 - INFO - Computing tilde_S for dataframe with shape: (371, 15)
+2024-08-11 13:09:04,778 - INFO - Starting regularization parameter optimization
+2024-08-11 13:09:38,051 - INFO - Analyzing Dataset 5
+2024-08-11 13:09:38,052 - INFO - Computing tilde_S for dataframe with shape: (371, 15)
+2024-08-11 13:09:38,053 - INFO - Starting regularization parameter optimization
+2024-08-11 13:10:11,054 - INFO - Analyzing Dataset 10
+2024-08-11 13:10:11,055 - INFO - Computing tilde_S for dataframe with shape: (377, 15)
+2024-08-11 13:10:11,056 - INFO - Starting regularization parameter optimization
+2024-08-11 13:10:45,160 - INFO - Analyzing Dataset 4
+2024-08-11 13:10:45,160 - INFO - Computing tilde_S for dataframe with shape: (371, 15)
+2024-08-11 13:10:45,161 - INFO - Starting regularization parameter optimization
+2024-08-11 13:11:17,954 - INFO - Analyzing Dataset 3
+2024-08-11 13:11:17,955 - INFO - Computing tilde_S for dataframe with shape: (358, 15)
+2024-08-11 13:11:17,955 - INFO - Starting regularization parameter optimization
+2024-08-11 13:11:49,781 - INFO - Estimating changepoints
+2024-08-11 13:11:49,782 - INFO - Estimated 1 changepoints
+2024-08-11 13:11:50,176 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim48_perm1.png'
+2024-08-11 13:11:50,220 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:11:50,220 - INFO - Running Simulation 26, Permutation 1
+2024-08-11 13:11:50,220 - INFO - Analyzing Dataset 9
+2024-08-11 13:11:50,221 - INFO - Computing tilde_S for dataframe with shape: (420, 15)
+2024-08-11 13:11:50,221 - INFO - Starting regularization parameter optimization
+2024-08-11 13:12:28,733 - INFO - Analyzing Dataset 10
+2024-08-11 13:12:28,734 - INFO - Computing tilde_S for dataframe with shape: (396, 15)
+2024-08-11 13:12:28,734 - INFO - Starting regularization parameter optimization
+2024-08-11 13:13:04,096 - INFO - Analyzing Dataset 7
+2024-08-11 13:13:04,096 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 13:13:04,097 - INFO - Starting regularization parameter optimization
+2024-08-11 13:13:39,878 - INFO - Analyzing Dataset 1
+2024-08-11 13:13:39,878 - INFO - Computing tilde_S for dataframe with shape: (423, 15)
+2024-08-11 13:13:39,879 - INFO - Starting regularization parameter optimization
+2024-08-11 13:14:19,956 - INFO - Analyzing Dataset 6
+2024-08-11 13:14:19,956 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 13:14:19,957 - INFO - Starting regularization parameter optimization
+2024-08-11 13:14:56,030 - INFO - Analyzing Dataset 8
+2024-08-11 13:14:56,030 - INFO - Computing tilde_S for dataframe with shape: (388, 15)
+2024-08-11 13:14:56,031 - INFO - Starting regularization parameter optimization
+2024-08-11 13:15:29,340 - INFO - Analyzing Dataset 11
+2024-08-11 13:15:29,340 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 13:15:29,341 - INFO - Starting regularization parameter optimization
+2024-08-11 13:16:05,881 - INFO - Analyzing Dataset 5
+2024-08-11 13:16:05,881 - INFO - Computing tilde_S for dataframe with shape: (403, 15)
+2024-08-11 13:16:05,882 - INFO - Starting regularization parameter optimization
+2024-08-11 13:16:42,241 - INFO - Analyzing Dataset 2
+2024-08-11 13:16:42,241 - INFO - Computing tilde_S for dataframe with shape: (402, 15)
+2024-08-11 13:16:42,242 - INFO - Starting regularization parameter optimization
+2024-08-11 13:17:19,488 - INFO - Analyzing Dataset 15
+2024-08-11 13:17:19,488 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 13:17:19,489 - INFO - Starting regularization parameter optimization
+2024-08-11 13:17:55,913 - INFO - Analyzing Dataset 12
+2024-08-11 13:17:55,913 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 13:17:55,914 - INFO - Starting regularization parameter optimization
+2024-08-11 13:18:32,677 - INFO - Analyzing Dataset 13
+2024-08-11 13:18:32,677 - INFO - Computing tilde_S for dataframe with shape: (406, 15)
+2024-08-11 13:18:32,677 - INFO - Starting regularization parameter optimization
+2024-08-11 13:19:08,503 - INFO - Analyzing Dataset 14
+2024-08-11 13:19:08,503 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 13:19:08,504 - INFO - Starting regularization parameter optimization
+2024-08-11 13:19:44,080 - INFO - Analyzing Dataset 3
+2024-08-11 13:19:44,081 - INFO - Computing tilde_S for dataframe with shape: (414, 15)
+2024-08-11 13:19:44,081 - INFO - Starting regularization parameter optimization
+2024-08-11 13:20:21,174 - INFO - Analyzing Dataset 4
+2024-08-11 13:20:21,175 - INFO - Computing tilde_S for dataframe with shape: (392, 15)
+2024-08-11 13:20:21,175 - INFO - Starting regularization parameter optimization
+2024-08-11 13:20:56,508 - INFO - Estimating changepoints
+2024-08-11 13:20:56,509 - INFO - Estimated 1 changepoints
+2024-08-11 13:20:56,834 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim26_perm1.png'
+2024-08-11 13:20:56,881 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:20:56,882 - INFO - Running Simulation 3, Permutation 1
+2024-08-11 13:20:56,882 - INFO - Analyzing Dataset 2
+2024-08-11 13:20:56,882 - INFO - Computing tilde_S for dataframe with shape: (698, 15)
+2024-08-11 13:20:56,883 - INFO - Starting regularization parameter optimization
+2024-08-11 13:22:03,775 - INFO - Analyzing Dataset 5
+2024-08-11 13:22:03,775 - INFO - Computing tilde_S for dataframe with shape: (689, 15)
+2024-08-11 13:22:03,776 - INFO - Starting regularization parameter optimization
+2024-08-11 13:23:10,159 - INFO - Analyzing Dataset 10
+2024-08-11 13:23:10,160 - INFO - Computing tilde_S for dataframe with shape: (699, 15)
+2024-08-11 13:23:10,161 - INFO - Starting regularization parameter optimization
+2024-08-11 13:24:17,616 - INFO - Analyzing Dataset 11
+2024-08-11 13:24:17,616 - INFO - Computing tilde_S for dataframe with shape: (714, 15)
+2024-08-11 13:24:17,618 - INFO - Starting regularization parameter optimization
+2024-08-11 13:25:27,086 - INFO - Analyzing Dataset 4
+2024-08-11 13:25:27,086 - INFO - Computing tilde_S for dataframe with shape: (692, 15)
+2024-08-11 13:25:27,087 - INFO - Starting regularization parameter optimization
+2024-08-11 13:26:34,237 - INFO - Analyzing Dataset 3
+2024-08-11 13:26:34,237 - INFO - Computing tilde_S for dataframe with shape: (702, 15)
+2024-08-11 13:26:34,238 - INFO - Starting regularization parameter optimization
+2024-08-11 13:27:42,191 - INFO - Analyzing Dataset 15
+2024-08-11 13:27:42,191 - INFO - Computing tilde_S for dataframe with shape: (699, 15)
+2024-08-11 13:27:42,192 - INFO - Starting regularization parameter optimization
+2024-08-11 13:28:50,619 - INFO - Analyzing Dataset 12
+2024-08-11 13:28:50,619 - INFO - Computing tilde_S for dataframe with shape: (714, 15)
+2024-08-11 13:28:50,620 - INFO - Starting regularization parameter optimization
+2024-08-11 13:30:00,294 - INFO - Analyzing Dataset 7
+2024-08-11 13:30:00,295 - INFO - Computing tilde_S for dataframe with shape: (695, 15)
+2024-08-11 13:30:00,296 - INFO - Starting regularization parameter optimization
+2024-08-11 13:31:07,325 - INFO - Analyzing Dataset 9
+2024-08-11 13:31:07,325 - INFO - Computing tilde_S for dataframe with shape: (699, 15)
+2024-08-11 13:31:07,326 - INFO - Starting regularization parameter optimization
+2024-08-11 13:32:14,598 - INFO - Analyzing Dataset 8
+2024-08-11 13:32:14,598 - INFO - Computing tilde_S for dataframe with shape: (679, 15)
+2024-08-11 13:32:14,599 - INFO - Starting regularization parameter optimization
+2024-08-11 13:33:19,394 - INFO - Analyzing Dataset 6
+2024-08-11 13:33:19,394 - INFO - Computing tilde_S for dataframe with shape: (688, 15)
+2024-08-11 13:33:19,395 - INFO - Starting regularization parameter optimization
+2024-08-11 13:34:25,174 - INFO - Analyzing Dataset 1
+2024-08-11 13:34:25,174 - INFO - Computing tilde_S for dataframe with shape: (703, 15)
+2024-08-11 13:34:25,175 - INFO - Starting regularization parameter optimization
+2024-08-11 13:35:41,192 - INFO - Analyzing Dataset 13
+2024-08-11 13:35:41,192 - INFO - Computing tilde_S for dataframe with shape: (690, 15)
+2024-08-11 13:35:41,193 - INFO - Starting regularization parameter optimization
+2024-08-11 13:36:47,887 - INFO - Analyzing Dataset 14
+2024-08-11 13:36:47,887 - INFO - Computing tilde_S for dataframe with shape: (709, 15)
+2024-08-11 13:36:47,888 - INFO - Starting regularization parameter optimization
+2024-08-11 13:37:57,173 - INFO - Estimating changepoints
+2024-08-11 13:37:57,174 - INFO - Estimated 2 changepoints
+2024-08-11 13:37:57,501 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim3_perm1.png'
+2024-08-11 13:37:57,511 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:37:57,512 - INFO - Running Simulation 38, Permutation 1
+2024-08-11 13:37:57,512 - INFO - Analyzing Dataset 13
+2024-08-11 13:37:57,512 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 13:37:57,513 - INFO - Starting regularization parameter optimization
+2024-08-11 13:38:40,111 - INFO - Analyzing Dataset 14
+2024-08-11 13:38:40,111 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 13:38:40,112 - INFO - Starting regularization parameter optimization
+2024-08-11 13:39:25,839 - INFO - Analyzing Dataset 8
+2024-08-11 13:39:25,840 - INFO - Computing tilde_S for dataframe with shape: (491, 15)
+2024-08-11 13:39:25,840 - INFO - Starting regularization parameter optimization
+2024-08-11 13:40:12,389 - INFO - Analyzing Dataset 6
+2024-08-11 13:40:12,389 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 13:40:12,390 - INFO - Starting regularization parameter optimization
+2024-08-11 13:40:58,150 - INFO - Analyzing Dataset 1
+2024-08-11 13:40:58,150 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 13:40:58,151 - INFO - Starting regularization parameter optimization
+2024-08-11 13:41:42,164 - INFO - Analyzing Dataset 15
+2024-08-11 13:41:42,164 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 13:41:42,165 - INFO - Starting regularization parameter optimization
+2024-08-11 13:42:24,301 - INFO - Analyzing Dataset 12
+2024-08-11 13:42:24,301 - INFO - Computing tilde_S for dataframe with shape: (494, 15)
+2024-08-11 13:42:24,302 - INFO - Starting regularization parameter optimization
+2024-08-11 13:43:12,015 - INFO - Analyzing Dataset 7
+2024-08-11 13:43:12,015 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 13:43:12,016 - INFO - Starting regularization parameter optimization
+2024-08-11 13:43:58,065 - INFO - Analyzing Dataset 9
+2024-08-11 13:43:58,065 - INFO - Computing tilde_S for dataframe with shape: (494, 15)
+2024-08-11 13:43:58,066 - INFO - Starting regularization parameter optimization
+2024-08-11 13:44:43,263 - INFO - Analyzing Dataset 4
+2024-08-11 13:44:43,263 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 13:44:43,264 - INFO - Starting regularization parameter optimization
+2024-08-11 13:45:28,050 - INFO - Analyzing Dataset 3
+2024-08-11 13:45:28,050 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 13:45:28,051 - INFO - Starting regularization parameter optimization
+2024-08-11 13:46:10,768 - INFO - Analyzing Dataset 11
+2024-08-11 13:46:10,768 - INFO - Computing tilde_S for dataframe with shape: (486, 15)
+2024-08-11 13:46:10,769 - INFO - Starting regularization parameter optimization
+2024-08-11 13:46:54,125 - INFO - Analyzing Dataset 2
+2024-08-11 13:46:54,125 - INFO - Computing tilde_S for dataframe with shape: (481, 15)
+2024-08-11 13:46:54,126 - INFO - Starting regularization parameter optimization
+2024-08-11 13:47:39,368 - INFO - Analyzing Dataset 5
+2024-08-11 13:47:39,368 - INFO - Computing tilde_S for dataframe with shape: (475, 15)
+2024-08-11 13:47:39,369 - INFO - Starting regularization parameter optimization
+2024-08-11 13:48:23,243 - INFO - Analyzing Dataset 10
+2024-08-11 13:48:23,244 - INFO - Computing tilde_S for dataframe with shape: (486, 15)
+2024-08-11 13:48:23,244 - INFO - Starting regularization parameter optimization
+2024-08-11 13:49:10,848 - INFO - Estimating changepoints
+2024-08-11 13:49:10,850 - INFO - Estimated 1 changepoints
+2024-08-11 13:49:11,228 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim38_perm1.png'
+2024-08-11 13:49:11,240 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:49:11,240 - INFO - Running Simulation 18, Permutation 1
+2024-08-11 13:49:11,240 - INFO - Analyzing Dataset 5
+2024-08-11 13:49:11,240 - INFO - Computing tilde_S for dataframe with shape: (404, 15)
+2024-08-11 13:49:11,241 - INFO - Starting regularization parameter optimization
+2024-08-11 13:49:49,834 - INFO - Analyzing Dataset 2
+2024-08-11 13:49:49,835 - INFO - Computing tilde_S for dataframe with shape: (387, 15)
+2024-08-11 13:49:49,835 - INFO - Starting regularization parameter optimization
+2024-08-11 13:50:24,148 - INFO - Analyzing Dataset 13
+2024-08-11 13:50:24,149 - INFO - Computing tilde_S for dataframe with shape: (380, 15)
+2024-08-11 13:50:24,149 - INFO - Starting regularization parameter optimization
+2024-08-11 13:50:58,812 - INFO - Analyzing Dataset 14
+2024-08-11 13:50:58,812 - INFO - Computing tilde_S for dataframe with shape: (402, 15)
+2024-08-11 13:50:58,814 - INFO - Starting regularization parameter optimization
+2024-08-11 13:51:35,048 - INFO - Analyzing Dataset 15
+2024-08-11 13:51:35,048 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 13:51:35,049 - INFO - Starting regularization parameter optimization
+2024-08-11 13:52:11,997 - INFO - Analyzing Dataset 12
+2024-08-11 13:52:11,997 - INFO - Computing tilde_S for dataframe with shape: (371, 15)
+2024-08-11 13:52:11,998 - INFO - Starting regularization parameter optimization
+2024-08-11 13:52:44,019 - INFO - Analyzing Dataset 3
+2024-08-11 13:52:44,020 - INFO - Computing tilde_S for dataframe with shape: (376, 15)
+2024-08-11 13:52:44,020 - INFO - Starting regularization parameter optimization
+2024-08-11 13:53:17,351 - INFO - Analyzing Dataset 4
+2024-08-11 13:53:17,351 - INFO - Computing tilde_S for dataframe with shape: (382, 15)
+2024-08-11 13:53:17,352 - INFO - Starting regularization parameter optimization
+2024-08-11 13:53:51,265 - INFO - Analyzing Dataset 11
+2024-08-11 13:53:51,266 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 13:53:51,266 - INFO - Starting regularization parameter optimization
+2024-08-11 13:54:25,940 - INFO - Analyzing Dataset 7
+2024-08-11 13:54:25,940 - INFO - Computing tilde_S for dataframe with shape: (389, 15)
+2024-08-11 13:54:25,941 - INFO - Starting regularization parameter optimization
+2024-08-11 13:55:00,892 - INFO - Analyzing Dataset 9
+2024-08-11 13:55:00,892 - INFO - Computing tilde_S for dataframe with shape: (392, 15)
+2024-08-11 13:55:00,893 - INFO - Starting regularization parameter optimization
+2024-08-11 13:55:35,218 - INFO - Analyzing Dataset 8
+2024-08-11 13:55:35,218 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 13:55:35,219 - INFO - Starting regularization parameter optimization
+2024-08-11 13:56:13,592 - INFO - Analyzing Dataset 1
+2024-08-11 13:56:13,592 - INFO - Computing tilde_S for dataframe with shape: (390, 15)
+2024-08-11 13:56:13,592 - INFO - Starting regularization parameter optimization
+2024-08-11 13:56:47,440 - INFO - Analyzing Dataset 6
+2024-08-11 13:56:47,440 - INFO - Computing tilde_S for dataframe with shape: (390, 15)
+2024-08-11 13:56:47,441 - INFO - Starting regularization parameter optimization
+2024-08-11 13:57:22,381 - INFO - Analyzing Dataset 10
+2024-08-11 13:57:22,382 - INFO - Computing tilde_S for dataframe with shape: (381, 15)
+2024-08-11 13:57:22,382 - INFO - Starting regularization parameter optimization
+2024-08-11 13:57:55,401 - INFO - Estimating changepoints
+2024-08-11 13:57:55,402 - INFO - Estimated 1 changepoints
+2024-08-11 13:57:55,833 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim18_perm1.png'
+2024-08-11 13:57:55,844 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 13:57:55,845 - INFO - Running Simulation 13, Permutation 1
+2024-08-11 13:57:55,845 - INFO - Analyzing Dataset 5
+2024-08-11 13:57:55,845 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 13:57:55,846 - INFO - Starting regularization parameter optimization
+2024-08-11 13:58:39,668 - INFO - Analyzing Dataset 2
+2024-08-11 13:58:39,668 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 13:58:39,669 - INFO - Starting regularization parameter optimization
+2024-08-11 13:59:24,646 - INFO - Analyzing Dataset 15
+2024-08-11 13:59:24,646 - INFO - Computing tilde_S for dataframe with shape: (442, 15)
+2024-08-11 13:59:24,647 - INFO - Starting regularization parameter optimization
+2024-08-11 14:00:04,506 - INFO - Analyzing Dataset 12
+2024-08-11 14:00:04,506 - INFO - Computing tilde_S for dataframe with shape: (458, 15)
+2024-08-11 14:00:04,507 - INFO - Starting regularization parameter optimization
+2024-08-11 14:00:47,526 - INFO - Analyzing Dataset 13
+2024-08-11 14:00:47,526 - INFO - Computing tilde_S for dataframe with shape: (468, 15)
+2024-08-11 14:00:47,527 - INFO - Starting regularization parameter optimization
+2024-08-11 14:01:32,290 - INFO - Analyzing Dataset 14
+2024-08-11 14:01:32,290 - INFO - Computing tilde_S for dataframe with shape: (457, 15)
+2024-08-11 14:01:32,291 - INFO - Starting regularization parameter optimization
+2024-08-11 14:02:14,883 - INFO - Analyzing Dataset 3
+2024-08-11 14:02:14,883 - INFO - Computing tilde_S for dataframe with shape: (455, 15)
+2024-08-11 14:02:14,883 - INFO - Starting regularization parameter optimization
+2024-08-11 14:02:58,489 - INFO - Analyzing Dataset 4
+2024-08-11 14:02:58,489 - INFO - Computing tilde_S for dataframe with shape: (467, 15)
+2024-08-11 14:02:58,490 - INFO - Starting regularization parameter optimization
+2024-08-11 14:03:42,835 - INFO - Analyzing Dataset 10
+2024-08-11 14:03:42,835 - INFO - Computing tilde_S for dataframe with shape: (446, 15)
+2024-08-11 14:03:42,836 - INFO - Starting regularization parameter optimization
+2024-08-11 14:04:24,701 - INFO - Analyzing Dataset 7
+2024-08-11 14:04:24,701 - INFO - Computing tilde_S for dataframe with shape: (462, 15)
+2024-08-11 14:04:24,703 - INFO - Starting regularization parameter optimization
+2024-08-11 14:05:08,004 - INFO - Analyzing Dataset 9
+2024-08-11 14:05:08,004 - INFO - Computing tilde_S for dataframe with shape: (442, 15)
+2024-08-11 14:05:08,005 - INFO - Starting regularization parameter optimization
+2024-08-11 14:05:47,551 - INFO - Analyzing Dataset 8
+2024-08-11 14:05:47,552 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 14:05:47,552 - INFO - Starting regularization parameter optimization
+2024-08-11 14:06:32,941 - INFO - Analyzing Dataset 1
+2024-08-11 14:06:32,941 - INFO - Computing tilde_S for dataframe with shape: (463, 15)
+2024-08-11 14:06:32,942 - INFO - Starting regularization parameter optimization
+2024-08-11 14:07:16,856 - INFO - Analyzing Dataset 6
+2024-08-11 14:07:16,856 - INFO - Computing tilde_S for dataframe with shape: (454, 15)
+2024-08-11 14:07:16,856 - INFO - Starting regularization parameter optimization
+2024-08-11 14:08:00,477 - INFO - Analyzing Dataset 11
+2024-08-11 14:08:00,478 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 14:08:00,478 - INFO - Starting regularization parameter optimization
+2024-08-11 14:08:43,767 - INFO - Estimating changepoints
+2024-08-11 14:08:43,768 - INFO - Estimated 1 changepoints
+2024-08-11 14:08:44,151 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim13_perm1.png'
+2024-08-11 14:08:44,162 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 14:08:44,163 - INFO - Running Simulation 47, Permutation 1
+2024-08-11 14:08:44,163 - INFO - Analyzing Dataset 3
+2024-08-11 14:08:44,163 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 14:08:44,164 - INFO - Starting regularization parameter optimization
+2024-08-11 14:09:26,864 - INFO - Analyzing Dataset 4
+2024-08-11 14:09:26,864 - INFO - Computing tilde_S for dataframe with shape: (474, 15)
+2024-08-11 14:09:26,865 - INFO - Starting regularization parameter optimization
+2024-08-11 14:10:08,759 - INFO - Analyzing Dataset 15
+2024-08-11 14:10:08,759 - INFO - Computing tilde_S for dataframe with shape: (467, 15)
+2024-08-11 14:10:08,760 - INFO - Starting regularization parameter optimization
+2024-08-11 14:10:50,799 - INFO - Analyzing Dataset 12
+2024-08-11 14:10:50,799 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 14:10:50,800 - INFO - Starting regularization parameter optimization
+2024-08-11 14:11:34,748 - INFO - Analyzing Dataset 5
+2024-08-11 14:11:34,748 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 14:11:34,749 - INFO - Starting regularization parameter optimization
+2024-08-11 14:12:20,749 - INFO - Analyzing Dataset 2
+2024-08-11 14:12:20,750 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 14:12:20,750 - INFO - Starting regularization parameter optimization
+2024-08-11 14:13:04,724 - INFO - Analyzing Dataset 13
+2024-08-11 14:13:04,725 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 14:13:04,725 - INFO - Starting regularization parameter optimization
+2024-08-11 14:13:48,346 - INFO - Analyzing Dataset 14
+2024-08-11 14:13:48,347 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 14:13:48,348 - INFO - Starting regularization parameter optimization
+2024-08-11 14:14:33,128 - INFO - Analyzing Dataset 10
+2024-08-11 14:14:33,128 - INFO - Computing tilde_S for dataframe with shape: (480, 15)
+2024-08-11 14:14:33,129 - INFO - Starting regularization parameter optimization
+2024-08-11 14:15:17,541 - INFO - Analyzing Dataset 1
+2024-08-11 14:15:17,542 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 14:15:17,543 - INFO - Starting regularization parameter optimization
+2024-08-11 14:16:00,344 - INFO - Analyzing Dataset 6
+2024-08-11 14:16:00,345 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 14:16:00,346 - INFO - Starting regularization parameter optimization
+2024-08-11 14:16:42,274 - INFO - Analyzing Dataset 8
+2024-08-11 14:16:42,275 - INFO - Computing tilde_S for dataframe with shape: (484, 15)
+2024-08-11 14:16:42,275 - INFO - Starting regularization parameter optimization
+2024-08-11 14:17:25,934 - INFO - Analyzing Dataset 11
+2024-08-11 14:17:25,934 - INFO - Computing tilde_S for dataframe with shape: (477, 15)
+2024-08-11 14:17:25,935 - INFO - Starting regularization parameter optimization
+2024-08-11 14:18:10,080 - INFO - Analyzing Dataset 9
+2024-08-11 14:18:10,080 - INFO - Computing tilde_S for dataframe with shape: (488, 15)
+2024-08-11 14:18:10,081 - INFO - Starting regularization parameter optimization
+2024-08-11 14:18:55,617 - INFO - Analyzing Dataset 7
+2024-08-11 14:18:55,617 - INFO - Computing tilde_S for dataframe with shape: (474, 15)
+2024-08-11 14:18:55,618 - INFO - Starting regularization parameter optimization
+2024-08-11 14:19:40,232 - INFO - Estimating changepoints
+2024-08-11 14:19:40,233 - INFO - Estimated 1 changepoints
+2024-08-11 14:19:40,688 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim47_perm1.png'
+2024-08-11 14:19:40,699 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 14:19:40,700 - INFO - Running Simulation 2, Permutation 1
+2024-08-11 14:19:40,700 - INFO - Analyzing Dataset 15
+2024-08-11 14:19:40,700 - INFO - Computing tilde_S for dataframe with shape: (460, 15)
+2024-08-11 14:19:40,701 - INFO - Starting regularization parameter optimization
+2024-08-11 14:20:22,569 - INFO - Analyzing Dataset 12
+2024-08-11 14:20:22,569 - INFO - Computing tilde_S for dataframe with shape: (455, 15)
+2024-08-11 14:20:22,571 - INFO - Starting regularization parameter optimization
+2024-08-11 14:21:04,137 - INFO - Analyzing Dataset 2
+2024-08-11 14:21:04,138 - INFO - Computing tilde_S for dataframe with shape: (450, 15)
+2024-08-11 14:21:04,139 - INFO - Starting regularization parameter optimization
+2024-08-11 14:21:46,506 - INFO - Analyzing Dataset 5
+2024-08-11 14:21:46,507 - INFO - Computing tilde_S for dataframe with shape: (437, 15)
+2024-08-11 14:21:46,507 - INFO - Starting regularization parameter optimization
+2024-08-11 14:22:24,363 - INFO - Analyzing Dataset 13
+2024-08-11 14:22:24,363 - INFO - Computing tilde_S for dataframe with shape: (452, 15)
+2024-08-11 14:22:24,364 - INFO - Starting regularization parameter optimization
+2024-08-11 14:23:04,877 - INFO - Analyzing Dataset 14
+2024-08-11 14:23:04,877 - INFO - Computing tilde_S for dataframe with shape: (474, 15)
+2024-08-11 14:23:04,878 - INFO - Starting regularization parameter optimization
+2024-08-11 14:23:48,190 - INFO - Analyzing Dataset 4
+2024-08-11 14:23:48,190 - INFO - Computing tilde_S for dataframe with shape: (446, 15)
+2024-08-11 14:23:48,191 - INFO - Starting regularization parameter optimization
+2024-08-11 14:24:26,851 - INFO - Analyzing Dataset 3
+2024-08-11 14:24:26,852 - INFO - Computing tilde_S for dataframe with shape: (466, 15)
+2024-08-11 14:24:26,853 - INFO - Starting regularization parameter optimization
+2024-08-11 14:25:09,302 - INFO - Analyzing Dataset 9
+2024-08-11 14:25:09,302 - INFO - Computing tilde_S for dataframe with shape: (438, 15)
+2024-08-11 14:25:09,303 - INFO - Starting regularization parameter optimization
+2024-08-11 14:25:51,052 - INFO - Analyzing Dataset 7
+2024-08-11 14:25:51,052 - INFO - Computing tilde_S for dataframe with shape: (450, 15)
+2024-08-11 14:25:51,053 - INFO - Starting regularization parameter optimization
+2024-08-11 14:26:32,688 - INFO - Analyzing Dataset 10
+2024-08-11 14:26:32,688 - INFO - Computing tilde_S for dataframe with shape: (468, 15)
+2024-08-11 14:26:32,688 - INFO - Starting regularization parameter optimization
+2024-08-11 14:27:15,717 - INFO - Analyzing Dataset 6
+2024-08-11 14:27:15,717 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 14:27:15,718 - INFO - Starting regularization parameter optimization
+2024-08-11 14:27:57,862 - INFO - Analyzing Dataset 1
+2024-08-11 14:27:57,862 - INFO - Computing tilde_S for dataframe with shape: (451, 15)
+2024-08-11 14:27:57,863 - INFO - Starting regularization parameter optimization
+2024-08-11 14:28:38,619 - INFO - Analyzing Dataset 8
+2024-08-11 14:28:38,619 - INFO - Computing tilde_S for dataframe with shape: (462, 15)
+2024-08-11 14:28:38,620 - INFO - Starting regularization parameter optimization
+2024-08-11 14:29:20,466 - INFO - Analyzing Dataset 11
+2024-08-11 14:29:20,467 - INFO - Computing tilde_S for dataframe with shape: (437, 15)
+2024-08-11 14:29:20,467 - INFO - Starting regularization parameter optimization
+2024-08-11 14:29:58,802 - INFO - Estimating changepoints
+2024-08-11 14:29:58,804 - INFO - Estimated 1 changepoints
+2024-08-11 14:29:59,157 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim2_perm1.png'
+2024-08-11 14:29:59,166 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 14:29:59,167 - INFO - Running Simulation 8, Permutation 1
+2024-08-11 14:29:59,167 - INFO - Analyzing Dataset 2
+2024-08-11 14:29:59,167 - INFO - Computing tilde_S for dataframe with shape: (343, 15)
+2024-08-11 14:29:59,168 - INFO - Starting regularization parameter optimization
+2024-08-11 14:30:29,531 - INFO - Analyzing Dataset 5
+2024-08-11 14:30:29,532 - INFO - Computing tilde_S for dataframe with shape: (333, 15)
+2024-08-11 14:30:29,532 - INFO - Starting regularization parameter optimization
+2024-08-11 14:30:59,388 - INFO - Analyzing Dataset 11
+2024-08-11 14:30:59,388 - INFO - Computing tilde_S for dataframe with shape: (346, 15)
+2024-08-11 14:30:59,389 - INFO - Starting regularization parameter optimization
+2024-08-11 14:31:30,541 - INFO - Analyzing Dataset 10
+2024-08-11 14:31:30,542 - INFO - Computing tilde_S for dataframe with shape: (355, 15)
+2024-08-11 14:31:30,543 - INFO - Starting regularization parameter optimization
+2024-08-11 14:32:02,983 - INFO - Analyzing Dataset 4
+2024-08-11 14:32:02,983 - INFO - Computing tilde_S for dataframe with shape: (339, 15)
+2024-08-11 14:32:02,984 - INFO - Starting regularization parameter optimization
+2024-08-11 14:32:33,489 - INFO - Analyzing Dataset 3
+2024-08-11 14:32:33,489 - INFO - Computing tilde_S for dataframe with shape: (337, 15)
+2024-08-11 14:32:33,490 - INFO - Starting regularization parameter optimization
+2024-08-11 14:33:03,364 - INFO - Analyzing Dataset 13
+2024-08-11 14:33:03,364 - INFO - Computing tilde_S for dataframe with shape: (339, 15)
+2024-08-11 14:33:03,365 - INFO - Starting regularization parameter optimization
+2024-08-11 14:33:34,336 - INFO - Analyzing Dataset 14
+2024-08-11 14:33:34,336 - INFO - Computing tilde_S for dataframe with shape: (336, 15)
+2024-08-11 14:33:34,337 - INFO - Starting regularization parameter optimization
+2024-08-11 14:34:05,032 - INFO - Analyzing Dataset 7
+2024-08-11 14:34:05,033 - INFO - Computing tilde_S for dataframe with shape: (340, 15)
+2024-08-11 14:34:05,033 - INFO - Starting regularization parameter optimization
+2024-08-11 14:34:34,850 - INFO - Analyzing Dataset 9
+2024-08-11 14:34:34,851 - INFO - Computing tilde_S for dataframe with shape: (332, 15)
+2024-08-11 14:34:34,851 - INFO - Starting regularization parameter optimization
+2024-08-11 14:35:04,324 - INFO - Analyzing Dataset 8
+2024-08-11 14:35:04,324 - INFO - Computing tilde_S for dataframe with shape: (332, 15)
+2024-08-11 14:35:04,325 - INFO - Starting regularization parameter optimization
+2024-08-11 14:35:33,121 - INFO - Analyzing Dataset 6
+2024-08-11 14:35:33,122 - INFO - Computing tilde_S for dataframe with shape: (335, 15)
+2024-08-11 14:35:33,122 - INFO - Starting regularization parameter optimization
+2024-08-11 14:36:01,785 - INFO - Analyzing Dataset 1
+2024-08-11 14:36:01,785 - INFO - Computing tilde_S for dataframe with shape: (315, 15)
+2024-08-11 14:36:01,786 - INFO - Starting regularization parameter optimization
+2024-08-11 14:36:29,812 - INFO - Analyzing Dataset 15
+2024-08-11 14:36:29,812 - INFO - Computing tilde_S for dataframe with shape: (335, 15)
+2024-08-11 14:36:29,813 - INFO - Starting regularization parameter optimization
+2024-08-11 14:36:58,246 - INFO - Analyzing Dataset 12
+2024-08-11 14:36:58,246 - INFO - Computing tilde_S for dataframe with shape: (343, 15)
+2024-08-11 14:36:58,247 - INFO - Starting regularization parameter optimization
+2024-08-11 14:37:27,666 - INFO - Estimating changepoints
+2024-08-11 14:37:27,668 - INFO - Estimated 1 changepoints
+2024-08-11 14:37:28,020 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim8_perm1.png'
+2024-08-11 14:37:28,030 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 14:37:28,031 - INFO - Running Simulation 44, Permutation 1
+2024-08-11 14:37:28,031 - INFO - Analyzing Dataset 14
+2024-08-11 14:37:28,031 - INFO - Computing tilde_S for dataframe with shape: (457, 15)
+2024-08-11 14:37:28,031 - INFO - Starting regularization parameter optimization
+2024-08-11 14:38:11,835 - INFO - Analyzing Dataset 13
+2024-08-11 14:38:11,835 - INFO - Computing tilde_S for dataframe with shape: (455, 15)
+2024-08-11 14:38:11,836 - INFO - Starting regularization parameter optimization
+2024-08-11 14:38:52,863 - INFO - Analyzing Dataset 2
+2024-08-11 14:38:52,863 - INFO - Computing tilde_S for dataframe with shape: (466, 15)
+2024-08-11 14:38:52,864 - INFO - Starting regularization parameter optimization
+2024-08-11 14:39:35,596 - INFO - Analyzing Dataset 5
+2024-08-11 14:39:35,597 - INFO - Computing tilde_S for dataframe with shape: (456, 15)
+2024-08-11 14:39:35,598 - INFO - Starting regularization parameter optimization
+2024-08-11 14:40:18,951 - INFO - Analyzing Dataset 4
+2024-08-11 14:40:18,951 - INFO - Computing tilde_S for dataframe with shape: (460, 15)
+2024-08-11 14:40:18,952 - INFO - Starting regularization parameter optimization
+2024-08-11 14:41:01,811 - INFO - Analyzing Dataset 3
+2024-08-11 14:41:01,812 - INFO - Computing tilde_S for dataframe with shape: (463, 15)
+2024-08-11 14:41:01,812 - INFO - Starting regularization parameter optimization
+2024-08-11 14:41:44,934 - INFO - Analyzing Dataset 12
+2024-08-11 14:41:44,934 - INFO - Computing tilde_S for dataframe with shape: (466, 15)
+2024-08-11 14:41:44,935 - INFO - Starting regularization parameter optimization
+2024-08-11 14:42:29,595 - INFO - Analyzing Dataset 15
+2024-08-11 14:42:29,595 - INFO - Computing tilde_S for dataframe with shape: (451, 15)
+2024-08-11 14:42:29,596 - INFO - Starting regularization parameter optimization
+2024-08-11 14:43:11,907 - INFO - Analyzing Dataset 7
+2024-08-11 14:43:11,908 - INFO - Computing tilde_S for dataframe with shape: (453, 15)
+2024-08-11 14:43:11,908 - INFO - Starting regularization parameter optimization
+2024-08-11 14:43:54,781 - INFO - Analyzing Dataset 9
+2024-08-11 14:43:54,781 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 14:43:54,782 - INFO - Starting regularization parameter optimization
+2024-08-11 14:44:36,680 - INFO - Analyzing Dataset 11
+2024-08-11 14:44:36,680 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 14:44:36,680 - INFO - Starting regularization parameter optimization
+2024-08-11 14:45:18,268 - INFO - Analyzing Dataset 10
+2024-08-11 14:45:18,268 - INFO - Computing tilde_S for dataframe with shape: (457, 15)
+2024-08-11 14:45:18,269 - INFO - Starting regularization parameter optimization
+2024-08-11 14:46:01,089 - INFO - Analyzing Dataset 8
+2024-08-11 14:46:01,089 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 14:46:01,090 - INFO - Starting regularization parameter optimization
+2024-08-11 14:46:44,084 - INFO - Analyzing Dataset 6
+2024-08-11 14:46:44,085 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 14:46:44,085 - INFO - Starting regularization parameter optimization
+2024-08-11 14:47:26,928 - INFO - Analyzing Dataset 1
+2024-08-11 14:47:26,928 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 14:47:26,929 - INFO - Starting regularization parameter optimization
+2024-08-11 14:48:13,680 - INFO - Estimating changepoints
+2024-08-11 14:48:13,681 - INFO - Estimated 1 changepoints
+2024-08-11 14:48:14,042 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim44_perm1.png'
+2024-08-11 14:48:14,052 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 14:48:14,053 - INFO - Running Simulation 36, Permutation 1
+2024-08-11 14:48:14,053 - INFO - Analyzing Dataset 10
+2024-08-11 14:48:14,053 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 14:48:14,054 - INFO - Starting regularization parameter optimization
+2024-08-11 14:49:06,788 - INFO - Analyzing Dataset 5
+2024-08-11 14:49:06,788 - INFO - Computing tilde_S for dataframe with shape: (506, 15)
+2024-08-11 14:49:06,789 - INFO - Starting regularization parameter optimization
+2024-08-11 14:49:54,653 - INFO - Analyzing Dataset 2
+2024-08-11 14:49:54,653 - INFO - Computing tilde_S for dataframe with shape: (511, 15)
+2024-08-11 14:49:54,654 - INFO - Starting regularization parameter optimization
+2024-08-11 14:50:42,859 - INFO - Analyzing Dataset 3
+2024-08-11 14:50:42,859 - INFO - Computing tilde_S for dataframe with shape: (513, 15)
+2024-08-11 14:50:42,860 - INFO - Starting regularization parameter optimization
+2024-08-11 14:51:30,446 - INFO - Analyzing Dataset 4
+2024-08-11 14:51:30,446 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 14:51:30,447 - INFO - Starting regularization parameter optimization
+2024-08-11 14:52:17,229 - INFO - Analyzing Dataset 11
+2024-08-11 14:52:17,229 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 14:52:17,230 - INFO - Starting regularization parameter optimization
+2024-08-11 14:53:06,694 - INFO - Analyzing Dataset 7
+2024-08-11 14:53:06,695 - INFO - Computing tilde_S for dataframe with shape: (537, 15)
+2024-08-11 14:53:06,695 - INFO - Starting regularization parameter optimization
+2024-08-11 14:53:55,952 - INFO - Analyzing Dataset 9
+2024-08-11 14:53:55,953 - INFO - Computing tilde_S for dataframe with shape: (537, 15)
+2024-08-11 14:53:55,953 - INFO - Starting regularization parameter optimization
+2024-08-11 14:54:46,755 - INFO - Analyzing Dataset 12
+2024-08-11 14:54:46,756 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 14:54:46,756 - INFO - Starting regularization parameter optimization
+2024-08-11 14:55:34,236 - INFO - Analyzing Dataset 15
+2024-08-11 14:55:34,236 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 14:55:34,237 - INFO - Starting regularization parameter optimization
+2024-08-11 14:56:22,995 - INFO - Analyzing Dataset 14
+2024-08-11 14:56:22,995 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 14:56:22,996 - INFO - Starting regularization parameter optimization
+2024-08-11 14:57:10,959 - INFO - Analyzing Dataset 13
+2024-08-11 14:57:10,959 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 14:57:10,960 - INFO - Starting regularization parameter optimization
+2024-08-11 14:58:01,339 - INFO - Analyzing Dataset 8
+2024-08-11 14:58:01,339 - INFO - Computing tilde_S for dataframe with shape: (517, 15)
+2024-08-11 14:58:01,340 - INFO - Starting regularization parameter optimization
+2024-08-11 14:58:49,773 - INFO - Analyzing Dataset 1
+2024-08-11 14:58:49,773 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 14:58:49,774 - INFO - Starting regularization parameter optimization
+2024-08-11 14:59:36,856 - INFO - Analyzing Dataset 6
+2024-08-11 14:59:36,856 - INFO - Computing tilde_S for dataframe with shape: (530, 15)
+2024-08-11 14:59:36,857 - INFO - Starting regularization parameter optimization
+2024-08-11 15:00:24,678 - INFO - Estimating changepoints
+2024-08-11 15:00:24,679 - INFO - Estimated 1 changepoints
+2024-08-11 15:00:25,016 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim36_perm1.png'
+2024-08-11 15:00:25,026 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:00:25,027 - INFO - Running Simulation 23, Permutation 1
+2024-08-11 15:00:25,027 - INFO - Analyzing Dataset 12
+2024-08-11 15:00:25,027 - INFO - Computing tilde_S for dataframe with shape: (427, 15)
+2024-08-11 15:00:25,028 - INFO - Starting regularization parameter optimization
+2024-08-11 15:01:05,615 - INFO - Analyzing Dataset 15
+2024-08-11 15:01:05,615 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 15:01:05,616 - INFO - Starting regularization parameter optimization
+2024-08-11 15:01:41,928 - INFO - Analyzing Dataset 4
+2024-08-11 15:01:41,928 - INFO - Computing tilde_S for dataframe with shape: (397, 15)
+2024-08-11 15:01:41,929 - INFO - Starting regularization parameter optimization
+2024-08-11 15:02:17,940 - INFO - Analyzing Dataset 3
+2024-08-11 15:02:17,940 - INFO - Computing tilde_S for dataframe with shape: (404, 15)
+2024-08-11 15:02:17,942 - INFO - Starting regularization parameter optimization
+2024-08-11 15:02:54,889 - INFO - Analyzing Dataset 14
+2024-08-11 15:02:54,889 - INFO - Computing tilde_S for dataframe with shape: (397, 15)
+2024-08-11 15:02:54,889 - INFO - Starting regularization parameter optimization
+2024-08-11 15:03:30,951 - INFO - Analyzing Dataset 13
+2024-08-11 15:03:30,952 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 15:03:30,952 - INFO - Starting regularization parameter optimization
+2024-08-11 15:04:08,079 - INFO - Analyzing Dataset 2
+2024-08-11 15:04:08,080 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 15:04:08,081 - INFO - Starting regularization parameter optimization
+2024-08-11 15:04:45,224 - INFO - Analyzing Dataset 5
+2024-08-11 15:04:45,224 - INFO - Computing tilde_S for dataframe with shape: (392, 15)
+2024-08-11 15:04:45,225 - INFO - Starting regularization parameter optimization
+2024-08-11 15:05:21,320 - INFO - Analyzing Dataset 6
+2024-08-11 15:05:21,320 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 15:05:21,321 - INFO - Starting regularization parameter optimization
+2024-08-11 15:05:57,682 - INFO - Analyzing Dataset 1
+2024-08-11 15:05:57,682 - INFO - Computing tilde_S for dataframe with shape: (386, 15)
+2024-08-11 15:05:57,683 - INFO - Starting regularization parameter optimization
+2024-08-11 15:06:33,260 - INFO - Analyzing Dataset 8
+2024-08-11 15:06:33,260 - INFO - Computing tilde_S for dataframe with shape: (398, 15)
+2024-08-11 15:06:33,261 - INFO - Starting regularization parameter optimization
+2024-08-11 15:07:08,681 - INFO - Analyzing Dataset 10
+2024-08-11 15:07:08,682 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 15:07:08,682 - INFO - Starting regularization parameter optimization
+2024-08-11 15:07:45,649 - INFO - Analyzing Dataset 9
+2024-08-11 15:07:45,649 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 15:07:45,650 - INFO - Starting regularization parameter optimization
+2024-08-11 15:08:22,343 - INFO - Analyzing Dataset 7
+2024-08-11 15:08:22,343 - INFO - Computing tilde_S for dataframe with shape: (395, 15)
+2024-08-11 15:08:22,344 - INFO - Starting regularization parameter optimization
+2024-08-11 15:08:58,125 - INFO - Analyzing Dataset 11
+2024-08-11 15:08:58,125 - INFO - Computing tilde_S for dataframe with shape: (391, 15)
+2024-08-11 15:08:58,126 - INFO - Starting regularization parameter optimization
+2024-08-11 15:09:33,313 - INFO - Estimating changepoints
+2024-08-11 15:09:33,315 - INFO - Estimated 1 changepoints
+2024-08-11 15:09:33,660 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim23_perm1.png'
+2024-08-11 15:09:33,668 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:09:33,669 - INFO - Running Simulation 35, Permutation 1
+2024-08-11 15:09:33,669 - INFO - Analyzing Dataset 4
+2024-08-11 15:09:33,669 - INFO - Computing tilde_S for dataframe with shape: (451, 15)
+2024-08-11 15:09:33,670 - INFO - Starting regularization parameter optimization
+2024-08-11 15:10:15,965 - INFO - Analyzing Dataset 3
+2024-08-11 15:10:15,966 - INFO - Computing tilde_S for dataframe with shape: (446, 15)
+2024-08-11 15:10:15,966 - INFO - Starting regularization parameter optimization
+2024-08-11 15:10:55,778 - INFO - Analyzing Dataset 11
+2024-08-11 15:10:55,779 - INFO - Computing tilde_S for dataframe with shape: (454, 15)
+2024-08-11 15:10:55,779 - INFO - Starting regularization parameter optimization
+2024-08-11 15:11:38,079 - INFO - Analyzing Dataset 2
+2024-08-11 15:11:38,079 - INFO - Computing tilde_S for dataframe with shape: (426, 15)
+2024-08-11 15:11:38,080 - INFO - Starting regularization parameter optimization
+2024-08-11 15:12:16,817 - INFO - Analyzing Dataset 5
+2024-08-11 15:12:16,817 - INFO - Computing tilde_S for dataframe with shape: (452, 15)
+2024-08-11 15:12:16,818 - INFO - Starting regularization parameter optimization
+2024-08-11 15:13:00,144 - INFO - Analyzing Dataset 10
+2024-08-11 15:13:00,144 - INFO - Computing tilde_S for dataframe with shape: (436, 15)
+2024-08-11 15:13:00,146 - INFO - Starting regularization parameter optimization
+2024-08-11 15:13:39,910 - INFO - Analyzing Dataset 13
+2024-08-11 15:13:39,911 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 15:13:39,912 - INFO - Starting regularization parameter optimization
+2024-08-11 15:14:22,965 - INFO - Analyzing Dataset 14
+2024-08-11 15:14:22,965 - INFO - Computing tilde_S for dataframe with shape: (440, 15)
+2024-08-11 15:14:22,966 - INFO - Starting regularization parameter optimization
+2024-08-11 15:15:04,314 - INFO - Analyzing Dataset 6
+2024-08-11 15:15:04,314 - INFO - Computing tilde_S for dataframe with shape: (426, 15)
+2024-08-11 15:15:04,315 - INFO - Starting regularization parameter optimization
+2024-08-11 15:15:42,821 - INFO - Analyzing Dataset 1
+2024-08-11 15:15:42,821 - INFO - Computing tilde_S for dataframe with shape: (441, 15)
+2024-08-11 15:15:42,822 - INFO - Starting regularization parameter optimization
+2024-08-11 15:16:24,669 - INFO - Analyzing Dataset 8
+2024-08-11 15:16:24,670 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 15:16:24,671 - INFO - Starting regularization parameter optimization
+2024-08-11 15:17:02,641 - INFO - Analyzing Dataset 15
+2024-08-11 15:17:02,641 - INFO - Computing tilde_S for dataframe with shape: (441, 15)
+2024-08-11 15:17:02,642 - INFO - Starting regularization parameter optimization
+2024-08-11 15:17:43,459 - INFO - Analyzing Dataset 12
+2024-08-11 15:17:43,459 - INFO - Computing tilde_S for dataframe with shape: (434, 15)
+2024-08-11 15:17:43,460 - INFO - Starting regularization parameter optimization
+2024-08-11 15:18:23,483 - INFO - Analyzing Dataset 9
+2024-08-11 15:18:23,483 - INFO - Computing tilde_S for dataframe with shape: (433, 15)
+2024-08-11 15:18:23,483 - INFO - Starting regularization parameter optimization
+2024-08-11 15:19:03,162 - INFO - Analyzing Dataset 7
+2024-08-11 15:19:03,162 - INFO - Computing tilde_S for dataframe with shape: (444, 15)
+2024-08-11 15:19:03,163 - INFO - Starting regularization parameter optimization
+2024-08-11 15:19:43,125 - INFO - Estimating changepoints
+2024-08-11 15:19:43,126 - INFO - Estimated 1 changepoints
+2024-08-11 15:19:43,713 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim35_perm1.png'
+2024-08-11 15:19:43,724 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:19:43,725 - INFO - Running Simulation 12, Permutation 1
+2024-08-11 15:19:43,725 - INFO - Analyzing Dataset 10
+2024-08-11 15:19:43,725 - INFO - Computing tilde_S for dataframe with shape: (563, 15)
+2024-08-11 15:19:43,726 - INFO - Starting regularization parameter optimization
+2024-08-11 15:20:41,373 - INFO - Analyzing Dataset 5
+2024-08-11 15:20:41,373 - INFO - Computing tilde_S for dataframe with shape: (542, 15)
+2024-08-11 15:20:41,374 - INFO - Starting regularization parameter optimization
+2024-08-11 15:21:30,698 - INFO - Analyzing Dataset 2
+2024-08-11 15:21:30,698 - INFO - Computing tilde_S for dataframe with shape: (514, 15)
+2024-08-11 15:21:30,699 - INFO - Starting regularization parameter optimization
+2024-08-11 15:22:19,020 - INFO - Analyzing Dataset 11
+2024-08-11 15:22:19,020 - INFO - Computing tilde_S for dataframe with shape: (537, 15)
+2024-08-11 15:22:19,021 - INFO - Starting regularization parameter optimization
+2024-08-11 15:23:08,426 - INFO - Analyzing Dataset 3
+2024-08-11 15:23:08,426 - INFO - Computing tilde_S for dataframe with shape: (521, 15)
+2024-08-11 15:23:08,427 - INFO - Starting regularization parameter optimization
+2024-08-11 15:23:54,873 - INFO - Analyzing Dataset 4
+2024-08-11 15:23:54,873 - INFO - Computing tilde_S for dataframe with shape: (531, 15)
+2024-08-11 15:23:54,874 - INFO - Starting regularization parameter optimization
+2024-08-11 15:24:41,601 - INFO - Analyzing Dataset 9
+2024-08-11 15:24:41,601 - INFO - Computing tilde_S for dataframe with shape: (529, 15)
+2024-08-11 15:24:41,602 - INFO - Starting regularization parameter optimization
+2024-08-11 15:25:28,144 - INFO - Analyzing Dataset 7
+2024-08-11 15:25:28,144 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 15:25:28,145 - INFO - Starting regularization parameter optimization
+2024-08-11 15:26:16,905 - INFO - Analyzing Dataset 15
+2024-08-11 15:26:16,905 - INFO - Computing tilde_S for dataframe with shape: (517, 15)
+2024-08-11 15:26:16,906 - INFO - Starting regularization parameter optimization
+2024-08-11 15:27:01,654 - INFO - Analyzing Dataset 12
+2024-08-11 15:27:01,654 - INFO - Computing tilde_S for dataframe with shape: (547, 15)
+2024-08-11 15:27:01,655 - INFO - Starting regularization parameter optimization
+2024-08-11 15:27:50,283 - INFO - Analyzing Dataset 1
+2024-08-11 15:27:50,283 - INFO - Computing tilde_S for dataframe with shape: (536, 15)
+2024-08-11 15:27:50,284 - INFO - Starting regularization parameter optimization
+2024-08-11 15:28:37,969 - INFO - Analyzing Dataset 6
+2024-08-11 15:28:37,970 - INFO - Computing tilde_S for dataframe with shape: (543, 15)
+2024-08-11 15:28:37,970 - INFO - Starting regularization parameter optimization
+2024-08-11 15:29:26,847 - INFO - Analyzing Dataset 8
+2024-08-11 15:29:26,848 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 15:29:26,848 - INFO - Starting regularization parameter optimization
+2024-08-11 15:30:18,453 - INFO - Analyzing Dataset 13
+2024-08-11 15:30:18,453 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 15:30:18,454 - INFO - Starting regularization parameter optimization
+2024-08-11 15:31:07,113 - INFO - Analyzing Dataset 14
+2024-08-11 15:31:07,113 - INFO - Computing tilde_S for dataframe with shape: (561, 15)
+2024-08-11 15:31:07,114 - INFO - Starting regularization parameter optimization
+2024-08-11 15:32:00,840 - INFO - Estimating changepoints
+2024-08-11 15:32:00,841 - INFO - Estimated 1 changepoints
+2024-08-11 15:32:01,263 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim12_perm1.png'
+2024-08-11 15:32:01,275 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:32:01,276 - INFO - Running Simulation 6, Permutation 1
+2024-08-11 15:32:01,276 - INFO - Analyzing Dataset 12
+2024-08-11 15:32:01,276 - INFO - Computing tilde_S for dataframe with shape: (474, 15)
+2024-08-11 15:32:01,277 - INFO - Starting regularization parameter optimization
+2024-08-11 15:32:46,555 - INFO - Analyzing Dataset 15
+2024-08-11 15:32:46,555 - INFO - Computing tilde_S for dataframe with shape: (484, 15)
+2024-08-11 15:32:46,556 - INFO - Starting regularization parameter optimization
+2024-08-11 15:33:33,445 - INFO - Analyzing Dataset 8
+2024-08-11 15:33:33,445 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 15:33:33,446 - INFO - Starting regularization parameter optimization
+2024-08-11 15:34:18,850 - INFO - Analyzing Dataset 1
+2024-08-11 15:34:18,850 - INFO - Computing tilde_S for dataframe with shape: (477, 15)
+2024-08-11 15:34:18,851 - INFO - Starting regularization parameter optimization
+2024-08-11 15:35:03,447 - INFO - Analyzing Dataset 6
+2024-08-11 15:35:03,447 - INFO - Computing tilde_S for dataframe with shape: (479, 15)
+2024-08-11 15:35:03,448 - INFO - Starting regularization parameter optimization
+2024-08-11 15:35:47,575 - INFO - Analyzing Dataset 14
+2024-08-11 15:35:47,575 - INFO - Computing tilde_S for dataframe with shape: (491, 15)
+2024-08-11 15:35:47,576 - INFO - Starting regularization parameter optimization
+2024-08-11 15:36:35,106 - INFO - Analyzing Dataset 13
+2024-08-11 15:36:35,107 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 15:36:35,107 - INFO - Starting regularization parameter optimization
+2024-08-11 15:37:19,344 - INFO - Analyzing Dataset 7
+2024-08-11 15:37:19,344 - INFO - Computing tilde_S for dataframe with shape: (484, 15)
+2024-08-11 15:37:19,345 - INFO - Starting regularization parameter optimization
+2024-08-11 15:38:05,615 - INFO - Analyzing Dataset 9
+2024-08-11 15:38:05,615 - INFO - Computing tilde_S for dataframe with shape: (483, 15)
+2024-08-11 15:38:05,616 - INFO - Starting regularization parameter optimization
+2024-08-11 15:38:51,161 - INFO - Analyzing Dataset 3
+2024-08-11 15:38:51,161 - INFO - Computing tilde_S for dataframe with shape: (519, 15)
+2024-08-11 15:38:51,163 - INFO - Starting regularization parameter optimization
+2024-08-11 15:39:41,781 - INFO - Analyzing Dataset 4
+2024-08-11 15:39:41,781 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 15:39:41,782 - INFO - Starting regularization parameter optimization
+2024-08-11 15:40:25,011 - INFO - Analyzing Dataset 10
+2024-08-11 15:40:25,012 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 15:40:25,013 - INFO - Starting regularization parameter optimization
+2024-08-11 15:41:09,017 - INFO - Analyzing Dataset 5
+2024-08-11 15:41:09,017 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 15:41:09,017 - INFO - Starting regularization parameter optimization
+2024-08-11 15:41:54,674 - INFO - Analyzing Dataset 2
+2024-08-11 15:41:54,674 - INFO - Computing tilde_S for dataframe with shape: (477, 15)
+2024-08-11 15:41:54,675 - INFO - Starting regularization parameter optimization
+2024-08-11 15:42:39,318 - INFO - Analyzing Dataset 11
+2024-08-11 15:42:39,318 - INFO - Computing tilde_S for dataframe with shape: (468, 15)
+2024-08-11 15:42:39,319 - INFO - Starting regularization parameter optimization
+2024-08-11 15:43:22,008 - INFO - Estimating changepoints
+2024-08-11 15:43:22,009 - INFO - Estimated 1 changepoints
+2024-08-11 15:43:22,483 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim6_perm1.png'
+2024-08-11 15:43:22,494 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:43:22,495 - INFO - Running Simulation 32, Permutation 1
+2024-08-11 15:43:22,495 - INFO - Analyzing Dataset 6
+2024-08-11 15:43:22,495 - INFO - Computing tilde_S for dataframe with shape: (415, 15)
+2024-08-11 15:43:22,495 - INFO - Starting regularization parameter optimization
+2024-08-11 15:43:58,188 - INFO - Analyzing Dataset 10
+2024-08-11 15:43:58,189 - INFO - Computing tilde_S for dataframe with shape: (406, 15)
+2024-08-11 15:43:58,189 - INFO - Starting regularization parameter optimization
+2024-08-11 15:44:35,961 - INFO - Analyzing Dataset 1
+2024-08-11 15:44:35,961 - INFO - Computing tilde_S for dataframe with shape: (428, 15)
+2024-08-11 15:44:35,962 - INFO - Starting regularization parameter optimization
+2024-08-11 15:45:14,653 - INFO - Analyzing Dataset 8
+2024-08-11 15:45:14,653 - INFO - Computing tilde_S for dataframe with shape: (434, 15)
+2024-08-11 15:45:14,654 - INFO - Starting regularization parameter optimization
+2024-08-11 15:45:53,214 - INFO - Analyzing Dataset 9
+2024-08-11 15:45:53,214 - INFO - Computing tilde_S for dataframe with shape: (412, 15)
+2024-08-11 15:45:53,215 - INFO - Starting regularization parameter optimization
+2024-08-11 15:46:30,142 - INFO - Analyzing Dataset 11
+2024-08-11 15:46:30,142 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 15:46:30,143 - INFO - Starting regularization parameter optimization
+2024-08-11 15:47:06,334 - INFO - Analyzing Dataset 7
+2024-08-11 15:47:06,334 - INFO - Computing tilde_S for dataframe with shape: (422, 15)
+2024-08-11 15:47:06,335 - INFO - Starting regularization parameter optimization
+2024-08-11 15:47:43,302 - INFO - Analyzing Dataset 4
+2024-08-11 15:47:43,302 - INFO - Computing tilde_S for dataframe with shape: (416, 15)
+2024-08-11 15:47:43,303 - INFO - Starting regularization parameter optimization
+2024-08-11 15:48:19,648 - INFO - Analyzing Dataset 15
+2024-08-11 15:48:19,648 - INFO - Computing tilde_S for dataframe with shape: (420, 15)
+2024-08-11 15:48:19,649 - INFO - Starting regularization parameter optimization
+2024-08-11 15:48:56,662 - INFO - Analyzing Dataset 12
+2024-08-11 15:48:56,663 - INFO - Computing tilde_S for dataframe with shape: (430, 15)
+2024-08-11 15:48:56,663 - INFO - Starting regularization parameter optimization
+2024-08-11 15:49:35,544 - INFO - Analyzing Dataset 3
+2024-08-11 15:49:35,545 - INFO - Computing tilde_S for dataframe with shape: (428, 15)
+2024-08-11 15:49:35,545 - INFO - Starting regularization parameter optimization
+2024-08-11 15:50:14,643 - INFO - Analyzing Dataset 13
+2024-08-11 15:50:14,644 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 15:50:14,644 - INFO - Starting regularization parameter optimization
+2024-08-11 15:50:50,979 - INFO - Analyzing Dataset 2
+2024-08-11 15:50:50,979 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 15:50:50,980 - INFO - Starting regularization parameter optimization
+2024-08-11 15:51:31,370 - INFO - Analyzing Dataset 5
+2024-08-11 15:51:31,370 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 15:51:31,371 - INFO - Starting regularization parameter optimization
+2024-08-11 15:52:07,998 - INFO - Analyzing Dataset 14
+2024-08-11 15:52:07,998 - INFO - Computing tilde_S for dataframe with shape: (402, 15)
+2024-08-11 15:52:07,998 - INFO - Starting regularization parameter optimization
+2024-08-11 15:52:43,741 - INFO - Estimating changepoints
+2024-08-11 15:52:43,742 - INFO - Estimated 1 changepoints
+2024-08-11 15:52:44,120 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim32_perm1.png'
+2024-08-11 15:52:44,133 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 15:52:44,134 - INFO - Running Simulation 39, Permutation 1
+2024-08-11 15:52:44,134 - INFO - Analyzing Dataset 6
+2024-08-11 15:52:44,134 - INFO - Computing tilde_S for dataframe with shape: (519, 15)
+2024-08-11 15:52:44,135 - INFO - Starting regularization parameter optimization
+2024-08-11 15:53:34,044 - INFO - Analyzing Dataset 1
+2024-08-11 15:53:34,044 - INFO - Computing tilde_S for dataframe with shape: (494, 15)
+2024-08-11 15:53:34,045 - INFO - Starting regularization parameter optimization
+2024-08-11 15:54:20,283 - INFO - Analyzing Dataset 11
+2024-08-11 15:54:20,283 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 15:54:20,284 - INFO - Starting regularization parameter optimization
+2024-08-11 15:55:05,100 - INFO - Analyzing Dataset 8
+2024-08-11 15:55:05,101 - INFO - Computing tilde_S for dataframe with shape: (527, 15)
+2024-08-11 15:55:05,102 - INFO - Starting regularization parameter optimization
+2024-08-11 15:55:55,856 - INFO - Analyzing Dataset 9
+2024-08-11 15:55:55,857 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 15:55:55,857 - INFO - Starting regularization parameter optimization
+2024-08-11 15:56:43,869 - INFO - Analyzing Dataset 10
+2024-08-11 15:56:43,869 - INFO - Computing tilde_S for dataframe with shape: (486, 15)
+2024-08-11 15:56:43,870 - INFO - Starting regularization parameter optimization
+2024-08-11 15:57:31,147 - INFO - Analyzing Dataset 7
+2024-08-11 15:57:31,147 - INFO - Computing tilde_S for dataframe with shape: (525, 15)
+2024-08-11 15:57:31,148 - INFO - Starting regularization parameter optimization
+2024-08-11 15:58:21,606 - INFO - Analyzing Dataset 13
+2024-08-11 15:58:21,606 - INFO - Computing tilde_S for dataframe with shape: (502, 15)
+2024-08-11 15:58:21,607 - INFO - Starting regularization parameter optimization
+2024-08-11 15:59:07,315 - INFO - Analyzing Dataset 14
+2024-08-11 15:59:07,315 - INFO - Computing tilde_S for dataframe with shape: (513, 15)
+2024-08-11 15:59:07,317 - INFO - Starting regularization parameter optimization
+2024-08-11 15:59:54,064 - INFO - Analyzing Dataset 4
+2024-08-11 15:59:54,064 - INFO - Computing tilde_S for dataframe with shape: (509, 15)
+2024-08-11 15:59:54,065 - INFO - Starting regularization parameter optimization
+2024-08-11 16:00:40,500 - INFO - Analyzing Dataset 3
+2024-08-11 16:00:40,500 - INFO - Computing tilde_S for dataframe with shape: (509, 15)
+2024-08-11 16:00:40,501 - INFO - Starting regularization parameter optimization
+2024-08-11 16:01:30,316 - INFO - Analyzing Dataset 2
+2024-08-11 16:01:30,316 - INFO - Computing tilde_S for dataframe with shape: (511, 15)
+2024-08-11 16:01:30,317 - INFO - Starting regularization parameter optimization
+2024-08-11 16:02:18,351 - INFO - Analyzing Dataset 5
+2024-08-11 16:02:18,351 - INFO - Computing tilde_S for dataframe with shape: (509, 15)
+2024-08-11 16:02:18,352 - INFO - Starting regularization parameter optimization
+2024-08-11 16:03:04,028 - INFO - Analyzing Dataset 15
+2024-08-11 16:03:04,028 - INFO - Computing tilde_S for dataframe with shape: (510, 15)
+2024-08-11 16:03:04,029 - INFO - Starting regularization parameter optimization
+2024-08-11 16:03:54,811 - INFO - Analyzing Dataset 12
+2024-08-11 16:03:54,811 - INFO - Computing tilde_S for dataframe with shape: (513, 15)
+2024-08-11 16:03:54,812 - INFO - Starting regularization parameter optimization
+2024-08-11 16:04:46,114 - INFO - Estimating changepoints
+2024-08-11 16:04:46,115 - INFO - Estimated 1 changepoints
+2024-08-11 16:04:46,682 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim39_perm1.png'
+2024-08-11 16:04:46,694 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 16:04:46,695 - INFO - Running Simulation 21, Permutation 1
+2024-08-11 16:04:46,695 - INFO - Analyzing Dataset 5
+2024-08-11 16:04:46,695 - INFO - Computing tilde_S for dataframe with shape: (529, 15)
+2024-08-11 16:04:46,696 - INFO - Starting regularization parameter optimization
+2024-08-11 16:05:34,469 - INFO - Analyzing Dataset 2
+2024-08-11 16:05:34,469 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 16:05:34,470 - INFO - Starting regularization parameter optimization
+2024-08-11 16:06:23,364 - INFO - Analyzing Dataset 11
+2024-08-11 16:06:23,364 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 16:06:23,365 - INFO - Starting regularization parameter optimization
+2024-08-11 16:07:13,422 - INFO - Analyzing Dataset 3
+2024-08-11 16:07:13,422 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 16:07:13,423 - INFO - Starting regularization parameter optimization
+2024-08-11 16:08:06,420 - INFO - Analyzing Dataset 4
+2024-08-11 16:08:06,420 - INFO - Computing tilde_S for dataframe with shape: (534, 15)
+2024-08-11 16:08:06,421 - INFO - Starting regularization parameter optimization
+2024-08-11 16:08:54,157 - INFO - Analyzing Dataset 10
+2024-08-11 16:08:54,157 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 16:08:54,158 - INFO - Starting regularization parameter optimization
+2024-08-11 16:09:43,435 - INFO - Analyzing Dataset 13
+2024-08-11 16:09:43,436 - INFO - Computing tilde_S for dataframe with shape: (499, 15)
+2024-08-11 16:09:43,436 - INFO - Starting regularization parameter optimization
+2024-08-11 16:10:32,947 - INFO - Analyzing Dataset 14
+2024-08-11 16:10:32,948 - INFO - Computing tilde_S for dataframe with shape: (527, 15)
+2024-08-11 16:10:32,948 - INFO - Starting regularization parameter optimization
+2024-08-11 16:11:23,988 - INFO - Analyzing Dataset 9
+2024-08-11 16:11:23,988 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 16:11:23,989 - INFO - Starting regularization parameter optimization
+2024-08-11 16:12:15,564 - INFO - Analyzing Dataset 7
+2024-08-11 16:12:15,564 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 16:12:15,565 - INFO - Starting regularization parameter optimization
+2024-08-11 16:13:07,393 - INFO - Analyzing Dataset 15
+2024-08-11 16:13:07,393 - INFO - Computing tilde_S for dataframe with shape: (534, 15)
+2024-08-11 16:13:07,394 - INFO - Starting regularization parameter optimization
+2024-08-11 16:13:58,654 - INFO - Analyzing Dataset 12
+2024-08-11 16:13:58,655 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 16:13:58,655 - INFO - Starting regularization parameter optimization
+2024-08-11 16:14:48,363 - INFO - Analyzing Dataset 1
+2024-08-11 16:14:48,363 - INFO - Computing tilde_S for dataframe with shape: (543, 15)
+2024-08-11 16:14:48,364 - INFO - Starting regularization parameter optimization
+2024-08-11 16:15:37,165 - INFO - Analyzing Dataset 6
+2024-08-11 16:15:37,165 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 16:15:37,166 - INFO - Starting regularization parameter optimization
+2024-08-11 16:16:24,052 - INFO - Analyzing Dataset 8
+2024-08-11 16:16:24,052 - INFO - Computing tilde_S for dataframe with shape: (553, 15)
+2024-08-11 16:16:24,053 - INFO - Starting regularization parameter optimization
+2024-08-11 16:17:14,914 - INFO - Estimating changepoints
+2024-08-11 16:17:14,915 - INFO - Estimated 1 changepoints
+2024-08-11 16:17:15,364 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim21_perm1.png'
+2024-08-11 16:17:15,375 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 16:17:15,376 - INFO - Running Simulation 16, Permutation 1
+2024-08-11 16:17:15,376 - INFO - Analyzing Dataset 10
+2024-08-11 16:17:15,376 - INFO - Computing tilde_S for dataframe with shape: (648, 15)
+2024-08-11 16:17:15,377 - INFO - Starting regularization parameter optimization
+2024-08-11 16:18:17,060 - INFO - Analyzing Dataset 8
+2024-08-11 16:18:17,061 - INFO - Computing tilde_S for dataframe with shape: (632, 15)
+2024-08-11 16:18:17,062 - INFO - Starting regularization parameter optimization
+2024-08-11 16:19:16,340 - INFO - Analyzing Dataset 6
+2024-08-11 16:19:16,340 - INFO - Computing tilde_S for dataframe with shape: (648, 15)
+2024-08-11 16:19:16,341 - INFO - Starting regularization parameter optimization
+2024-08-11 16:20:17,170 - INFO - Analyzing Dataset 1
+2024-08-11 16:20:17,171 - INFO - Computing tilde_S for dataframe with shape: (649, 15)
+2024-08-11 16:20:17,171 - INFO - Starting regularization parameter optimization
+2024-08-11 16:21:18,273 - INFO - Analyzing Dataset 11
+2024-08-11 16:21:18,273 - INFO - Computing tilde_S for dataframe with shape: (638, 15)
+2024-08-11 16:21:18,274 - INFO - Starting regularization parameter optimization
+2024-08-11 16:22:20,075 - INFO - Analyzing Dataset 7
+2024-08-11 16:22:20,075 - INFO - Computing tilde_S for dataframe with shape: (651, 15)
+2024-08-11 16:22:20,076 - INFO - Starting regularization parameter optimization
+2024-08-11 16:23:21,355 - INFO - Analyzing Dataset 9
+2024-08-11 16:23:21,355 - INFO - Computing tilde_S for dataframe with shape: (628, 15)
+2024-08-11 16:23:21,356 - INFO - Starting regularization parameter optimization
+2024-08-11 16:24:19,763 - INFO - Analyzing Dataset 4
+2024-08-11 16:24:19,764 - INFO - Computing tilde_S for dataframe with shape: (661, 15)
+2024-08-11 16:24:19,764 - INFO - Starting regularization parameter optimization
+2024-08-11 16:25:24,059 - INFO - Analyzing Dataset 3
+2024-08-11 16:25:24,059 - INFO - Computing tilde_S for dataframe with shape: (652, 15)
+2024-08-11 16:25:24,060 - INFO - Starting regularization parameter optimization
+2024-08-11 16:26:25,771 - INFO - Analyzing Dataset 12
+2024-08-11 16:26:25,772 - INFO - Computing tilde_S for dataframe with shape: (644, 15)
+2024-08-11 16:26:25,772 - INFO - Starting regularization parameter optimization
+2024-08-11 16:27:26,479 - INFO - Analyzing Dataset 15
+2024-08-11 16:27:26,479 - INFO - Computing tilde_S for dataframe with shape: (636, 15)
+2024-08-11 16:27:26,480 - INFO - Starting regularization parameter optimization
+2024-08-11 16:28:25,940 - INFO - Analyzing Dataset 2
+2024-08-11 16:28:25,940 - INFO - Computing tilde_S for dataframe with shape: (642, 15)
+2024-08-11 16:28:25,941 - INFO - Starting regularization parameter optimization
+2024-08-11 16:29:26,709 - INFO - Analyzing Dataset 5
+2024-08-11 16:29:26,709 - INFO - Computing tilde_S for dataframe with shape: (645, 15)
+2024-08-11 16:29:26,710 - INFO - Starting regularization parameter optimization
+2024-08-11 16:30:27,389 - INFO - Analyzing Dataset 14
+2024-08-11 16:30:27,389 - INFO - Computing tilde_S for dataframe with shape: (643, 15)
+2024-08-11 16:30:27,390 - INFO - Starting regularization parameter optimization
+2024-08-11 16:31:27,963 - INFO - Analyzing Dataset 13
+2024-08-11 16:31:27,963 - INFO - Computing tilde_S for dataframe with shape: (636, 15)
+2024-08-11 16:31:27,964 - INFO - Starting regularization parameter optimization
+2024-08-11 16:32:27,730 - INFO - Estimating changepoints
+2024-08-11 16:32:27,731 - INFO - Estimated 1 changepoints
+2024-08-11 16:32:28,085 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim16_perm1.png'
+2024-08-11 16:32:28,096 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 16:32:28,097 - INFO - Running Simulation 27, Permutation 1
+2024-08-11 16:32:28,097 - INFO - Analyzing Dataset 15
+2024-08-11 16:32:28,097 - INFO - Computing tilde_S for dataframe with shape: (499, 15)
+2024-08-11 16:32:28,098 - INFO - Starting regularization parameter optimization
+2024-08-11 16:33:12,877 - INFO - Analyzing Dataset 12
+2024-08-11 16:33:12,878 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 16:33:12,878 - INFO - Starting regularization parameter optimization
+2024-08-11 16:33:57,592 - INFO - Analyzing Dataset 7
+2024-08-11 16:33:57,592 - INFO - Computing tilde_S for dataframe with shape: (485, 15)
+2024-08-11 16:33:57,594 - INFO - Starting regularization parameter optimization
+2024-08-11 16:34:42,664 - INFO - Analyzing Dataset 9
+2024-08-11 16:34:42,664 - INFO - Computing tilde_S for dataframe with shape: (490, 15)
+2024-08-11 16:34:42,665 - INFO - Starting regularization parameter optimization
+2024-08-11 16:35:29,344 - INFO - Analyzing Dataset 13
+2024-08-11 16:35:29,344 - INFO - Computing tilde_S for dataframe with shape: (480, 15)
+2024-08-11 16:35:29,345 - INFO - Starting regularization parameter optimization
+2024-08-11 16:36:14,658 - INFO - Analyzing Dataset 14
+2024-08-11 16:36:14,658 - INFO - Computing tilde_S for dataframe with shape: (504, 15)
+2024-08-11 16:36:14,659 - INFO - Starting regularization parameter optimization
+2024-08-11 16:37:01,786 - INFO - Analyzing Dataset 8
+2024-08-11 16:37:01,786 - INFO - Computing tilde_S for dataframe with shape: (500, 15)
+2024-08-11 16:37:01,788 - INFO - Starting regularization parameter optimization
+2024-08-11 16:37:48,952 - INFO - Analyzing Dataset 1
+2024-08-11 16:37:48,952 - INFO - Computing tilde_S for dataframe with shape: (493, 15)
+2024-08-11 16:37:48,953 - INFO - Starting regularization parameter optimization
+2024-08-11 16:38:32,680 - INFO - Analyzing Dataset 6
+2024-08-11 16:38:32,680 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 16:38:32,681 - INFO - Starting regularization parameter optimization
+2024-08-11 16:39:22,538 - INFO - Analyzing Dataset 5
+2024-08-11 16:39:22,539 - INFO - Computing tilde_S for dataframe with shape: (498, 15)
+2024-08-11 16:39:22,539 - INFO - Starting regularization parameter optimization
+2024-08-11 16:40:07,041 - INFO - Analyzing Dataset 2
+2024-08-11 16:40:07,042 - INFO - Computing tilde_S for dataframe with shape: (493, 15)
+2024-08-11 16:40:07,042 - INFO - Starting regularization parameter optimization
+2024-08-11 16:40:51,676 - INFO - Analyzing Dataset 10
+2024-08-11 16:40:51,676 - INFO - Computing tilde_S for dataframe with shape: (488, 15)
+2024-08-11 16:40:51,676 - INFO - Starting regularization parameter optimization
+2024-08-11 16:41:36,910 - INFO - Analyzing Dataset 3
+2024-08-11 16:41:36,911 - INFO - Computing tilde_S for dataframe with shape: (503, 15)
+2024-08-11 16:41:36,911 - INFO - Starting regularization parameter optimization
+2024-08-11 16:42:22,548 - INFO - Analyzing Dataset 4
+2024-08-11 16:42:22,548 - INFO - Computing tilde_S for dataframe with shape: (502, 15)
+2024-08-11 16:42:22,549 - INFO - Starting regularization parameter optimization
+2024-08-11 16:43:07,689 - INFO - Analyzing Dataset 11
+2024-08-11 16:43:07,690 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 16:43:07,690 - INFO - Starting regularization parameter optimization
+2024-08-11 16:43:53,511 - INFO - Estimating changepoints
+2024-08-11 16:43:53,512 - INFO - Estimated 1 changepoints
+2024-08-11 16:43:53,870 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim27_perm1.png'
+2024-08-11 16:43:53,881 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 16:43:53,882 - INFO - Running Simulation 14, Permutation 1
+2024-08-11 16:43:53,882 - INFO - Analyzing Dataset 7
+2024-08-11 16:43:53,882 - INFO - Computing tilde_S for dataframe with shape: (569, 15)
+2024-08-11 16:43:53,883 - INFO - Starting regularization parameter optimization
+2024-08-11 16:44:45,087 - INFO - Analyzing Dataset 9
+2024-08-11 16:44:45,087 - INFO - Computing tilde_S for dataframe with shape: (555, 15)
+2024-08-11 16:44:45,088 - INFO - Starting regularization parameter optimization
+2024-08-11 16:45:34,733 - INFO - Analyzing Dataset 13
+2024-08-11 16:45:34,734 - INFO - Computing tilde_S for dataframe with shape: (568, 15)
+2024-08-11 16:45:34,734 - INFO - Starting regularization parameter optimization
+2024-08-11 16:46:28,983 - INFO - Analyzing Dataset 14
+2024-08-11 16:46:28,984 - INFO - Computing tilde_S for dataframe with shape: (562, 15)
+2024-08-11 16:46:28,985 - INFO - Starting regularization parameter optimization
+2024-08-11 16:47:21,656 - INFO - Analyzing Dataset 8
+2024-08-11 16:47:21,657 - INFO - Computing tilde_S for dataframe with shape: (548, 15)
+2024-08-11 16:47:21,657 - INFO - Starting regularization parameter optimization
+2024-08-11 16:48:11,062 - INFO - Analyzing Dataset 1
+2024-08-11 16:48:11,062 - INFO - Computing tilde_S for dataframe with shape: (560, 15)
+2024-08-11 16:48:11,063 - INFO - Starting regularization parameter optimization
+2024-08-11 16:49:07,139 - INFO - Analyzing Dataset 6
+2024-08-11 16:49:07,139 - INFO - Computing tilde_S for dataframe with shape: (574, 15)
+2024-08-11 16:49:07,140 - INFO - Starting regularization parameter optimization
+2024-08-11 16:50:02,999 - INFO - Analyzing Dataset 15
+2024-08-11 16:50:02,999 - INFO - Computing tilde_S for dataframe with shape: (567, 15)
+2024-08-11 16:50:03,000 - INFO - Starting regularization parameter optimization
+2024-08-11 16:50:54,994 - INFO - Analyzing Dataset 12
+2024-08-11 16:50:54,995 - INFO - Computing tilde_S for dataframe with shape: (563, 15)
+2024-08-11 16:50:54,995 - INFO - Starting regularization parameter optimization
+2024-08-11 16:51:46,599 - INFO - Analyzing Dataset 11
+2024-08-11 16:51:46,600 - INFO - Computing tilde_S for dataframe with shape: (560, 15)
+2024-08-11 16:51:46,600 - INFO - Starting regularization parameter optimization
+2024-08-11 16:52:36,647 - INFO - Analyzing Dataset 5
+2024-08-11 16:52:36,647 - INFO - Computing tilde_S for dataframe with shape: (571, 15)
+2024-08-11 16:52:36,648 - INFO - Starting regularization parameter optimization
+2024-08-11 16:53:28,553 - INFO - Analyzing Dataset 2
+2024-08-11 16:53:28,553 - INFO - Computing tilde_S for dataframe with shape: (561, 15)
+2024-08-11 16:53:28,554 - INFO - Starting regularization parameter optimization
+2024-08-11 16:54:24,548 - INFO - Analyzing Dataset 10
+2024-08-11 16:54:24,548 - INFO - Computing tilde_S for dataframe with shape: (570, 15)
+2024-08-11 16:54:24,549 - INFO - Starting regularization parameter optimization
+2024-08-11 16:55:16,560 - INFO - Analyzing Dataset 3
+2024-08-11 16:55:16,560 - INFO - Computing tilde_S for dataframe with shape: (552, 15)
+2024-08-11 16:55:16,561 - INFO - Starting regularization parameter optimization
+2024-08-11 16:56:06,219 - INFO - Analyzing Dataset 4
+2024-08-11 16:56:06,220 - INFO - Computing tilde_S for dataframe with shape: (545, 15)
+2024-08-11 16:56:06,220 - INFO - Starting regularization parameter optimization
+2024-08-11 16:56:55,023 - INFO - Estimating changepoints
+2024-08-11 16:56:55,024 - INFO - Estimated 1 changepoints
+2024-08-11 16:56:55,343 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim14_perm1.png'
+2024-08-11 16:56:55,355 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 16:56:55,355 - INFO - Running Simulation 40, Permutation 1
+2024-08-11 16:56:55,355 - INFO - Analyzing Dataset 1
+2024-08-11 16:56:55,355 - INFO - Computing tilde_S for dataframe with shape: (419, 15)
+2024-08-11 16:56:55,356 - INFO - Starting regularization parameter optimization
+2024-08-11 16:57:33,783 - INFO - Analyzing Dataset 13
+2024-08-11 16:57:33,783 - INFO - Computing tilde_S for dataframe with shape: (413, 15)
+2024-08-11 16:57:33,784 - INFO - Starting regularization parameter optimization
+2024-08-11 16:58:12,538 - INFO - Analyzing Dataset 6
+2024-08-11 16:58:12,539 - INFO - Computing tilde_S for dataframe with shape: (427, 15)
+2024-08-11 16:58:12,539 - INFO - Starting regularization parameter optimization
+2024-08-11 16:58:51,891 - INFO - Analyzing Dataset 14
+2024-08-11 16:58:51,891 - INFO - Computing tilde_S for dataframe with shape: (409, 15)
+2024-08-11 16:58:51,892 - INFO - Starting regularization parameter optimization
+2024-08-11 16:59:29,572 - INFO - Analyzing Dataset 8
+2024-08-11 16:59:29,573 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 16:59:29,573 - INFO - Starting regularization parameter optimization
+2024-08-11 17:00:07,651 - INFO - Analyzing Dataset 9
+2024-08-11 17:00:07,652 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 17:00:07,652 - INFO - Starting regularization parameter optimization
+2024-08-11 17:00:45,203 - INFO - Analyzing Dataset 7
+2024-08-11 17:00:45,203 - INFO - Computing tilde_S for dataframe with shape: (422, 15)
+2024-08-11 17:00:45,204 - INFO - Starting regularization parameter optimization
+2024-08-11 17:01:23,525 - INFO - Analyzing Dataset 15
+2024-08-11 17:01:23,525 - INFO - Computing tilde_S for dataframe with shape: (410, 15)
+2024-08-11 17:01:23,526 - INFO - Starting regularization parameter optimization
+2024-08-11 17:02:01,127 - INFO - Analyzing Dataset 12
+2024-08-11 17:02:01,127 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 17:02:01,128 - INFO - Starting regularization parameter optimization
+2024-08-11 17:02:37,595 - INFO - Analyzing Dataset 3
+2024-08-11 17:02:37,595 - INFO - Computing tilde_S for dataframe with shape: (416, 15)
+2024-08-11 17:02:37,596 - INFO - Starting regularization parameter optimization
+2024-08-11 17:03:16,382 - INFO - Analyzing Dataset 11
+2024-08-11 17:03:16,383 - INFO - Computing tilde_S for dataframe with shape: (423, 15)
+2024-08-11 17:03:16,383 - INFO - Starting regularization parameter optimization
+2024-08-11 17:03:54,657 - INFO - Analyzing Dataset 4
+2024-08-11 17:03:54,657 - INFO - Computing tilde_S for dataframe with shape: (428, 15)
+2024-08-11 17:03:54,657 - INFO - Starting regularization parameter optimization
+2024-08-11 17:04:35,032 - INFO - Analyzing Dataset 5
+2024-08-11 17:04:35,033 - INFO - Computing tilde_S for dataframe with shape: (401, 15)
+2024-08-11 17:04:35,033 - INFO - Starting regularization parameter optimization
+2024-08-11 17:05:11,908 - INFO - Analyzing Dataset 2
+2024-08-11 17:05:11,908 - INFO - Computing tilde_S for dataframe with shape: (410, 15)
+2024-08-11 17:05:11,909 - INFO - Starting regularization parameter optimization
+2024-08-11 17:05:48,817 - INFO - Analyzing Dataset 10
+2024-08-11 17:05:48,817 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 17:05:48,818 - INFO - Starting regularization parameter optimization
+2024-08-11 17:06:27,478 - INFO - Estimating changepoints
+2024-08-11 17:06:27,479 - INFO - Estimated 1 changepoints
+2024-08-11 17:06:27,862 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim40_perm1.png'
+2024-08-11 17:06:27,873 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:06:27,873 - INFO - Running Simulation 25, Permutation 1
+2024-08-11 17:06:27,874 - INFO - Analyzing Dataset 8
+2024-08-11 17:06:27,874 - INFO - Computing tilde_S for dataframe with shape: (470, 15)
+2024-08-11 17:06:27,874 - INFO - Starting regularization parameter optimization
+2024-08-11 17:07:11,407 - INFO - Analyzing Dataset 6
+2024-08-11 17:07:11,408 - INFO - Computing tilde_S for dataframe with shape: (463, 15)
+2024-08-11 17:07:11,409 - INFO - Starting regularization parameter optimization
+2024-08-11 17:07:54,806 - INFO - Analyzing Dataset 1
+2024-08-11 17:07:54,807 - INFO - Computing tilde_S for dataframe with shape: (466, 15)
+2024-08-11 17:07:54,808 - INFO - Starting regularization parameter optimization
+2024-08-11 17:08:40,041 - INFO - Analyzing Dataset 11
+2024-08-11 17:08:40,041 - INFO - Computing tilde_S for dataframe with shape: (455, 15)
+2024-08-11 17:08:40,042 - INFO - Starting regularization parameter optimization
+2024-08-11 17:09:24,371 - INFO - Analyzing Dataset 7
+2024-08-11 17:09:24,371 - INFO - Computing tilde_S for dataframe with shape: (468, 15)
+2024-08-11 17:09:24,372 - INFO - Starting regularization parameter optimization
+2024-08-11 17:10:07,859 - INFO - Analyzing Dataset 9
+2024-08-11 17:10:07,860 - INFO - Computing tilde_S for dataframe with shape: (485, 15)
+2024-08-11 17:10:07,860 - INFO - Starting regularization parameter optimization
+2024-08-11 17:10:55,168 - INFO - Analyzing Dataset 10
+2024-08-11 17:10:55,168 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 17:10:55,169 - INFO - Starting regularization parameter optimization
+2024-08-11 17:11:38,612 - INFO - Analyzing Dataset 14
+2024-08-11 17:11:38,612 - INFO - Computing tilde_S for dataframe with shape: (482, 15)
+2024-08-11 17:11:38,613 - INFO - Starting regularization parameter optimization
+2024-08-11 17:12:25,321 - INFO - Analyzing Dataset 13
+2024-08-11 17:12:25,321 - INFO - Computing tilde_S for dataframe with shape: (470, 15)
+2024-08-11 17:12:25,322 - INFO - Starting regularization parameter optimization
+2024-08-11 17:13:07,956 - INFO - Analyzing Dataset 4
+2024-08-11 17:13:07,956 - INFO - Computing tilde_S for dataframe with shape: (445, 15)
+2024-08-11 17:13:07,957 - INFO - Starting regularization parameter optimization
+2024-08-11 17:13:49,242 - INFO - Analyzing Dataset 3
+2024-08-11 17:13:49,242 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 17:13:49,243 - INFO - Starting regularization parameter optimization
+2024-08-11 17:14:35,496 - INFO - Analyzing Dataset 12
+2024-08-11 17:14:35,496 - INFO - Computing tilde_S for dataframe with shape: (463, 15)
+2024-08-11 17:14:35,497 - INFO - Starting regularization parameter optimization
+2024-08-11 17:15:20,161 - INFO - Analyzing Dataset 15
+2024-08-11 17:15:20,161 - INFO - Computing tilde_S for dataframe with shape: (457, 15)
+2024-08-11 17:15:20,162 - INFO - Starting regularization parameter optimization
+2024-08-11 17:16:03,393 - INFO - Analyzing Dataset 2
+2024-08-11 17:16:03,393 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 17:16:03,394 - INFO - Starting regularization parameter optimization
+2024-08-11 17:16:45,946 - INFO - Analyzing Dataset 5
+2024-08-11 17:16:45,946 - INFO - Computing tilde_S for dataframe with shape: (454, 15)
+2024-08-11 17:16:45,947 - INFO - Starting regularization parameter optimization
+2024-08-11 17:17:28,495 - INFO - Estimating changepoints
+2024-08-11 17:17:28,496 - INFO - Estimated 1 changepoints
+2024-08-11 17:17:28,826 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim25_perm1.png'
+2024-08-11 17:17:28,837 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:17:28,837 - INFO - Running Simulation 4, Permutation 1
+2024-08-11 17:17:28,838 - INFO - Analyzing Dataset 7
+2024-08-11 17:17:28,838 - INFO - Computing tilde_S for dataframe with shape: (557, 15)
+2024-08-11 17:17:28,838 - INFO - Starting regularization parameter optimization
+2024-08-11 17:18:20,691 - INFO - Analyzing Dataset 9
+2024-08-11 17:18:20,691 - INFO - Computing tilde_S for dataframe with shape: (550, 15)
+2024-08-11 17:18:20,692 - INFO - Starting regularization parameter optimization
+2024-08-11 17:19:12,297 - INFO - Analyzing Dataset 11
+2024-08-11 17:19:12,297 - INFO - Computing tilde_S for dataframe with shape: (523, 15)
+2024-08-11 17:19:12,298 - INFO - Starting regularization parameter optimization
+2024-08-11 17:20:00,144 - INFO - Analyzing Dataset 8
+2024-08-11 17:20:00,144 - INFO - Computing tilde_S for dataframe with shape: (533, 15)
+2024-08-11 17:20:00,145 - INFO - Starting regularization parameter optimization
+2024-08-11 17:20:48,445 - INFO - Analyzing Dataset 6
+2024-08-11 17:20:48,445 - INFO - Computing tilde_S for dataframe with shape: (547, 15)
+2024-08-11 17:20:48,446 - INFO - Starting regularization parameter optimization
+2024-08-11 17:21:41,128 - INFO - Analyzing Dataset 1
+2024-08-11 17:21:41,128 - INFO - Computing tilde_S for dataframe with shape: (537, 15)
+2024-08-11 17:21:41,129 - INFO - Starting regularization parameter optimization
+2024-08-11 17:22:29,483 - INFO - Analyzing Dataset 10
+2024-08-11 17:22:29,484 - INFO - Computing tilde_S for dataframe with shape: (544, 15)
+2024-08-11 17:22:29,484 - INFO - Starting regularization parameter optimization
+2024-08-11 17:23:18,822 - INFO - Analyzing Dataset 13
+2024-08-11 17:23:18,822 - INFO - Computing tilde_S for dataframe with shape: (529, 15)
+2024-08-11 17:23:18,823 - INFO - Starting regularization parameter optimization
+2024-08-11 17:24:07,034 - INFO - Analyzing Dataset 14
+2024-08-11 17:24:07,035 - INFO - Computing tilde_S for dataframe with shape: (555, 15)
+2024-08-11 17:24:07,035 - INFO - Starting regularization parameter optimization
+2024-08-11 17:24:59,059 - INFO - Analyzing Dataset 2
+2024-08-11 17:24:59,059 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 17:24:59,060 - INFO - Starting regularization parameter optimization
+2024-08-11 17:25:51,598 - INFO - Analyzing Dataset 5
+2024-08-11 17:25:51,598 - INFO - Computing tilde_S for dataframe with shape: (552, 15)
+2024-08-11 17:25:51,599 - INFO - Starting regularization parameter optimization
+2024-08-11 17:26:44,325 - INFO - Analyzing Dataset 15
+2024-08-11 17:26:44,325 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 17:26:44,326 - INFO - Starting regularization parameter optimization
+2024-08-11 17:27:32,482 - INFO - Analyzing Dataset 12
+2024-08-11 17:27:32,483 - INFO - Computing tilde_S for dataframe with shape: (535, 15)
+2024-08-11 17:27:32,483 - INFO - Starting regularization parameter optimization
+2024-08-11 17:28:19,852 - INFO - Analyzing Dataset 4
+2024-08-11 17:28:19,852 - INFO - Computing tilde_S for dataframe with shape: (543, 15)
+2024-08-11 17:28:19,853 - INFO - Starting regularization parameter optimization
+2024-08-11 17:29:09,425 - INFO - Analyzing Dataset 3
+2024-08-11 17:29:09,425 - INFO - Computing tilde_S for dataframe with shape: (534, 15)
+2024-08-11 17:29:09,426 - INFO - Starting regularization parameter optimization
+2024-08-11 17:29:59,338 - INFO - Estimating changepoints
+2024-08-11 17:29:59,340 - INFO - Estimated 1 changepoints
+2024-08-11 17:29:59,693 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim4_perm1.png'
+2024-08-11 17:29:59,702 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:29:59,703 - INFO - Running Simulation 37, Permutation 1
+2024-08-11 17:29:59,703 - INFO - Analyzing Dataset 12
+2024-08-11 17:29:59,703 - INFO - Computing tilde_S for dataframe with shape: (422, 15)
+2024-08-11 17:29:59,704 - INFO - Starting regularization parameter optimization
+2024-08-11 17:30:38,352 - INFO - Analyzing Dataset 15
+2024-08-11 17:30:38,352 - INFO - Computing tilde_S for dataframe with shape: (417, 15)
+2024-08-11 17:30:38,353 - INFO - Starting regularization parameter optimization
+2024-08-11 17:31:15,024 - INFO - Analyzing Dataset 5
+2024-08-11 17:31:15,024 - INFO - Computing tilde_S for dataframe with shape: (425, 15)
+2024-08-11 17:31:15,025 - INFO - Starting regularization parameter optimization
+2024-08-11 17:31:54,772 - INFO - Analyzing Dataset 2
+2024-08-11 17:31:54,772 - INFO - Computing tilde_S for dataframe with shape: (438, 15)
+2024-08-11 17:31:54,773 - INFO - Starting regularization parameter optimization
+2024-08-11 17:32:34,969 - INFO - Analyzing Dataset 14
+2024-08-11 17:32:34,969 - INFO - Computing tilde_S for dataframe with shape: (426, 15)
+2024-08-11 17:32:34,970 - INFO - Starting regularization parameter optimization
+2024-08-11 17:33:12,823 - INFO - Analyzing Dataset 13
+2024-08-11 17:33:12,823 - INFO - Computing tilde_S for dataframe with shape: (421, 15)
+2024-08-11 17:33:12,824 - INFO - Starting regularization parameter optimization
+2024-08-11 17:33:51,121 - INFO - Analyzing Dataset 3
+2024-08-11 17:33:51,121 - INFO - Computing tilde_S for dataframe with shape: (417, 15)
+2024-08-11 17:33:51,121 - INFO - Starting regularization parameter optimization
+2024-08-11 17:34:28,942 - INFO - Analyzing Dataset 4
+2024-08-11 17:34:28,942 - INFO - Computing tilde_S for dataframe with shape: (412, 15)
+2024-08-11 17:34:28,942 - INFO - Starting regularization parameter optimization
+2024-08-11 17:35:07,263 - INFO - Analyzing Dataset 9
+2024-08-11 17:35:07,263 - INFO - Computing tilde_S for dataframe with shape: (421, 15)
+2024-08-11 17:35:07,264 - INFO - Starting regularization parameter optimization
+2024-08-11 17:35:45,867 - INFO - Analyzing Dataset 7
+2024-08-11 17:35:45,868 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 17:35:45,868 - INFO - Starting regularization parameter optimization
+2024-08-11 17:36:23,882 - INFO - Analyzing Dataset 10
+2024-08-11 17:36:23,883 - INFO - Computing tilde_S for dataframe with shape: (418, 15)
+2024-08-11 17:36:23,883 - INFO - Starting regularization parameter optimization
+2024-08-11 17:37:01,780 - INFO - Analyzing Dataset 1
+2024-08-11 17:37:01,780 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 17:37:01,781 - INFO - Starting regularization parameter optimization
+2024-08-11 17:37:37,889 - INFO - Analyzing Dataset 6
+2024-08-11 17:37:37,890 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 17:37:37,890 - INFO - Starting regularization parameter optimization
+2024-08-11 17:38:15,542 - INFO - Analyzing Dataset 8
+2024-08-11 17:38:15,542 - INFO - Computing tilde_S for dataframe with shape: (421, 15)
+2024-08-11 17:38:15,543 - INFO - Starting regularization parameter optimization
+2024-08-11 17:38:53,748 - INFO - Analyzing Dataset 11
+2024-08-11 17:38:53,748 - INFO - Computing tilde_S for dataframe with shape: (414, 15)
+2024-08-11 17:38:53,748 - INFO - Starting regularization parameter optimization
+2024-08-11 17:39:31,294 - INFO - Estimating changepoints
+2024-08-11 17:39:31,296 - INFO - Estimated 1 changepoints
+2024-08-11 17:39:31,627 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim37_perm1.png'
+2024-08-11 17:39:31,638 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:39:31,638 - INFO - Running Simulation 10, Permutation 1
+2024-08-11 17:39:31,638 - INFO - Analyzing Dataset 4
+2024-08-11 17:39:31,638 - INFO - Computing tilde_S for dataframe with shape: (379, 15)
+2024-08-11 17:39:31,639 - INFO - Starting regularization parameter optimization
+2024-08-11 17:40:05,151 - INFO - Analyzing Dataset 3
+2024-08-11 17:40:05,151 - INFO - Computing tilde_S for dataframe with shape: (362, 15)
+2024-08-11 17:40:05,152 - INFO - Starting regularization parameter optimization
+2024-08-11 17:40:37,904 - INFO - Analyzing Dataset 14
+2024-08-11 17:40:37,904 - INFO - Computing tilde_S for dataframe with shape: (364, 15)
+2024-08-11 17:40:37,905 - INFO - Starting regularization parameter optimization
+2024-08-11 17:41:10,978 - INFO - Analyzing Dataset 13
+2024-08-11 17:41:10,978 - INFO - Computing tilde_S for dataframe with shape: (359, 15)
+2024-08-11 17:41:10,979 - INFO - Starting regularization parameter optimization
+2024-08-11 17:41:42,793 - INFO - Analyzing Dataset 2
+2024-08-11 17:41:42,793 - INFO - Computing tilde_S for dataframe with shape: (376, 15)
+2024-08-11 17:41:42,794 - INFO - Starting regularization parameter optimization
+2024-08-11 17:42:17,884 - INFO - Analyzing Dataset 5
+2024-08-11 17:42:17,884 - INFO - Computing tilde_S for dataframe with shape: (362, 15)
+2024-08-11 17:42:17,884 - INFO - Starting regularization parameter optimization
+2024-08-11 17:42:50,503 - INFO - Analyzing Dataset 12
+2024-08-11 17:42:50,503 - INFO - Computing tilde_S for dataframe with shape: (374, 15)
+2024-08-11 17:42:50,504 - INFO - Starting regularization parameter optimization
+2024-08-11 17:43:24,152 - INFO - Analyzing Dataset 15
+2024-08-11 17:43:24,152 - INFO - Computing tilde_S for dataframe with shape: (365, 15)
+2024-08-11 17:43:24,153 - INFO - Starting regularization parameter optimization
+2024-08-11 17:43:57,905 - INFO - Analyzing Dataset 11
+2024-08-11 17:43:57,905 - INFO - Computing tilde_S for dataframe with shape: (368, 15)
+2024-08-11 17:43:57,907 - INFO - Starting regularization parameter optimization
+2024-08-11 17:44:32,111 - INFO - Analyzing Dataset 6
+2024-08-11 17:44:32,111 - INFO - Computing tilde_S for dataframe with shape: (376, 15)
+2024-08-11 17:44:32,112 - INFO - Starting regularization parameter optimization
+2024-08-11 17:45:06,537 - INFO - Analyzing Dataset 1
+2024-08-11 17:45:06,537 - INFO - Computing tilde_S for dataframe with shape: (389, 15)
+2024-08-11 17:45:06,538 - INFO - Starting regularization parameter optimization
+2024-08-11 17:45:42,377 - INFO - Analyzing Dataset 8
+2024-08-11 17:45:42,377 - INFO - Computing tilde_S for dataframe with shape: (380, 15)
+2024-08-11 17:45:42,378 - INFO - Starting regularization parameter optimization
+2024-08-11 17:46:16,191 - INFO - Analyzing Dataset 10
+2024-08-11 17:46:16,191 - INFO - Computing tilde_S for dataframe with shape: (383, 15)
+2024-08-11 17:46:16,192 - INFO - Starting regularization parameter optimization
+2024-08-11 17:46:51,816 - INFO - Analyzing Dataset 9
+2024-08-11 17:46:51,817 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 17:46:51,817 - INFO - Starting regularization parameter optimization
+2024-08-11 17:47:28,283 - INFO - Analyzing Dataset 7
+2024-08-11 17:47:28,283 - INFO - Computing tilde_S for dataframe with shape: (382, 15)
+2024-08-11 17:47:28,284 - INFO - Starting regularization parameter optimization
+2024-08-11 17:48:03,363 - INFO - Estimating changepoints
+2024-08-11 17:48:03,364 - INFO - Estimated 1 changepoints
+2024-08-11 17:48:03,693 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim10_perm1.png'
+2024-08-11 17:48:03,705 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:48:03,705 - INFO - Running Simulation 45, Permutation 1
+2024-08-11 17:48:03,705 - INFO - Analyzing Dataset 11
+2024-08-11 17:48:03,706 - INFO - Computing tilde_S for dataframe with shape: (395, 15)
+2024-08-11 17:48:03,707 - INFO - Starting regularization parameter optimization
+2024-08-11 17:48:39,711 - INFO - Analyzing Dataset 2
+2024-08-11 17:48:39,712 - INFO - Computing tilde_S for dataframe with shape: (387, 15)
+2024-08-11 17:48:39,712 - INFO - Starting regularization parameter optimization
+2024-08-11 17:49:15,497 - INFO - Analyzing Dataset 5
+2024-08-11 17:49:15,497 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 17:49:15,498 - INFO - Starting regularization parameter optimization
+2024-08-11 17:49:53,682 - INFO - Analyzing Dataset 10
+2024-08-11 17:49:53,682 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 17:49:53,683 - INFO - Starting regularization parameter optimization
+2024-08-11 17:50:30,886 - INFO - Analyzing Dataset 4
+2024-08-11 17:50:30,886 - INFO - Computing tilde_S for dataframe with shape: (394, 15)
+2024-08-11 17:50:30,887 - INFO - Starting regularization parameter optimization
+2024-08-11 17:51:05,925 - INFO - Analyzing Dataset 3
+2024-08-11 17:51:05,926 - INFO - Computing tilde_S for dataframe with shape: (396, 15)
+2024-08-11 17:51:05,927 - INFO - Starting regularization parameter optimization
+2024-08-11 17:51:41,299 - INFO - Analyzing Dataset 9
+2024-08-11 17:51:41,299 - INFO - Computing tilde_S for dataframe with shape: (406, 15)
+2024-08-11 17:51:41,300 - INFO - Starting regularization parameter optimization
+2024-08-11 17:52:19,150 - INFO - Analyzing Dataset 7
+2024-08-11 17:52:19,151 - INFO - Computing tilde_S for dataframe with shape: (398, 15)
+2024-08-11 17:52:19,151 - INFO - Starting regularization parameter optimization
+2024-08-11 17:52:55,113 - INFO - Analyzing Dataset 14
+2024-08-11 17:52:55,113 - INFO - Computing tilde_S for dataframe with shape: (377, 15)
+2024-08-11 17:52:55,114 - INFO - Starting regularization parameter optimization
+2024-08-11 17:53:29,302 - INFO - Analyzing Dataset 13
+2024-08-11 17:53:29,302 - INFO - Computing tilde_S for dataframe with shape: (392, 15)
+2024-08-11 17:53:29,303 - INFO - Starting regularization parameter optimization
+2024-08-11 17:54:03,824 - INFO - Analyzing Dataset 6
+2024-08-11 17:54:03,825 - INFO - Computing tilde_S for dataframe with shape: (409, 15)
+2024-08-11 17:54:03,825 - INFO - Starting regularization parameter optimization
+2024-08-11 17:54:39,987 - INFO - Analyzing Dataset 1
+2024-08-11 17:54:39,987 - INFO - Computing tilde_S for dataframe with shape: (405, 15)
+2024-08-11 17:54:39,988 - INFO - Starting regularization parameter optimization
+2024-08-11 17:55:16,844 - INFO - Analyzing Dataset 8
+2024-08-11 17:55:16,845 - INFO - Computing tilde_S for dataframe with shape: (395, 15)
+2024-08-11 17:55:16,845 - INFO - Starting regularization parameter optimization
+2024-08-11 17:55:52,167 - INFO - Analyzing Dataset 12
+2024-08-11 17:55:52,167 - INFO - Computing tilde_S for dataframe with shape: (394, 15)
+2024-08-11 17:55:52,168 - INFO - Starting regularization parameter optimization
+2024-08-11 17:56:27,916 - INFO - Analyzing Dataset 15
+2024-08-11 17:56:27,916 - INFO - Computing tilde_S for dataframe with shape: (393, 15)
+2024-08-11 17:56:27,917 - INFO - Starting regularization parameter optimization
+2024-08-11 17:57:04,301 - INFO - Estimating changepoints
+2024-08-11 17:57:04,302 - INFO - Estimated 1 changepoints
+2024-08-11 17:57:04,642 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim45_perm1.png'
+2024-08-11 17:57:04,652 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 17:57:04,652 - INFO - Running Simulation 5, Permutation 1
+2024-08-11 17:57:04,652 - INFO - Analyzing Dataset 13
+2024-08-11 17:57:04,652 - INFO - Computing tilde_S for dataframe with shape: (507, 15)
+2024-08-11 17:57:04,653 - INFO - Starting regularization parameter optimization
+2024-08-11 17:57:53,839 - INFO - Analyzing Dataset 9
+2024-08-11 17:57:53,840 - INFO - Computing tilde_S for dataframe with shape: (522, 15)
+2024-08-11 17:57:53,841 - INFO - Starting regularization parameter optimization
+2024-08-11 17:58:44,675 - INFO - Analyzing Dataset 14
+2024-08-11 17:58:44,676 - INFO - Computing tilde_S for dataframe with shape: (515, 15)
+2024-08-11 17:58:44,676 - INFO - Starting regularization parameter optimization
+2024-08-11 17:59:33,222 - INFO - Analyzing Dataset 7
+2024-08-11 17:59:33,222 - INFO - Computing tilde_S for dataframe with shape: (529, 15)
+2024-08-11 17:59:33,223 - INFO - Starting regularization parameter optimization
+2024-08-11 18:00:23,328 - INFO - Analyzing Dataset 6
+2024-08-11 18:00:23,328 - INFO - Computing tilde_S for dataframe with shape: (516, 15)
+2024-08-11 18:00:23,329 - INFO - Starting regularization parameter optimization
+2024-08-11 18:01:13,791 - INFO - Analyzing Dataset 1
+2024-08-11 18:01:13,791 - INFO - Computing tilde_S for dataframe with shape: (502, 15)
+2024-08-11 18:01:13,792 - INFO - Starting regularization parameter optimization
+2024-08-11 18:02:00,932 - INFO - Analyzing Dataset 15
+2024-08-11 18:02:00,932 - INFO - Computing tilde_S for dataframe with shape: (513, 15)
+2024-08-11 18:02:00,933 - INFO - Starting regularization parameter optimization
+2024-08-11 18:02:46,700 - INFO - Analyzing Dataset 12
+2024-08-11 18:02:46,700 - INFO - Computing tilde_S for dataframe with shape: (508, 15)
+2024-08-11 18:02:46,701 - INFO - Starting regularization parameter optimization
+2024-08-11 18:03:32,388 - INFO - Analyzing Dataset 8
+2024-08-11 18:03:32,388 - INFO - Computing tilde_S for dataframe with shape: (510, 15)
+2024-08-11 18:03:32,389 - INFO - Starting regularization parameter optimization
+2024-08-11 18:04:20,430 - INFO - Analyzing Dataset 2
+2024-08-11 18:04:20,430 - INFO - Computing tilde_S for dataframe with shape: (535, 15)
+2024-08-11 18:04:20,431 - INFO - Starting regularization parameter optimization
+2024-08-11 18:05:08,873 - INFO - Analyzing Dataset 5
+2024-08-11 18:05:08,873 - INFO - Computing tilde_S for dataframe with shape: (516, 15)
+2024-08-11 18:05:08,874 - INFO - Starting regularization parameter optimization
+2024-08-11 18:05:59,848 - INFO - Analyzing Dataset 11
+2024-08-11 18:05:59,849 - INFO - Computing tilde_S for dataframe with shape: (521, 15)
+2024-08-11 18:05:59,849 - INFO - Starting regularization parameter optimization
+2024-08-11 18:06:49,676 - INFO - Analyzing Dataset 10
+2024-08-11 18:06:49,676 - INFO - Computing tilde_S for dataframe with shape: (530, 15)
+2024-08-11 18:06:49,677 - INFO - Starting regularization parameter optimization
+2024-08-11 18:07:41,703 - INFO - Analyzing Dataset 4
+2024-08-11 18:07:41,703 - INFO - Computing tilde_S for dataframe with shape: (495, 15)
+2024-08-11 18:07:41,704 - INFO - Starting regularization parameter optimization
+2024-08-11 18:08:27,793 - INFO - Analyzing Dataset 3
+2024-08-11 18:08:27,793 - INFO - Computing tilde_S for dataframe with shape: (518, 15)
+2024-08-11 18:08:27,794 - INFO - Starting regularization parameter optimization
+2024-08-11 18:09:16,618 - INFO - Estimating changepoints
+2024-08-11 18:09:16,619 - INFO - Estimated 1 changepoints
+2024-08-11 18:09:17,112 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim5_perm1.png'
+2024-08-11 18:09:17,123 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 18:09:17,124 - INFO - Running Simulation 24, Permutation 1
+2024-08-11 18:09:17,124 - INFO - Analyzing Dataset 14
+2024-08-11 18:09:17,124 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 18:09:17,124 - INFO - Starting regularization parameter optimization
+2024-08-11 18:10:04,332 - INFO - Analyzing Dataset 6
+2024-08-11 18:10:04,332 - INFO - Computing tilde_S for dataframe with shape: (529, 15)
+2024-08-11 18:10:04,334 - INFO - Starting regularization parameter optimization
+2024-08-11 18:10:51,710 - INFO - Analyzing Dataset 13
+2024-08-11 18:10:51,710 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 18:10:51,711 - INFO - Starting regularization parameter optimization
+2024-08-11 18:11:40,216 - INFO - Analyzing Dataset 1
+2024-08-11 18:11:40,216 - INFO - Computing tilde_S for dataframe with shape: (527, 15)
+2024-08-11 18:11:40,217 - INFO - Starting regularization parameter optimization
+2024-08-11 18:12:26,961 - INFO - Analyzing Dataset 8
+2024-08-11 18:12:26,961 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 18:12:26,962 - INFO - Starting regularization parameter optimization
+2024-08-11 18:13:16,313 - INFO - Analyzing Dataset 9
+2024-08-11 18:13:16,314 - INFO - Computing tilde_S for dataframe with shape: (532, 15)
+2024-08-11 18:13:16,314 - INFO - Starting regularization parameter optimization
+2024-08-11 18:14:05,642 - INFO - Analyzing Dataset 12
+2024-08-11 18:14:05,642 - INFO - Computing tilde_S for dataframe with shape: (544, 15)
+2024-08-11 18:14:05,643 - INFO - Starting regularization parameter optimization
+2024-08-11 18:15:00,076 - INFO - Analyzing Dataset 15
+2024-08-11 18:15:00,076 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 18:15:00,077 - INFO - Starting regularization parameter optimization
+2024-08-11 18:15:48,237 - INFO - Analyzing Dataset 7
+2024-08-11 18:15:48,237 - INFO - Computing tilde_S for dataframe with shape: (533, 15)
+2024-08-11 18:15:48,239 - INFO - Starting regularization parameter optimization
+2024-08-11 18:16:41,507 - INFO - Analyzing Dataset 4
+2024-08-11 18:16:41,507 - INFO - Computing tilde_S for dataframe with shape: (531, 15)
+2024-08-11 18:16:41,508 - INFO - Starting regularization parameter optimization
+2024-08-11 18:17:28,666 - INFO - Analyzing Dataset 3
+2024-08-11 18:17:28,666 - INFO - Computing tilde_S for dataframe with shape: (523, 15)
+2024-08-11 18:17:28,666 - INFO - Starting regularization parameter optimization
+2024-08-11 18:18:20,879 - INFO - Analyzing Dataset 11
+2024-08-11 18:18:20,879 - INFO - Computing tilde_S for dataframe with shape: (540, 15)
+2024-08-11 18:18:20,879 - INFO - Starting regularization parameter optimization
+2024-08-11 18:19:11,297 - INFO - Analyzing Dataset 2
+2024-08-11 18:19:11,297 - INFO - Computing tilde_S for dataframe with shape: (517, 15)
+2024-08-11 18:19:11,299 - INFO - Starting regularization parameter optimization
+2024-08-11 18:20:02,348 - INFO - Analyzing Dataset 10
+2024-08-11 18:20:02,348 - INFO - Computing tilde_S for dataframe with shape: (526, 15)
+2024-08-11 18:20:02,349 - INFO - Starting regularization parameter optimization
+2024-08-11 18:20:48,645 - INFO - Analyzing Dataset 5
+2024-08-11 18:20:48,645 - INFO - Computing tilde_S for dataframe with shape: (552, 15)
+2024-08-11 18:20:48,646 - INFO - Starting regularization parameter optimization
+2024-08-11 18:21:40,364 - INFO - Estimating changepoints
+2024-08-11 18:21:40,365 - INFO - Estimated 1 changepoints
+2024-08-11 18:21:40,696 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim24_perm1.png'
+2024-08-11 18:21:40,708 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 18:21:40,709 - INFO - Running Simulation 15, Permutation 1
+2024-08-11 18:21:40,709 - INFO - Analyzing Dataset 11
+2024-08-11 18:21:40,709 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 18:21:40,709 - INFO - Starting regularization parameter optimization
+2024-08-11 18:22:25,427 - INFO - Analyzing Dataset 9
+2024-08-11 18:22:25,427 - INFO - Computing tilde_S for dataframe with shape: (449, 15)
+2024-08-11 18:22:25,428 - INFO - Starting regularization parameter optimization
+2024-08-11 18:23:06,921 - INFO - Analyzing Dataset 7
+2024-08-11 18:23:06,921 - INFO - Computing tilde_S for dataframe with shape: (456, 15)
+2024-08-11 18:23:06,922 - INFO - Starting regularization parameter optimization
+2024-08-11 18:23:47,641 - INFO - Analyzing Dataset 1
+2024-08-11 18:23:47,642 - INFO - Computing tilde_S for dataframe with shape: (462, 15)
+2024-08-11 18:23:47,642 - INFO - Starting regularization parameter optimization
+2024-08-11 18:24:30,882 - INFO - Analyzing Dataset 6
+2024-08-11 18:24:30,883 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 18:24:30,883 - INFO - Starting regularization parameter optimization
+2024-08-11 18:25:11,869 - INFO - Analyzing Dataset 8
+2024-08-11 18:25:11,870 - INFO - Computing tilde_S for dataframe with shape: (481, 15)
+2024-08-11 18:25:11,870 - INFO - Starting regularization parameter optimization
+2024-08-11 18:25:57,308 - INFO - Analyzing Dataset 10
+2024-08-11 18:25:57,309 - INFO - Computing tilde_S for dataframe with shape: (470, 15)
+2024-08-11 18:25:57,309 - INFO - Starting regularization parameter optimization
+2024-08-11 18:26:42,526 - INFO - Analyzing Dataset 5
+2024-08-11 18:26:42,526 - INFO - Computing tilde_S for dataframe with shape: (470, 15)
+2024-08-11 18:26:42,527 - INFO - Starting regularization parameter optimization
+2024-08-11 18:27:28,150 - INFO - Analyzing Dataset 2
+2024-08-11 18:27:28,150 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 18:27:28,151 - INFO - Starting regularization parameter optimization
+2024-08-11 18:28:10,250 - INFO - Analyzing Dataset 13
+2024-08-11 18:28:10,250 - INFO - Computing tilde_S for dataframe with shape: (452, 15)
+2024-08-11 18:28:10,250 - INFO - Starting regularization parameter optimization
+2024-08-11 18:28:51,893 - INFO - Analyzing Dataset 14
+2024-08-11 18:28:51,893 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 18:28:51,894 - INFO - Starting regularization parameter optimization
+2024-08-11 18:29:33,003 - INFO - Analyzing Dataset 15
+2024-08-11 18:29:33,003 - INFO - Computing tilde_S for dataframe with shape: (465, 15)
+2024-08-11 18:29:33,004 - INFO - Starting regularization parameter optimization
+2024-08-11 18:30:14,869 - INFO - Analyzing Dataset 12
+2024-08-11 18:30:14,869 - INFO - Computing tilde_S for dataframe with shape: (457, 15)
+2024-08-11 18:30:14,869 - INFO - Starting regularization parameter optimization
+2024-08-11 18:30:57,356 - INFO - Analyzing Dataset 3
+2024-08-11 18:30:57,357 - INFO - Computing tilde_S for dataframe with shape: (476, 15)
+2024-08-11 18:30:57,357 - INFO - Starting regularization parameter optimization
+2024-08-11 18:31:42,173 - INFO - Analyzing Dataset 4
+2024-08-11 18:31:42,173 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 18:31:42,174 - INFO - Starting regularization parameter optimization
+2024-08-11 18:32:25,493 - INFO - Estimating changepoints
+2024-08-11 18:32:25,494 - INFO - Estimated 1 changepoints
+2024-08-11 18:32:25,835 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim15_perm1.png'
+2024-08-11 18:32:25,846 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 18:32:25,847 - INFO - Running Simulation 11, Permutation 1
+2024-08-11 18:32:25,847 - INFO - Analyzing Dataset 4
+2024-08-11 18:32:25,847 - INFO - Computing tilde_S for dataframe with shape: (610, 15)
+2024-08-11 18:32:25,847 - INFO - Starting regularization parameter optimization
+2024-08-11 18:33:22,996 - INFO - Analyzing Dataset 3
+2024-08-11 18:33:22,996 - INFO - Computing tilde_S for dataframe with shape: (618, 15)
+2024-08-11 18:33:22,997 - INFO - Starting regularization parameter optimization
+2024-08-11 18:34:23,909 - INFO - Analyzing Dataset 11
+2024-08-11 18:34:23,909 - INFO - Computing tilde_S for dataframe with shape: (617, 15)
+2024-08-11 18:34:23,910 - INFO - Starting regularization parameter optimization
+2024-08-11 18:35:21,351 - INFO - Analyzing Dataset 10
+2024-08-11 18:35:21,351 - INFO - Computing tilde_S for dataframe with shape: (598, 15)
+2024-08-11 18:35:21,352 - INFO - Starting regularization parameter optimization
+2024-08-11 18:36:16,029 - INFO - Analyzing Dataset 2
+2024-08-11 18:36:16,030 - INFO - Computing tilde_S for dataframe with shape: (610, 15)
+2024-08-11 18:36:16,030 - INFO - Starting regularization parameter optimization
+2024-08-11 18:37:18,202 - INFO - Analyzing Dataset 5
+2024-08-11 18:37:18,202 - INFO - Computing tilde_S for dataframe with shape: (609, 15)
+2024-08-11 18:37:18,203 - INFO - Starting regularization parameter optimization
+2024-08-11 18:38:14,961 - INFO - Analyzing Dataset 14
+2024-08-11 18:38:14,961 - INFO - Computing tilde_S for dataframe with shape: (608, 15)
+2024-08-11 18:38:14,962 - INFO - Starting regularization parameter optimization
+2024-08-11 18:39:11,285 - INFO - Analyzing Dataset 13
+2024-08-11 18:39:11,285 - INFO - Computing tilde_S for dataframe with shape: (612, 15)
+2024-08-11 18:39:11,286 - INFO - Starting regularization parameter optimization
+2024-08-11 18:40:07,673 - INFO - Analyzing Dataset 8
+2024-08-11 18:40:07,673 - INFO - Computing tilde_S for dataframe with shape: (606, 15)
+2024-08-11 18:40:07,674 - INFO - Starting regularization parameter optimization
+2024-08-11 18:41:04,876 - INFO - Analyzing Dataset 6
+2024-08-11 18:41:04,876 - INFO - Computing tilde_S for dataframe with shape: (611, 15)
+2024-08-11 18:41:04,877 - INFO - Starting regularization parameter optimization
+2024-08-11 18:42:01,843 - INFO - Analyzing Dataset 1
+2024-08-11 18:42:01,843 - INFO - Computing tilde_S for dataframe with shape: (603, 15)
+2024-08-11 18:42:01,844 - INFO - Starting regularization parameter optimization
+2024-08-11 18:42:57,284 - INFO - Analyzing Dataset 7
+2024-08-11 18:42:57,284 - INFO - Computing tilde_S for dataframe with shape: (605, 15)
+2024-08-11 18:42:57,285 - INFO - Starting regularization parameter optimization
+2024-08-11 18:43:58,135 - INFO - Analyzing Dataset 9
+2024-08-11 18:43:58,135 - INFO - Computing tilde_S for dataframe with shape: (607, 15)
+2024-08-11 18:43:58,136 - INFO - Starting regularization parameter optimization
+2024-08-11 18:45:00,620 - INFO - Analyzing Dataset 12
+2024-08-11 18:45:00,621 - INFO - Computing tilde_S for dataframe with shape: (605, 15)
+2024-08-11 18:45:00,621 - INFO - Starting regularization parameter optimization
+2024-08-11 18:46:02,220 - INFO - Analyzing Dataset 15
+2024-08-11 18:46:02,220 - INFO - Computing tilde_S for dataframe with shape: (599, 15)
+2024-08-11 18:46:02,221 - INFO - Starting regularization parameter optimization
+2024-08-11 18:46:59,553 - INFO - Estimating changepoints
+2024-08-11 18:46:59,554 - INFO - Estimated 1 changepoints
+2024-08-11 18:46:59,918 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim11_perm1.png'
+2024-08-11 18:46:59,929 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 18:46:59,930 - INFO - Running Simulation 1, Permutation 1
+2024-08-11 18:46:59,930 - INFO - Analyzing Dataset 3
+2024-08-11 18:46:59,930 - INFO - Computing tilde_S for dataframe with shape: (477, 15)
+2024-08-11 18:46:59,931 - INFO - Starting regularization parameter optimization
+2024-08-11 18:47:42,361 - INFO - Analyzing Dataset 4
+2024-08-11 18:47:42,361 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 18:47:42,362 - INFO - Starting regularization parameter optimization
+2024-08-11 18:48:24,283 - INFO - Analyzing Dataset 14
+2024-08-11 18:48:24,284 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 18:48:24,284 - INFO - Starting regularization parameter optimization
+2024-08-11 18:49:06,776 - INFO - Analyzing Dataset 13
+2024-08-11 18:49:06,776 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 18:49:06,777 - INFO - Starting regularization parameter optimization
+2024-08-11 18:49:47,672 - INFO - Analyzing Dataset 12
+2024-08-11 18:49:47,673 - INFO - Computing tilde_S for dataframe with shape: (487, 15)
+2024-08-11 18:49:47,673 - INFO - Starting regularization parameter optimization
+2024-08-11 18:50:29,907 - INFO - Analyzing Dataset 15
+2024-08-11 18:50:29,908 - INFO - Computing tilde_S for dataframe with shape: (469, 15)
+2024-08-11 18:50:29,908 - INFO - Starting regularization parameter optimization
+2024-08-11 18:51:10,519 - INFO - Analyzing Dataset 5
+2024-08-11 18:51:10,519 - INFO - Computing tilde_S for dataframe with shape: (462, 15)
+2024-08-11 18:51:10,519 - INFO - Starting regularization parameter optimization
+2024-08-11 18:51:54,821 - INFO - Analyzing Dataset 2
+2024-08-11 18:51:54,821 - INFO - Computing tilde_S for dataframe with shape: (468, 15)
+2024-08-11 18:51:54,823 - INFO - Starting regularization parameter optimization
+2024-08-11 18:52:34,735 - INFO - Analyzing Dataset 11
+2024-08-11 18:52:34,735 - INFO - Computing tilde_S for dataframe with shape: (478, 15)
+2024-08-11 18:52:34,736 - INFO - Starting regularization parameter optimization
+2024-08-11 18:53:20,435 - INFO - Analyzing Dataset 8
+2024-08-11 18:53:20,435 - INFO - Computing tilde_S for dataframe with shape: (485, 15)
+2024-08-11 18:53:20,436 - INFO - Starting regularization parameter optimization
+2024-08-11 18:54:07,745 - INFO - Analyzing Dataset 1
+2024-08-11 18:54:07,745 - INFO - Computing tilde_S for dataframe with shape: (458, 15)
+2024-08-11 18:54:07,746 - INFO - Starting regularization parameter optimization
+2024-08-11 18:54:49,514 - INFO - Analyzing Dataset 6
+2024-08-11 18:54:49,514 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 18:54:49,515 - INFO - Starting regularization parameter optimization
+2024-08-11 18:55:32,728 - INFO - Analyzing Dataset 7
+2024-08-11 18:55:32,728 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 18:55:32,729 - INFO - Starting regularization parameter optimization
+2024-08-11 18:56:17,929 - INFO - Analyzing Dataset 9
+2024-08-11 18:56:17,930 - INFO - Computing tilde_S for dataframe with shape: (464, 15)
+2024-08-11 18:56:17,930 - INFO - Starting regularization parameter optimization
+2024-08-11 18:57:02,624 - INFO - Analyzing Dataset 10
+2024-08-11 18:57:02,624 - INFO - Computing tilde_S for dataframe with shape: (484, 15)
+2024-08-11 18:57:02,625 - INFO - Starting regularization parameter optimization
+2024-08-11 18:57:50,257 - INFO - Estimating changepoints
+2024-08-11 18:57:50,258 - INFO - Estimated 1 changepoints
+2024-08-11 18:57:50,596 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-11 18:57:50,606 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 18:57:50,607 - INFO - Running Simulation 34, Permutation 1
+2024-08-11 18:57:50,607 - INFO - Analyzing Dataset 13
+2024-08-11 18:57:50,607 - INFO - Computing tilde_S for dataframe with shape: (414, 15)
+2024-08-11 18:57:50,608 - INFO - Starting regularization parameter optimization
+2024-08-11 18:58:27,722 - INFO - Analyzing Dataset 14
+2024-08-11 18:58:27,722 - INFO - Computing tilde_S for dataframe with shape: (415, 15)
+2024-08-11 18:58:27,723 - INFO - Starting regularization parameter optimization
+2024-08-11 18:59:06,041 - INFO - Analyzing Dataset 4
+2024-08-11 18:59:06,042 - INFO - Computing tilde_S for dataframe with shape: (429, 15)
+2024-08-11 18:59:06,043 - INFO - Starting regularization parameter optimization
+2024-08-11 18:59:46,692 - INFO - Analyzing Dataset 3
+2024-08-11 18:59:46,692 - INFO - Computing tilde_S for dataframe with shape: (422, 15)
+2024-08-11 18:59:46,693 - INFO - Starting regularization parameter optimization
+2024-08-11 19:00:26,780 - INFO - Analyzing Dataset 2
+2024-08-11 19:00:26,781 - INFO - Computing tilde_S for dataframe with shape: (423, 15)
+2024-08-11 19:00:26,782 - INFO - Starting regularization parameter optimization
+2024-08-11 19:01:06,799 - INFO - Analyzing Dataset 5
+2024-08-11 19:01:06,799 - INFO - Computing tilde_S for dataframe with shape: (432, 15)
+2024-08-11 19:01:06,800 - INFO - Starting regularization parameter optimization
+2024-08-11 19:01:46,878 - INFO - Analyzing Dataset 15
+2024-08-11 19:01:46,878 - INFO - Computing tilde_S for dataframe with shape: (412, 15)
+2024-08-11 19:01:46,879 - INFO - Starting regularization parameter optimization
+2024-08-11 19:02:23,774 - INFO - Analyzing Dataset 12
+2024-08-11 19:02:23,774 - INFO - Computing tilde_S for dataframe with shape: (433, 15)
+2024-08-11 19:02:23,775 - INFO - Starting regularization parameter optimization
+2024-08-11 19:03:03,823 - INFO - Analyzing Dataset 8
+2024-08-11 19:03:03,823 - INFO - Computing tilde_S for dataframe with shape: (400, 15)
+2024-08-11 19:03:03,824 - INFO - Starting regularization parameter optimization
+2024-08-11 19:03:38,854 - INFO - Analyzing Dataset 6
+2024-08-11 19:03:38,854 - INFO - Computing tilde_S for dataframe with shape: (416, 15)
+2024-08-11 19:03:38,854 - INFO - Starting regularization parameter optimization
+2024-08-11 19:04:15,707 - INFO - Analyzing Dataset 1
+2024-08-11 19:04:15,708 - INFO - Computing tilde_S for dataframe with shape: (422, 15)
+2024-08-11 19:04:15,708 - INFO - Starting regularization parameter optimization
+2024-08-11 19:04:56,983 - INFO - Analyzing Dataset 11
+2024-08-11 19:04:56,984 - INFO - Computing tilde_S for dataframe with shape: (423, 15)
+2024-08-11 19:04:56,984 - INFO - Starting regularization parameter optimization
+2024-08-11 19:05:35,729 - INFO - Analyzing Dataset 10
+2024-08-11 19:05:35,730 - INFO - Computing tilde_S for dataframe with shape: (440, 15)
+2024-08-11 19:05:35,730 - INFO - Starting regularization parameter optimization
+2024-08-11 19:06:16,113 - INFO - Analyzing Dataset 7
+2024-08-11 19:06:16,113 - INFO - Computing tilde_S for dataframe with shape: (419, 15)
+2024-08-11 19:06:16,114 - INFO - Starting regularization parameter optimization
+2024-08-11 19:06:55,003 - INFO - Analyzing Dataset 9
+2024-08-11 19:06:55,004 - INFO - Computing tilde_S for dataframe with shape: (432, 15)
+2024-08-11 19:06:55,005 - INFO - Starting regularization parameter optimization
+2024-08-11 19:07:35,150 - INFO - Estimating changepoints
+2024-08-11 19:07:35,151 - INFO - Estimated 1 changepoints
+2024-08-11 19:07:35,524 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim34_perm1.png'
+2024-08-11 19:07:35,534 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:07:35,534 - INFO - Running Simulation 20, Permutation 1
+2024-08-11 19:07:35,534 - INFO - Analyzing Dataset 5
+2024-08-11 19:07:35,535 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 19:07:35,535 - INFO - Starting regularization parameter optimization
+2024-08-11 19:08:08,258 - INFO - Analyzing Dataset 2
+2024-08-11 19:08:08,258 - INFO - Computing tilde_S for dataframe with shape: (401, 15)
+2024-08-11 19:08:08,259 - INFO - Starting regularization parameter optimization
+2024-08-11 19:08:45,959 - INFO - Analyzing Dataset 13
+2024-08-11 19:08:45,959 - INFO - Computing tilde_S for dataframe with shape: (377, 15)
+2024-08-11 19:08:45,960 - INFO - Starting regularization parameter optimization
+2024-08-11 19:09:19,516 - INFO - Analyzing Dataset 14
+2024-08-11 19:09:19,516 - INFO - Computing tilde_S for dataframe with shape: (388, 15)
+2024-08-11 19:09:19,517 - INFO - Starting regularization parameter optimization
+2024-08-11 19:09:54,942 - INFO - Analyzing Dataset 15
+2024-08-11 19:09:54,942 - INFO - Computing tilde_S for dataframe with shape: (401, 15)
+2024-08-11 19:09:54,943 - INFO - Starting regularization parameter optimization
+2024-08-11 19:10:30,918 - INFO - Analyzing Dataset 12
+2024-08-11 19:10:30,918 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 19:10:30,919 - INFO - Starting regularization parameter optimization
+2024-08-11 19:11:09,023 - INFO - Analyzing Dataset 3
+2024-08-11 19:11:09,023 - INFO - Computing tilde_S for dataframe with shape: (397, 15)
+2024-08-11 19:11:09,024 - INFO - Starting regularization parameter optimization
+2024-08-11 19:11:45,232 - INFO - Analyzing Dataset 4
+2024-08-11 19:11:45,233 - INFO - Computing tilde_S for dataframe with shape: (367, 15)
+2024-08-11 19:11:45,233 - INFO - Starting regularization parameter optimization
+2024-08-11 19:12:18,542 - INFO - Analyzing Dataset 11
+2024-08-11 19:12:18,543 - INFO - Computing tilde_S for dataframe with shape: (376, 15)
+2024-08-11 19:12:18,543 - INFO - Starting regularization parameter optimization
+2024-08-11 19:12:52,879 - INFO - Analyzing Dataset 7
+2024-08-11 19:12:52,879 - INFO - Computing tilde_S for dataframe with shape: (385, 15)
+2024-08-11 19:12:52,879 - INFO - Starting regularization parameter optimization
+2024-08-11 19:13:28,321 - INFO - Analyzing Dataset 9
+2024-08-11 19:13:28,321 - INFO - Computing tilde_S for dataframe with shape: (388, 15)
+2024-08-11 19:13:28,321 - INFO - Starting regularization parameter optimization
+2024-08-11 19:14:04,003 - INFO - Analyzing Dataset 8
+2024-08-11 19:14:04,003 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 19:14:04,004 - INFO - Starting regularization parameter optimization
+2024-08-11 19:14:37,496 - INFO - Analyzing Dataset 1
+2024-08-11 19:14:37,497 - INFO - Computing tilde_S for dataframe with shape: (370, 15)
+2024-08-11 19:14:37,497 - INFO - Starting regularization parameter optimization
+2024-08-11 19:15:10,684 - INFO - Analyzing Dataset 6
+2024-08-11 19:15:10,684 - INFO - Computing tilde_S for dataframe with shape: (377, 15)
+2024-08-11 19:15:10,685 - INFO - Starting regularization parameter optimization
+2024-08-11 19:15:44,360 - INFO - Analyzing Dataset 10
+2024-08-11 19:15:44,360 - INFO - Computing tilde_S for dataframe with shape: (394, 15)
+2024-08-11 19:15:44,361 - INFO - Starting regularization parameter optimization
+2024-08-11 19:16:21,741 - INFO - Estimating changepoints
+2024-08-11 19:16:21,743 - INFO - Estimated 1 changepoints
+2024-08-11 19:16:22,099 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim20_perm1.png'
+2024-08-11 19:16:22,112 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:16:22,113 - INFO - Running Simulation 46, Permutation 1
+2024-08-11 19:16:22,113 - INFO - Analyzing Dataset 10
+2024-08-11 19:16:22,113 - INFO - Computing tilde_S for dataframe with shape: (407, 15)
+2024-08-11 19:16:22,114 - INFO - Starting regularization parameter optimization
+2024-08-11 19:16:58,776 - INFO - Analyzing Dataset 3
+2024-08-11 19:16:58,777 - INFO - Computing tilde_S for dataframe with shape: (401, 15)
+2024-08-11 19:16:58,777 - INFO - Starting regularization parameter optimization
+2024-08-11 19:17:35,538 - INFO - Analyzing Dataset 4
+2024-08-11 19:17:35,539 - INFO - Computing tilde_S for dataframe with shape: (408, 15)
+2024-08-11 19:17:35,539 - INFO - Starting regularization parameter optimization
+2024-08-11 19:18:13,231 - INFO - Analyzing Dataset 5
+2024-08-11 19:18:13,231 - INFO - Computing tilde_S for dataframe with shape: (398, 15)
+2024-08-11 19:18:13,232 - INFO - Starting regularization parameter optimization
+2024-08-11 19:18:49,532 - INFO - Analyzing Dataset 2
+2024-08-11 19:18:49,532 - INFO - Computing tilde_S for dataframe with shape: (395, 15)
+2024-08-11 19:18:49,533 - INFO - Starting regularization parameter optimization
+2024-08-11 19:19:26,761 - INFO - Analyzing Dataset 11
+2024-08-11 19:19:26,761 - INFO - Computing tilde_S for dataframe with shape: (409, 15)
+2024-08-11 19:19:26,761 - INFO - Starting regularization parameter optimization
+2024-08-11 19:20:05,060 - INFO - Analyzing Dataset 8
+2024-08-11 19:20:05,061 - INFO - Computing tilde_S for dataframe with shape: (411, 15)
+2024-08-11 19:20:05,061 - INFO - Starting regularization parameter optimization
+2024-08-11 19:20:42,863 - INFO - Analyzing Dataset 1
+2024-08-11 19:20:42,864 - INFO - Computing tilde_S for dataframe with shape: (421, 15)
+2024-08-11 19:20:42,865 - INFO - Starting regularization parameter optimization
+2024-08-11 19:21:23,078 - INFO - Analyzing Dataset 6
+2024-08-11 19:21:23,078 - INFO - Computing tilde_S for dataframe with shape: (399, 15)
+2024-08-11 19:21:23,078 - INFO - Starting regularization parameter optimization
+2024-08-11 19:22:00,460 - INFO - Analyzing Dataset 15
+2024-08-11 19:22:00,461 - INFO - Computing tilde_S for dataframe with shape: (409, 15)
+2024-08-11 19:22:00,462 - INFO - Starting regularization parameter optimization
+2024-08-11 19:22:38,131 - INFO - Analyzing Dataset 12
+2024-08-11 19:22:38,131 - INFO - Computing tilde_S for dataframe with shape: (424, 15)
+2024-08-11 19:22:38,132 - INFO - Starting regularization parameter optimization
+2024-08-11 19:23:17,822 - INFO - Analyzing Dataset 13
+2024-08-11 19:23:17,822 - INFO - Computing tilde_S for dataframe with shape: (441, 15)
+2024-08-11 19:23:17,823 - INFO - Starting regularization parameter optimization
+2024-08-11 19:23:59,351 - INFO - Analyzing Dataset 14
+2024-08-11 19:23:59,351 - INFO - Computing tilde_S for dataframe with shape: (417, 15)
+2024-08-11 19:23:59,352 - INFO - Starting regularization parameter optimization
+2024-08-11 19:24:36,996 - INFO - Analyzing Dataset 7
+2024-08-11 19:24:36,996 - INFO - Computing tilde_S for dataframe with shape: (412, 15)
+2024-08-11 19:24:36,997 - INFO - Starting regularization parameter optimization
+2024-08-11 19:25:15,524 - INFO - Analyzing Dataset 9
+2024-08-11 19:25:15,525 - INFO - Computing tilde_S for dataframe with shape: (396, 15)
+2024-08-11 19:25:15,525 - INFO - Starting regularization parameter optimization
+2024-08-11 19:25:51,202 - INFO - Estimating changepoints
+2024-08-11 19:25:51,203 - INFO - Estimated 1 changepoints
+2024-08-11 19:25:51,620 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim46_perm1.png'
+2024-08-11 19:25:51,633 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:25:51,633 - INFO - Running Simulation 30, Permutation 1
+2024-08-11 19:25:51,633 - INFO - Analyzing Dataset 14
+2024-08-11 19:25:51,633 - INFO - Computing tilde_S for dataframe with shape: (531, 15)
+2024-08-11 19:25:51,634 - INFO - Starting regularization parameter optimization
+2024-08-11 19:26:42,285 - INFO - Analyzing Dataset 13
+2024-08-11 19:26:42,286 - INFO - Computing tilde_S for dataframe with shape: (552, 15)
+2024-08-11 19:26:42,286 - INFO - Starting regularization parameter optimization
+2024-08-11 19:27:40,370 - INFO - Analyzing Dataset 9
+2024-08-11 19:27:40,370 - INFO - Computing tilde_S for dataframe with shape: (516, 15)
+2024-08-11 19:27:40,371 - INFO - Starting regularization parameter optimization
+2024-08-11 19:28:32,447 - INFO - Analyzing Dataset 7
+2024-08-11 19:28:32,447 - INFO - Computing tilde_S for dataframe with shape: (535, 15)
+2024-08-11 19:28:32,448 - INFO - Starting regularization parameter optimization
+2024-08-11 19:29:22,365 - INFO - Analyzing Dataset 1
+2024-08-11 19:29:22,365 - INFO - Computing tilde_S for dataframe with shape: (519, 15)
+2024-08-11 19:29:22,367 - INFO - Starting regularization parameter optimization
+2024-08-11 19:30:09,631 - INFO - Analyzing Dataset 6
+2024-08-11 19:30:09,631 - INFO - Computing tilde_S for dataframe with shape: (517, 15)
+2024-08-11 19:30:09,632 - INFO - Starting regularization parameter optimization
+2024-08-11 19:30:59,313 - INFO - Analyzing Dataset 12
+2024-08-11 19:30:59,314 - INFO - Computing tilde_S for dataframe with shape: (522, 15)
+2024-08-11 19:30:59,314 - INFO - Starting regularization parameter optimization
+2024-08-11 19:31:45,208 - INFO - Analyzing Dataset 8
+2024-08-11 19:31:45,208 - INFO - Computing tilde_S for dataframe with shape: (517, 15)
+2024-08-11 19:31:45,209 - INFO - Starting regularization parameter optimization
+2024-08-11 19:32:30,849 - INFO - Analyzing Dataset 15
+2024-08-11 19:32:30,850 - INFO - Computing tilde_S for dataframe with shape: (522, 15)
+2024-08-11 19:32:30,850 - INFO - Starting regularization parameter optimization
+2024-08-11 19:33:21,039 - INFO - Analyzing Dataset 5
+2024-08-11 19:33:21,040 - INFO - Computing tilde_S for dataframe with shape: (524, 15)
+2024-08-11 19:33:21,040 - INFO - Starting regularization parameter optimization
+2024-08-11 19:34:07,251 - INFO - Analyzing Dataset 2
+2024-08-11 19:34:07,252 - INFO - Computing tilde_S for dataframe with shape: (539, 15)
+2024-08-11 19:34:07,253 - INFO - Starting regularization parameter optimization
+2024-08-11 19:34:55,706 - INFO - Analyzing Dataset 11
+2024-08-11 19:34:55,706 - INFO - Computing tilde_S for dataframe with shape: (525, 15)
+2024-08-11 19:34:55,707 - INFO - Starting regularization parameter optimization
+2024-08-11 19:35:42,563 - INFO - Analyzing Dataset 10
+2024-08-11 19:35:42,563 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 19:35:42,564 - INFO - Starting regularization parameter optimization
+2024-08-11 19:36:35,481 - INFO - Analyzing Dataset 3
+2024-08-11 19:36:35,481 - INFO - Computing tilde_S for dataframe with shape: (538, 15)
+2024-08-11 19:36:35,482 - INFO - Starting regularization parameter optimization
+2024-08-11 19:37:31,225 - INFO - Analyzing Dataset 4
+2024-08-11 19:37:31,225 - INFO - Computing tilde_S for dataframe with shape: (520, 15)
+2024-08-11 19:37:31,226 - INFO - Starting regularization parameter optimization
+2024-08-11 19:38:20,577 - INFO - Estimating changepoints
+2024-08-11 19:38:20,578 - INFO - Estimated 1 changepoints
+2024-08-11 19:38:20,991 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim30_perm1.png'
+2024-08-11 19:38:21,002 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:38:21,003 - INFO - Running Simulation 42, Permutation 1
+2024-08-11 19:38:21,003 - INFO - Analyzing Dataset 10
+2024-08-11 19:38:21,003 - INFO - Computing tilde_S for dataframe with shape: (305, 15)
+2024-08-11 19:38:21,003 - INFO - Starting regularization parameter optimization
+2024-08-11 19:38:46,962 - INFO - Analyzing Dataset 9
+2024-08-11 19:38:46,962 - INFO - Computing tilde_S for dataframe with shape: (296, 15)
+2024-08-11 19:38:46,963 - INFO - Starting regularization parameter optimization
+2024-08-11 19:39:12,878 - INFO - Analyzing Dataset 7
+2024-08-11 19:39:12,878 - INFO - Computing tilde_S for dataframe with shape: (314, 15)
+2024-08-11 19:39:12,879 - INFO - Starting regularization parameter optimization
+2024-08-11 19:39:39,950 - INFO - Analyzing Dataset 6
+2024-08-11 19:39:39,950 - INFO - Computing tilde_S for dataframe with shape: (298, 15)
+2024-08-11 19:39:39,951 - INFO - Starting regularization parameter optimization
+2024-08-11 19:40:06,450 - INFO - Analyzing Dataset 1
+2024-08-11 19:40:06,450 - INFO - Computing tilde_S for dataframe with shape: (305, 15)
+2024-08-11 19:40:06,451 - INFO - Starting regularization parameter optimization
+2024-08-11 19:40:33,360 - INFO - Analyzing Dataset 11
+2024-08-11 19:40:33,361 - INFO - Computing tilde_S for dataframe with shape: (306, 15)
+2024-08-11 19:40:33,362 - INFO - Starting regularization parameter optimization
+2024-08-11 19:41:01,095 - INFO - Analyzing Dataset 8
+2024-08-11 19:41:01,095 - INFO - Computing tilde_S for dataframe with shape: (304, 15)
+2024-08-11 19:41:01,096 - INFO - Starting regularization parameter optimization
+2024-08-11 19:41:28,258 - INFO - Analyzing Dataset 2
+2024-08-11 19:41:28,259 - INFO - Computing tilde_S for dataframe with shape: (294, 15)
+2024-08-11 19:41:28,259 - INFO - Starting regularization parameter optimization
+2024-08-11 19:41:53,975 - INFO - Analyzing Dataset 5
+2024-08-11 19:41:53,975 - INFO - Computing tilde_S for dataframe with shape: (286, 15)
+2024-08-11 19:41:53,976 - INFO - Starting regularization parameter optimization
+2024-08-11 19:42:19,606 - INFO - Analyzing Dataset 12
+2024-08-11 19:42:19,606 - INFO - Computing tilde_S for dataframe with shape: (293, 15)
+2024-08-11 19:42:19,607 - INFO - Starting regularization parameter optimization
+2024-08-11 19:42:45,490 - INFO - Analyzing Dataset 15
+2024-08-11 19:42:45,490 - INFO - Computing tilde_S for dataframe with shape: (334, 15)
+2024-08-11 19:42:45,491 - INFO - Starting regularization parameter optimization
+2024-08-11 19:43:15,806 - INFO - Analyzing Dataset 14
+2024-08-11 19:43:15,807 - INFO - Computing tilde_S for dataframe with shape: (292, 15)
+2024-08-11 19:43:15,807 - INFO - Starting regularization parameter optimization
+2024-08-11 19:43:41,283 - INFO - Analyzing Dataset 13
+2024-08-11 19:43:41,283 - INFO - Computing tilde_S for dataframe with shape: (309, 15)
+2024-08-11 19:43:41,284 - INFO - Starting regularization parameter optimization
+2024-08-11 19:44:07,575 - INFO - Analyzing Dataset 4
+2024-08-11 19:44:07,575 - INFO - Computing tilde_S for dataframe with shape: (343, 15)
+2024-08-11 19:44:07,576 - INFO - Starting regularization parameter optimization
+2024-08-11 19:44:39,219 - INFO - Analyzing Dataset 3
+2024-08-11 19:44:39,219 - INFO - Computing tilde_S for dataframe with shape: (338, 15)
+2024-08-11 19:44:39,220 - INFO - Starting regularization parameter optimization
+2024-08-11 19:45:10,373 - INFO - Estimating changepoints
+2024-08-11 19:45:10,374 - INFO - Estimated 1 changepoints
+2024-08-11 19:45:10,729 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim42_perm1.png'
+2024-08-11 19:45:10,738 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:45:10,739 - INFO - Running Simulation 49, Permutation 1
+2024-08-11 19:45:10,739 - INFO - Analyzing Dataset 9
+2024-08-11 19:45:10,739 - INFO - Computing tilde_S for dataframe with shape: (458, 15)
+2024-08-11 19:45:10,740 - INFO - Starting regularization parameter optimization
+2024-08-11 19:45:51,684 - INFO - Analyzing Dataset 11
+2024-08-11 19:45:51,685 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 19:45:51,686 - INFO - Starting regularization parameter optimization
+2024-08-11 19:46:32,915 - INFO - Analyzing Dataset 7
+2024-08-11 19:46:32,916 - INFO - Computing tilde_S for dataframe with shape: (461, 15)
+2024-08-11 19:46:32,917 - INFO - Starting regularization parameter optimization
+2024-08-11 19:47:14,846 - INFO - Analyzing Dataset 10
+2024-08-11 19:47:14,846 - INFO - Computing tilde_S for dataframe with shape: (453, 15)
+2024-08-11 19:47:14,847 - INFO - Starting regularization parameter optimization
+2024-08-11 19:47:57,382 - INFO - Analyzing Dataset 6
+2024-08-11 19:47:57,383 - INFO - Computing tilde_S for dataframe with shape: (460, 15)
+2024-08-11 19:47:57,384 - INFO - Starting regularization parameter optimization
+2024-08-11 19:48:39,190 - INFO - Analyzing Dataset 1
+2024-08-11 19:48:39,190 - INFO - Computing tilde_S for dataframe with shape: (489, 15)
+2024-08-11 19:48:39,191 - INFO - Starting regularization parameter optimization
+2024-08-11 19:49:26,375 - INFO - Analyzing Dataset 8
+2024-08-11 19:49:26,376 - INFO - Computing tilde_S for dataframe with shape: (471, 15)
+2024-08-11 19:49:26,376 - INFO - Starting regularization parameter optimization
+2024-08-11 19:50:11,497 - INFO - Analyzing Dataset 14
+2024-08-11 19:50:11,497 - INFO - Computing tilde_S for dataframe with shape: (459, 15)
+2024-08-11 19:50:11,498 - INFO - Starting regularization parameter optimization
+2024-08-11 19:50:51,672 - INFO - Analyzing Dataset 2
+2024-08-11 19:50:51,672 - INFO - Computing tilde_S for dataframe with shape: (475, 15)
+2024-08-11 19:50:51,673 - INFO - Starting regularization parameter optimization
+2024-08-11 19:51:34,656 - INFO - Analyzing Dataset 13
+2024-08-11 19:51:34,657 - INFO - Computing tilde_S for dataframe with shape: (473, 15)
+2024-08-11 19:51:34,657 - INFO - Starting regularization parameter optimization
+2024-08-11 19:52:16,423 - INFO - Analyzing Dataset 5
+2024-08-11 19:52:16,423 - INFO - Computing tilde_S for dataframe with shape: (477, 15)
+2024-08-11 19:52:16,424 - INFO - Starting regularization parameter optimization
+2024-08-11 19:53:01,643 - INFO - Analyzing Dataset 12
+2024-08-11 19:53:01,643 - INFO - Computing tilde_S for dataframe with shape: (453, 15)
+2024-08-11 19:53:01,643 - INFO - Starting regularization parameter optimization
+2024-08-11 19:53:43,170 - INFO - Analyzing Dataset 4
+2024-08-11 19:53:43,170 - INFO - Computing tilde_S for dataframe with shape: (486, 15)
+2024-08-11 19:53:43,171 - INFO - Starting regularization parameter optimization
+2024-08-11 19:54:30,979 - INFO - Analyzing Dataset 15
+2024-08-11 19:54:30,979 - INFO - Computing tilde_S for dataframe with shape: (472, 15)
+2024-08-11 19:54:30,980 - INFO - Starting regularization parameter optimization
+2024-08-11 19:55:16,182 - INFO - Analyzing Dataset 3
+2024-08-11 19:55:16,183 - INFO - Computing tilde_S for dataframe with shape: (476, 15)
+2024-08-11 19:55:16,183 - INFO - Starting regularization parameter optimization
+2024-08-11 19:55:59,181 - INFO - Estimating changepoints
+2024-08-11 19:55:59,183 - INFO - Estimated 1 changepoints
+2024-08-11 19:55:59,558 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/plots/changepoint_estimation_sim49_perm1.png'
+2024-08-11 19:55:59,570 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_15/number_samples_1000/results/simulation_results.csv
+2024-08-11 19:55:59,571 - INFO - All simulations completed
+2024-08-11 19:55:59,571 - INFO - Memory usage: 268.08 MB
+2024-08-11 19:55:59,580 - INFO - Total execution time: 31790.00 seconds

@@ -1,0 +1,1257 @@
+2024-08-10 11:02:40,675 - INFO - Starting simulation in directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000
+2024-08-10 11:02:40,675 - INFO - Loading data from directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/csv_files
+2024-08-10 11:02:40,830 - INFO - Loaded 50 simulations and 50 changepoints
+2024-08-10 11:02:40,830 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=40.0, total_original_samples=2000)
+2024-08-10 11:02:40,837 - INFO - Running Simulation 19, Permutation 1
+2024-08-10 11:02:40,837 - INFO - Analyzing Dataset 1
+2024-08-10 11:02:40,837 - INFO - Computing tilde_S for dataframe with shape: (1190, 4)
+2024-08-10 11:02:40,838 - INFO - Starting regularization parameter optimization
+2024-08-10 11:02:45,119 - INFO - Parameter evaluation completed in 4.28 seconds
+2024-08-10 11:02:45,119 - INFO - Optimal lambda1: 34.49637662132068, lambda2: 0.06076853145906296
+2024-08-10 11:02:48,137 - INFO - Analyzing Dataset 2
+2024-08-10 11:02:48,137 - INFO - Computing tilde_S for dataframe with shape: (1233, 4)
+2024-08-10 11:02:48,138 - INFO - Starting regularization parameter optimization
+2024-08-10 11:02:51,421 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:02:51,421 - INFO - Optimal lambda1: 35.11409973215888, lambda2: 0.05969949860387681
+2024-08-10 11:02:54,550 - INFO - Analyzing Dataset 3
+2024-08-10 11:02:54,550 - INFO - Computing tilde_S for dataframe with shape: (1172, 4)
+2024-08-10 11:02:54,550 - INFO - Starting regularization parameter optimization
+2024-08-10 11:02:57,652 - INFO - Parameter evaluation completed in 3.10 seconds
+2024-08-10 11:02:57,652 - INFO - Optimal lambda1: 34.23448553724738, lambda2: 0.06123340587828101
+2024-08-10 11:03:00,677 - INFO - Analyzing Dataset 4
+2024-08-10 11:03:00,678 - INFO - Computing tilde_S for dataframe with shape: (1236, 4)
+2024-08-10 11:03:00,678 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:03,819 - INFO - Parameter evaluation completed in 3.14 seconds
+2024-08-10 11:03:03,819 - INFO - Optimal lambda1: 35.156791662493895, lambda2: 0.05962700373972938
+2024-08-10 11:03:06,950 - INFO - Estimating changepoints
+2024-08-10 11:03:06,951 - INFO - Estimated 1 changepoints
+2024-08-10 11:03:07,122 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim19_perm1.png'
+2024-08-10 11:03:07,123 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:03:07,125 - INFO - Running Simulation 10, Permutation 1
+2024-08-10 11:03:07,125 - INFO - Analyzing Dataset 4
+2024-08-10 11:03:07,125 - INFO - Computing tilde_S for dataframe with shape: (1378, 4)
+2024-08-10 11:03:07,126 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:10,997 - INFO - Parameter evaluation completed in 3.87 seconds
+2024-08-10 11:03:10,997 - INFO - Optimal lambda1: 37.12142238654117, lambda2: 0.056471277584892524
+2024-08-10 11:03:14,687 - INFO - Analyzing Dataset 2
+2024-08-10 11:03:14,688 - INFO - Computing tilde_S for dataframe with shape: (1395, 4)
+2024-08-10 11:03:14,688 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:18,593 - INFO - Parameter evaluation completed in 3.90 seconds
+2024-08-10 11:03:18,593 - INFO - Optimal lambda1: 37.3496987939662, lambda2: 0.056126132622923965
+2024-08-10 11:03:22,347 - INFO - Analyzing Dataset 3
+2024-08-10 11:03:22,348 - INFO - Computing tilde_S for dataframe with shape: (1395, 4)
+2024-08-10 11:03:22,348 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:26,299 - INFO - Parameter evaluation completed in 3.95 seconds
+2024-08-10 11:03:26,299 - INFO - Optimal lambda1: 37.3496987939662, lambda2: 0.056126132622923965
+2024-08-10 11:03:29,949 - INFO - Analyzing Dataset 1
+2024-08-10 11:03:29,949 - INFO - Computing tilde_S for dataframe with shape: (1411, 4)
+2024-08-10 11:03:29,949 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:33,735 - INFO - Parameter evaluation completed in 3.79 seconds
+2024-08-10 11:03:33,735 - INFO - Optimal lambda1: 37.5632799419859, lambda2: 0.05580700490409792
+2024-08-10 11:03:37,659 - INFO - Estimating changepoints
+2024-08-10 11:03:37,659 - INFO - Estimated 1 changepoints
+2024-08-10 11:03:37,755 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim10_perm1.png'
+2024-08-10 11:03:37,755 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:03:37,756 - INFO - Running Simulation 4, Permutation 1
+2024-08-10 11:03:37,756 - INFO - Analyzing Dataset 2
+2024-08-10 11:03:37,756 - INFO - Computing tilde_S for dataframe with shape: (1216, 4)
+2024-08-10 11:03:37,756 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:40,729 - INFO - Parameter evaluation completed in 2.97 seconds
+2024-08-10 11:03:40,729 - INFO - Optimal lambda1: 34.87119154832539, lambda2: 0.06011535754467443
+2024-08-10 11:03:43,798 - INFO - Analyzing Dataset 3
+2024-08-10 11:03:43,798 - INFO - Computing tilde_S for dataframe with shape: (1215, 4)
+2024-08-10 11:03:43,798 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:46,829 - INFO - Parameter evaluation completed in 3.03 seconds
+2024-08-10 11:03:46,829 - INFO - Optimal lambda1: 34.85685011586675, lambda2: 0.06014009128673913
+2024-08-10 11:03:50,009 - INFO - Analyzing Dataset 1
+2024-08-10 11:03:50,010 - INFO - Computing tilde_S for dataframe with shape: (1220, 4)
+2024-08-10 11:03:50,010 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:53,068 - INFO - Parameter evaluation completed in 3.06 seconds
+2024-08-10 11:03:53,068 - INFO - Optimal lambda1: 34.92849839314596, lambda2: 0.0600167268670149
+2024-08-10 11:03:56,205 - INFO - Analyzing Dataset 4
+2024-08-10 11:03:56,206 - INFO - Computing tilde_S for dataframe with shape: (1227, 4)
+2024-08-10 11:03:56,206 - INFO - Starting regularization parameter optimization
+2024-08-10 11:03:59,363 - INFO - Parameter evaluation completed in 3.16 seconds
+2024-08-10 11:03:59,363 - INFO - Optimal lambda1: 35.02855977627399, lambda2: 0.05984528514233405
+2024-08-10 11:04:02,476 - INFO - Estimating changepoints
+2024-08-10 11:04:02,477 - INFO - Estimated 1 changepoints
+2024-08-10 11:04:02,568 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim4_perm1.png'
+2024-08-10 11:04:02,568 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:04:02,568 - INFO - Running Simulation 3, Permutation 1
+2024-08-10 11:04:02,569 - INFO - Analyzing Dataset 1
+2024-08-10 11:04:02,569 - INFO - Computing tilde_S for dataframe with shape: (1391, 4)
+2024-08-10 11:04:02,569 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:06,498 - INFO - Parameter evaluation completed in 3.93 seconds
+2024-08-10 11:04:06,498 - INFO - Optimal lambda1: 37.296112397943034, lambda2: 0.05620677365965965
+2024-08-10 11:04:10,234 - INFO - Analyzing Dataset 2
+2024-08-10 11:04:10,234 - INFO - Computing tilde_S for dataframe with shape: (1372, 4)
+2024-08-10 11:04:10,234 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:13,774 - INFO - Parameter evaluation completed in 3.54 seconds
+2024-08-10 11:04:13,774 - INFO - Optimal lambda1: 37.04051835490427, lambda2: 0.056594622349793726
+2024-08-10 11:04:17,439 - INFO - Analyzing Dataset 3
+2024-08-10 11:04:17,439 - INFO - Computing tilde_S for dataframe with shape: (1388, 4)
+2024-08-10 11:04:17,439 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:21,093 - INFO - Parameter evaluation completed in 3.65 seconds
+2024-08-10 11:04:21,093 - INFO - Optimal lambda1: 37.255872020394314, lambda2: 0.05626748306384758
+2024-08-10 11:04:24,744 - INFO - Analyzing Dataset 4
+2024-08-10 11:04:24,744 - INFO - Computing tilde_S for dataframe with shape: (1390, 4)
+2024-08-10 11:04:24,744 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:28,336 - INFO - Parameter evaluation completed in 3.59 seconds
+2024-08-10 11:04:28,336 - INFO - Optimal lambda1: 37.282703764614496, lambda2: 0.05622698828849506
+2024-08-10 11:04:32,095 - INFO - Estimating changepoints
+2024-08-10 11:04:32,095 - INFO - Estimated 1 changepoints
+2024-08-10 11:04:32,192 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim3_perm1.png'
+2024-08-10 11:04:32,193 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:04:32,193 - INFO - Running Simulation 50, Permutation 1
+2024-08-10 11:04:32,193 - INFO - Analyzing Dataset 3
+2024-08-10 11:04:32,193 - INFO - Computing tilde_S for dataframe with shape: (1298, 4)
+2024-08-10 11:04:32,194 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:35,744 - INFO - Parameter evaluation completed in 3.55 seconds
+2024-08-10 11:04:35,745 - INFO - Optimal lambda1: 36.02776706930364, lambda2: 0.05818551407596097
+2024-08-10 11:04:39,090 - INFO - Analyzing Dataset 2
+2024-08-10 11:04:39,090 - INFO - Computing tilde_S for dataframe with shape: (1285, 4)
+2024-08-10 11:04:39,090 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:42,624 - INFO - Parameter evaluation completed in 3.53 seconds
+2024-08-10 11:04:42,625 - INFO - Optimal lambda1: 35.84689665786984, lambda2: 0.058479097031574945
+2024-08-10 11:04:46,063 - INFO - Analyzing Dataset 1
+2024-08-10 11:04:46,063 - INFO - Computing tilde_S for dataframe with shape: (1324, 4)
+2024-08-10 11:04:46,063 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:49,416 - INFO - Parameter evaluation completed in 3.35 seconds
+2024-08-10 11:04:49,416 - INFO - Optimal lambda1: 36.38681079732051, lambda2: 0.057611373516988175
+2024-08-10 11:04:52,824 - INFO - Analyzing Dataset 4
+2024-08-10 11:04:52,825 - INFO - Computing tilde_S for dataframe with shape: (1324, 4)
+2024-08-10 11:04:52,825 - INFO - Starting regularization parameter optimization
+2024-08-10 11:04:56,213 - INFO - Parameter evaluation completed in 3.39 seconds
+2024-08-10 11:04:56,213 - INFO - Optimal lambda1: 36.38681079732051, lambda2: 0.057611373516988175
+2024-08-10 11:04:59,753 - INFO - Estimating changepoints
+2024-08-10 11:04:59,753 - INFO - Estimated 1 changepoints
+2024-08-10 11:04:59,848 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim50_perm1.png'
+2024-08-10 11:04:59,848 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:04:59,849 - INFO - Running Simulation 9, Permutation 1
+2024-08-10 11:04:59,849 - INFO - Analyzing Dataset 1
+2024-08-10 11:04:59,849 - INFO - Computing tilde_S for dataframe with shape: (1547, 4)
+2024-08-10 11:04:59,849 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:03,965 - INFO - Parameter evaluation completed in 4.12 seconds
+2024-08-10 11:05:03,966 - INFO - Optimal lambda1: 39.331920878594275, lambda2: 0.05329752783768266
+2024-08-10 11:05:08,124 - INFO - Analyzing Dataset 2
+2024-08-10 11:05:08,124 - INFO - Computing tilde_S for dataframe with shape: (1537, 4)
+2024-08-10 11:05:08,124 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:12,232 - INFO - Parameter evaluation completed in 4.11 seconds
+2024-08-10 11:05:12,232 - INFO - Optimal lambda1: 39.20459156782532, lambda2: 0.05347062841631056
+2024-08-10 11:05:16,439 - INFO - Analyzing Dataset 3
+2024-08-10 11:05:16,439 - INFO - Computing tilde_S for dataframe with shape: (1535, 4)
+2024-08-10 11:05:16,440 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:20,512 - INFO - Parameter evaluation completed in 4.07 seconds
+2024-08-10 11:05:20,513 - INFO - Optimal lambda1: 39.179076048319466, lambda2: 0.05350545136263691
+2024-08-10 11:05:24,705 - INFO - Analyzing Dataset 4
+2024-08-10 11:05:24,705 - INFO - Computing tilde_S for dataframe with shape: (1530, 4)
+2024-08-10 11:05:24,706 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:29,069 - INFO - Parameter evaluation completed in 4.36 seconds
+2024-08-10 11:05:29,070 - INFO - Optimal lambda1: 39.11521443121589, lambda2: 0.053592807259761885
+2024-08-10 11:05:33,243 - INFO - Estimating changepoints
+2024-08-10 11:05:33,244 - INFO - Estimated 1 changepoints
+2024-08-10 11:05:33,338 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim9_perm1.png'
+2024-08-10 11:05:33,339 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:05:33,341 - INFO - Running Simulation 13, Permutation 1
+2024-08-10 11:05:33,341 - INFO - Analyzing Dataset 1
+2024-08-10 11:05:33,341 - INFO - Computing tilde_S for dataframe with shape: (1343, 4)
+2024-08-10 11:05:33,341 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:36,746 - INFO - Parameter evaluation completed in 3.40 seconds
+2024-08-10 11:05:36,746 - INFO - Optimal lambda1: 36.64696440361739, lambda2: 0.05720239539757041
+2024-08-10 11:05:40,289 - INFO - Analyzing Dataset 2
+2024-08-10 11:05:40,290 - INFO - Computing tilde_S for dataframe with shape: (1331, 4)
+2024-08-10 11:05:40,290 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:43,643 - INFO - Parameter evaluation completed in 3.35 seconds
+2024-08-10 11:05:43,643 - INFO - Optimal lambda1: 36.4828726939094, lambda2: 0.057459678834073116
+2024-08-10 11:05:47,161 - INFO - Analyzing Dataset 3
+2024-08-10 11:05:47,161 - INFO - Computing tilde_S for dataframe with shape: (1320, 4)
+2024-08-10 11:05:47,161 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:50,506 - INFO - Parameter evaluation completed in 3.34 seconds
+2024-08-10 11:05:50,506 - INFO - Optimal lambda1: 36.3318042491699, lambda2: 0.05769859744811065
+2024-08-10 11:05:54,042 - INFO - Analyzing Dataset 4
+2024-08-10 11:05:54,042 - INFO - Computing tilde_S for dataframe with shape: (1319, 4)
+2024-08-10 11:05:54,042 - INFO - Starting regularization parameter optimization
+2024-08-10 11:05:57,418 - INFO - Parameter evaluation completed in 3.38 seconds
+2024-08-10 11:05:57,418 - INFO - Optimal lambda1: 36.318039594669756, lambda2: 0.05772046540320624
+2024-08-10 11:06:00,836 - INFO - Estimating changepoints
+2024-08-10 11:06:00,836 - INFO - Estimated 1 changepoints
+2024-08-10 11:06:00,931 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim13_perm1.png'
+2024-08-10 11:06:00,932 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:06:00,932 - INFO - Running Simulation 14, Permutation 1
+2024-08-10 11:06:00,932 - INFO - Analyzing Dataset 2
+2024-08-10 11:06:00,932 - INFO - Computing tilde_S for dataframe with shape: (1352, 4)
+2024-08-10 11:06:00,932 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:04,353 - INFO - Parameter evaluation completed in 3.42 seconds
+2024-08-10 11:06:04,353 - INFO - Optimal lambda1: 36.76955262170047, lambda2: 0.05701168489875043
+2024-08-10 11:06:07,891 - INFO - Analyzing Dataset 3
+2024-08-10 11:06:07,891 - INFO - Computing tilde_S for dataframe with shape: (1350, 4)
+2024-08-10 11:06:07,891 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:11,333 - INFO - Parameter evaluation completed in 3.44 seconds
+2024-08-10 11:06:11,333 - INFO - Optimal lambda1: 36.742346141747674, lambda2: 0.05705390014696265
+2024-08-10 11:06:14,858 - INFO - Analyzing Dataset 1
+2024-08-10 11:06:14,858 - INFO - Computing tilde_S for dataframe with shape: (1353, 4)
+2024-08-10 11:06:14,858 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:18,351 - INFO - Parameter evaluation completed in 3.49 seconds
+2024-08-10 11:06:18,351 - INFO - Optimal lambda1: 36.78314831549904, lambda2: 0.05699061238466937
+2024-08-10 11:06:21,925 - INFO - Analyzing Dataset 4
+2024-08-10 11:06:21,925 - INFO - Computing tilde_S for dataframe with shape: (1325, 4)
+2024-08-10 11:06:21,925 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:25,325 - INFO - Parameter evaluation completed in 3.40 seconds
+2024-08-10 11:06:25,325 - INFO - Optimal lambda1: 36.40054944640259, lambda2: 0.05758962927257636
+2024-08-10 11:06:28,740 - INFO - Estimating changepoints
+2024-08-10 11:06:28,740 - INFO - Estimated 1 changepoints
+2024-08-10 11:06:28,838 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim14_perm1.png'
+2024-08-10 11:06:28,839 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:06:28,839 - INFO - Running Simulation 25, Permutation 1
+2024-08-10 11:06:28,839 - INFO - Analyzing Dataset 3
+2024-08-10 11:06:28,839 - INFO - Computing tilde_S for dataframe with shape: (1415, 4)
+2024-08-10 11:06:28,840 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:32,629 - INFO - Parameter evaluation completed in 3.79 seconds
+2024-08-10 11:06:32,630 - INFO - Optimal lambda1: 37.61648574760805, lambda2: 0.055728069921303275
+2024-08-10 11:06:36,358 - INFO - Analyzing Dataset 2
+2024-08-10 11:06:36,359 - INFO - Computing tilde_S for dataframe with shape: (1396, 4)
+2024-08-10 11:06:36,360 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:40,067 - INFO - Parameter evaluation completed in 3.71 seconds
+2024-08-10 11:06:40,068 - INFO - Optimal lambda1: 37.36308338453881, lambda2: 0.05610602653858798
+2024-08-10 11:06:43,734 - INFO - Analyzing Dataset 1
+2024-08-10 11:06:43,734 - INFO - Computing tilde_S for dataframe with shape: (1409, 4)
+2024-08-10 11:06:43,735 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:47,382 - INFO - Parameter evaluation completed in 3.65 seconds
+2024-08-10 11:06:47,383 - INFO - Optimal lambda1: 37.53664875824692, lambda2: 0.05584659838542053
+2024-08-10 11:06:51,134 - INFO - Analyzing Dataset 4
+2024-08-10 11:06:51,135 - INFO - Computing tilde_S for dataframe with shape: (1446, 4)
+2024-08-10 11:06:51,135 - INFO - Starting regularization parameter optimization
+2024-08-10 11:06:54,990 - INFO - Parameter evaluation completed in 3.85 seconds
+2024-08-10 11:06:54,990 - INFO - Optimal lambda1: 38.02630668366309, lambda2: 0.05512747176251599
+2024-08-10 11:06:58,917 - INFO - Estimating changepoints
+2024-08-10 11:06:58,917 - INFO - Estimated 1 changepoints
+2024-08-10 11:06:59,010 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim25_perm1.png'
+2024-08-10 11:06:59,010 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:06:59,011 - INFO - Running Simulation 22, Permutation 1
+2024-08-10 11:06:59,011 - INFO - Analyzing Dataset 1
+2024-08-10 11:06:59,011 - INFO - Computing tilde_S for dataframe with shape: (1187, 4)
+2024-08-10 11:06:59,011 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:01,917 - INFO - Parameter evaluation completed in 2.91 seconds
+2024-08-10 11:07:01,918 - INFO - Optimal lambda1: 34.45286635390443, lambda2: 0.06084527558325619
+2024-08-10 11:07:04,915 - INFO - Analyzing Dataset 3
+2024-08-10 11:07:04,915 - INFO - Computing tilde_S for dataframe with shape: (1194, 4)
+2024-08-10 11:07:04,915 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:07,865 - INFO - Parameter evaluation completed in 2.95 seconds
+2024-08-10 11:07:07,865 - INFO - Optimal lambda1: 34.55430508634199, lambda2: 0.06066665622990623
+2024-08-10 11:07:10,887 - INFO - Analyzing Dataset 2
+2024-08-10 11:07:10,887 - INFO - Computing tilde_S for dataframe with shape: (1198, 4)
+2024-08-10 11:07:10,887 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:13,993 - INFO - Parameter evaluation completed in 3.11 seconds
+2024-08-10 11:07:13,993 - INFO - Optimal lambda1: 34.61213659975356, lambda2: 0.06056529165412272
+2024-08-10 11:07:17,116 - INFO - Analyzing Dataset 4
+2024-08-10 11:07:17,117 - INFO - Computing tilde_S for dataframe with shape: (1215, 4)
+2024-08-10 11:07:17,117 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:20,141 - INFO - Parameter evaluation completed in 3.02 seconds
+2024-08-10 11:07:20,141 - INFO - Optimal lambda1: 34.85685011586675, lambda2: 0.06014009128673913
+2024-08-10 11:07:23,219 - INFO - Estimating changepoints
+2024-08-10 11:07:23,219 - INFO - Estimated 1 changepoints
+2024-08-10 11:07:23,315 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim22_perm1.png'
+2024-08-10 11:07:23,315 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:07:23,316 - INFO - Running Simulation 28, Permutation 1
+2024-08-10 11:07:23,316 - INFO - Analyzing Dataset 1
+2024-08-10 11:07:23,316 - INFO - Computing tilde_S for dataframe with shape: (1153, 4)
+2024-08-10 11:07:23,316 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:26,112 - INFO - Parameter evaluation completed in 2.80 seconds
+2024-08-10 11:07:26,112 - INFO - Optimal lambda1: 33.95585369269929, lambda2: 0.06173586937050343
+2024-08-10 11:07:29,054 - INFO - Analyzing Dataset 3
+2024-08-10 11:07:29,054 - INFO - Computing tilde_S for dataframe with shape: (1127, 4)
+2024-08-10 11:07:29,054 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:31,765 - INFO - Parameter evaluation completed in 2.71 seconds
+2024-08-10 11:07:31,765 - INFO - Optimal lambda1: 33.57082066318904, lambda2: 0.06244393513546219
+2024-08-10 11:07:34,537 - INFO - Analyzing Dataset 2
+2024-08-10 11:07:34,537 - INFO - Computing tilde_S for dataframe with shape: (1164, 4)
+2024-08-10 11:07:34,537 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:37,408 - INFO - Parameter evaluation completed in 2.87 seconds
+2024-08-10 11:07:37,409 - INFO - Optimal lambda1: 34.11744421846396, lambda2: 0.0614434696372104
+2024-08-10 11:07:40,380 - INFO - Analyzing Dataset 4
+2024-08-10 11:07:40,381 - INFO - Computing tilde_S for dataframe with shape: (1122, 4)
+2024-08-10 11:07:40,381 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:43,135 - INFO - Parameter evaluation completed in 2.75 seconds
+2024-08-10 11:07:43,135 - INFO - Optimal lambda1: 33.49626844888845, lambda2: 0.06258291579956494
+2024-08-10 11:07:45,978 - INFO - Estimating changepoints
+2024-08-10 11:07:45,979 - INFO - Estimated 1 changepoints
+2024-08-10 11:07:46,072 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim28_perm1.png'
+2024-08-10 11:07:46,072 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:07:46,072 - INFO - Running Simulation 21, Permutation 1
+2024-08-10 11:07:46,072 - INFO - Analyzing Dataset 4
+2024-08-10 11:07:46,073 - INFO - Computing tilde_S for dataframe with shape: (1290, 4)
+2024-08-10 11:07:46,073 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:49,357 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:07:49,357 - INFO - Optimal lambda1: 35.91656999213594, lambda2: 0.05836565541741321
+2024-08-10 11:07:52,698 - INFO - Analyzing Dataset 3
+2024-08-10 11:07:52,698 - INFO - Computing tilde_S for dataframe with shape: (1296, 4)
+2024-08-10 11:07:52,699 - INFO - Starting regularization parameter optimization
+2024-08-10 11:07:56,011 - INFO - Parameter evaluation completed in 3.31 seconds
+2024-08-10 11:07:56,011 - INFO - Optimal lambda1: 36.0, lambda2: 0.05823039299823361
+2024-08-10 11:07:59,341 - INFO - Analyzing Dataset 2
+2024-08-10 11:07:59,342 - INFO - Computing tilde_S for dataframe with shape: (1289, 4)
+2024-08-10 11:07:59,342 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:02,623 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:08:02,624 - INFO - Optimal lambda1: 35.90264614203248, lambda2: 0.058388290925503815
+2024-08-10 11:08:05,991 - INFO - Analyzing Dataset 1
+2024-08-10 11:08:05,992 - INFO - Computing tilde_S for dataframe with shape: (1280, 4)
+2024-08-10 11:08:05,992 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:09,217 - INFO - Parameter evaluation completed in 3.22 seconds
+2024-08-10 11:08:09,217 - INFO - Optimal lambda1: 35.77708763999664, lambda2: 0.058593202695260166
+2024-08-10 11:08:12,506 - INFO - Estimating changepoints
+2024-08-10 11:08:12,506 - INFO - Estimated 1 changepoints
+2024-08-10 11:08:12,621 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim21_perm1.png'
+2024-08-10 11:08:12,622 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:08:12,622 - INFO - Running Simulation 17, Permutation 1
+2024-08-10 11:08:12,623 - INFO - Analyzing Dataset 4
+2024-08-10 11:08:12,623 - INFO - Computing tilde_S for dataframe with shape: (1156, 4)
+2024-08-10 11:08:12,623 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:15,538 - INFO - Parameter evaluation completed in 2.91 seconds
+2024-08-10 11:08:15,539 - INFO - Optimal lambda1: 34.0, lambda2: 0.061655710233423824
+2024-08-10 11:08:18,451 - INFO - Analyzing Dataset 1
+2024-08-10 11:08:18,451 - INFO - Computing tilde_S for dataframe with shape: (1123, 4)
+2024-08-10 11:08:18,451 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:21,193 - INFO - Parameter evaluation completed in 2.74 seconds
+2024-08-10 11:08:21,193 - INFO - Optimal lambda1: 33.51119216023208, lambda2: 0.06255504542819859
+2024-08-10 11:08:23,959 - INFO - Analyzing Dataset 2
+2024-08-10 11:08:23,959 - INFO - Computing tilde_S for dataframe with shape: (1148, 4)
+2024-08-10 11:08:23,959 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:26,747 - INFO - Parameter evaluation completed in 2.79 seconds
+2024-08-10 11:08:26,747 - INFO - Optimal lambda1: 33.88214869219483, lambda2: 0.06187016552522588
+2024-08-10 11:08:29,679 - INFO - Analyzing Dataset 3
+2024-08-10 11:08:29,680 - INFO - Computing tilde_S for dataframe with shape: (1140, 4)
+2024-08-10 11:08:29,680 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:32,564 - INFO - Parameter evaluation completed in 2.88 seconds
+2024-08-10 11:08:32,564 - INFO - Optimal lambda1: 33.76388603226827, lambda2: 0.06208687429915426
+2024-08-10 11:08:35,420 - INFO - Estimating changepoints
+2024-08-10 11:08:35,420 - INFO - Estimated 1 changepoints
+2024-08-10 11:08:35,518 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim17_perm1.png'
+2024-08-10 11:08:35,519 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:08:35,519 - INFO - Running Simulation 7, Permutation 1
+2024-08-10 11:08:35,519 - INFO - Analyzing Dataset 4
+2024-08-10 11:08:35,519 - INFO - Computing tilde_S for dataframe with shape: (1328, 4)
+2024-08-10 11:08:35,520 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:39,125 - INFO - Parameter evaluation completed in 3.61 seconds
+2024-08-10 11:08:39,125 - INFO - Optimal lambda1: 36.4417343165772, lambda2: 0.057524543967239626
+2024-08-10 11:08:42,542 - INFO - Analyzing Dataset 1
+2024-08-10 11:08:42,542 - INFO - Computing tilde_S for dataframe with shape: (1353, 4)
+2024-08-10 11:08:42,543 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:46,027 - INFO - Parameter evaluation completed in 3.48 seconds
+2024-08-10 11:08:46,028 - INFO - Optimal lambda1: 36.78314831549904, lambda2: 0.05699061238466937
+2024-08-10 11:08:49,546 - INFO - Analyzing Dataset 2
+2024-08-10 11:08:49,547 - INFO - Computing tilde_S for dataframe with shape: (1334, 4)
+2024-08-10 11:08:49,547 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:52,904 - INFO - Parameter evaluation completed in 3.36 seconds
+2024-08-10 11:08:52,904 - INFO - Optimal lambda1: 36.52396473549935, lambda2: 0.05739503263453005
+2024-08-10 11:08:56,378 - INFO - Analyzing Dataset 3
+2024-08-10 11:08:56,378 - INFO - Computing tilde_S for dataframe with shape: (1338, 4)
+2024-08-10 11:08:56,379 - INFO - Starting regularization parameter optimization
+2024-08-10 11:08:59,781 - INFO - Parameter evaluation completed in 3.40 seconds
+2024-08-10 11:08:59,781 - INFO - Optimal lambda1: 36.578682316343766, lambda2: 0.057309176142732794
+2024-08-10 11:09:03,308 - INFO - Estimating changepoints
+2024-08-10 11:09:03,308 - INFO - Estimated 1 changepoints
+2024-08-10 11:09:03,405 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim7_perm1.png'
+2024-08-10 11:09:03,406 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:09:03,406 - INFO - Running Simulation 26, Permutation 1
+2024-08-10 11:09:03,406 - INFO - Analyzing Dataset 4
+2024-08-10 11:09:03,406 - INFO - Computing tilde_S for dataframe with shape: (1253, 4)
+2024-08-10 11:09:03,407 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:06,594 - INFO - Parameter evaluation completed in 3.19 seconds
+2024-08-10 11:09:06,594 - INFO - Optimal lambda1: 35.397740040855716, lambda2: 0.0592211295273904
+2024-08-10 11:09:09,782 - INFO - Analyzing Dataset 1
+2024-08-10 11:09:09,782 - INFO - Computing tilde_S for dataframe with shape: (1263, 4)
+2024-08-10 11:09:09,782 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:12,976 - INFO - Parameter evaluation completed in 3.19 seconds
+2024-08-10 11:09:12,977 - INFO - Optimal lambda1: 35.53871128783372, lambda2: 0.05898621733799483
+2024-08-10 11:09:16,213 - INFO - Analyzing Dataset 3
+2024-08-10 11:09:16,214 - INFO - Computing tilde_S for dataframe with shape: (1215, 4)
+2024-08-10 11:09:16,215 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:19,239 - INFO - Parameter evaluation completed in 3.02 seconds
+2024-08-10 11:09:19,239 - INFO - Optimal lambda1: 34.85685011586675, lambda2: 0.06014009128673913
+2024-08-10 11:09:22,350 - INFO - Analyzing Dataset 2
+2024-08-10 11:09:22,351 - INFO - Computing tilde_S for dataframe with shape: (1181, 4)
+2024-08-10 11:09:22,351 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:25,210 - INFO - Parameter evaluation completed in 2.86 seconds
+2024-08-10 11:09:25,210 - INFO - Optimal lambda1: 34.36568055487916, lambda2: 0.06099964016684612
+2024-08-10 11:09:28,183 - INFO - Estimating changepoints
+2024-08-10 11:09:28,184 - INFO - Estimated 1 changepoints
+2024-08-10 11:09:28,280 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim26_perm1.png'
+2024-08-10 11:09:28,280 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:09:28,281 - INFO - Running Simulation 16, Permutation 1
+2024-08-10 11:09:28,281 - INFO - Analyzing Dataset 3
+2024-08-10 11:09:28,281 - INFO - Computing tilde_S for dataframe with shape: (1371, 4)
+2024-08-10 11:09:28,281 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:31,908 - INFO - Parameter evaluation completed in 3.63 seconds
+2024-08-10 11:09:31,909 - INFO - Optimal lambda1: 37.027017163147235, lambda2: 0.056615258493542354
+2024-08-10 11:09:35,563 - INFO - Analyzing Dataset 2
+2024-08-10 11:09:35,563 - INFO - Computing tilde_S for dataframe with shape: (1335, 4)
+2024-08-10 11:09:35,563 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:39,023 - INFO - Parameter evaluation completed in 3.46 seconds
+2024-08-10 11:09:39,023 - INFO - Optimal lambda1: 36.53765181289022, lambda2: 0.0573735323405992
+2024-08-10 11:09:42,523 - INFO - Analyzing Dataset 1
+2024-08-10 11:09:42,523 - INFO - Computing tilde_S for dataframe with shape: (1350, 4)
+2024-08-10 11:09:42,523 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:46,012 - INFO - Parameter evaluation completed in 3.49 seconds
+2024-08-10 11:09:46,012 - INFO - Optimal lambda1: 36.742346141747674, lambda2: 0.05705390014696265
+2024-08-10 11:09:49,536 - INFO - Analyzing Dataset 4
+2024-08-10 11:09:49,536 - INFO - Computing tilde_S for dataframe with shape: (1347, 4)
+2024-08-10 11:09:49,536 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:53,091 - INFO - Parameter evaluation completed in 3.55 seconds
+2024-08-10 11:09:53,091 - INFO - Optimal lambda1: 36.701498607005135, lambda2: 0.057117399220758105
+2024-08-10 11:09:56,611 - INFO - Estimating changepoints
+2024-08-10 11:09:56,612 - INFO - Estimated 1 changepoints
+2024-08-10 11:09:56,708 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim16_perm1.png'
+2024-08-10 11:09:56,708 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:09:56,709 - INFO - Running Simulation 27, Permutation 1
+2024-08-10 11:09:56,709 - INFO - Analyzing Dataset 2
+2024-08-10 11:09:56,709 - INFO - Computing tilde_S for dataframe with shape: (1276, 4)
+2024-08-10 11:09:56,709 - INFO - Starting regularization parameter optimization
+2024-08-10 11:09:59,947 - INFO - Parameter evaluation completed in 3.24 seconds
+2024-08-10 11:09:59,947 - INFO - Optimal lambda1: 35.7211421989835, lambda2: 0.05868496970950898
+2024-08-10 11:10:03,242 - INFO - Analyzing Dataset 3
+2024-08-10 11:10:03,242 - INFO - Computing tilde_S for dataframe with shape: (1287, 4)
+2024-08-10 11:10:03,243 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:06,451 - INFO - Parameter evaluation completed in 3.21 seconds
+2024-08-10 11:10:06,451 - INFO - Optimal lambda1: 35.874782229304195, lambda2: 0.05843364106121484
+2024-08-10 11:10:09,773 - INFO - Analyzing Dataset 1
+2024-08-10 11:10:09,773 - INFO - Computing tilde_S for dataframe with shape: (1279, 4)
+2024-08-10 11:10:09,773 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:13,024 - INFO - Parameter evaluation completed in 3.25 seconds
+2024-08-10 11:10:13,024 - INFO - Optimal lambda1: 35.76310948449533, lambda2: 0.05861610408471985
+2024-08-10 11:10:16,357 - INFO - Analyzing Dataset 4
+2024-08-10 11:10:16,357 - INFO - Computing tilde_S for dataframe with shape: (1311, 4)
+2024-08-10 11:10:16,358 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:19,714 - INFO - Parameter evaluation completed in 3.36 seconds
+2024-08-10 11:10:19,715 - INFO - Optimal lambda1: 36.207733980463345, lambda2: 0.05789630881257331
+2024-08-10 11:10:23,094 - INFO - Estimating changepoints
+2024-08-10 11:10:23,094 - INFO - Estimated 1 changepoints
+2024-08-10 11:10:23,190 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim27_perm1.png'
+2024-08-10 11:10:23,190 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:10:23,191 - INFO - Running Simulation 20, Permutation 1
+2024-08-10 11:10:23,191 - INFO - Analyzing Dataset 1
+2024-08-10 11:10:23,191 - INFO - Computing tilde_S for dataframe with shape: (1182, 4)
+2024-08-10 11:10:23,191 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:26,055 - INFO - Parameter evaluation completed in 2.86 seconds
+2024-08-10 11:10:26,055 - INFO - Optimal lambda1: 34.38022687534217, lambda2: 0.0609738311366378
+2024-08-10 11:10:29,067 - INFO - Analyzing Dataset 2
+2024-08-10 11:10:29,067 - INFO - Computing tilde_S for dataframe with shape: (1215, 4)
+2024-08-10 11:10:29,067 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:32,099 - INFO - Parameter evaluation completed in 3.03 seconds
+2024-08-10 11:10:32,100 - INFO - Optimal lambda1: 34.85685011586675, lambda2: 0.06014009128673913
+2024-08-10 11:10:35,143 - INFO - Analyzing Dataset 3
+2024-08-10 11:10:35,143 - INFO - Computing tilde_S for dataframe with shape: (1172, 4)
+2024-08-10 11:10:35,144 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:38,113 - INFO - Parameter evaluation completed in 2.97 seconds
+2024-08-10 11:10:38,113 - INFO - Optimal lambda1: 34.23448553724738, lambda2: 0.06123340587828101
+2024-08-10 11:10:41,032 - INFO - Analyzing Dataset 4
+2024-08-10 11:10:41,032 - INFO - Computing tilde_S for dataframe with shape: (1164, 4)
+2024-08-10 11:10:41,032 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:43,909 - INFO - Parameter evaluation completed in 2.88 seconds
+2024-08-10 11:10:43,909 - INFO - Optimal lambda1: 34.11744421846396, lambda2: 0.0614434696372104
+2024-08-10 11:10:46,835 - INFO - Estimating changepoints
+2024-08-10 11:10:46,835 - INFO - Estimated 2 changepoints
+2024-08-10 11:10:46,931 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim20_perm1.png'
+2024-08-10 11:10:46,932 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:10:46,932 - INFO - Running Simulation 29, Permutation 1
+2024-08-10 11:10:46,932 - INFO - Analyzing Dataset 4
+2024-08-10 11:10:46,932 - INFO - Computing tilde_S for dataframe with shape: (1592, 4)
+2024-08-10 11:10:46,933 - INFO - Starting regularization parameter optimization
+2024-08-10 11:10:51,247 - INFO - Parameter evaluation completed in 4.31 seconds
+2024-08-10 11:10:51,247 - INFO - Optimal lambda1: 39.89987468652001, lambda2: 0.052538865457756274
+2024-08-10 11:10:55,674 - INFO - Analyzing Dataset 2
+2024-08-10 11:10:55,675 - INFO - Computing tilde_S for dataframe with shape: (1630, 4)
+2024-08-10 11:10:55,675 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:00,162 - INFO - Parameter evaluation completed in 4.49 seconds
+2024-08-10 11:11:00,162 - INFO - Optimal lambda1: 40.3732584763727, lambda2: 0.05192283771603936
+2024-08-10 11:11:04,663 - INFO - Analyzing Dataset 3
+2024-08-10 11:11:04,663 - INFO - Computing tilde_S for dataframe with shape: (1602, 4)
+2024-08-10 11:11:04,663 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:08,967 - INFO - Parameter evaluation completed in 4.30 seconds
+2024-08-10 11:11:08,967 - INFO - Optimal lambda1: 40.024992192379, lambda2: 0.05237462977783059
+2024-08-10 11:11:13,449 - INFO - Analyzing Dataset 1
+2024-08-10 11:11:13,450 - INFO - Computing tilde_S for dataframe with shape: (1613, 4)
+2024-08-10 11:11:13,450 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:17,809 - INFO - Parameter evaluation completed in 4.36 seconds
+2024-08-10 11:11:17,810 - INFO - Optimal lambda1: 40.162171256046406, lambda2: 0.05219573749068194
+2024-08-10 11:11:22,430 - INFO - Estimating changepoints
+2024-08-10 11:11:22,430 - INFO - Estimated 1 changepoints
+2024-08-10 11:11:22,526 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim29_perm1.png'
+2024-08-10 11:11:22,526 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:11:22,527 - INFO - Running Simulation 23, Permutation 1
+2024-08-10 11:11:22,527 - INFO - Analyzing Dataset 4
+2024-08-10 11:11:22,527 - INFO - Computing tilde_S for dataframe with shape: (1379, 4)
+2024-08-10 11:11:22,527 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:26,125 - INFO - Parameter evaluation completed in 3.60 seconds
+2024-08-10 11:11:26,125 - INFO - Optimal lambda1: 37.134889255254286, lambda2: 0.05645079842643671
+2024-08-10 11:11:29,764 - INFO - Analyzing Dataset 2
+2024-08-10 11:11:29,765 - INFO - Computing tilde_S for dataframe with shape: (1343, 4)
+2024-08-10 11:11:29,765 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:33,277 - INFO - Parameter evaluation completed in 3.51 seconds
+2024-08-10 11:11:33,277 - INFO - Optimal lambda1: 36.64696440361739, lambda2: 0.05720239539757041
+2024-08-10 11:11:36,775 - INFO - Analyzing Dataset 3
+2024-08-10 11:11:36,775 - INFO - Computing tilde_S for dataframe with shape: (1400, 4)
+2024-08-10 11:11:36,775 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:40,370 - INFO - Parameter evaluation completed in 3.59 seconds
+2024-08-10 11:11:40,370 - INFO - Optimal lambda1: 37.416573867739416, lambda2: 0.05602581773912324
+2024-08-10 11:11:44,053 - INFO - Analyzing Dataset 1
+2024-08-10 11:11:44,053 - INFO - Computing tilde_S for dataframe with shape: (1365, 4)
+2024-08-10 11:11:44,053 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:47,510 - INFO - Parameter evaluation completed in 3.46 seconds
+2024-08-10 11:11:47,511 - INFO - Optimal lambda1: 36.945906403822335, lambda2: 0.05673955119746453
+2024-08-10 11:11:51,114 - INFO - Estimating changepoints
+2024-08-10 11:11:51,115 - INFO - Estimated 1 changepoints
+2024-08-10 11:11:51,212 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim23_perm1.png'
+2024-08-10 11:11:51,212 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:11:51,213 - INFO - Running Simulation 6, Permutation 1
+2024-08-10 11:11:51,213 - INFO - Analyzing Dataset 3
+2024-08-10 11:11:51,213 - INFO - Computing tilde_S for dataframe with shape: (1361, 4)
+2024-08-10 11:11:51,213 - INFO - Starting regularization parameter optimization
+2024-08-10 11:11:54,795 - INFO - Parameter evaluation completed in 3.58 seconds
+2024-08-10 11:11:54,795 - INFO - Optimal lambda1: 36.89173349139343, lambda2: 0.05682286923235688
+2024-08-10 11:11:58,348 - INFO - Analyzing Dataset 2
+2024-08-10 11:11:58,348 - INFO - Computing tilde_S for dataframe with shape: (1360, 4)
+2024-08-10 11:11:58,348 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:01,871 - INFO - Parameter evaluation completed in 3.52 seconds
+2024-08-10 11:12:01,872 - INFO - Optimal lambda1: 36.87817782917155, lambda2: 0.0568437561543019
+2024-08-10 11:12:05,409 - INFO - Analyzing Dataset 1
+2024-08-10 11:12:05,409 - INFO - Computing tilde_S for dataframe with shape: (1355, 4)
+2024-08-10 11:12:05,410 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:08,917 - INFO - Parameter evaluation completed in 3.51 seconds
+2024-08-10 11:12:08,917 - INFO - Optimal lambda1: 36.810324638611924, lambda2: 0.05694853736056208
+2024-08-10 11:12:12,367 - INFO - Analyzing Dataset 4
+2024-08-10 11:12:12,367 - INFO - Computing tilde_S for dataframe with shape: (1359, 4)
+2024-08-10 11:12:12,367 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:15,840 - INFO - Parameter evaluation completed in 3.47 seconds
+2024-08-10 11:12:15,841 - INFO - Optimal lambda1: 36.864617182333525, lambda2: 0.056864666126005735
+2024-08-10 11:12:19,353 - INFO - Estimating changepoints
+2024-08-10 11:12:19,353 - INFO - Estimated 1 changepoints
+2024-08-10 11:12:19,450 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim6_perm1.png'
+2024-08-10 11:12:19,450 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:12:19,451 - INFO - Running Simulation 1, Permutation 1
+2024-08-10 11:12:19,451 - INFO - Analyzing Dataset 1
+2024-08-10 11:12:19,451 - INFO - Computing tilde_S for dataframe with shape: (978, 4)
+2024-08-10 11:12:19,451 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:21,727 - INFO - Parameter evaluation completed in 2.28 seconds
+2024-08-10 11:12:21,727 - INFO - Optimal lambda1: 31.272991542223778, lambda2: 0.06703209525401692
+2024-08-10 11:12:24,102 - INFO - Analyzing Dataset 3
+2024-08-10 11:12:24,102 - INFO - Computing tilde_S for dataframe with shape: (929, 4)
+2024-08-10 11:12:24,102 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:26,231 - INFO - Parameter evaluation completed in 2.13 seconds
+2024-08-10 11:12:26,231 - INFO - Optimal lambda1: 30.479501308256342, lambda2: 0.06877718000486321
+2024-08-10 11:12:28,459 - INFO - Analyzing Dataset 2
+2024-08-10 11:12:28,460 - INFO - Computing tilde_S for dataframe with shape: (980, 4)
+2024-08-10 11:12:28,460 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:30,782 - INFO - Parameter evaluation completed in 2.32 seconds
+2024-08-10 11:12:30,783 - INFO - Optimal lambda1: 31.304951684997057, lambda2: 0.06696366022315448
+2024-08-10 11:12:33,153 - INFO - Analyzing Dataset 4
+2024-08-10 11:12:33,153 - INFO - Computing tilde_S for dataframe with shape: (966, 4)
+2024-08-10 11:12:33,153 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:35,430 - INFO - Parameter evaluation completed in 2.28 seconds
+2024-08-10 11:12:35,430 - INFO - Optimal lambda1: 31.080540535840107, lambda2: 0.06744715863352173
+2024-08-10 11:12:37,745 - INFO - Estimating changepoints
+2024-08-10 11:12:37,746 - INFO - Estimated 1 changepoints
+2024-08-10 11:12:37,841 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-10 11:12:37,842 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:12:37,843 - INFO - Running Simulation 8, Permutation 1
+2024-08-10 11:12:37,843 - INFO - Analyzing Dataset 4
+2024-08-10 11:12:37,843 - INFO - Computing tilde_S for dataframe with shape: (1403, 4)
+2024-08-10 11:12:37,843 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:41,508 - INFO - Parameter evaluation completed in 3.66 seconds
+2024-08-10 11:12:41,508 - INFO - Optimal lambda1: 37.456641600656084, lambda2: 0.055965886378337014
+2024-08-10 11:12:45,240 - INFO - Analyzing Dataset 3
+2024-08-10 11:12:45,241 - INFO - Computing tilde_S for dataframe with shape: (1428, 4)
+2024-08-10 11:12:45,241 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:48,969 - INFO - Parameter evaluation completed in 3.73 seconds
+2024-08-10 11:12:48,970 - INFO - Optimal lambda1: 37.78888725538237, lambda2: 0.05547382577765185
+2024-08-10 11:12:52,668 - INFO - Analyzing Dataset 2
+2024-08-10 11:12:52,668 - INFO - Computing tilde_S for dataframe with shape: (1389, 4)
+2024-08-10 11:12:52,668 - INFO - Starting regularization parameter optimization
+2024-08-10 11:12:56,279 - INFO - Parameter evaluation completed in 3.61 seconds
+2024-08-10 11:12:56,279 - INFO - Optimal lambda1: 37.26929030716845, lambda2: 0.056247224743456004
+2024-08-10 11:12:59,913 - INFO - Analyzing Dataset 1
+2024-08-10 11:12:59,914 - INFO - Computing tilde_S for dataframe with shape: (1368, 4)
+2024-08-10 11:12:59,914 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:03,449 - INFO - Parameter evaluation completed in 3.53 seconds
+2024-08-10 11:13:03,449 - INFO - Optimal lambda1: 36.98648401781386, lambda2: 0.056677302631057566
+2024-08-10 11:13:06,993 - INFO - Estimating changepoints
+2024-08-10 11:13:06,993 - INFO - Estimated 0 changepoints
+2024-08-10 11:13:07,088 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim8_perm1.png'
+2024-08-10 11:13:07,089 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:13:07,089 - INFO - Running Simulation 12, Permutation 1
+2024-08-10 11:13:07,089 - INFO - Analyzing Dataset 4
+2024-08-10 11:13:07,089 - INFO - Computing tilde_S for dataframe with shape: (1340, 4)
+2024-08-10 11:13:07,089 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:10,530 - INFO - Parameter evaluation completed in 3.44 seconds
+2024-08-10 11:13:10,531 - INFO - Optimal lambda1: 36.60601043544625, lambda2: 0.057266392130690395
+2024-08-10 11:13:14,016 - INFO - Analyzing Dataset 3
+2024-08-10 11:13:14,016 - INFO - Computing tilde_S for dataframe with shape: (1363, 4)
+2024-08-10 11:13:14,017 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:17,425 - INFO - Parameter evaluation completed in 3.41 seconds
+2024-08-10 11:13:17,425 - INFO - Optimal lambda1: 36.91882988394946, lambda2: 0.05678116436858629
+2024-08-10 11:13:20,912 - INFO - Analyzing Dataset 2
+2024-08-10 11:13:20,912 - INFO - Computing tilde_S for dataframe with shape: (1349, 4)
+2024-08-10 11:13:20,912 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:24,344 - INFO - Parameter evaluation completed in 3.43 seconds
+2024-08-10 11:13:24,345 - INFO - Optimal lambda1: 36.72873534441391, lambda2: 0.05707504296782808
+2024-08-10 11:13:27,976 - INFO - Analyzing Dataset 1
+2024-08-10 11:13:27,976 - INFO - Computing tilde_S for dataframe with shape: (1343, 4)
+2024-08-10 11:13:27,976 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:31,540 - INFO - Parameter evaluation completed in 3.56 seconds
+2024-08-10 11:13:31,540 - INFO - Optimal lambda1: 36.64696440361739, lambda2: 0.05720239539757041
+2024-08-10 11:13:35,029 - INFO - Estimating changepoints
+2024-08-10 11:13:35,029 - INFO - Estimated 1 changepoints
+2024-08-10 11:13:35,123 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim12_perm1.png'
+2024-08-10 11:13:35,124 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:13:35,124 - INFO - Running Simulation 11, Permutation 1
+2024-08-10 11:13:35,124 - INFO - Analyzing Dataset 1
+2024-08-10 11:13:35,124 - INFO - Computing tilde_S for dataframe with shape: (1264, 4)
+2024-08-10 11:13:35,125 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:38,402 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:13:38,402 - INFO - Optimal lambda1: 35.552777669262355, lambda2: 0.05896287956563208
+2024-08-10 11:13:41,625 - INFO - Analyzing Dataset 3
+2024-08-10 11:13:41,626 - INFO - Computing tilde_S for dataframe with shape: (1251, 4)
+2024-08-10 11:13:41,626 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:44,872 - INFO - Parameter evaluation completed in 3.25 seconds
+2024-08-10 11:13:44,873 - INFO - Optimal lambda1: 35.369478367654786, lambda2: 0.059268449654419006
+2024-08-10 11:13:48,185 - INFO - Analyzing Dataset 2
+2024-08-10 11:13:48,185 - INFO - Computing tilde_S for dataframe with shape: (1272, 4)
+2024-08-10 11:13:48,185 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:51,412 - INFO - Parameter evaluation completed in 3.23 seconds
+2024-08-10 11:13:51,413 - INFO - Optimal lambda1: 35.66510900025401, lambda2: 0.05877716924744236
+2024-08-10 11:13:54,700 - INFO - Analyzing Dataset 4
+2024-08-10 11:13:54,700 - INFO - Computing tilde_S for dataframe with shape: (1241, 4)
+2024-08-10 11:13:54,700 - INFO - Starting regularization parameter optimization
+2024-08-10 11:13:57,852 - INFO - Parameter evaluation completed in 3.15 seconds
+2024-08-10 11:13:57,853 - INFO - Optimal lambda1: 35.22782990761707, lambda2: 0.0595067636420926
+2024-08-10 11:14:01,115 - INFO - Estimating changepoints
+2024-08-10 11:14:01,116 - INFO - Estimated 1 changepoints
+2024-08-10 11:14:01,210 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim11_perm1.png'
+2024-08-10 11:14:01,211 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:14:01,211 - INFO - Running Simulation 18, Permutation 1
+2024-08-10 11:14:01,211 - INFO - Analyzing Dataset 4
+2024-08-10 11:14:01,211 - INFO - Computing tilde_S for dataframe with shape: (1165, 4)
+2024-08-10 11:14:01,211 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:04,094 - INFO - Parameter evaluation completed in 2.88 seconds
+2024-08-10 11:14:04,095 - INFO - Optimal lambda1: 34.132096331752024, lambda2: 0.06141709338802882
+2024-08-10 11:14:07,020 - INFO - Analyzing Dataset 3
+2024-08-10 11:14:07,020 - INFO - Computing tilde_S for dataframe with shape: (1171, 4)
+2024-08-10 11:14:07,021 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:09,938 - INFO - Parameter evaluation completed in 2.92 seconds
+2024-08-10 11:14:09,938 - INFO - Optimal lambda1: 34.219877264537345, lambda2: 0.06125954607408356
+2024-08-10 11:14:12,949 - INFO - Analyzing Dataset 2
+2024-08-10 11:14:12,950 - INFO - Computing tilde_S for dataframe with shape: (1144, 4)
+2024-08-10 11:14:12,951 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:15,872 - INFO - Parameter evaluation completed in 2.92 seconds
+2024-08-10 11:14:15,872 - INFO - Optimal lambda1: 33.823069050575526, lambda2: 0.06197823576570855
+2024-08-10 11:14:18,737 - INFO - Analyzing Dataset 1
+2024-08-10 11:14:18,737 - INFO - Computing tilde_S for dataframe with shape: (1163, 4)
+2024-08-10 11:14:18,738 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:21,661 - INFO - Parameter evaluation completed in 2.92 seconds
+2024-08-10 11:14:21,661 - INFO - Optimal lambda1: 34.10278580995987, lambda2: 0.06146987989832133
+2024-08-10 11:14:24,536 - INFO - Estimating changepoints
+2024-08-10 11:14:24,537 - INFO - Estimated 1 changepoints
+2024-08-10 11:14:24,632 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim18_perm1.png'
+2024-08-10 11:14:24,633 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:14:24,633 - INFO - Running Simulation 2, Permutation 1
+2024-08-10 11:14:24,633 - INFO - Analyzing Dataset 4
+2024-08-10 11:14:24,634 - INFO - Computing tilde_S for dataframe with shape: (1209, 4)
+2024-08-10 11:14:24,634 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:27,696 - INFO - Parameter evaluation completed in 3.06 seconds
+2024-08-10 11:14:27,696 - INFO - Optimal lambda1: 34.77067730142742, lambda2: 0.06028913759037855
+2024-08-10 11:14:30,812 - INFO - Analyzing Dataset 3
+2024-08-10 11:14:30,812 - INFO - Computing tilde_S for dataframe with shape: (1195, 4)
+2024-08-10 11:14:30,812 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:33,766 - INFO - Parameter evaluation completed in 2.95 seconds
+2024-08-10 11:14:33,767 - INFO - Optimal lambda1: 34.56877203488721, lambda2: 0.06064126737914802
+2024-08-10 11:14:36,713 - INFO - Analyzing Dataset 2
+2024-08-10 11:14:36,713 - INFO - Computing tilde_S for dataframe with shape: (1201, 4)
+2024-08-10 11:14:36,713 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:39,577 - INFO - Parameter evaluation completed in 2.86 seconds
+2024-08-10 11:14:39,578 - INFO - Optimal lambda1: 34.655446902326915, lambda2: 0.060489600778908324
+2024-08-10 11:14:42,664 - INFO - Analyzing Dataset 1
+2024-08-10 11:14:42,664 - INFO - Computing tilde_S for dataframe with shape: (1191, 4)
+2024-08-10 11:14:42,664 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:45,744 - INFO - Parameter evaluation completed in 3.08 seconds
+2024-08-10 11:14:45,745 - INFO - Optimal lambda1: 34.51086785347479, lambda2: 0.06074301454361544
+2024-08-10 11:14:48,723 - INFO - Estimating changepoints
+2024-08-10 11:14:48,724 - INFO - Estimated 1 changepoints
+2024-08-10 11:14:48,821 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim2_perm1.png'
+2024-08-10 11:14:48,822 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:14:48,823 - INFO - Running Simulation 24, Permutation 1
+2024-08-10 11:14:48,823 - INFO - Analyzing Dataset 4
+2024-08-10 11:14:48,823 - INFO - Computing tilde_S for dataframe with shape: (1313, 4)
+2024-08-10 11:14:48,823 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:52,440 - INFO - Parameter evaluation completed in 3.62 seconds
+2024-08-10 11:14:52,440 - INFO - Optimal lambda1: 36.235341863986875, lambda2: 0.057852197332788194
+2024-08-10 11:14:55,867 - INFO - Analyzing Dataset 1
+2024-08-10 11:14:55,867 - INFO - Computing tilde_S for dataframe with shape: (1305, 4)
+2024-08-10 11:14:55,867 - INFO - Starting regularization parameter optimization
+2024-08-10 11:14:59,304 - INFO - Parameter evaluation completed in 3.44 seconds
+2024-08-10 11:14:59,304 - INFO - Optimal lambda1: 36.124783736376884, lambda2: 0.058029251143322046
+2024-08-10 11:15:02,685 - INFO - Analyzing Dataset 2
+2024-08-10 11:15:02,686 - INFO - Computing tilde_S for dataframe with shape: (1322, 4)
+2024-08-10 11:15:02,686 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:06,216 - INFO - Parameter evaluation completed in 3.53 seconds
+2024-08-10 11:15:06,216 - INFO - Optimal lambda1: 36.359317925395686, lambda2: 0.057654935998461714
+2024-08-10 11:15:09,658 - INFO - Analyzing Dataset 3
+2024-08-10 11:15:09,658 - INFO - Computing tilde_S for dataframe with shape: (1337, 4)
+2024-08-10 11:15:09,659 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:13,153 - INFO - Parameter evaluation completed in 3.49 seconds
+2024-08-10 11:15:13,153 - INFO - Optimal lambda1: 36.565010597564445, lambda2: 0.05733060413979593
+2024-08-10 11:15:16,623 - INFO - Estimating changepoints
+2024-08-10 11:15:16,624 - INFO - Estimated 1 changepoints
+2024-08-10 11:15:16,718 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim24_perm1.png'
+2024-08-10 11:15:16,719 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:15:16,719 - INFO - Running Simulation 15, Permutation 1
+2024-08-10 11:15:16,719 - INFO - Analyzing Dataset 4
+2024-08-10 11:15:16,719 - INFO - Computing tilde_S for dataframe with shape: (1331, 4)
+2024-08-10 11:15:16,720 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:20,140 - INFO - Parameter evaluation completed in 3.42 seconds
+2024-08-10 11:15:20,141 - INFO - Optimal lambda1: 36.4828726939094, lambda2: 0.057459678834073116
+2024-08-10 11:15:23,568 - INFO - Analyzing Dataset 1
+2024-08-10 11:15:23,568 - INFO - Computing tilde_S for dataframe with shape: (1324, 4)
+2024-08-10 11:15:23,569 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:26,948 - INFO - Parameter evaluation completed in 3.38 seconds
+2024-08-10 11:15:26,949 - INFO - Optimal lambda1: 36.38681079732051, lambda2: 0.057611373516988175
+2024-08-10 11:15:30,348 - INFO - Analyzing Dataset 3
+2024-08-10 11:15:30,348 - INFO - Computing tilde_S for dataframe with shape: (1323, 4)
+2024-08-10 11:15:30,348 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:33,743 - INFO - Parameter evaluation completed in 3.39 seconds
+2024-08-10 11:15:33,743 - INFO - Optimal lambda1: 36.373066958946424, lambda2: 0.05763314241008207
+2024-08-10 11:15:37,147 - INFO - Analyzing Dataset 2
+2024-08-10 11:15:37,147 - INFO - Computing tilde_S for dataframe with shape: (1296, 4)
+2024-08-10 11:15:37,147 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:40,442 - INFO - Parameter evaluation completed in 3.29 seconds
+2024-08-10 11:15:40,442 - INFO - Optimal lambda1: 36.0, lambda2: 0.05823039299823361
+2024-08-10 11:15:43,863 - INFO - Estimating changepoints
+2024-08-10 11:15:43,864 - INFO - Estimated 1 changepoints
+2024-08-10 11:15:43,962 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim15_perm1.png'
+2024-08-10 11:15:43,963 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:15:43,963 - INFO - Running Simulation 5, Permutation 1
+2024-08-10 11:15:43,963 - INFO - Analyzing Dataset 4
+2024-08-10 11:15:43,963 - INFO - Computing tilde_S for dataframe with shape: (1271, 4)
+2024-08-10 11:15:43,963 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:47,300 - INFO - Parameter evaluation completed in 3.34 seconds
+2024-08-10 11:15:47,300 - INFO - Optimal lambda1: 35.651086939951774, lambda2: 0.058800287112347034
+2024-08-10 11:15:50,542 - INFO - Analyzing Dataset 1
+2024-08-10 11:15:50,542 - INFO - Computing tilde_S for dataframe with shape: (1313, 4)
+2024-08-10 11:15:50,542 - INFO - Starting regularization parameter optimization
+2024-08-10 11:15:53,937 - INFO - Parameter evaluation completed in 3.39 seconds
+2024-08-10 11:15:53,937 - INFO - Optimal lambda1: 36.235341863986875, lambda2: 0.057852197332788194
+2024-08-10 11:15:57,463 - INFO - Analyzing Dataset 3
+2024-08-10 11:15:57,463 - INFO - Computing tilde_S for dataframe with shape: (1283, 4)
+2024-08-10 11:15:57,464 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:00,802 - INFO - Parameter evaluation completed in 3.34 seconds
+2024-08-10 11:16:00,802 - INFO - Optimal lambda1: 35.81898937714463, lambda2: 0.05852465924887352
+2024-08-10 11:16:04,015 - INFO - Analyzing Dataset 2
+2024-08-10 11:16:04,015 - INFO - Computing tilde_S for dataframe with shape: (1302, 4)
+2024-08-10 11:16:04,016 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:07,371 - INFO - Parameter evaluation completed in 3.36 seconds
+2024-08-10 11:16:07,372 - INFO - Optimal lambda1: 36.08323710533743, lambda2: 0.05809606665324177
+2024-08-10 11:16:10,744 - INFO - Estimating changepoints
+2024-08-10 11:16:10,744 - INFO - Estimated 1 changepoints
+2024-08-10 11:16:10,841 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim5_perm1.png'
+2024-08-10 11:16:10,842 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:16:10,842 - INFO - Running Simulation 31, Permutation 1
+2024-08-10 11:16:10,842 - INFO - Analyzing Dataset 1
+2024-08-10 11:16:10,842 - INFO - Computing tilde_S for dataframe with shape: (1214, 4)
+2024-08-10 11:16:10,842 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:13,954 - INFO - Parameter evaluation completed in 3.11 seconds
+2024-08-10 11:16:13,954 - INFO - Optimal lambda1: 34.84250278036869, lambda2: 0.060164855583150725
+2024-08-10 11:16:17,047 - INFO - Analyzing Dataset 2
+2024-08-10 11:16:17,047 - INFO - Computing tilde_S for dataframe with shape: (1189, 4)
+2024-08-10 11:16:17,047 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:20,010 - INFO - Parameter evaluation completed in 2.96 seconds
+2024-08-10 11:16:20,011 - INFO - Optimal lambda1: 34.48187929913333, lambda2: 0.060794080558976324
+2024-08-10 11:16:23,037 - INFO - Analyzing Dataset 3
+2024-08-10 11:16:23,037 - INFO - Computing tilde_S for dataframe with shape: (1221, 4)
+2024-08-10 11:16:23,037 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:26,083 - INFO - Parameter evaluation completed in 3.05 seconds
+2024-08-10 11:16:26,084 - INFO - Optimal lambda1: 34.942810419312295, lambda2: 0.05999214495860424
+2024-08-10 11:16:29,186 - INFO - Analyzing Dataset 4
+2024-08-10 11:16:29,186 - INFO - Computing tilde_S for dataframe with shape: (1221, 4)
+2024-08-10 11:16:29,186 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:32,303 - INFO - Parameter evaluation completed in 3.12 seconds
+2024-08-10 11:16:32,303 - INFO - Optimal lambda1: 34.942810419312295, lambda2: 0.05999214495860424
+2024-08-10 11:16:35,369 - INFO - Estimating changepoints
+2024-08-10 11:16:35,370 - INFO - Estimated 1 changepoints
+2024-08-10 11:16:35,465 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim31_perm1.png'
+2024-08-10 11:16:35,465 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:16:35,466 - INFO - Running Simulation 36, Permutation 1
+2024-08-10 11:16:35,466 - INFO - Analyzing Dataset 2
+2024-08-10 11:16:35,466 - INFO - Computing tilde_S for dataframe with shape: (1374, 4)
+2024-08-10 11:16:35,466 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:39,088 - INFO - Parameter evaluation completed in 3.62 seconds
+2024-08-10 11:16:39,089 - INFO - Optimal lambda1: 37.067505985701274, lambda2: 0.05655341766843045
+2024-08-10 11:16:42,691 - INFO - Analyzing Dataset 3
+2024-08-10 11:16:42,691 - INFO - Computing tilde_S for dataframe with shape: (1386, 4)
+2024-08-10 11:16:42,692 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:46,301 - INFO - Parameter evaluation completed in 3.61 seconds
+2024-08-10 11:16:46,302 - INFO - Optimal lambda1: 37.22902093797257, lambda2: 0.05630806545863923
+2024-08-10 11:16:49,878 - INFO - Analyzing Dataset 1
+2024-08-10 11:16:49,878 - INFO - Computing tilde_S for dataframe with shape: (1340, 4)
+2024-08-10 11:16:49,878 - INFO - Starting regularization parameter optimization
+2024-08-10 11:16:53,322 - INFO - Parameter evaluation completed in 3.44 seconds
+2024-08-10 11:16:53,323 - INFO - Optimal lambda1: 36.60601043544625, lambda2: 0.057266392130690395
+2024-08-10 11:16:56,799 - INFO - Analyzing Dataset 4
+2024-08-10 11:16:56,800 - INFO - Computing tilde_S for dataframe with shape: (1385, 4)
+2024-08-10 11:16:56,800 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:00,410 - INFO - Parameter evaluation completed in 3.61 seconds
+2024-08-10 11:17:00,410 - INFO - Optimal lambda1: 37.21558813185679, lambda2: 0.056328389612146645
+2024-08-10 11:17:04,008 - INFO - Estimating changepoints
+2024-08-10 11:17:04,009 - INFO - Estimated 0 changepoints
+2024-08-10 11:17:04,105 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim36_perm1.png'
+2024-08-10 11:17:04,105 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:17:04,105 - INFO - Running Simulation 38, Permutation 1
+2024-08-10 11:17:04,106 - INFO - Analyzing Dataset 4
+2024-08-10 11:17:04,106 - INFO - Computing tilde_S for dataframe with shape: (1373, 4)
+2024-08-10 11:17:04,106 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:07,759 - INFO - Parameter evaluation completed in 3.65 seconds
+2024-08-10 11:17:07,760 - INFO - Optimal lambda1: 37.05401462729781, lambda2: 0.05657400875510163
+2024-08-10 11:17:11,332 - INFO - Analyzing Dataset 2
+2024-08-10 11:17:11,332 - INFO - Computing tilde_S for dataframe with shape: (1378, 4)
+2024-08-10 11:17:11,332 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:15,084 - INFO - Parameter evaluation completed in 3.75 seconds
+2024-08-10 11:17:15,084 - INFO - Optimal lambda1: 37.12142238654117, lambda2: 0.056471277584892524
+2024-08-10 11:17:18,765 - INFO - Analyzing Dataset 3
+2024-08-10 11:17:18,765 - INFO - Computing tilde_S for dataframe with shape: (1349, 4)
+2024-08-10 11:17:18,766 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:22,260 - INFO - Parameter evaluation completed in 3.49 seconds
+2024-08-10 11:17:22,260 - INFO - Optimal lambda1: 36.72873534441391, lambda2: 0.05707504296782808
+2024-08-10 11:17:25,783 - INFO - Analyzing Dataset 1
+2024-08-10 11:17:25,783 - INFO - Computing tilde_S for dataframe with shape: (1352, 4)
+2024-08-10 11:17:25,783 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:29,278 - INFO - Parameter evaluation completed in 3.49 seconds
+2024-08-10 11:17:29,278 - INFO - Optimal lambda1: 36.76955262170047, lambda2: 0.05701168489875043
+2024-08-10 11:17:32,847 - INFO - Estimating changepoints
+2024-08-10 11:17:32,848 - INFO - Estimated 1 changepoints
+2024-08-10 11:17:32,943 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim38_perm1.png'
+2024-08-10 11:17:32,944 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:17:32,944 - INFO - Running Simulation 44, Permutation 1
+2024-08-10 11:17:32,944 - INFO - Analyzing Dataset 1
+2024-08-10 11:17:32,944 - INFO - Computing tilde_S for dataframe with shape: (1250, 4)
+2024-08-10 11:17:32,945 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:36,091 - INFO - Parameter evaluation completed in 3.15 seconds
+2024-08-10 11:17:36,091 - INFO - Optimal lambda1: 35.35533905932738, lambda2: 0.059292152294700445
+2024-08-10 11:17:39,272 - INFO - Analyzing Dataset 2
+2024-08-10 11:17:39,272 - INFO - Computing tilde_S for dataframe with shape: (1278, 4)
+2024-08-10 11:17:39,272 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:42,507 - INFO - Parameter evaluation completed in 3.24 seconds
+2024-08-10 11:17:42,508 - INFO - Optimal lambda1: 35.749125863438955, lambda2: 0.05863903234848924
+2024-08-10 11:17:45,763 - INFO - Analyzing Dataset 3
+2024-08-10 11:17:45,763 - INFO - Computing tilde_S for dataframe with shape: (1296, 4)
+2024-08-10 11:17:45,763 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:49,064 - INFO - Parameter evaluation completed in 3.30 seconds
+2024-08-10 11:17:49,064 - INFO - Optimal lambda1: 36.0, lambda2: 0.05823039299823361
+2024-08-10 11:17:52,542 - INFO - Analyzing Dataset 4
+2024-08-10 11:17:52,542 - INFO - Computing tilde_S for dataframe with shape: (1288, 4)
+2024-08-10 11:17:52,542 - INFO - Starting regularization parameter optimization
+2024-08-10 11:17:55,821 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:17:55,821 - INFO - Optimal lambda1: 35.888716889852724, lambda2: 0.05841095278970874
+2024-08-10 11:17:59,103 - INFO - Estimating changepoints
+2024-08-10 11:17:59,104 - INFO - Estimated 0 changepoints
+2024-08-10 11:17:59,199 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim44_perm1.png'
+2024-08-10 11:17:59,199 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:17:59,199 - INFO - Running Simulation 43, Permutation 1
+2024-08-10 11:17:59,199 - INFO - Analyzing Dataset 2
+2024-08-10 11:17:59,199 - INFO - Computing tilde_S for dataframe with shape: (1153, 4)
+2024-08-10 11:17:59,200 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:02,092 - INFO - Parameter evaluation completed in 2.89 seconds
+2024-08-10 11:18:02,092 - INFO - Optimal lambda1: 33.95585369269929, lambda2: 0.06173586937050343
+2024-08-10 11:18:05,065 - INFO - Analyzing Dataset 3
+2024-08-10 11:18:05,065 - INFO - Computing tilde_S for dataframe with shape: (1146, 4)
+2024-08-10 11:18:05,065 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:08,009 - INFO - Parameter evaluation completed in 2.94 seconds
+2024-08-10 11:18:08,009 - INFO - Optimal lambda1: 33.85262175962151, lambda2: 0.061924129918847604
+2024-08-10 11:18:10,955 - INFO - Analyzing Dataset 1
+2024-08-10 11:18:10,955 - INFO - Computing tilde_S for dataframe with shape: (1146, 4)
+2024-08-10 11:18:10,955 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:13,791 - INFO - Parameter evaluation completed in 2.84 seconds
+2024-08-10 11:18:13,791 - INFO - Optimal lambda1: 33.85262175962151, lambda2: 0.061924129918847604
+2024-08-10 11:18:16,717 - INFO - Analyzing Dataset 4
+2024-08-10 11:18:16,717 - INFO - Computing tilde_S for dataframe with shape: (1186, 4)
+2024-08-10 11:18:16,717 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:19,718 - INFO - Parameter evaluation completed in 3.00 seconds
+2024-08-10 11:18:19,719 - INFO - Optimal lambda1: 34.438350715445125, lambda2: 0.060870921643650336
+2024-08-10 11:18:22,752 - INFO - Estimating changepoints
+2024-08-10 11:18:22,752 - INFO - Estimated 1 changepoints
+2024-08-10 11:18:22,852 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim43_perm1.png'
+2024-08-10 11:18:22,853 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:18:22,853 - INFO - Running Simulation 47, Permutation 1
+2024-08-10 11:18:22,853 - INFO - Analyzing Dataset 4
+2024-08-10 11:18:22,853 - INFO - Computing tilde_S for dataframe with shape: (1092, 4)
+2024-08-10 11:18:22,854 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:25,571 - INFO - Parameter evaluation completed in 2.72 seconds
+2024-08-10 11:18:25,571 - INFO - Optimal lambda1: 33.04542328371661, lambda2: 0.06343674674518014
+2024-08-10 11:18:28,378 - INFO - Analyzing Dataset 2
+2024-08-10 11:18:28,378 - INFO - Computing tilde_S for dataframe with shape: (1095, 4)
+2024-08-10 11:18:28,379 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:31,060 - INFO - Parameter evaluation completed in 2.68 seconds
+2024-08-10 11:18:31,060 - INFO - Optimal lambda1: 33.090784215548595, lambda2: 0.06334978749011967
+2024-08-10 11:18:33,838 - INFO - Analyzing Dataset 3
+2024-08-10 11:18:33,839 - INFO - Computing tilde_S for dataframe with shape: (1122, 4)
+2024-08-10 11:18:33,839 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:36,606 - INFO - Parameter evaluation completed in 2.77 seconds
+2024-08-10 11:18:36,606 - INFO - Optimal lambda1: 33.49626844888845, lambda2: 0.06258291579956494
+2024-08-10 11:18:39,454 - INFO - Analyzing Dataset 1
+2024-08-10 11:18:39,454 - INFO - Computing tilde_S for dataframe with shape: (1081, 4)
+2024-08-10 11:18:39,455 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:42,154 - INFO - Parameter evaluation completed in 2.70 seconds
+2024-08-10 11:18:42,154 - INFO - Optimal lambda1: 32.87856444554719, lambda2: 0.0637586884734049
+2024-08-10 11:18:44,873 - INFO - Estimating changepoints
+2024-08-10 11:18:44,873 - INFO - Estimated 1 changepoints
+2024-08-10 11:18:44,969 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim47_perm1.png'
+2024-08-10 11:18:44,969 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:18:44,970 - INFO - Running Simulation 49, Permutation 1
+2024-08-10 11:18:44,970 - INFO - Analyzing Dataset 2
+2024-08-10 11:18:44,970 - INFO - Computing tilde_S for dataframe with shape: (1208, 4)
+2024-08-10 11:18:44,970 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:48,002 - INFO - Parameter evaluation completed in 3.03 seconds
+2024-08-10 11:18:48,002 - INFO - Optimal lambda1: 34.75629439396553, lambda2: 0.060314086541411426
+2024-08-10 11:18:51,131 - INFO - Analyzing Dataset 3
+2024-08-10 11:18:51,131 - INFO - Computing tilde_S for dataframe with shape: (1139, 4)
+2024-08-10 11:18:51,132 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:53,999 - INFO - Parameter evaluation completed in 2.87 seconds
+2024-08-10 11:18:54,000 - INFO - Optimal lambda1: 33.74907406137241, lambda2: 0.06211412331266679
+2024-08-10 11:18:56,952 - INFO - Analyzing Dataset 1
+2024-08-10 11:18:56,952 - INFO - Computing tilde_S for dataframe with shape: (1154, 4)
+2024-08-10 11:18:56,952 - INFO - Starting regularization parameter optimization
+2024-08-10 11:18:59,836 - INFO - Parameter evaluation completed in 2.88 seconds
+2024-08-10 11:18:59,836 - INFO - Optimal lambda1: 33.97057550292606, lambda2: 0.06170911492964979
+2024-08-10 11:19:02,860 - INFO - Analyzing Dataset 4
+2024-08-10 11:19:02,860 - INFO - Computing tilde_S for dataframe with shape: (1183, 4)
+2024-08-10 11:19:02,860 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:05,856 - INFO - Parameter evaluation completed in 3.00 seconds
+2024-08-10 11:19:05,856 - INFO - Optimal lambda1: 34.39476704383968, lambda2: 0.0609480548382394
+2024-08-10 11:19:08,941 - INFO - Estimating changepoints
+2024-08-10 11:19:08,942 - INFO - Estimated 1 changepoints
+2024-08-10 11:19:09,039 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim49_perm1.png'
+2024-08-10 11:19:09,039 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:19:09,040 - INFO - Running Simulation 32, Permutation 1
+2024-08-10 11:19:09,040 - INFO - Analyzing Dataset 4
+2024-08-10 11:19:09,040 - INFO - Computing tilde_S for dataframe with shape: (1256, 4)
+2024-08-10 11:19:09,040 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:12,248 - INFO - Parameter evaluation completed in 3.21 seconds
+2024-08-10 11:19:12,248 - INFO - Optimal lambda1: 35.4400902933387, lambda2: 0.059150361372821564
+2024-08-10 11:19:15,498 - INFO - Analyzing Dataset 2
+2024-08-10 11:19:15,498 - INFO - Computing tilde_S for dataframe with shape: (1309, 4)
+2024-08-10 11:19:15,498 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:18,887 - INFO - Parameter evaluation completed in 3.39 seconds
+2024-08-10 11:19:18,888 - INFO - Optimal lambda1: 36.180105030251084, lambda2: 0.057940521349610405
+2024-08-10 11:19:22,331 - INFO - Analyzing Dataset 3
+2024-08-10 11:19:22,331 - INFO - Computing tilde_S for dataframe with shape: (1265, 4)
+2024-08-10 11:19:22,331 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:25,587 - INFO - Parameter evaluation completed in 3.26 seconds
+2024-08-10 11:19:25,587 - INFO - Optimal lambda1: 35.566838487557476, lambda2: 0.058939569471989105
+2024-08-10 11:19:28,857 - INFO - Analyzing Dataset 1
+2024-08-10 11:19:28,857 - INFO - Computing tilde_S for dataframe with shape: (1267, 4)
+2024-08-10 11:19:28,858 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:32,030 - INFO - Parameter evaluation completed in 3.17 seconds
+2024-08-10 11:19:32,031 - INFO - Optimal lambda1: 35.59494346111537, lambda2: 0.05889303210233902
+2024-08-10 11:19:35,363 - INFO - Estimating changepoints
+2024-08-10 11:19:35,363 - INFO - Estimated 1 changepoints
+2024-08-10 11:19:35,459 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim32_perm1.png'
+2024-08-10 11:19:35,460 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:19:35,460 - INFO - Running Simulation 40, Permutation 1
+2024-08-10 11:19:35,460 - INFO - Analyzing Dataset 4
+2024-08-10 11:19:35,460 - INFO - Computing tilde_S for dataframe with shape: (1245, 4)
+2024-08-10 11:19:35,461 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:38,615 - INFO - Parameter evaluation completed in 3.15 seconds
+2024-08-10 11:19:38,615 - INFO - Optimal lambda1: 35.2845575287547, lambda2: 0.05941109354221211
+2024-08-10 11:19:41,870 - INFO - Analyzing Dataset 1
+2024-08-10 11:19:41,870 - INFO - Computing tilde_S for dataframe with shape: (1268, 4)
+2024-08-10 11:19:41,870 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:45,050 - INFO - Parameter evaluation completed in 3.18 seconds
+2024-08-10 11:19:45,051 - INFO - Optimal lambda1: 35.608987629529715, lambda2: 0.05886980471744728
+2024-08-10 11:19:48,402 - INFO - Analyzing Dataset 2
+2024-08-10 11:19:48,403 - INFO - Computing tilde_S for dataframe with shape: (1233, 4)
+2024-08-10 11:19:48,403 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:51,534 - INFO - Parameter evaluation completed in 3.13 seconds
+2024-08-10 11:19:51,534 - INFO - Optimal lambda1: 35.11409973215888, lambda2: 0.05969949860387681
+2024-08-10 11:19:54,702 - INFO - Analyzing Dataset 3
+2024-08-10 11:19:54,703 - INFO - Computing tilde_S for dataframe with shape: (1244, 4)
+2024-08-10 11:19:54,703 - INFO - Starting regularization parameter optimization
+2024-08-10 11:19:57,865 - INFO - Parameter evaluation completed in 3.16 seconds
+2024-08-10 11:19:57,865 - INFO - Optimal lambda1: 35.270384177096794, lambda2: 0.059434967802184054
+2024-08-10 11:20:01,134 - INFO - Estimating changepoints
+2024-08-10 11:20:01,135 - INFO - Estimated 1 changepoints
+2024-08-10 11:20:01,232 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim40_perm1.png'
+2024-08-10 11:20:01,233 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:20:01,233 - INFO - Running Simulation 35, Permutation 1
+2024-08-10 11:20:01,233 - INFO - Analyzing Dataset 4
+2024-08-10 11:20:01,233 - INFO - Computing tilde_S for dataframe with shape: (1385, 4)
+2024-08-10 11:20:01,233 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:04,852 - INFO - Parameter evaluation completed in 3.62 seconds
+2024-08-10 11:20:04,853 - INFO - Optimal lambda1: 37.21558813185679, lambda2: 0.056328389612146645
+2024-08-10 11:20:08,589 - INFO - Analyzing Dataset 1
+2024-08-10 11:20:08,590 - INFO - Computing tilde_S for dataframe with shape: (1405, 4)
+2024-08-10 11:20:08,590 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:12,329 - INFO - Parameter evaluation completed in 3.74 seconds
+2024-08-10 11:20:12,329 - INFO - Optimal lambda1: 37.48332962798263, lambda2: 0.055926038821573966
+2024-08-10 11:20:16,264 - INFO - Analyzing Dataset 2
+2024-08-10 11:20:16,264 - INFO - Computing tilde_S for dataframe with shape: (1414, 4)
+2024-08-10 11:20:16,264 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:19,999 - INFO - Parameter evaluation completed in 3.73 seconds
+2024-08-10 11:20:20,000 - INFO - Optimal lambda1: 37.603191353926334, lambda2: 0.05574777226235415
+2024-08-10 11:20:23,898 - INFO - Analyzing Dataset 3
+2024-08-10 11:20:23,898 - INFO - Computing tilde_S for dataframe with shape: (1409, 4)
+2024-08-10 11:20:23,898 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:27,694 - INFO - Parameter evaluation completed in 3.80 seconds
+2024-08-10 11:20:27,695 - INFO - Optimal lambda1: 37.53664875824692, lambda2: 0.05584659838542053
+2024-08-10 11:20:31,489 - INFO - Estimating changepoints
+2024-08-10 11:20:31,489 - INFO - Estimated 0 changepoints
+2024-08-10 11:20:31,584 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim35_perm1.png'
+2024-08-10 11:20:31,585 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:20:31,585 - INFO - Running Simulation 34, Permutation 1
+2024-08-10 11:20:31,585 - INFO - Analyzing Dataset 3
+2024-08-10 11:20:31,585 - INFO - Computing tilde_S for dataframe with shape: (1494, 4)
+2024-08-10 11:20:31,586 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:35,586 - INFO - Parameter evaluation completed in 4.00 seconds
+2024-08-10 11:20:35,586 - INFO - Optimal lambda1: 38.65229618017538, lambda2: 0.054234660165198456
+2024-08-10 11:20:39,772 - INFO - Analyzing Dataset 2
+2024-08-10 11:20:39,772 - INFO - Computing tilde_S for dataframe with shape: (1473, 4)
+2024-08-10 11:20:39,772 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:43,707 - INFO - Parameter evaluation completed in 3.93 seconds
+2024-08-10 11:20:43,707 - INFO - Optimal lambda1: 38.379682124790975, lambda2: 0.05461989344050167
+2024-08-10 11:20:47,797 - INFO - Analyzing Dataset 1
+2024-08-10 11:20:47,797 - INFO - Computing tilde_S for dataframe with shape: (1500, 4)
+2024-08-10 11:20:47,797 - INFO - Starting regularization parameter optimization
+2024-08-10 11:20:51,905 - INFO - Parameter evaluation completed in 4.11 seconds
+2024-08-10 11:20:51,905 - INFO - Optimal lambda1: 38.72983346207417, lambda2: 0.05412608215806522
+2024-08-10 11:20:56,131 - INFO - Analyzing Dataset 4
+2024-08-10 11:20:56,132 - INFO - Computing tilde_S for dataframe with shape: (1503, 4)
+2024-08-10 11:20:56,132 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:00,114 - INFO - Parameter evaluation completed in 3.98 seconds
+2024-08-10 11:21:00,114 - INFO - Optimal lambda1: 38.768543949960254, lambda2: 0.05407203712995156
+2024-08-10 11:21:04,379 - INFO - Estimating changepoints
+2024-08-10 11:21:04,379 - INFO - Estimated 1 changepoints
+2024-08-10 11:21:04,479 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim34_perm1.png'
+2024-08-10 11:21:04,480 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:21:04,481 - INFO - Running Simulation 41, Permutation 1
+2024-08-10 11:21:04,481 - INFO - Analyzing Dataset 3
+2024-08-10 11:21:04,482 - INFO - Computing tilde_S for dataframe with shape: (946, 4)
+2024-08-10 11:21:04,482 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:06,802 - INFO - Parameter evaluation completed in 2.32 seconds
+2024-08-10 11:21:06,802 - INFO - Optimal lambda1: 30.757112998459398, lambda2: 0.06815640167662719
+2024-08-10 11:21:09,089 - INFO - Analyzing Dataset 2
+2024-08-10 11:21:09,089 - INFO - Computing tilde_S for dataframe with shape: (907, 4)
+2024-08-10 11:21:09,089 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:11,200 - INFO - Parameter evaluation completed in 2.11 seconds
+2024-08-10 11:21:11,200 - INFO - Optimal lambda1: 30.116440692751194, lambda2: 0.06960630471983273
+2024-08-10 11:21:13,438 - INFO - Analyzing Dataset 1
+2024-08-10 11:21:13,439 - INFO - Computing tilde_S for dataframe with shape: (938, 4)
+2024-08-10 11:21:13,439 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:15,666 - INFO - Parameter evaluation completed in 2.23 seconds
+2024-08-10 11:21:15,666 - INFO - Optimal lambda1: 30.62678566222711, lambda2: 0.06844643022796315
+2024-08-10 11:21:17,964 - INFO - Analyzing Dataset 4
+2024-08-10 11:21:17,964 - INFO - Computing tilde_S for dataframe with shape: (897, 4)
+2024-08-10 11:21:17,965 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:20,022 - INFO - Parameter evaluation completed in 2.06 seconds
+2024-08-10 11:21:20,023 - INFO - Optimal lambda1: 29.949958263743873, lambda2: 0.06999322434696321
+2024-08-10 11:21:22,300 - INFO - Estimating changepoints
+2024-08-10 11:21:22,301 - INFO - Estimated 6 changepoints
+2024-08-10 11:21:22,399 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim41_perm1.png'
+2024-08-10 11:21:22,400 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:21:22,400 - INFO - Running Simulation 46, Permutation 1
+2024-08-10 11:21:22,400 - INFO - Analyzing Dataset 1
+2024-08-10 11:21:22,400 - INFO - Computing tilde_S for dataframe with shape: (1150, 4)
+2024-08-10 11:21:22,401 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:25,254 - INFO - Parameter evaluation completed in 2.85 seconds
+2024-08-10 11:21:25,254 - INFO - Optimal lambda1: 33.91164991562634, lambda2: 0.06181634196956152
+2024-08-10 11:21:28,179 - INFO - Analyzing Dataset 3
+2024-08-10 11:21:28,179 - INFO - Computing tilde_S for dataframe with shape: (1161, 4)
+2024-08-10 11:21:28,180 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:31,083 - INFO - Parameter evaluation completed in 2.90 seconds
+2024-08-10 11:21:31,083 - INFO - Optimal lambda1: 34.07345007480164, lambda2: 0.06152280274919045
+2024-08-10 11:21:34,117 - INFO - Analyzing Dataset 2
+2024-08-10 11:21:34,117 - INFO - Computing tilde_S for dataframe with shape: (1170, 4)
+2024-08-10 11:21:34,117 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:37,022 - INFO - Parameter evaluation completed in 2.90 seconds
+2024-08-10 11:21:37,023 - INFO - Optimal lambda1: 34.20526275297414, lambda2: 0.06128571977580081
+2024-08-10 11:21:40,066 - INFO - Analyzing Dataset 4
+2024-08-10 11:21:40,066 - INFO - Computing tilde_S for dataframe with shape: (1176, 4)
+2024-08-10 11:21:40,066 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:43,005 - INFO - Parameter evaluation completed in 2.94 seconds
+2024-08-10 11:21:43,005 - INFO - Optimal lambda1: 34.292856398964496, lambda2: 0.06112917872888855
+2024-08-10 11:21:46,101 - INFO - Estimating changepoints
+2024-08-10 11:21:46,102 - INFO - Estimated 1 changepoints
+2024-08-10 11:21:46,197 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim46_perm1.png'
+2024-08-10 11:21:46,197 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:21:46,197 - INFO - Running Simulation 33, Permutation 1
+2024-08-10 11:21:46,197 - INFO - Analyzing Dataset 1
+2024-08-10 11:21:46,198 - INFO - Computing tilde_S for dataframe with shape: (1274, 4)
+2024-08-10 11:21:46,198 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:49,476 - INFO - Parameter evaluation completed in 3.28 seconds
+2024-08-10 11:21:49,476 - INFO - Optimal lambda1: 35.6931365951495, lambda2: 0.058731015200868764
+2024-08-10 11:21:52,848 - INFO - Analyzing Dataset 3
+2024-08-10 11:21:52,848 - INFO - Computing tilde_S for dataframe with shape: (1270, 4)
+2024-08-10 11:21:52,848 - INFO - Starting regularization parameter optimization
+2024-08-10 11:21:56,113 - INFO - Parameter evaluation completed in 3.26 seconds
+2024-08-10 11:21:56,113 - INFO - Optimal lambda1: 35.63705936241092, lambda2: 0.05882343227644446
+2024-08-10 11:21:59,474 - INFO - Analyzing Dataset 2
+2024-08-10 11:21:59,474 - INFO - Computing tilde_S for dataframe with shape: (1283, 4)
+2024-08-10 11:21:59,474 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:02,744 - INFO - Parameter evaluation completed in 3.27 seconds
+2024-08-10 11:22:02,744 - INFO - Optimal lambda1: 35.81898937714463, lambda2: 0.05852465924887352
+2024-08-10 11:22:06,222 - INFO - Analyzing Dataset 4
+2024-08-10 11:22:06,222 - INFO - Computing tilde_S for dataframe with shape: (1269, 4)
+2024-08-10 11:22:06,223 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:09,464 - INFO - Parameter evaluation completed in 3.24 seconds
+2024-08-10 11:22:09,464 - INFO - Optimal lambda1: 35.62302626111375, lambda2: 0.058846604793504974
+2024-08-10 11:22:12,795 - INFO - Estimating changepoints
+2024-08-10 11:22:12,796 - INFO - Estimated 1 changepoints
+2024-08-10 11:22:12,888 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim33_perm1.png'
+2024-08-10 11:22:12,889 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:22:12,889 - INFO - Running Simulation 39, Permutation 1
+2024-08-10 11:22:12,889 - INFO - Analyzing Dataset 1
+2024-08-10 11:22:12,889 - INFO - Computing tilde_S for dataframe with shape: (1162, 4)
+2024-08-10 11:22:12,890 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:15,764 - INFO - Parameter evaluation completed in 2.87 seconds
+2024-08-10 11:22:15,764 - INFO - Optimal lambda1: 34.08812109811862, lambda2: 0.06149632424452129
+2024-08-10 11:22:18,800 - INFO - Analyzing Dataset 3
+2024-08-10 11:22:18,800 - INFO - Computing tilde_S for dataframe with shape: (1177, 4)
+2024-08-10 11:22:18,801 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:21,825 - INFO - Parameter evaluation completed in 3.02 seconds
+2024-08-10 11:22:21,825 - INFO - Optimal lambda1: 34.307433596816885, lambda2: 0.06110320499551761
+2024-08-10 11:22:24,981 - INFO - Analyzing Dataset 2
+2024-08-10 11:22:24,981 - INFO - Computing tilde_S for dataframe with shape: (1189, 4)
+2024-08-10 11:22:24,981 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:28,049 - INFO - Parameter evaluation completed in 3.07 seconds
+2024-08-10 11:22:28,049 - INFO - Optimal lambda1: 34.48187929913333, lambda2: 0.060794080558976324
+2024-08-10 11:22:31,182 - INFO - Analyzing Dataset 4
+2024-08-10 11:22:31,182 - INFO - Computing tilde_S for dataframe with shape: (1157, 4)
+2024-08-10 11:22:31,182 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:34,091 - INFO - Parameter evaluation completed in 2.91 seconds
+2024-08-10 11:22:34,091 - INFO - Optimal lambda1: 34.0147027033899, lambda2: 0.06162905982792828
+2024-08-10 11:22:37,180 - INFO - Estimating changepoints
+2024-08-10 11:22:37,181 - INFO - Estimated 1 changepoints
+2024-08-10 11:22:37,276 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim39_perm1.png'
+2024-08-10 11:22:37,277 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:22:37,277 - INFO - Running Simulation 30, Permutation 1
+2024-08-10 11:22:37,277 - INFO - Analyzing Dataset 4
+2024-08-10 11:22:37,277 - INFO - Computing tilde_S for dataframe with shape: (1255, 4)
+2024-08-10 11:22:37,278 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:40,495 - INFO - Parameter evaluation completed in 3.22 seconds
+2024-08-10 11:22:40,495 - INFO - Optimal lambda1: 35.4259791678367, lambda2: 0.05917392256131733
+2024-08-10 11:22:43,732 - INFO - Analyzing Dataset 3
+2024-08-10 11:22:43,733 - INFO - Computing tilde_S for dataframe with shape: (1253, 4)
+2024-08-10 11:22:43,733 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:46,910 - INFO - Parameter evaluation completed in 3.18 seconds
+2024-08-10 11:22:46,910 - INFO - Optimal lambda1: 35.397740040855716, lambda2: 0.0592211295273904
+2024-08-10 11:22:50,199 - INFO - Analyzing Dataset 2
+2024-08-10 11:22:50,199 - INFO - Computing tilde_S for dataframe with shape: (1244, 4)
+2024-08-10 11:22:50,199 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:53,372 - INFO - Parameter evaluation completed in 3.17 seconds
+2024-08-10 11:22:53,372 - INFO - Optimal lambda1: 35.270384177096794, lambda2: 0.059434967802184054
+2024-08-10 11:22:56,629 - INFO - Analyzing Dataset 1
+2024-08-10 11:22:56,629 - INFO - Computing tilde_S for dataframe with shape: (1272, 4)
+2024-08-10 11:22:56,629 - INFO - Starting regularization parameter optimization
+2024-08-10 11:22:59,877 - INFO - Parameter evaluation completed in 3.25 seconds
+2024-08-10 11:22:59,878 - INFO - Optimal lambda1: 35.66510900025401, lambda2: 0.05877716924744236
+2024-08-10 11:23:03,239 - INFO - Estimating changepoints
+2024-08-10 11:23:03,239 - INFO - Estimated 1 changepoints
+2024-08-10 11:23:03,334 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim30_perm1.png'
+2024-08-10 11:23:03,335 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:23:03,336 - INFO - Running Simulation 45, Permutation 1
+2024-08-10 11:23:03,336 - INFO - Analyzing Dataset 4
+2024-08-10 11:23:03,336 - INFO - Computing tilde_S for dataframe with shape: (1030, 4)
+2024-08-10 11:23:03,336 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:05,776 - INFO - Parameter evaluation completed in 2.44 seconds
+2024-08-10 11:23:05,776 - INFO - Optimal lambda1: 32.09361307176243, lambda2: 0.06531810996938936
+2024-08-10 11:23:08,283 - INFO - Analyzing Dataset 3
+2024-08-10 11:23:08,283 - INFO - Computing tilde_S for dataframe with shape: (1015, 4)
+2024-08-10 11:23:08,284 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:10,735 - INFO - Parameter evaluation completed in 2.45 seconds
+2024-08-10 11:23:10,735 - INFO - Optimal lambda1: 31.85906464414798, lambda2: 0.06579898598251743
+2024-08-10 11:23:13,231 - INFO - Analyzing Dataset 2
+2024-08-10 11:23:13,231 - INFO - Computing tilde_S for dataframe with shape: (1049, 4)
+2024-08-10 11:23:13,231 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:15,790 - INFO - Parameter evaluation completed in 2.56 seconds
+2024-08-10 11:23:15,790 - INFO - Optimal lambda1: 32.38826948140329, lambda2: 0.06472387013884952
+2024-08-10 11:23:18,424 - INFO - Analyzing Dataset 1
+2024-08-10 11:23:18,425 - INFO - Computing tilde_S for dataframe with shape: (1031, 4)
+2024-08-10 11:23:18,425 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:20,915 - INFO - Parameter evaluation completed in 2.49 seconds
+2024-08-10 11:23:20,915 - INFO - Optimal lambda1: 32.109188716004645, lambda2: 0.06528642521857066
+2024-08-10 11:23:23,460 - INFO - Estimating changepoints
+2024-08-10 11:23:23,460 - INFO - Estimated 1 changepoints
+2024-08-10 11:23:23,558 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim45_perm1.png'
+2024-08-10 11:23:23,559 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:23:23,559 - INFO - Running Simulation 48, Permutation 1
+2024-08-10 11:23:23,559 - INFO - Analyzing Dataset 4
+2024-08-10 11:23:23,559 - INFO - Computing tilde_S for dataframe with shape: (1133, 4)
+2024-08-10 11:23:23,559 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:26,332 - INFO - Parameter evaluation completed in 2.77 seconds
+2024-08-10 11:23:26,332 - INFO - Optimal lambda1: 33.66006535941367, lambda2: 0.06227837425604232
+2024-08-10 11:23:29,216 - INFO - Analyzing Dataset 1
+2024-08-10 11:23:29,217 - INFO - Computing tilde_S for dataframe with shape: (1137, 4)
+2024-08-10 11:23:29,217 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:32,024 - INFO - Parameter evaluation completed in 2.81 seconds
+2024-08-10 11:23:32,024 - INFO - Optimal lambda1: 33.71943060017473, lambda2: 0.06216872914590518
+2024-08-10 11:23:34,911 - INFO - Analyzing Dataset 3
+2024-08-10 11:23:34,911 - INFO - Computing tilde_S for dataframe with shape: (1158, 4)
+2024-08-10 11:23:34,912 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:37,767 - INFO - Parameter evaluation completed in 2.86 seconds
+2024-08-10 11:23:37,768 - INFO - Optimal lambda1: 34.02939905434711, lambda2: 0.06160244395114046
+2024-08-10 11:23:40,649 - INFO - Analyzing Dataset 2
+2024-08-10 11:23:40,649 - INFO - Computing tilde_S for dataframe with shape: (1123, 4)
+2024-08-10 11:23:40,649 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:43,396 - INFO - Parameter evaluation completed in 2.75 seconds
+2024-08-10 11:23:43,397 - INFO - Optimal lambda1: 33.51119216023208, lambda2: 0.06255504542819859
+2024-08-10 11:23:46,192 - INFO - Estimating changepoints
+2024-08-10 11:23:46,194 - INFO - Estimated 1 changepoints
+2024-08-10 11:23:46,290 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim48_perm1.png'
+2024-08-10 11:23:46,291 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:23:46,292 - INFO - Running Simulation 37, Permutation 1
+2024-08-10 11:23:46,292 - INFO - Analyzing Dataset 4
+2024-08-10 11:23:46,292 - INFO - Computing tilde_S for dataframe with shape: (1112, 4)
+2024-08-10 11:23:46,292 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:49,077 - INFO - Parameter evaluation completed in 2.79 seconds
+2024-08-10 11:23:49,077 - INFO - Optimal lambda1: 33.34666400106613, lambda2: 0.06286368399157975
+2024-08-10 11:23:51,844 - INFO - Analyzing Dataset 1
+2024-08-10 11:23:51,844 - INFO - Computing tilde_S for dataframe with shape: (1162, 4)
+2024-08-10 11:23:51,844 - INFO - Starting regularization parameter optimization
+2024-08-10 11:23:54,728 - INFO - Parameter evaluation completed in 2.88 seconds
+2024-08-10 11:23:54,729 - INFO - Optimal lambda1: 34.08812109811862, lambda2: 0.06149632424452129
+2024-08-10 11:23:57,763 - INFO - Analyzing Dataset 3
+2024-08-10 11:23:57,763 - INFO - Computing tilde_S for dataframe with shape: (1111, 4)
+2024-08-10 11:23:57,763 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:00,483 - INFO - Parameter evaluation completed in 2.72 seconds
+2024-08-10 11:24:00,484 - INFO - Optimal lambda1: 33.331666624997915, lambda2: 0.06289196911516695
+2024-08-10 11:24:03,248 - INFO - Analyzing Dataset 2
+2024-08-10 11:24:03,248 - INFO - Computing tilde_S for dataframe with shape: (1121, 4)
+2024-08-10 11:24:03,248 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:05,990 - INFO - Parameter evaluation completed in 2.74 seconds
+2024-08-10 11:24:05,990 - INFO - Optimal lambda1: 33.481338085566414, lambda2: 0.06261082345571214
+2024-08-10 11:24:08,876 - INFO - Estimating changepoints
+2024-08-10 11:24:08,877 - INFO - Estimated 1 changepoints
+2024-08-10 11:24:08,971 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim37_perm1.png'
+2024-08-10 11:24:08,971 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:24:08,971 - INFO - Running Simulation 42, Permutation 1
+2024-08-10 11:24:08,971 - INFO - Analyzing Dataset 4
+2024-08-10 11:24:08,972 - INFO - Computing tilde_S for dataframe with shape: (1374, 4)
+2024-08-10 11:24:08,972 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:12,691 - INFO - Parameter evaluation completed in 3.72 seconds
+2024-08-10 11:24:12,691 - INFO - Optimal lambda1: 37.067505985701274, lambda2: 0.05655341766843045
+2024-08-10 11:24:16,340 - INFO - Analyzing Dataset 1
+2024-08-10 11:24:16,341 - INFO - Computing tilde_S for dataframe with shape: (1378, 4)
+2024-08-10 11:24:16,342 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:19,991 - INFO - Parameter evaluation completed in 3.65 seconds
+2024-08-10 11:24:19,991 - INFO - Optimal lambda1: 37.12142238654117, lambda2: 0.056471277584892524
+2024-08-10 11:24:23,648 - INFO - Analyzing Dataset 3
+2024-08-10 11:24:23,648 - INFO - Computing tilde_S for dataframe with shape: (1362, 4)
+2024-08-10 11:24:23,648 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:27,185 - INFO - Parameter evaluation completed in 3.54 seconds
+2024-08-10 11:24:27,185 - INFO - Optimal lambda1: 36.90528417449187, lambda2: 0.056802005317854266
+2024-08-10 11:24:30,782 - INFO - Analyzing Dataset 2
+2024-08-10 11:24:30,782 - INFO - Computing tilde_S for dataframe with shape: (1402, 4)
+2024-08-10 11:24:30,783 - INFO - Starting regularization parameter optimization
+2024-08-10 11:24:34,466 - INFO - Parameter evaluation completed in 3.68 seconds
+2024-08-10 11:24:34,466 - INFO - Optimal lambda1: 37.44329045369811, lambda2: 0.055985842123802136
+2024-08-10 11:24:38,264 - INFO - Estimating changepoints
+2024-08-10 11:24:38,265 - INFO - Estimated 1 changepoints
+2024-08-10 11:24:38,359 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/plots/changepoint_estimation_sim42_perm1.png'
+2024-08-10 11:24:38,360 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_4/number_samples_2000/results/simulation_results.csv
+2024-08-10 11:24:38,361 - INFO - All simulations completed
+2024-08-10 11:24:38,361 - INFO - Memory usage: 573.27 MB
+2024-08-10 11:24:38,363 - INFO - Total execution time: 1317.69 seconds

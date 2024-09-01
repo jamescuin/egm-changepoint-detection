@@ -1,0 +1,2008 @@
+2024-08-10 21:51:04,309 - WARNING - The results.csv file: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv already exists. Renaming the existing file.
+2024-08-10 21:51:04,309 - INFO - Starting simulation in directory: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000
+2024-08-10 21:51:04,309 - INFO - Loading data from directory: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/csv_files
+2024-08-10 21:51:05,874 - INFO - Loaded 50 simulations and 50 changepoints
+2024-08-10 21:51:05,874 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=20.0, total_original_samples=1000)
+2024-08-10 21:51:05,876 - INFO - Running Simulation 4, Permutation 1
+2024-08-10 21:51:05,876 - INFO - Analyzing Dataset 6
+2024-08-10 21:51:05,876 - INFO - Computing tilde_S for dataframe with shape: (552, 7)
+2024-08-10 21:51:05,881 - INFO - Starting regularization parameter optimization
+2024-08-10 21:51:25,357 - INFO - Parameter evaluation completed in 19.48 seconds
+2024-08-10 21:51:25,357 - INFO - Optimal lambda1: 23.49468024894146, lambda2: 0.11394632187906951
+2024-08-10 21:51:42,942 - INFO - Analyzing Dataset 1
+2024-08-10 21:51:42,942 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-10 21:51:42,944 - INFO - Starting regularization parameter optimization
+2024-08-10 21:52:00,661 - INFO - Parameter evaluation completed in 17.72 seconds
+2024-08-10 21:52:00,661 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-10 21:52:17,533 - INFO - Analyzing Dataset 7
+2024-08-10 21:52:17,533 - INFO - Computing tilde_S for dataframe with shape: (538, 7)
+2024-08-10 21:52:17,534 - INFO - Starting regularization parameter optimization
+2024-08-10 21:52:35,099 - INFO - Parameter evaluation completed in 17.57 seconds
+2024-08-10 21:52:35,100 - INFO - Optimal lambda1: 23.194827009486403, lambda2: 0.11541937333685592
+2024-08-10 21:52:51,647 - INFO - Analyzing Dataset 4
+2024-08-10 21:52:51,647 - INFO - Computing tilde_S for dataframe with shape: (559, 7)
+2024-08-10 21:52:51,648 - INFO - Starting regularization parameter optimization
+2024-08-10 21:53:09,990 - INFO - Parameter evaluation completed in 18.34 seconds
+2024-08-10 21:53:09,990 - INFO - Optimal lambda1: 23.643180835073778, lambda2: 0.11323063579162218
+2024-08-10 21:53:27,447 - INFO - Analyzing Dataset 3
+2024-08-10 21:53:27,447 - INFO - Computing tilde_S for dataframe with shape: (542, 7)
+2024-08-10 21:53:27,448 - INFO - Starting regularization parameter optimization
+2024-08-10 21:53:44,963 - INFO - Parameter evaluation completed in 17.52 seconds
+2024-08-10 21:53:44,963 - INFO - Optimal lambda1: 23.280893453645632, lambda2: 0.11499268288058248
+2024-08-10 21:54:01,707 - INFO - Analyzing Dataset 2
+2024-08-10 21:54:01,708 - INFO - Computing tilde_S for dataframe with shape: (554, 7)
+2024-08-10 21:54:01,708 - INFO - Starting regularization parameter optimization
+2024-08-10 21:54:20,171 - INFO - Parameter evaluation completed in 18.46 seconds
+2024-08-10 21:54:20,171 - INFO - Optimal lambda1: 23.53720459187964, lambda2: 0.11374045663074679
+2024-08-10 21:54:37,692 - INFO - Analyzing Dataset 5
+2024-08-10 21:54:37,693 - INFO - Computing tilde_S for dataframe with shape: (553, 7)
+2024-08-10 21:54:37,693 - INFO - Starting regularization parameter optimization
+2024-08-10 21:54:56,438 - INFO - Parameter evaluation completed in 18.74 seconds
+2024-08-10 21:54:56,438 - INFO - Optimal lambda1: 23.515952032609693, lambda2: 0.11384324965365243
+2024-08-10 21:55:13,720 - INFO - Estimating changepoints
+2024-08-10 21:55:13,722 - INFO - Estimated 1 changepoints
+2024-08-10 21:55:14,148 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim4_perm1.png'
+2024-08-10 21:55:14,158 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 21:55:14,159 - INFO - Running Simulation 30, Permutation 1
+2024-08-10 21:55:14,159 - INFO - Analyzing Dataset 6
+2024-08-10 21:55:14,159 - INFO - Computing tilde_S for dataframe with shape: (581, 7)
+2024-08-10 21:55:14,160 - INFO - Starting regularization parameter optimization
+2024-08-10 21:55:33,575 - INFO - Parameter evaluation completed in 19.41 seconds
+2024-08-10 21:55:33,575 - INFO - Optimal lambda1: 24.1039415863879, lambda2: 0.11106616685478297
+2024-08-10 21:55:52,216 - INFO - Analyzing Dataset 1
+2024-08-10 21:55:52,216 - INFO - Computing tilde_S for dataframe with shape: (564, 7)
+2024-08-10 21:55:52,217 - INFO - Starting regularization parameter optimization
+2024-08-10 21:56:10,510 - INFO - Parameter evaluation completed in 18.29 seconds
+2024-08-10 21:56:10,510 - INFO - Optimal lambda1: 23.748684174075834, lambda2: 0.11272760960011713
+2024-08-10 21:56:27,965 - INFO - Analyzing Dataset 7
+2024-08-10 21:56:27,966 - INFO - Computing tilde_S for dataframe with shape: (577, 7)
+2024-08-10 21:56:27,966 - INFO - Starting regularization parameter optimization
+2024-08-10 21:56:45,541 - INFO - Parameter evaluation completed in 17.57 seconds
+2024-08-10 21:56:45,542 - INFO - Optimal lambda1: 24.020824298928627, lambda2: 0.11145047999918577
+2024-08-10 21:57:03,473 - INFO - Analyzing Dataset 4
+2024-08-10 21:57:03,473 - INFO - Computing tilde_S for dataframe with shape: (582, 7)
+2024-08-10 21:57:03,474 - INFO - Starting regularization parameter optimization
+2024-08-10 21:57:21,423 - INFO - Parameter evaluation completed in 17.95 seconds
+2024-08-10 21:57:21,423 - INFO - Optimal lambda1: 24.124676163629637, lambda2: 0.11097070816344244
+2024-08-10 21:57:39,643 - INFO - Analyzing Dataset 3
+2024-08-10 21:57:39,643 - INFO - Computing tilde_S for dataframe with shape: (577, 7)
+2024-08-10 21:57:39,644 - INFO - Starting regularization parameter optimization
+2024-08-10 21:57:57,542 - INFO - Parameter evaluation completed in 17.90 seconds
+2024-08-10 21:57:57,543 - INFO - Optimal lambda1: 24.020824298928627, lambda2: 0.11145047999918577
+2024-08-10 21:58:15,844 - INFO - Analyzing Dataset 2
+2024-08-10 21:58:15,844 - INFO - Computing tilde_S for dataframe with shape: (558, 7)
+2024-08-10 21:58:15,844 - INFO - Starting regularization parameter optimization
+2024-08-10 21:58:32,815 - INFO - Parameter evaluation completed in 16.97 seconds
+2024-08-10 21:58:32,815 - INFO - Optimal lambda1: 23.62202362203543, lambda2: 0.11333205151799018
+2024-08-10 21:58:50,122 - INFO - Analyzing Dataset 5
+2024-08-10 21:58:50,122 - INFO - Computing tilde_S for dataframe with shape: (587, 7)
+2024-08-10 21:58:50,123 - INFO - Starting regularization parameter optimization
+2024-08-10 21:59:08,394 - INFO - Parameter evaluation completed in 18.27 seconds
+2024-08-10 21:59:08,394 - INFO - Optimal lambda1: 24.228082879171435, lambda2: 0.11049707941989897
+2024-08-10 21:59:26,952 - INFO - Estimating changepoints
+2024-08-10 21:59:26,953 - INFO - Estimated 1 changepoints
+2024-08-10 21:59:27,367 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim30_perm1.png'
+2024-08-10 21:59:27,376 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 21:59:27,377 - INFO - Running Simulation 28, Permutation 1
+2024-08-10 21:59:27,377 - INFO - Analyzing Dataset 5
+2024-08-10 21:59:27,377 - INFO - Computing tilde_S for dataframe with shape: (489, 7)
+2024-08-10 21:59:27,378 - INFO - Starting regularization parameter optimization
+2024-08-10 21:59:42,666 - INFO - Parameter evaluation completed in 15.29 seconds
+2024-08-10 21:59:42,666 - INFO - Optimal lambda1: 22.11334438749598, lambda2: 0.12106411184033694
+2024-08-10 21:59:57,699 - INFO - Analyzing Dataset 2
+2024-08-10 21:59:57,699 - INFO - Computing tilde_S for dataframe with shape: (490, 7)
+2024-08-10 21:59:57,700 - INFO - Starting regularization parameter optimization
+2024-08-10 22:00:12,548 - INFO - Parameter evaluation completed in 14.85 seconds
+2024-08-10 22:00:12,548 - INFO - Optimal lambda1: 22.135943621178654, lambda2: 0.12094051393997693
+2024-08-10 22:00:27,629 - INFO - Analyzing Dataset 3
+2024-08-10 22:00:27,629 - INFO - Computing tilde_S for dataframe with shape: (465, 7)
+2024-08-10 22:00:27,630 - INFO - Starting regularization parameter optimization
+2024-08-10 22:00:41,527 - INFO - Parameter evaluation completed in 13.90 seconds
+2024-08-10 22:00:41,527 - INFO - Optimal lambda1: 21.563858652847824, lambda2: 0.12414904220948164
+2024-08-10 22:00:55,615 - INFO - Analyzing Dataset 4
+2024-08-10 22:00:55,615 - INFO - Computing tilde_S for dataframe with shape: (468, 7)
+2024-08-10 22:00:55,616 - INFO - Starting regularization parameter optimization
+2024-08-10 22:01:10,897 - INFO - Parameter evaluation completed in 15.28 seconds
+2024-08-10 22:01:10,897 - INFO - Optimal lambda1: 21.633307652783937, lambda2: 0.12375048887853204
+2024-08-10 22:01:25,134 - INFO - Analyzing Dataset 7
+2024-08-10 22:01:25,135 - INFO - Computing tilde_S for dataframe with shape: (478, 7)
+2024-08-10 22:01:25,135 - INFO - Starting regularization parameter optimization
+2024-08-10 22:01:40,660 - INFO - Parameter evaluation completed in 15.52 seconds
+2024-08-10 22:01:40,660 - INFO - Optimal lambda1: 21.863211109075447, lambda2: 0.12244918574565744
+2024-08-10 22:01:55,348 - INFO - Analyzing Dataset 1
+2024-08-10 22:01:55,348 - INFO - Computing tilde_S for dataframe with shape: (494, 7)
+2024-08-10 22:01:55,349 - INFO - Starting regularization parameter optimization
+2024-08-10 22:02:10,435 - INFO - Parameter evaluation completed in 15.09 seconds
+2024-08-10 22:02:10,435 - INFO - Optimal lambda1: 22.22611077089287, lambda2: 0.12044988102901256
+2024-08-10 22:02:25,749 - INFO - Analyzing Dataset 6
+2024-08-10 22:02:25,749 - INFO - Computing tilde_S for dataframe with shape: (498, 7)
+2024-08-10 22:02:25,750 - INFO - Starting regularization parameter optimization
+2024-08-10 22:02:40,716 - INFO - Parameter evaluation completed in 14.97 seconds
+2024-08-10 22:02:40,716 - INFO - Optimal lambda1: 22.315913604421397, lambda2: 0.11996517129199169
+2024-08-10 22:02:55,962 - INFO - Estimating changepoints
+2024-08-10 22:02:55,964 - INFO - Estimated 1 changepoints
+2024-08-10 22:02:56,318 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim28_perm1.png'
+2024-08-10 22:02:56,329 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:02:56,329 - INFO - Running Simulation 49, Permutation 1
+2024-08-10 22:02:56,329 - INFO - Analyzing Dataset 1
+2024-08-10 22:02:56,329 - INFO - Computing tilde_S for dataframe with shape: (438, 7)
+2024-08-10 22:02:56,330 - INFO - Starting regularization parameter optimization
+2024-08-10 22:03:09,431 - INFO - Parameter evaluation completed in 13.10 seconds
+2024-08-10 22:03:09,432 - INFO - Optimal lambda1: 20.92844953645635, lambda2: 0.12791833400884595
+2024-08-10 22:03:22,951 - INFO - Analyzing Dataset 6
+2024-08-10 22:03:22,951 - INFO - Computing tilde_S for dataframe with shape: (418, 7)
+2024-08-10 22:03:22,952 - INFO - Starting regularization parameter optimization
+2024-08-10 22:03:35,318 - INFO - Parameter evaluation completed in 12.37 seconds
+2024-08-10 22:03:35,318 - INFO - Optimal lambda1: 20.445048300260872, lambda2: 0.13094282580186134
+2024-08-10 22:03:47,823 - INFO - Analyzing Dataset 7
+2024-08-10 22:03:47,823 - INFO - Computing tilde_S for dataframe with shape: (425, 7)
+2024-08-10 22:03:47,824 - INFO - Starting regularization parameter optimization
+2024-08-10 22:04:00,815 - INFO - Parameter evaluation completed in 12.99 seconds
+2024-08-10 22:04:00,815 - INFO - Optimal lambda1: 20.615528128088304, lambda2: 0.12985999589523753
+2024-08-10 22:04:13,545 - INFO - Analyzing Dataset 3
+2024-08-10 22:04:13,546 - INFO - Computing tilde_S for dataframe with shape: (419, 7)
+2024-08-10 22:04:13,546 - INFO - Starting regularization parameter optimization
+2024-08-10 22:04:25,863 - INFO - Parameter evaluation completed in 12.32 seconds
+2024-08-10 22:04:25,864 - INFO - Optimal lambda1: 20.46948949045872, lambda2: 0.1307864761033523
+2024-08-10 22:04:38,451 - INFO - Analyzing Dataset 4
+2024-08-10 22:04:38,452 - INFO - Computing tilde_S for dataframe with shape: (422, 7)
+2024-08-10 22:04:38,452 - INFO - Starting regularization parameter optimization
+2024-08-10 22:04:50,939 - INFO - Parameter evaluation completed in 12.49 seconds
+2024-08-10 22:04:50,939 - INFO - Optimal lambda1: 20.54263858417414, lambda2: 0.13032076610422086
+2024-08-10 22:05:03,683 - INFO - Analyzing Dataset 5
+2024-08-10 22:05:03,684 - INFO - Computing tilde_S for dataframe with shape: (416, 7)
+2024-08-10 22:05:03,684 - INFO - Starting regularization parameter optimization
+2024-08-10 22:05:16,042 - INFO - Parameter evaluation completed in 12.36 seconds
+2024-08-10 22:05:16,042 - INFO - Optimal lambda1: 20.396078054371138, lambda2: 0.13125721479174066
+2024-08-10 22:05:28,720 - INFO - Analyzing Dataset 2
+2024-08-10 22:05:28,720 - INFO - Computing tilde_S for dataframe with shape: (402, 7)
+2024-08-10 22:05:28,721 - INFO - Starting regularization parameter optimization
+2024-08-10 22:05:40,403 - INFO - Parameter evaluation completed in 11.68 seconds
+2024-08-10 22:05:40,403 - INFO - Optimal lambda1: 20.049937655763422, lambda2: 0.13352322805463437
+2024-08-10 22:05:52,458 - INFO - Estimating changepoints
+2024-08-10 22:05:52,459 - INFO - Estimated 2 changepoints
+2024-08-10 22:05:52,856 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim49_perm1.png'
+2024-08-10 22:05:52,865 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:05:52,865 - INFO - Running Simulation 16, Permutation 1
+2024-08-10 22:05:52,866 - INFO - Analyzing Dataset 7
+2024-08-10 22:05:52,866 - INFO - Computing tilde_S for dataframe with shape: (521, 7)
+2024-08-10 22:05:52,866 - INFO - Starting regularization parameter optimization
+2024-08-10 22:06:10,049 - INFO - Parameter evaluation completed in 17.18 seconds
+2024-08-10 22:06:10,049 - INFO - Optimal lambda1: 22.825424421026653, lambda2: 0.11728729984208053
+2024-08-10 22:06:26,039 - INFO - Analyzing Dataset 1
+2024-08-10 22:06:26,039 - INFO - Computing tilde_S for dataframe with shape: (543, 7)
+2024-08-10 22:06:26,040 - INFO - Starting regularization parameter optimization
+2024-08-10 22:06:43,726 - INFO - Parameter evaluation completed in 17.69 seconds
+2024-08-10 22:06:43,726 - INFO - Optimal lambda1: 23.302360395462088, lambda2: 0.11488674763664915
+2024-08-10 22:07:00,734 - INFO - Analyzing Dataset 6
+2024-08-10 22:07:00,735 - INFO - Computing tilde_S for dataframe with shape: (524, 7)
+2024-08-10 22:07:00,736 - INFO - Starting regularization parameter optimization
+2024-08-10 22:07:16,507 - INFO - Parameter evaluation completed in 15.77 seconds
+2024-08-10 22:07:16,508 - INFO - Optimal lambda1: 22.891046284519195, lambda2: 0.11695107182157058
+2024-08-10 22:07:32,652 - INFO - Analyzing Dataset 5
+2024-08-10 22:07:32,653 - INFO - Computing tilde_S for dataframe with shape: (534, 7)
+2024-08-10 22:07:32,653 - INFO - Starting regularization parameter optimization
+2024-08-10 22:07:48,648 - INFO - Parameter evaluation completed in 15.99 seconds
+2024-08-10 22:07:48,648 - INFO - Optimal lambda1: 23.108440016582687, lambda2: 0.11585084913436747
+2024-08-10 22:08:05,105 - INFO - Analyzing Dataset 2
+2024-08-10 22:08:05,106 - INFO - Computing tilde_S for dataframe with shape: (540, 7)
+2024-08-10 22:08:05,106 - INFO - Starting regularization parameter optimization
+2024-08-10 22:08:21,322 - INFO - Parameter evaluation completed in 16.22 seconds
+2024-08-10 22:08:21,322 - INFO - Optimal lambda1: 23.2379000772445, lambda2: 0.11520543548223869
+2024-08-10 22:08:37,920 - INFO - Analyzing Dataset 3
+2024-08-10 22:08:37,920 - INFO - Computing tilde_S for dataframe with shape: (544, 7)
+2024-08-10 22:08:37,921 - INFO - Starting regularization parameter optimization
+2024-08-10 22:08:54,941 - INFO - Parameter evaluation completed in 17.02 seconds
+2024-08-10 22:08:54,942 - INFO - Optimal lambda1: 23.323807579381203, lambda2: 0.1147811046279746
+2024-08-10 22:09:11,777 - INFO - Analyzing Dataset 4
+2024-08-10 22:09:11,778 - INFO - Computing tilde_S for dataframe with shape: (541, 7)
+2024-08-10 22:09:11,778 - INFO - Starting regularization parameter optimization
+2024-08-10 22:09:28,068 - INFO - Parameter evaluation completed in 16.29 seconds
+2024-08-10 22:09:28,068 - INFO - Optimal lambda1: 23.259406699226016, lambda2: 0.11509891170959169
+2024-08-10 22:09:44,654 - INFO - Estimating changepoints
+2024-08-10 22:09:44,655 - INFO - Estimated 1 changepoints
+2024-08-10 22:09:45,004 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim16_perm1.png'
+2024-08-10 22:09:45,015 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:09:45,015 - INFO - Running Simulation 42, Permutation 1
+2024-08-10 22:09:45,015 - INFO - Analyzing Dataset 1
+2024-08-10 22:09:45,015 - INFO - Computing tilde_S for dataframe with shape: (617, 7)
+2024-08-10 22:09:45,016 - INFO - Starting regularization parameter optimization
+2024-08-10 22:10:03,750 - INFO - Parameter evaluation completed in 18.73 seconds
+2024-08-10 22:10:03,750 - INFO - Optimal lambda1: 24.839484696748443, lambda2: 0.10777729211275243
+2024-08-10 22:10:22,871 - INFO - Analyzing Dataset 6
+2024-08-10 22:10:22,872 - INFO - Computing tilde_S for dataframe with shape: (608, 7)
+2024-08-10 22:10:22,872 - INFO - Starting regularization parameter optimization
+2024-08-10 22:10:41,388 - INFO - Parameter evaluation completed in 18.52 seconds
+2024-08-10 22:10:41,389 - INFO - Optimal lambda1: 24.657656011875904, lambda2: 0.1085720555434105
+2024-08-10 22:11:00,255 - INFO - Analyzing Dataset 7
+2024-08-10 22:11:00,255 - INFO - Computing tilde_S for dataframe with shape: (612, 7)
+2024-08-10 22:11:00,256 - INFO - Starting regularization parameter optimization
+2024-08-10 22:11:19,356 - INFO - Parameter evaluation completed in 19.10 seconds
+2024-08-10 22:11:19,356 - INFO - Optimal lambda1: 24.73863375370596, lambda2: 0.10821666324603127
+2024-08-10 22:11:38,222 - INFO - Analyzing Dataset 3
+2024-08-10 22:11:38,223 - INFO - Computing tilde_S for dataframe with shape: (607, 7)
+2024-08-10 22:11:38,223 - INFO - Starting regularization parameter optimization
+2024-08-10 22:11:56,504 - INFO - Parameter evaluation completed in 18.28 seconds
+2024-08-10 22:11:56,505 - INFO - Optimal lambda1: 24.63736998950984, lambda2: 0.108661452063738
+2024-08-10 22:12:15,222 - INFO - Analyzing Dataset 4
+2024-08-10 22:12:15,222 - INFO - Computing tilde_S for dataframe with shape: (626, 7)
+2024-08-10 22:12:15,223 - INFO - Starting regularization parameter optimization
+2024-08-10 22:12:34,951 - INFO - Parameter evaluation completed in 19.73 seconds
+2024-08-10 22:12:34,951 - INFO - Optimal lambda1: 25.019992006393608, lambda2: 0.10699973035193562
+2024-08-10 22:12:54,949 - INFO - Analyzing Dataset 5
+2024-08-10 22:12:54,949 - INFO - Computing tilde_S for dataframe with shape: (625, 7)
+2024-08-10 22:12:54,950 - INFO - Starting regularization parameter optimization
+2024-08-10 22:13:14,963 - INFO - Parameter evaluation completed in 20.01 seconds
+2024-08-10 22:13:14,964 - INFO - Optimal lambda1: 25.0, lambda2: 0.10708529592366803
+2024-08-10 22:13:35,130 - INFO - Analyzing Dataset 2
+2024-08-10 22:13:35,130 - INFO - Computing tilde_S for dataframe with shape: (610, 7)
+2024-08-10 22:13:35,131 - INFO - Starting regularization parameter optimization
+2024-08-10 22:13:55,210 - INFO - Parameter evaluation completed in 20.08 seconds
+2024-08-10 22:13:55,210 - INFO - Optimal lambda1: 24.698178070456937, lambda2: 0.1083939224364889
+2024-08-10 22:14:14,338 - INFO - Estimating changepoints
+2024-08-10 22:14:14,339 - INFO - Estimated 2 changepoints
+2024-08-10 22:14:14,935 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim42_perm1.png'
+2024-08-10 22:14:14,947 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:14:14,947 - INFO - Running Simulation 23, Permutation 1
+2024-08-10 22:14:14,947 - INFO - Analyzing Dataset 5
+2024-08-10 22:14:14,947 - INFO - Computing tilde_S for dataframe with shape: (502, 7)
+2024-08-10 22:14:14,948 - INFO - Starting regularization parameter optimization
+2024-08-10 22:14:30,490 - INFO - Parameter evaluation completed in 15.54 seconds
+2024-08-10 22:14:30,490 - INFO - Optimal lambda1: 22.40535650240808, lambda2: 0.11948626650077933
+2024-08-10 22:14:46,419 - INFO - Analyzing Dataset 2
+2024-08-10 22:14:46,419 - INFO - Computing tilde_S for dataframe with shape: (491, 7)
+2024-08-10 22:14:46,420 - INFO - Starting regularization parameter optimization
+2024-08-10 22:15:01,356 - INFO - Parameter evaluation completed in 14.94 seconds
+2024-08-10 22:15:01,356 - INFO - Optimal lambda1: 22.15851980616034, lambda2: 0.12081729382246124
+2024-08-10 22:15:16,613 - INFO - Analyzing Dataset 3
+2024-08-10 22:15:16,614 - INFO - Computing tilde_S for dataframe with shape: (471, 7)
+2024-08-10 22:15:16,614 - INFO - Starting regularization parameter optimization
+2024-08-10 22:15:31,953 - INFO - Parameter evaluation completed in 15.34 seconds
+2024-08-10 22:15:31,953 - INFO - Optimal lambda1: 21.702534414210707, lambda2: 0.12335574947130269
+2024-08-10 22:15:46,611 - INFO - Analyzing Dataset 4
+2024-08-10 22:15:46,612 - INFO - Computing tilde_S for dataframe with shape: (504, 7)
+2024-08-10 22:15:46,612 - INFO - Starting regularization parameter optimization
+2024-08-10 22:16:02,626 - INFO - Parameter evaluation completed in 16.01 seconds
+2024-08-10 22:16:02,626 - INFO - Optimal lambda1: 22.44994432064365, lambda2: 0.11924895491299581
+2024-08-10 22:16:18,359 - INFO - Analyzing Dataset 7
+2024-08-10 22:16:18,359 - INFO - Computing tilde_S for dataframe with shape: (504, 7)
+2024-08-10 22:16:18,360 - INFO - Starting regularization parameter optimization
+2024-08-10 22:16:33,891 - INFO - Parameter evaluation completed in 15.53 seconds
+2024-08-10 22:16:33,891 - INFO - Optimal lambda1: 22.44994432064365, lambda2: 0.11924895491299581
+2024-08-10 22:16:49,735 - INFO - Analyzing Dataset 1
+2024-08-10 22:16:49,736 - INFO - Computing tilde_S for dataframe with shape: (500, 7)
+2024-08-10 22:16:49,736 - INFO - Starting regularization parameter optimization
+2024-08-10 22:17:06,557 - INFO - Parameter evaluation completed in 16.82 seconds
+2024-08-10 22:17:06,557 - INFO - Optimal lambda1: 22.360679774997898, lambda2: 0.11972500053800142
+2024-08-10 22:17:22,319 - INFO - Analyzing Dataset 6
+2024-08-10 22:17:22,319 - INFO - Computing tilde_S for dataframe with shape: (492, 7)
+2024-08-10 22:17:22,320 - INFO - Starting regularization parameter optimization
+2024-08-10 22:17:37,324 - INFO - Parameter evaluation completed in 15.00 seconds
+2024-08-10 22:17:37,325 - INFO - Optimal lambda1: 22.181073012818835, lambda2: 0.12069444956718453
+2024-08-10 22:17:52,720 - INFO - Estimating changepoints
+2024-08-10 22:17:52,721 - INFO - Estimated 1 changepoints
+2024-08-10 22:17:53,063 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim23_perm1.png'
+2024-08-10 22:17:53,074 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:17:53,074 - INFO - Running Simulation 27, Permutation 1
+2024-08-10 22:17:53,074 - INFO - Analyzing Dataset 6
+2024-08-10 22:17:53,074 - INFO - Computing tilde_S for dataframe with shape: (550, 7)
+2024-08-10 22:17:53,075 - INFO - Starting regularization parameter optimization
+2024-08-10 22:18:10,922 - INFO - Parameter evaluation completed in 17.85 seconds
+2024-08-10 22:18:10,922 - INFO - Optimal lambda1: 23.45207879911715, lambda2: 0.11415330901039276
+2024-08-10 22:18:27,662 - INFO - Analyzing Dataset 1
+2024-08-10 22:18:27,663 - INFO - Computing tilde_S for dataframe with shape: (556, 7)
+2024-08-10 22:18:27,663 - INFO - Starting regularization parameter optimization
+2024-08-10 22:18:44,634 - INFO - Parameter evaluation completed in 16.97 seconds
+2024-08-10 22:18:44,634 - INFO - Optimal lambda1: 23.57965224510319, lambda2: 0.11353570316744867
+2024-08-10 22:19:01,817 - INFO - Analyzing Dataset 7
+2024-08-10 22:19:01,817 - INFO - Computing tilde_S for dataframe with shape: (568, 7)
+2024-08-10 22:19:01,818 - INFO - Starting regularization parameter optimization
+2024-08-10 22:19:21,060 - INFO - Parameter evaluation completed in 19.24 seconds
+2024-08-10 22:19:21,061 - INFO - Optimal lambda1: 23.83275057562597, lambda2: 0.11232998010853329
+2024-08-10 22:19:38,914 - INFO - Analyzing Dataset 4
+2024-08-10 22:19:38,915 - INFO - Computing tilde_S for dataframe with shape: (553, 7)
+2024-08-10 22:19:38,915 - INFO - Starting regularization parameter optimization
+2024-08-10 22:19:56,168 - INFO - Parameter evaluation completed in 17.25 seconds
+2024-08-10 22:19:56,168 - INFO - Optimal lambda1: 23.515952032609693, lambda2: 0.11384324965365243
+2024-08-10 22:20:13,655 - INFO - Analyzing Dataset 3
+2024-08-10 22:20:13,655 - INFO - Computing tilde_S for dataframe with shape: (564, 7)
+2024-08-10 22:20:13,656 - INFO - Starting regularization parameter optimization
+2024-08-10 22:20:30,728 - INFO - Parameter evaluation completed in 17.07 seconds
+2024-08-10 22:20:30,728 - INFO - Optimal lambda1: 23.748684174075834, lambda2: 0.11272760960011713
+2024-08-10 22:20:48,173 - INFO - Analyzing Dataset 2
+2024-08-10 22:20:48,174 - INFO - Computing tilde_S for dataframe with shape: (558, 7)
+2024-08-10 22:20:48,174 - INFO - Starting regularization parameter optimization
+2024-08-10 22:21:05,758 - INFO - Parameter evaluation completed in 17.58 seconds
+2024-08-10 22:21:05,759 - INFO - Optimal lambda1: 23.62202362203543, lambda2: 0.11333205151799018
+2024-08-10 22:21:23,202 - INFO - Analyzing Dataset 5
+2024-08-10 22:21:23,202 - INFO - Computing tilde_S for dataframe with shape: (577, 7)
+2024-08-10 22:21:23,203 - INFO - Starting regularization parameter optimization
+2024-08-10 22:21:40,890 - INFO - Parameter evaluation completed in 17.69 seconds
+2024-08-10 22:21:40,890 - INFO - Optimal lambda1: 24.020824298928627, lambda2: 0.11145047999918577
+2024-08-10 22:21:59,012 - INFO - Estimating changepoints
+2024-08-10 22:21:59,013 - INFO - Estimated 1 changepoints
+2024-08-10 22:21:59,358 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim27_perm1.png'
+2024-08-10 22:21:59,367 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:21:59,367 - INFO - Running Simulation 12, Permutation 1
+2024-08-10 22:21:59,367 - INFO - Analyzing Dataset 4
+2024-08-10 22:21:59,367 - INFO - Computing tilde_S for dataframe with shape: (447, 7)
+2024-08-10 22:21:59,368 - INFO - Starting regularization parameter optimization
+2024-08-10 22:22:12,711 - INFO - Parameter evaluation completed in 13.34 seconds
+2024-08-10 22:22:12,711 - INFO - Optimal lambda1: 21.142374511865974, lambda2: 0.12662401740112889
+2024-08-10 22:22:26,342 - INFO - Analyzing Dataset 3
+2024-08-10 22:22:26,343 - INFO - Computing tilde_S for dataframe with shape: (454, 7)
+2024-08-10 22:22:26,343 - INFO - Starting regularization parameter optimization
+2024-08-10 22:22:40,272 - INFO - Parameter evaluation completed in 13.93 seconds
+2024-08-10 22:22:40,272 - INFO - Optimal lambda1: 21.307275752662516, lambda2: 0.1256440489703228
+2024-08-10 22:22:54,325 - INFO - Analyzing Dataset 2
+2024-08-10 22:22:54,326 - INFO - Computing tilde_S for dataframe with shape: (420, 7)
+2024-08-10 22:22:54,327 - INFO - Starting regularization parameter optimization
+2024-08-10 22:23:07,036 - INFO - Parameter evaluation completed in 12.71 seconds
+2024-08-10 22:23:07,036 - INFO - Optimal lambda1: 20.493901531919196, lambda2: 0.1306306851295286
+2024-08-10 22:23:19,898 - INFO - Analyzing Dataset 5
+2024-08-10 22:23:19,899 - INFO - Computing tilde_S for dataframe with shape: (436, 7)
+2024-08-10 22:23:19,899 - INFO - Starting regularization parameter optimization
+2024-08-10 22:23:34,080 - INFO - Parameter evaluation completed in 14.18 seconds
+2024-08-10 22:23:34,080 - INFO - Optimal lambda1: 20.8806130178211, lambda2: 0.1282113889954683
+2024-08-10 22:23:47,323 - INFO - Analyzing Dataset 6
+2024-08-10 22:23:47,324 - INFO - Computing tilde_S for dataframe with shape: (433, 7)
+2024-08-10 22:23:47,324 - INFO - Starting regularization parameter optimization
+2024-08-10 22:24:00,648 - INFO - Parameter evaluation completed in 13.32 seconds
+2024-08-10 22:24:00,649 - INFO - Optimal lambda1: 20.808652046684813, lambda2: 0.12865477264387318
+2024-08-10 22:24:14,038 - INFO - Analyzing Dataset 1
+2024-08-10 22:24:14,039 - INFO - Computing tilde_S for dataframe with shape: (427, 7)
+2024-08-10 22:24:14,040 - INFO - Starting regularization parameter optimization
+2024-08-10 22:24:27,928 - INFO - Parameter evaluation completed in 13.89 seconds
+2024-08-10 22:24:27,928 - INFO - Optimal lambda1: 20.663978319771825, lambda2: 0.12955551717406477
+2024-08-10 22:24:40,886 - INFO - Analyzing Dataset 7
+2024-08-10 22:24:40,886 - INFO - Computing tilde_S for dataframe with shape: (447, 7)
+2024-08-10 22:24:40,887 - INFO - Starting regularization parameter optimization
+2024-08-10 22:24:54,584 - INFO - Parameter evaluation completed in 13.70 seconds
+2024-08-10 22:24:54,584 - INFO - Optimal lambda1: 21.142374511865974, lambda2: 0.12662401740112889
+2024-08-10 22:25:08,322 - INFO - Estimating changepoints
+2024-08-10 22:25:08,323 - INFO - Estimated 1 changepoints
+2024-08-10 22:25:08,687 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim12_perm1.png'
+2024-08-10 22:25:08,698 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:25:08,698 - INFO - Running Simulation 46, Permutation 1
+2024-08-10 22:25:08,698 - INFO - Analyzing Dataset 2
+2024-08-10 22:25:08,698 - INFO - Computing tilde_S for dataframe with shape: (579, 7)
+2024-08-10 22:25:08,699 - INFO - Starting regularization parameter optimization
+2024-08-10 22:25:26,265 - INFO - Parameter evaluation completed in 17.57 seconds
+2024-08-10 22:25:26,265 - INFO - Optimal lambda1: 24.06241883103193, lambda2: 0.11125782561141176
+2024-08-10 22:25:44,347 - INFO - Analyzing Dataset 5
+2024-08-10 22:25:44,348 - INFO - Computing tilde_S for dataframe with shape: (587, 7)
+2024-08-10 22:25:44,349 - INFO - Starting regularization parameter optimization
+2024-08-10 22:26:03,578 - INFO - Parameter evaluation completed in 19.23 seconds
+2024-08-10 22:26:03,578 - INFO - Optimal lambda1: 24.228082879171435, lambda2: 0.11049707941989897
+2024-08-10 22:26:21,980 - INFO - Analyzing Dataset 4
+2024-08-10 22:26:21,980 - INFO - Computing tilde_S for dataframe with shape: (586, 7)
+2024-08-10 22:26:21,981 - INFO - Starting regularization parameter optimization
+2024-08-10 22:26:39,758 - INFO - Parameter evaluation completed in 17.78 seconds
+2024-08-10 22:26:39,758 - INFO - Optimal lambda1: 24.20743687382041, lambda2: 0.11059132001649197
+2024-08-10 22:26:57,885 - INFO - Analyzing Dataset 3
+2024-08-10 22:26:57,886 - INFO - Computing tilde_S for dataframe with shape: (578, 7)
+2024-08-10 22:26:57,886 - INFO - Starting regularization parameter optimization
+2024-08-10 22:27:15,836 - INFO - Parameter evaluation completed in 17.95 seconds
+2024-08-10 22:27:15,837 - INFO - Optimal lambda1: 24.041630560342615, lambda2: 0.1113540278132262
+2024-08-10 22:27:34,094 - INFO - Analyzing Dataset 7
+2024-08-10 22:27:34,094 - INFO - Computing tilde_S for dataframe with shape: (598, 7)
+2024-08-10 22:27:34,096 - INFO - Starting regularization parameter optimization
+2024-08-10 22:27:52,597 - INFO - Parameter evaluation completed in 18.50 seconds
+2024-08-10 22:27:52,597 - INFO - Optimal lambda1: 24.454038521274967, lambda2: 0.10947608493225365
+2024-08-10 22:28:11,667 - INFO - Analyzing Dataset 6
+2024-08-10 22:28:11,668 - INFO - Computing tilde_S for dataframe with shape: (573, 7)
+2024-08-10 22:28:11,669 - INFO - Starting regularization parameter optimization
+2024-08-10 22:28:29,187 - INFO - Parameter evaluation completed in 17.52 seconds
+2024-08-10 22:28:29,187 - INFO - Optimal lambda1: 23.93741840717165, lambda2: 0.11183881037437321
+2024-08-10 22:28:47,223 - INFO - Analyzing Dataset 1
+2024-08-10 22:28:47,223 - INFO - Computing tilde_S for dataframe with shape: (582, 7)
+2024-08-10 22:28:47,225 - INFO - Starting regularization parameter optimization
+2024-08-10 22:29:06,939 - INFO - Parameter evaluation completed in 19.71 seconds
+2024-08-10 22:29:06,939 - INFO - Optimal lambda1: 24.124676163629637, lambda2: 0.11097070816344244
+2024-08-10 22:29:25,578 - INFO - Estimating changepoints
+2024-08-10 22:29:25,579 - INFO - Estimated 1 changepoints
+2024-08-10 22:29:25,948 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim46_perm1.png'
+2024-08-10 22:29:25,959 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:29:25,960 - INFO - Running Simulation 19, Permutation 1
+2024-08-10 22:29:25,960 - INFO - Analyzing Dataset 4
+2024-08-10 22:29:25,960 - INFO - Computing tilde_S for dataframe with shape: (440, 7)
+2024-08-10 22:29:25,960 - INFO - Starting regularization parameter optimization
+2024-08-10 22:29:39,072 - INFO - Parameter evaluation completed in 13.11 seconds
+2024-08-10 22:29:39,072 - INFO - Optimal lambda1: 20.97617696340303, lambda2: 0.12762727940188873
+2024-08-10 22:29:52,559 - INFO - Analyzing Dataset 3
+2024-08-10 22:29:52,560 - INFO - Computing tilde_S for dataframe with shape: (436, 7)
+2024-08-10 22:29:52,561 - INFO - Starting regularization parameter optimization
+2024-08-10 22:30:05,612 - INFO - Parameter evaluation completed in 13.05 seconds
+2024-08-10 22:30:05,612 - INFO - Optimal lambda1: 20.8806130178211, lambda2: 0.1282113889954683
+2024-08-10 22:30:19,043 - INFO - Analyzing Dataset 2
+2024-08-10 22:30:19,043 - INFO - Computing tilde_S for dataframe with shape: (465, 7)
+2024-08-10 22:30:19,044 - INFO - Starting regularization parameter optimization
+2024-08-10 22:30:32,973 - INFO - Parameter evaluation completed in 13.93 seconds
+2024-08-10 22:30:32,973 - INFO - Optimal lambda1: 21.563858652847824, lambda2: 0.12414904220948164
+2024-08-10 22:30:47,526 - INFO - Analyzing Dataset 5
+2024-08-10 22:30:47,527 - INFO - Computing tilde_S for dataframe with shape: (463, 7)
+2024-08-10 22:30:47,527 - INFO - Starting regularization parameter optimization
+2024-08-10 22:31:01,531 - INFO - Parameter evaluation completed in 14.00 seconds
+2024-08-10 22:31:01,531 - INFO - Optimal lambda1: 21.517434791350013, lambda2: 0.12441689374459752
+2024-08-10 22:31:15,791 - INFO - Analyzing Dataset 6
+2024-08-10 22:31:15,791 - INFO - Computing tilde_S for dataframe with shape: (453, 7)
+2024-08-10 22:31:15,792 - INFO - Starting regularization parameter optimization
+2024-08-10 22:31:30,862 - INFO - Parameter evaluation completed in 15.07 seconds
+2024-08-10 22:31:30,862 - INFO - Optimal lambda1: 21.283796653792763, lambda2: 0.12578265248623471
+2024-08-10 22:31:44,916 - INFO - Analyzing Dataset 1
+2024-08-10 22:31:44,917 - INFO - Computing tilde_S for dataframe with shape: (457, 7)
+2024-08-10 22:31:44,917 - INFO - Starting regularization parameter optimization
+2024-08-10 22:31:58,643 - INFO - Parameter evaluation completed in 13.72 seconds
+2024-08-10 22:31:58,643 - INFO - Optimal lambda1: 21.37755832643195, lambda2: 0.12523097152688395
+2024-08-10 22:32:12,643 - INFO - Analyzing Dataset 7
+2024-08-10 22:32:12,644 - INFO - Computing tilde_S for dataframe with shape: (428, 7)
+2024-08-10 22:32:12,644 - INFO - Starting regularization parameter optimization
+2024-08-10 22:32:26,635 - INFO - Parameter evaluation completed in 13.99 seconds
+2024-08-10 22:32:26,635 - INFO - Optimal lambda1: 20.688160865577203, lambda2: 0.12940407876207843
+2024-08-10 22:32:39,739 - INFO - Estimating changepoints
+2024-08-10 22:32:39,740 - INFO - Estimated 1 changepoints
+2024-08-10 22:32:40,104 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim19_perm1.png'
+2024-08-10 22:32:40,114 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:32:40,115 - INFO - Running Simulation 34, Permutation 1
+2024-08-10 22:32:40,115 - INFO - Analyzing Dataset 5
+2024-08-10 22:32:40,115 - INFO - Computing tilde_S for dataframe with shape: (623, 7)
+2024-08-10 22:32:40,116 - INFO - Starting regularization parameter optimization
+2024-08-10 22:32:59,315 - INFO - Parameter evaluation completed in 19.20 seconds
+2024-08-10 22:32:59,315 - INFO - Optimal lambda1: 24.95996794869737, lambda2: 0.1072570447043149
+2024-08-10 22:33:18,865 - INFO - Analyzing Dataset 2
+2024-08-10 22:33:18,866 - INFO - Computing tilde_S for dataframe with shape: (615, 7)
+2024-08-10 22:33:18,866 - INFO - Starting regularization parameter optimization
+2024-08-10 22:33:38,285 - INFO - Parameter evaluation completed in 19.42 seconds
+2024-08-10 22:33:38,286 - INFO - Optimal lambda1: 24.79919353527449, lambda2: 0.10795239749565787
+2024-08-10 22:33:58,119 - INFO - Analyzing Dataset 3
+2024-08-10 22:33:58,119 - INFO - Computing tilde_S for dataframe with shape: (612, 7)
+2024-08-10 22:33:58,120 - INFO - Starting regularization parameter optimization
+2024-08-10 22:34:17,621 - INFO - Parameter evaluation completed in 19.50 seconds
+2024-08-10 22:34:17,621 - INFO - Optimal lambda1: 24.73863375370596, lambda2: 0.10821666324603127
+2024-08-10 22:34:37,134 - INFO - Analyzing Dataset 4
+2024-08-10 22:34:37,134 - INFO - Computing tilde_S for dataframe with shape: (605, 7)
+2024-08-10 22:34:37,135 - INFO - Starting regularization parameter optimization
+2024-08-10 22:34:55,707 - INFO - Parameter evaluation completed in 18.57 seconds
+2024-08-10 22:34:55,707 - INFO - Optimal lambda1: 24.596747752497688, lambda2: 0.10884090958000128
+2024-08-10 22:35:14,605 - INFO - Analyzing Dataset 7
+2024-08-10 22:35:14,605 - INFO - Computing tilde_S for dataframe with shape: (615, 7)
+2024-08-10 22:35:14,606 - INFO - Starting regularization parameter optimization
+2024-08-10 22:35:33,885 - INFO - Parameter evaluation completed in 19.28 seconds
+2024-08-10 22:35:33,885 - INFO - Optimal lambda1: 24.79919353527449, lambda2: 0.10795239749565787
+2024-08-10 22:35:53,494 - INFO - Analyzing Dataset 1
+2024-08-10 22:35:53,495 - INFO - Computing tilde_S for dataframe with shape: (623, 7)
+2024-08-10 22:35:53,496 - INFO - Starting regularization parameter optimization
+2024-08-10 22:36:12,684 - INFO - Parameter evaluation completed in 19.19 seconds
+2024-08-10 22:36:12,684 - INFO - Optimal lambda1: 24.95996794869737, lambda2: 0.1072570447043149
+2024-08-10 22:36:32,363 - INFO - Analyzing Dataset 6
+2024-08-10 22:36:32,363 - INFO - Computing tilde_S for dataframe with shape: (623, 7)
+2024-08-10 22:36:32,364 - INFO - Starting regularization parameter optimization
+2024-08-10 22:36:53,028 - INFO - Parameter evaluation completed in 20.66 seconds
+2024-08-10 22:36:53,028 - INFO - Optimal lambda1: 24.95996794869737, lambda2: 0.1072570447043149
+2024-08-10 22:37:12,677 - INFO - Estimating changepoints
+2024-08-10 22:37:12,678 - INFO - Estimated 1 changepoints
+2024-08-10 22:37:13,180 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim34_perm1.png'
+2024-08-10 22:37:13,193 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:37:13,193 - INFO - Running Simulation 38, Permutation 1
+2024-08-10 22:37:13,193 - INFO - Analyzing Dataset 7
+2024-08-10 22:37:13,193 - INFO - Computing tilde_S for dataframe with shape: (605, 7)
+2024-08-10 22:37:13,194 - INFO - Starting regularization parameter optimization
+2024-08-10 22:37:32,063 - INFO - Parameter evaluation completed in 18.87 seconds
+2024-08-10 22:37:32,064 - INFO - Optimal lambda1: 24.596747752497688, lambda2: 0.10884090958000128
+2024-08-10 22:37:51,487 - INFO - Analyzing Dataset 1
+2024-08-10 22:37:51,487 - INFO - Computing tilde_S for dataframe with shape: (621, 7)
+2024-08-10 22:37:51,488 - INFO - Starting regularization parameter optimization
+2024-08-10 22:38:11,144 - INFO - Parameter evaluation completed in 19.66 seconds
+2024-08-10 22:38:11,145 - INFO - Optimal lambda1: 24.919871588754223, lambda2: 0.10742962252260682
+2024-08-10 22:38:31,227 - INFO - Analyzing Dataset 6
+2024-08-10 22:38:31,227 - INFO - Computing tilde_S for dataframe with shape: (597, 7)
+2024-08-10 22:38:31,228 - INFO - Starting regularization parameter optimization
+2024-08-10 22:38:49,882 - INFO - Parameter evaluation completed in 18.65 seconds
+2024-08-10 22:38:49,882 - INFO - Optimal lambda1: 24.43358344574123, lambda2: 0.10956773508219582
+2024-08-10 22:39:08,870 - INFO - Analyzing Dataset 5
+2024-08-10 22:39:08,870 - INFO - Computing tilde_S for dataframe with shape: (601, 7)
+2024-08-10 22:39:08,871 - INFO - Starting regularization parameter optimization
+2024-08-10 22:39:28,099 - INFO - Parameter evaluation completed in 19.23 seconds
+2024-08-10 22:39:28,099 - INFO - Optimal lambda1: 24.515301344262525, lambda2: 0.10920250828237309
+2024-08-10 22:39:47,191 - INFO - Analyzing Dataset 2
+2024-08-10 22:39:47,191 - INFO - Computing tilde_S for dataframe with shape: (611, 7)
+2024-08-10 22:39:47,192 - INFO - Starting regularization parameter optimization
+2024-08-10 22:40:06,529 - INFO - Parameter evaluation completed in 19.34 seconds
+2024-08-10 22:40:06,529 - INFO - Optimal lambda1: 24.71841418861655, lambda2: 0.10830518404876423
+2024-08-10 22:40:26,279 - INFO - Analyzing Dataset 3
+2024-08-10 22:40:26,280 - INFO - Computing tilde_S for dataframe with shape: (597, 7)
+2024-08-10 22:40:26,280 - INFO - Starting regularization parameter optimization
+2024-08-10 22:40:44,782 - INFO - Parameter evaluation completed in 18.50 seconds
+2024-08-10 22:40:44,782 - INFO - Optimal lambda1: 24.43358344574123, lambda2: 0.10956773508219582
+2024-08-10 22:41:03,629 - INFO - Analyzing Dataset 4
+2024-08-10 22:41:03,629 - INFO - Computing tilde_S for dataframe with shape: (603, 7)
+2024-08-10 22:41:03,630 - INFO - Starting regularization parameter optimization
+2024-08-10 22:41:22,384 - INFO - Parameter evaluation completed in 18.75 seconds
+2024-08-10 22:41:22,384 - INFO - Optimal lambda1: 24.55605831561735, lambda2: 0.109021259181042
+2024-08-10 22:41:41,690 - INFO - Estimating changepoints
+2024-08-10 22:41:41,692 - INFO - Estimated 1 changepoints
+2024-08-10 22:41:42,092 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim38_perm1.png'
+2024-08-10 22:41:42,114 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:41:42,114 - INFO - Running Simulation 7, Permutation 1
+2024-08-10 22:41:42,114 - INFO - Analyzing Dataset 7
+2024-08-10 22:41:42,114 - INFO - Computing tilde_S for dataframe with shape: (504, 7)
+2024-08-10 22:41:42,115 - INFO - Starting regularization parameter optimization
+2024-08-10 22:41:57,526 - INFO - Parameter evaluation completed in 15.41 seconds
+2024-08-10 22:41:57,526 - INFO - Optimal lambda1: 22.44994432064365, lambda2: 0.11924895491299581
+2024-08-10 22:42:13,282 - INFO - Analyzing Dataset 1
+2024-08-10 22:42:13,282 - INFO - Computing tilde_S for dataframe with shape: (518, 7)
+2024-08-10 22:42:13,283 - INFO - Starting regularization parameter optimization
+2024-08-10 22:42:30,243 - INFO - Parameter evaluation completed in 16.96 seconds
+2024-08-10 22:42:30,243 - INFO - Optimal lambda1: 22.759613353482084, lambda2: 0.11762644454951232
+2024-08-10 22:42:46,228 - INFO - Analyzing Dataset 6
+2024-08-10 22:42:46,229 - INFO - Computing tilde_S for dataframe with shape: (494, 7)
+2024-08-10 22:42:46,230 - INFO - Starting regularization parameter optimization
+2024-08-10 22:43:02,324 - INFO - Parameter evaluation completed in 16.09 seconds
+2024-08-10 22:43:02,324 - INFO - Optimal lambda1: 22.22611077089287, lambda2: 0.12044988102901256
+2024-08-10 22:43:17,611 - INFO - Analyzing Dataset 5
+2024-08-10 22:43:17,612 - INFO - Computing tilde_S for dataframe with shape: (526, 7)
+2024-08-10 22:43:17,612 - INFO - Starting regularization parameter optimization
+2024-08-10 22:43:35,357 - INFO - Parameter evaluation completed in 17.74 seconds
+2024-08-10 22:43:35,358 - INFO - Optimal lambda1: 22.93468988235943, lambda2: 0.1167285196278524
+2024-08-10 22:43:51,814 - INFO - Analyzing Dataset 2
+2024-08-10 22:43:51,814 - INFO - Computing tilde_S for dataframe with shape: (522, 7)
+2024-08-10 22:43:51,815 - INFO - Starting regularization parameter optimization
+2024-08-10 22:44:08,060 - INFO - Parameter evaluation completed in 16.24 seconds
+2024-08-10 22:44:08,060 - INFO - Optimal lambda1: 22.847319317591726, lambda2: 0.11717490182887198
+2024-08-10 22:44:24,292 - INFO - Analyzing Dataset 3
+2024-08-10 22:44:24,293 - INFO - Computing tilde_S for dataframe with shape: (547, 7)
+2024-08-10 22:44:24,294 - INFO - Starting regularization parameter optimization
+2024-08-10 22:44:42,565 - INFO - Parameter evaluation completed in 18.27 seconds
+2024-08-10 22:44:42,565 - INFO - Optimal lambda1: 23.388031127053, lambda2: 0.11446591564499221
+2024-08-10 22:44:59,658 - INFO - Analyzing Dataset 4
+2024-08-10 22:44:59,658 - INFO - Computing tilde_S for dataframe with shape: (525, 7)
+2024-08-10 22:44:59,659 - INFO - Starting regularization parameter optimization
+2024-08-10 22:45:15,713 - INFO - Parameter evaluation completed in 16.05 seconds
+2024-08-10 22:45:15,713 - INFO - Optimal lambda1: 22.9128784747792, lambda2: 0.11683963675879876
+2024-08-10 22:45:32,019 - INFO - Estimating changepoints
+2024-08-10 22:45:32,020 - INFO - Estimated 1 changepoints
+2024-08-10 22:45:32,376 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim7_perm1.png'
+2024-08-10 22:45:32,387 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:45:32,387 - INFO - Running Simulation 33, Permutation 1
+2024-08-10 22:45:32,387 - INFO - Analyzing Dataset 7
+2024-08-10 22:45:32,387 - INFO - Computing tilde_S for dataframe with shape: (526, 7)
+2024-08-10 22:45:32,388 - INFO - Starting regularization parameter optimization
+2024-08-10 22:45:48,260 - INFO - Parameter evaluation completed in 15.87 seconds
+2024-08-10 22:45:48,260 - INFO - Optimal lambda1: 22.93468988235943, lambda2: 0.1167285196278524
+2024-08-10 22:46:04,564 - INFO - Analyzing Dataset 1
+2024-08-10 22:46:04,565 - INFO - Computing tilde_S for dataframe with shape: (526, 7)
+2024-08-10 22:46:04,566 - INFO - Starting regularization parameter optimization
+2024-08-10 22:46:20,237 - INFO - Parameter evaluation completed in 15.67 seconds
+2024-08-10 22:46:20,237 - INFO - Optimal lambda1: 22.93468988235943, lambda2: 0.1167285196278524
+2024-08-10 22:46:36,287 - INFO - Analyzing Dataset 6
+2024-08-10 22:46:36,287 - INFO - Computing tilde_S for dataframe with shape: (532, 7)
+2024-08-10 22:46:36,288 - INFO - Starting regularization parameter optimization
+2024-08-10 22:46:54,066 - INFO - Parameter evaluation completed in 17.78 seconds
+2024-08-10 22:46:54,067 - INFO - Optimal lambda1: 23.065125189341593, lambda2: 0.11606840960606644
+2024-08-10 22:47:10,238 - INFO - Analyzing Dataset 5
+2024-08-10 22:47:10,238 - INFO - Computing tilde_S for dataframe with shape: (547, 7)
+2024-08-10 22:47:10,239 - INFO - Starting regularization parameter optimization
+2024-08-10 22:47:27,128 - INFO - Parameter evaluation completed in 16.89 seconds
+2024-08-10 22:47:27,128 - INFO - Optimal lambda1: 23.388031127053, lambda2: 0.11446591564499221
+2024-08-10 22:47:44,253 - INFO - Analyzing Dataset 2
+2024-08-10 22:47:44,253 - INFO - Computing tilde_S for dataframe with shape: (539, 7)
+2024-08-10 22:47:44,254 - INFO - Starting regularization parameter optimization
+2024-08-10 22:48:01,921 - INFO - Parameter evaluation completed in 17.67 seconds
+2024-08-10 22:48:01,921 - INFO - Optimal lambda1: 23.2163735324878, lambda2: 0.11531225556590305
+2024-08-10 22:48:18,485 - INFO - Analyzing Dataset 3
+2024-08-10 22:48:18,485 - INFO - Computing tilde_S for dataframe with shape: (548, 7)
+2024-08-10 22:48:18,486 - INFO - Starting regularization parameter optimization
+2024-08-10 22:48:37,030 - INFO - Parameter evaluation completed in 18.54 seconds
+2024-08-10 22:48:37,030 - INFO - Optimal lambda1: 23.40939982143925, lambda2: 0.11436142825156403
+2024-08-10 22:48:54,627 - INFO - Analyzing Dataset 4
+2024-08-10 22:48:54,627 - INFO - Computing tilde_S for dataframe with shape: (540, 7)
+2024-08-10 22:48:54,628 - INFO - Starting regularization parameter optimization
+2024-08-10 22:49:11,502 - INFO - Parameter evaluation completed in 16.87 seconds
+2024-08-10 22:49:11,502 - INFO - Optimal lambda1: 23.2379000772445, lambda2: 0.11520543548223869
+2024-08-10 22:49:28,269 - INFO - Estimating changepoints
+2024-08-10 22:49:28,270 - INFO - Estimated 1 changepoints
+2024-08-10 22:49:28,612 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim33_perm1.png'
+2024-08-10 22:49:28,711 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:49:28,711 - INFO - Running Simulation 15, Permutation 1
+2024-08-10 22:49:28,711 - INFO - Analyzing Dataset 6
+2024-08-10 22:49:28,711 - INFO - Computing tilde_S for dataframe with shape: (553, 7)
+2024-08-10 22:49:28,712 - INFO - Starting regularization parameter optimization
+2024-08-10 22:49:45,673 - INFO - Parameter evaluation completed in 16.96 seconds
+2024-08-10 22:49:45,673 - INFO - Optimal lambda1: 23.515952032609693, lambda2: 0.11384324965365243
+2024-08-10 22:50:03,083 - INFO - Analyzing Dataset 1
+2024-08-10 22:50:03,084 - INFO - Computing tilde_S for dataframe with shape: (552, 7)
+2024-08-10 22:50:03,084 - INFO - Starting regularization parameter optimization
+2024-08-10 22:50:19,964 - INFO - Parameter evaluation completed in 16.88 seconds
+2024-08-10 22:50:19,965 - INFO - Optimal lambda1: 23.49468024894146, lambda2: 0.11394632187906951
+2024-08-10 22:50:37,242 - INFO - Analyzing Dataset 7
+2024-08-10 22:50:37,243 - INFO - Computing tilde_S for dataframe with shape: (541, 7)
+2024-08-10 22:50:37,243 - INFO - Starting regularization parameter optimization
+2024-08-10 22:50:53,750 - INFO - Parameter evaluation completed in 16.51 seconds
+2024-08-10 22:50:53,750 - INFO - Optimal lambda1: 23.259406699226016, lambda2: 0.11509891170959169
+2024-08-10 22:51:10,671 - INFO - Analyzing Dataset 4
+2024-08-10 22:51:10,671 - INFO - Computing tilde_S for dataframe with shape: (554, 7)
+2024-08-10 22:51:10,672 - INFO - Starting regularization parameter optimization
+2024-08-10 22:51:27,481 - INFO - Parameter evaluation completed in 16.81 seconds
+2024-08-10 22:51:27,481 - INFO - Optimal lambda1: 23.53720459187964, lambda2: 0.11374045663074679
+2024-08-10 22:51:44,715 - INFO - Analyzing Dataset 3
+2024-08-10 22:51:44,715 - INFO - Computing tilde_S for dataframe with shape: (532, 7)
+2024-08-10 22:51:44,716 - INFO - Starting regularization parameter optimization
+2024-08-10 22:52:00,608 - INFO - Parameter evaluation completed in 15.89 seconds
+2024-08-10 22:52:00,608 - INFO - Optimal lambda1: 23.065125189341593, lambda2: 0.11606840960606644
+2024-08-10 22:52:17,024 - INFO - Analyzing Dataset 2
+2024-08-10 22:52:17,024 - INFO - Computing tilde_S for dataframe with shape: (537, 7)
+2024-08-10 22:52:17,025 - INFO - Starting regularization parameter optimization
+2024-08-10 22:52:33,642 - INFO - Parameter evaluation completed in 16.62 seconds
+2024-08-10 22:52:33,642 - INFO - Optimal lambda1: 23.173260452512935, lambda2: 0.11552679018033431
+2024-08-10 22:52:50,559 - INFO - Analyzing Dataset 5
+2024-08-10 22:52:50,559 - INFO - Computing tilde_S for dataframe with shape: (529, 7)
+2024-08-10 22:52:50,560 - INFO - Starting regularization parameter optimization
+2024-08-10 22:53:06,847 - INFO - Parameter evaluation completed in 16.29 seconds
+2024-08-10 22:53:06,847 - INFO - Optimal lambda1: 23.0, lambda2: 0.11639706078659567
+2024-08-10 22:53:23,528 - INFO - Estimating changepoints
+2024-08-10 22:53:23,529 - INFO - Estimated 1 changepoints
+2024-08-10 22:53:23,936 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim15_perm1.png'
+2024-08-10 22:53:23,987 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:53:23,988 - INFO - Running Simulation 20, Permutation 1
+2024-08-10 22:53:23,988 - INFO - Analyzing Dataset 4
+2024-08-10 22:53:23,988 - INFO - Computing tilde_S for dataframe with shape: (493, 7)
+2024-08-10 22:53:23,989 - INFO - Starting regularization parameter optimization
+2024-08-10 22:53:39,060 - INFO - Parameter evaluation completed in 15.07 seconds
+2024-08-10 22:53:39,060 - INFO - Optimal lambda1: 22.20360331117452, lambda2: 0.1205719792671835
+2024-08-10 22:53:54,557 - INFO - Analyzing Dataset 3
+2024-08-10 22:53:54,557 - INFO - Computing tilde_S for dataframe with shape: (510, 7)
+2024-08-10 22:53:54,558 - INFO - Starting regularization parameter optimization
+2024-08-10 22:54:11,682 - INFO - Parameter evaluation completed in 17.12 seconds
+2024-08-10 22:54:11,682 - INFO - Optimal lambda1: 22.58317958127243, lambda2: 0.11854541511558311
+2024-08-10 22:54:27,694 - INFO - Analyzing Dataset 2
+2024-08-10 22:54:27,694 - INFO - Computing tilde_S for dataframe with shape: (492, 7)
+2024-08-10 22:54:27,695 - INFO - Starting regularization parameter optimization
+2024-08-10 22:54:42,806 - INFO - Parameter evaluation completed in 15.11 seconds
+2024-08-10 22:54:42,807 - INFO - Optimal lambda1: 22.181073012818835, lambda2: 0.12069444956718453
+2024-08-10 22:54:58,259 - INFO - Analyzing Dataset 5
+2024-08-10 22:54:58,259 - INFO - Computing tilde_S for dataframe with shape: (500, 7)
+2024-08-10 22:54:58,260 - INFO - Starting regularization parameter optimization
+2024-08-10 22:55:13,467 - INFO - Parameter evaluation completed in 15.21 seconds
+2024-08-10 22:55:13,468 - INFO - Optimal lambda1: 22.360679774997898, lambda2: 0.11972500053800142
+2024-08-10 22:55:28,922 - INFO - Analyzing Dataset 6
+2024-08-10 22:55:28,922 - INFO - Computing tilde_S for dataframe with shape: (477, 7)
+2024-08-10 22:55:28,923 - INFO - Starting regularization parameter optimization
+2024-08-10 22:55:44,667 - INFO - Parameter evaluation completed in 15.74 seconds
+2024-08-10 22:55:44,667 - INFO - Optimal lambda1: 21.840329667841555, lambda2: 0.12257747198906074
+2024-08-10 22:55:59,340 - INFO - Analyzing Dataset 1
+2024-08-10 22:55:59,341 - INFO - Computing tilde_S for dataframe with shape: (502, 7)
+2024-08-10 22:55:59,341 - INFO - Starting regularization parameter optimization
+2024-08-10 22:56:14,488 - INFO - Parameter evaluation completed in 15.15 seconds
+2024-08-10 22:56:14,488 - INFO - Optimal lambda1: 22.40535650240808, lambda2: 0.11948626650077933
+2024-08-10 22:56:30,081 - INFO - Analyzing Dataset 7
+2024-08-10 22:56:30,081 - INFO - Computing tilde_S for dataframe with shape: (478, 7)
+2024-08-10 22:56:30,082 - INFO - Starting regularization parameter optimization
+2024-08-10 22:56:44,585 - INFO - Parameter evaluation completed in 14.50 seconds
+2024-08-10 22:56:44,585 - INFO - Optimal lambda1: 21.863211109075447, lambda2: 0.12244918574565744
+2024-08-10 22:56:59,424 - INFO - Estimating changepoints
+2024-08-10 22:56:59,425 - INFO - Estimated 1 changepoints
+2024-08-10 22:56:59,774 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim20_perm1.png'
+2024-08-10 22:56:59,785 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 22:56:59,785 - INFO - Running Simulation 41, Permutation 1
+2024-08-10 22:56:59,785 - INFO - Analyzing Dataset 7
+2024-08-10 22:56:59,785 - INFO - Computing tilde_S for dataframe with shape: (570, 7)
+2024-08-10 22:56:59,786 - INFO - Starting regularization parameter optimization
+2024-08-10 22:57:18,575 - INFO - Parameter evaluation completed in 18.79 seconds
+2024-08-10 22:57:18,575 - INFO - Optimal lambda1: 23.874672772626646, lambda2: 0.1121327367955028
+2024-08-10 22:57:36,330 - INFO - Analyzing Dataset 6
+2024-08-10 22:57:36,330 - INFO - Computing tilde_S for dataframe with shape: (566, 7)
+2024-08-10 22:57:36,331 - INFO - Starting regularization parameter optimization
+2024-08-10 22:57:53,704 - INFO - Parameter evaluation completed in 17.37 seconds
+2024-08-10 22:57:53,704 - INFO - Optimal lambda1: 23.790754506740637, lambda2: 0.11252826795943728
+2024-08-10 22:58:11,551 - INFO - Analyzing Dataset 1
+2024-08-10 22:58:11,551 - INFO - Computing tilde_S for dataframe with shape: (569, 7)
+2024-08-10 22:58:11,552 - INFO - Starting regularization parameter optimization
+2024-08-10 22:58:30,412 - INFO - Parameter evaluation completed in 18.86 seconds
+2024-08-10 22:58:30,412 - INFO - Optimal lambda1: 23.853720883753127, lambda2: 0.11223122845858012
+2024-08-10 22:58:48,280 - INFO - Analyzing Dataset 2
+2024-08-10 22:58:48,281 - INFO - Computing tilde_S for dataframe with shape: (599, 7)
+2024-08-10 22:58:48,281 - INFO - Starting regularization parameter optimization
+2024-08-10 22:59:06,872 - INFO - Parameter evaluation completed in 18.59 seconds
+2024-08-10 22:59:06,872 - INFO - Optimal lambda1: 24.474476501040833, lambda2: 0.10938466438609419
+2024-08-10 22:59:25,898 - INFO - Analyzing Dataset 5
+2024-08-10 22:59:25,898 - INFO - Computing tilde_S for dataframe with shape: (591, 7)
+2024-08-10 22:59:25,899 - INFO - Starting regularization parameter optimization
+2024-08-10 22:59:45,527 - INFO - Parameter evaluation completed in 19.63 seconds
+2024-08-10 22:59:45,527 - INFO - Optimal lambda1: 24.310491562286437, lambda2: 0.11012251197112002
+2024-08-10 23:00:04,270 - INFO - Analyzing Dataset 4
+2024-08-10 23:00:04,271 - INFO - Computing tilde_S for dataframe with shape: (589, 7)
+2024-08-10 23:00:04,271 - INFO - Starting regularization parameter optimization
+2024-08-10 23:00:22,479 - INFO - Parameter evaluation completed in 18.21 seconds
+2024-08-10 23:00:22,480 - INFO - Optimal lambda1: 24.269322199023193, lambda2: 0.11030931874147896
+2024-08-10 23:00:41,181 - INFO - Analyzing Dataset 3
+2024-08-10 23:00:41,181 - INFO - Computing tilde_S for dataframe with shape: (567, 7)
+2024-08-10 23:00:41,182 - INFO - Starting regularization parameter optimization
+2024-08-10 23:00:58,852 - INFO - Parameter evaluation completed in 17.67 seconds
+2024-08-10 23:00:58,852 - INFO - Optimal lambda1: 23.811761799581316, lambda2: 0.11242899289118426
+2024-08-10 23:01:16,809 - INFO - Estimating changepoints
+2024-08-10 23:01:16,811 - INFO - Estimated 1 changepoints
+2024-08-10 23:01:17,184 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim41_perm1.png'
+2024-08-10 23:01:17,195 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:01:17,195 - INFO - Running Simulation 24, Permutation 1
+2024-08-10 23:01:17,195 - INFO - Analyzing Dataset 7
+2024-08-10 23:01:17,195 - INFO - Computing tilde_S for dataframe with shape: (504, 7)
+2024-08-10 23:01:17,196 - INFO - Starting regularization parameter optimization
+2024-08-10 23:01:32,346 - INFO - Parameter evaluation completed in 15.15 seconds
+2024-08-10 23:01:32,347 - INFO - Optimal lambda1: 22.44994432064365, lambda2: 0.11924895491299581
+2024-08-10 23:01:47,909 - INFO - Analyzing Dataset 1
+2024-08-10 23:01:47,909 - INFO - Computing tilde_S for dataframe with shape: (492, 7)
+2024-08-10 23:01:47,910 - INFO - Starting regularization parameter optimization
+2024-08-10 23:02:02,828 - INFO - Parameter evaluation completed in 14.92 seconds
+2024-08-10 23:02:02,828 - INFO - Optimal lambda1: 22.181073012818835, lambda2: 0.12069444956718453
+2024-08-10 23:02:18,085 - INFO - Analyzing Dataset 6
+2024-08-10 23:02:18,085 - INFO - Computing tilde_S for dataframe with shape: (517, 7)
+2024-08-10 23:02:18,087 - INFO - Starting regularization parameter optimization
+2024-08-10 23:02:35,110 - INFO - Parameter evaluation completed in 17.02 seconds
+2024-08-10 23:02:35,110 - INFO - Optimal lambda1: 22.737634001804146, lambda2: 0.11774014824406445
+2024-08-10 23:02:51,127 - INFO - Analyzing Dataset 5
+2024-08-10 23:02:51,127 - INFO - Computing tilde_S for dataframe with shape: (515, 7)
+2024-08-10 23:02:51,128 - INFO - Starting regularization parameter optimization
+2024-08-10 23:03:06,527 - INFO - Parameter evaluation completed in 15.40 seconds
+2024-08-10 23:03:06,527 - INFO - Optimal lambda1: 22.693611435820433, lambda2: 0.11796854835832854
+2024-08-10 23:03:22,355 - INFO - Analyzing Dataset 2
+2024-08-10 23:03:22,355 - INFO - Computing tilde_S for dataframe with shape: (511, 7)
+2024-08-10 23:03:22,356 - INFO - Starting regularization parameter optimization
+2024-08-10 23:03:37,929 - INFO - Parameter evaluation completed in 15.57 seconds
+2024-08-10 23:03:37,929 - INFO - Optimal lambda1: 22.60530911091463, lambda2: 0.11842936475480832
+2024-08-10 23:03:53,783 - INFO - Analyzing Dataset 3
+2024-08-10 23:03:53,783 - INFO - Computing tilde_S for dataframe with shape: (509, 7)
+2024-08-10 23:03:53,784 - INFO - Starting regularization parameter optimization
+2024-08-10 23:04:09,024 - INFO - Parameter evaluation completed in 15.24 seconds
+2024-08-10 23:04:09,024 - INFO - Optimal lambda1: 22.561028345356956, lambda2: 0.11866180730377268
+2024-08-10 23:04:24,715 - INFO - Analyzing Dataset 4
+2024-08-10 23:04:24,715 - INFO - Computing tilde_S for dataframe with shape: (508, 7)
+2024-08-10 23:04:24,716 - INFO - Starting regularization parameter optimization
+2024-08-10 23:04:39,967 - INFO - Parameter evaluation completed in 15.25 seconds
+2024-08-10 23:04:39,967 - INFO - Optimal lambda1: 22.538855339169288, lambda2: 0.11877854300077206
+2024-08-10 23:04:55,515 - INFO - Estimating changepoints
+2024-08-10 23:04:55,517 - INFO - Estimated 1 changepoints
+2024-08-10 23:04:55,933 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim24_perm1.png'
+2024-08-10 23:04:55,943 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:04:55,944 - INFO - Running Simulation 11, Permutation 1
+2024-08-10 23:04:55,944 - INFO - Analyzing Dataset 5
+2024-08-10 23:04:55,944 - INFO - Computing tilde_S for dataframe with shape: (481, 7)
+2024-08-10 23:04:55,945 - INFO - Starting regularization parameter optimization
+2024-08-10 23:05:12,040 - INFO - Parameter evaluation completed in 16.09 seconds
+2024-08-10 23:05:12,040 - INFO - Optimal lambda1: 21.93171219946131, lambda2: 0.12206673030104129
+2024-08-10 23:05:27,050 - INFO - Analyzing Dataset 2
+2024-08-10 23:05:27,050 - INFO - Computing tilde_S for dataframe with shape: (491, 7)
+2024-08-10 23:05:27,051 - INFO - Starting regularization parameter optimization
+2024-08-10 23:05:42,166 - INFO - Parameter evaluation completed in 15.12 seconds
+2024-08-10 23:05:42,167 - INFO - Optimal lambda1: 22.15851980616034, lambda2: 0.12081729382246124
+2024-08-10 23:05:57,554 - INFO - Analyzing Dataset 3
+2024-08-10 23:05:57,554 - INFO - Computing tilde_S for dataframe with shape: (483, 7)
+2024-08-10 23:05:57,555 - INFO - Starting regularization parameter optimization
+2024-08-10 23:06:13,380 - INFO - Parameter evaluation completed in 15.82 seconds
+2024-08-10 23:06:13,380 - INFO - Optimal lambda1: 21.97726097583591, lambda2: 0.12181374198701188
+2024-08-10 23:06:28,241 - INFO - Analyzing Dataset 4
+2024-08-10 23:06:28,241 - INFO - Computing tilde_S for dataframe with shape: (488, 7)
+2024-08-10 23:06:28,242 - INFO - Starting regularization parameter optimization
+2024-08-10 23:06:42,652 - INFO - Parameter evaluation completed in 14.41 seconds
+2024-08-10 23:06:42,653 - INFO - Optimal lambda1: 22.090722034374522, lambda2: 0.12118808945791441
+2024-08-10 23:06:57,644 - INFO - Analyzing Dataset 7
+2024-08-10 23:06:57,644 - INFO - Computing tilde_S for dataframe with shape: (487, 7)
+2024-08-10 23:06:57,645 - INFO - Starting regularization parameter optimization
+2024-08-10 23:07:12,513 - INFO - Parameter evaluation completed in 14.87 seconds
+2024-08-10 23:07:12,513 - INFO - Optimal lambda1: 22.06807649071391, lambda2: 0.12131244874097744
+2024-08-10 23:07:27,677 - INFO - Analyzing Dataset 1
+2024-08-10 23:07:27,678 - INFO - Computing tilde_S for dataframe with shape: (508, 7)
+2024-08-10 23:07:27,678 - INFO - Starting regularization parameter optimization
+2024-08-10 23:07:43,168 - INFO - Parameter evaluation completed in 15.49 seconds
+2024-08-10 23:07:43,168 - INFO - Optimal lambda1: 22.538855339169288, lambda2: 0.11877854300077206
+2024-08-10 23:07:58,957 - INFO - Analyzing Dataset 6
+2024-08-10 23:07:58,958 - INFO - Computing tilde_S for dataframe with shape: (494, 7)
+2024-08-10 23:07:58,958 - INFO - Starting regularization parameter optimization
+2024-08-10 23:08:13,954 - INFO - Parameter evaluation completed in 15.00 seconds
+2024-08-10 23:08:13,954 - INFO - Optimal lambda1: 22.22611077089287, lambda2: 0.12044988102901256
+2024-08-10 23:08:29,337 - INFO - Estimating changepoints
+2024-08-10 23:08:29,338 - INFO - Estimated 1 changepoints
+2024-08-10 23:08:29,684 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim11_perm1.png'
+2024-08-10 23:08:29,705 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:08:29,706 - INFO - Running Simulation 45, Permutation 1
+2024-08-10 23:08:29,706 - INFO - Analyzing Dataset 3
+2024-08-10 23:08:29,706 - INFO - Computing tilde_S for dataframe with shape: (425, 7)
+2024-08-10 23:08:29,706 - INFO - Starting regularization parameter optimization
+2024-08-10 23:08:42,387 - INFO - Parameter evaluation completed in 12.68 seconds
+2024-08-10 23:08:42,387 - INFO - Optimal lambda1: 20.615528128088304, lambda2: 0.12985999589523753
+2024-08-10 23:08:55,217 - INFO - Analyzing Dataset 4
+2024-08-10 23:08:55,217 - INFO - Computing tilde_S for dataframe with shape: (421, 7)
+2024-08-10 23:08:55,218 - INFO - Starting regularization parameter optimization
+2024-08-10 23:09:07,525 - INFO - Parameter evaluation completed in 12.31 seconds
+2024-08-10 23:09:07,525 - INFO - Optimal lambda1: 20.518284528683193, lambda2: 0.13047544956057355
+2024-08-10 23:09:20,236 - INFO - Analyzing Dataset 5
+2024-08-10 23:09:20,236 - INFO - Computing tilde_S for dataframe with shape: (405, 7)
+2024-08-10 23:09:20,237 - INFO - Starting regularization parameter optimization
+2024-08-10 23:09:32,081 - INFO - Parameter evaluation completed in 11.84 seconds
+2024-08-10 23:09:32,081 - INFO - Optimal lambda1: 20.12461179749811, lambda2: 0.13302777837555713
+2024-08-10 23:09:44,195 - INFO - Analyzing Dataset 2
+2024-08-10 23:09:44,195 - INFO - Computing tilde_S for dataframe with shape: (418, 7)
+2024-08-10 23:09:44,196 - INFO - Starting regularization parameter optimization
+2024-08-10 23:09:56,612 - INFO - Parameter evaluation completed in 12.42 seconds
+2024-08-10 23:09:56,612 - INFO - Optimal lambda1: 20.445048300260872, lambda2: 0.13094282580186134
+2024-08-10 23:10:09,189 - INFO - Analyzing Dataset 1
+2024-08-10 23:10:09,189 - INFO - Computing tilde_S for dataframe with shape: (400, 7)
+2024-08-10 23:10:09,190 - INFO - Starting regularization parameter optimization
+2024-08-10 23:10:22,092 - INFO - Parameter evaluation completed in 12.90 seconds
+2024-08-10 23:10:22,093 - INFO - Optimal lambda1: 20.0, lambda2: 0.13385661990458503
+2024-08-10 23:10:34,170 - INFO - Analyzing Dataset 6
+2024-08-10 23:10:34,170 - INFO - Computing tilde_S for dataframe with shape: (421, 7)
+2024-08-10 23:10:34,171 - INFO - Starting regularization parameter optimization
+2024-08-10 23:10:46,631 - INFO - Parameter evaluation completed in 12.46 seconds
+2024-08-10 23:10:46,632 - INFO - Optimal lambda1: 20.518284528683193, lambda2: 0.13047544956057355
+2024-08-10 23:10:59,284 - INFO - Analyzing Dataset 7
+2024-08-10 23:10:59,284 - INFO - Computing tilde_S for dataframe with shape: (443, 7)
+2024-08-10 23:10:59,285 - INFO - Starting regularization parameter optimization
+2024-08-10 23:11:12,419 - INFO - Parameter evaluation completed in 13.13 seconds
+2024-08-10 23:11:12,419 - INFO - Optimal lambda1: 21.047565179849187, lambda2: 0.12719439874474275
+2024-08-10 23:11:25,912 - INFO - Estimating changepoints
+2024-08-10 23:11:25,914 - INFO - Estimated 1 changepoints
+2024-08-10 23:11:26,330 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim45_perm1.png'
+2024-08-10 23:11:26,341 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:11:26,341 - INFO - Running Simulation 37, Permutation 1
+2024-08-10 23:11:26,341 - INFO - Analyzing Dataset 4
+2024-08-10 23:11:26,341 - INFO - Computing tilde_S for dataframe with shape: (532, 7)
+2024-08-10 23:11:26,342 - INFO - Starting regularization parameter optimization
+2024-08-10 23:11:43,918 - INFO - Parameter evaluation completed in 17.58 seconds
+2024-08-10 23:11:43,918 - INFO - Optimal lambda1: 23.065125189341593, lambda2: 0.11606840960606644
+2024-08-10 23:12:00,340 - INFO - Analyzing Dataset 3
+2024-08-10 23:12:00,340 - INFO - Computing tilde_S for dataframe with shape: (552, 7)
+2024-08-10 23:12:00,341 - INFO - Starting regularization parameter optimization
+2024-08-10 23:12:17,093 - INFO - Parameter evaluation completed in 16.75 seconds
+2024-08-10 23:12:17,094 - INFO - Optimal lambda1: 23.49468024894146, lambda2: 0.11394632187906951
+2024-08-10 23:12:34,225 - INFO - Analyzing Dataset 2
+2024-08-10 23:12:34,226 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-10 23:12:34,227 - INFO - Starting regularization parameter optimization
+2024-08-10 23:12:50,534 - INFO - Parameter evaluation completed in 16.31 seconds
+2024-08-10 23:12:50,534 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-10 23:13:07,122 - INFO - Analyzing Dataset 5
+2024-08-10 23:13:07,122 - INFO - Computing tilde_S for dataframe with shape: (540, 7)
+2024-08-10 23:13:07,123 - INFO - Starting regularization parameter optimization
+2024-08-10 23:13:23,157 - INFO - Parameter evaluation completed in 16.03 seconds
+2024-08-10 23:13:23,157 - INFO - Optimal lambda1: 23.2379000772445, lambda2: 0.11520543548223869
+2024-08-10 23:13:39,586 - INFO - Analyzing Dataset 6
+2024-08-10 23:13:39,586 - INFO - Computing tilde_S for dataframe with shape: (546, 7)
+2024-08-10 23:13:39,587 - INFO - Starting regularization parameter optimization
+2024-08-10 23:13:56,340 - INFO - Parameter evaluation completed in 16.75 seconds
+2024-08-10 23:13:56,340 - INFO - Optimal lambda1: 23.366642891095847, lambda2: 0.11457068996042456
+2024-08-10 23:14:13,333 - INFO - Analyzing Dataset 1
+2024-08-10 23:14:13,334 - INFO - Computing tilde_S for dataframe with shape: (555, 7)
+2024-08-10 23:14:13,335 - INFO - Starting regularization parameter optimization
+2024-08-10 23:14:30,186 - INFO - Parameter evaluation completed in 16.85 seconds
+2024-08-10 23:14:30,186 - INFO - Optimal lambda1: 23.558437978779494, lambda2: 0.11363794155211629
+2024-08-10 23:14:47,490 - INFO - Analyzing Dataset 7
+2024-08-10 23:14:47,490 - INFO - Computing tilde_S for dataframe with shape: (522, 7)
+2024-08-10 23:14:47,491 - INFO - Starting regularization parameter optimization
+2024-08-10 23:15:03,233 - INFO - Parameter evaluation completed in 15.74 seconds
+2024-08-10 23:15:03,233 - INFO - Optimal lambda1: 22.847319317591726, lambda2: 0.11717490182887198
+2024-08-10 23:15:19,011 - INFO - Estimating changepoints
+2024-08-10 23:15:19,012 - INFO - Estimated 2 changepoints
+2024-08-10 23:15:19,369 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim37_perm1.png'
+2024-08-10 23:15:19,379 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:15:19,380 - INFO - Running Simulation 3, Permutation 1
+2024-08-10 23:15:19,380 - INFO - Analyzing Dataset 4
+2024-08-10 23:15:19,380 - INFO - Computing tilde_S for dataframe with shape: (487, 7)
+2024-08-10 23:15:19,381 - INFO - Starting regularization parameter optimization
+2024-08-10 23:15:34,037 - INFO - Parameter evaluation completed in 14.66 seconds
+2024-08-10 23:15:34,037 - INFO - Optimal lambda1: 22.06807649071391, lambda2: 0.12131244874097744
+2024-08-10 23:15:49,248 - INFO - Analyzing Dataset 3
+2024-08-10 23:15:49,248 - INFO - Computing tilde_S for dataframe with shape: (488, 7)
+2024-08-10 23:15:49,249 - INFO - Starting regularization parameter optimization
+2024-08-10 23:16:04,041 - INFO - Parameter evaluation completed in 14.79 seconds
+2024-08-10 23:16:04,041 - INFO - Optimal lambda1: 22.090722034374522, lambda2: 0.12118808945791441
+2024-08-10 23:16:19,184 - INFO - Analyzing Dataset 2
+2024-08-10 23:16:19,185 - INFO - Computing tilde_S for dataframe with shape: (505, 7)
+2024-08-10 23:16:19,186 - INFO - Starting regularization parameter optimization
+2024-08-10 23:16:34,887 - INFO - Parameter evaluation completed in 15.70 seconds
+2024-08-10 23:16:34,887 - INFO - Optimal lambda1: 22.47220505424423, lambda2: 0.11913082813322237
+2024-08-10 23:16:50,536 - INFO - Analyzing Dataset 5
+2024-08-10 23:16:50,536 - INFO - Computing tilde_S for dataframe with shape: (487, 7)
+2024-08-10 23:16:50,537 - INFO - Starting regularization parameter optimization
+2024-08-10 23:17:06,309 - INFO - Parameter evaluation completed in 15.77 seconds
+2024-08-10 23:17:06,309 - INFO - Optimal lambda1: 22.06807649071391, lambda2: 0.12131244874097744
+2024-08-10 23:17:21,286 - INFO - Analyzing Dataset 6
+2024-08-10 23:17:21,286 - INFO - Computing tilde_S for dataframe with shape: (474, 7)
+2024-08-10 23:17:21,287 - INFO - Starting regularization parameter optimization
+2024-08-10 23:17:35,466 - INFO - Parameter evaluation completed in 14.18 seconds
+2024-08-10 23:17:35,466 - INFO - Optimal lambda1: 21.77154105707724, lambda2: 0.1229647635449053
+2024-08-10 23:17:50,053 - INFO - Analyzing Dataset 1
+2024-08-10 23:17:50,053 - INFO - Computing tilde_S for dataframe with shape: (481, 7)
+2024-08-10 23:17:50,054 - INFO - Starting regularization parameter optimization
+2024-08-10 23:18:04,385 - INFO - Parameter evaluation completed in 14.33 seconds
+2024-08-10 23:18:04,385 - INFO - Optimal lambda1: 21.93171219946131, lambda2: 0.12206673030104129
+2024-08-10 23:18:19,084 - INFO - Analyzing Dataset 7
+2024-08-10 23:18:19,084 - INFO - Computing tilde_S for dataframe with shape: (487, 7)
+2024-08-10 23:18:19,085 - INFO - Starting regularization parameter optimization
+2024-08-10 23:18:33,741 - INFO - Parameter evaluation completed in 14.66 seconds
+2024-08-10 23:18:33,741 - INFO - Optimal lambda1: 22.06807649071391, lambda2: 0.12131244874097744
+2024-08-10 23:18:48,612 - INFO - Estimating changepoints
+2024-08-10 23:18:48,613 - INFO - Estimated 1 changepoints
+2024-08-10 23:18:49,012 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim3_perm1.png'
+2024-08-10 23:18:49,023 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:18:49,023 - INFO - Running Simulation 8, Permutation 1
+2024-08-10 23:18:49,023 - INFO - Analyzing Dataset 4
+2024-08-10 23:18:49,023 - INFO - Computing tilde_S for dataframe with shape: (577, 7)
+2024-08-10 23:18:49,024 - INFO - Starting regularization parameter optimization
+2024-08-10 23:19:08,112 - INFO - Parameter evaluation completed in 19.09 seconds
+2024-08-10 23:19:08,112 - INFO - Optimal lambda1: 24.020824298928627, lambda2: 0.11145047999918577
+2024-08-10 23:19:26,446 - INFO - Analyzing Dataset 3
+2024-08-10 23:19:26,446 - INFO - Computing tilde_S for dataframe with shape: (582, 7)
+2024-08-10 23:19:26,447 - INFO - Starting regularization parameter optimization
+2024-08-10 23:19:44,203 - INFO - Parameter evaluation completed in 17.76 seconds
+2024-08-10 23:19:44,203 - INFO - Optimal lambda1: 24.124676163629637, lambda2: 0.11097070816344244
+2024-08-10 23:20:02,355 - INFO - Analyzing Dataset 2
+2024-08-10 23:20:02,356 - INFO - Computing tilde_S for dataframe with shape: (591, 7)
+2024-08-10 23:20:02,357 - INFO - Starting regularization parameter optimization
+2024-08-10 23:20:21,131 - INFO - Parameter evaluation completed in 18.77 seconds
+2024-08-10 23:20:21,131 - INFO - Optimal lambda1: 24.310491562286437, lambda2: 0.11012251197112002
+2024-08-10 23:20:40,175 - INFO - Analyzing Dataset 5
+2024-08-10 23:20:40,175 - INFO - Computing tilde_S for dataframe with shape: (582, 7)
+2024-08-10 23:20:40,176 - INFO - Starting regularization parameter optimization
+2024-08-10 23:20:59,307 - INFO - Parameter evaluation completed in 19.13 seconds
+2024-08-10 23:20:59,307 - INFO - Optimal lambda1: 24.124676163629637, lambda2: 0.11097070816344244
+2024-08-10 23:21:17,546 - INFO - Analyzing Dataset 6
+2024-08-10 23:21:17,546 - INFO - Computing tilde_S for dataframe with shape: (596, 7)
+2024-08-10 23:21:17,547 - INFO - Starting regularization parameter optimization
+2024-08-10 23:21:36,555 - INFO - Parameter evaluation completed in 19.01 seconds
+2024-08-10 23:21:36,555 - INFO - Optimal lambda1: 24.413111231467404, lambda2: 0.10965961579862042
+2024-08-10 23:21:55,521 - INFO - Analyzing Dataset 1
+2024-08-10 23:21:55,522 - INFO - Computing tilde_S for dataframe with shape: (612, 7)
+2024-08-10 23:21:55,522 - INFO - Starting regularization parameter optimization
+2024-08-10 23:22:14,489 - INFO - Parameter evaluation completed in 18.97 seconds
+2024-08-10 23:22:14,489 - INFO - Optimal lambda1: 24.73863375370596, lambda2: 0.10821666324603127
+2024-08-10 23:22:33,956 - INFO - Analyzing Dataset 7
+2024-08-10 23:22:33,956 - INFO - Computing tilde_S for dataframe with shape: (586, 7)
+2024-08-10 23:22:33,957 - INFO - Starting regularization parameter optimization
+2024-08-10 23:22:52,096 - INFO - Parameter evaluation completed in 18.14 seconds
+2024-08-10 23:22:52,096 - INFO - Optimal lambda1: 24.20743687382041, lambda2: 0.11059132001649197
+2024-08-10 23:23:10,562 - INFO - Estimating changepoints
+2024-08-10 23:23:10,563 - INFO - Estimated 1 changepoints
+2024-08-10 23:23:10,919 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim8_perm1.png'
+2024-08-10 23:23:10,930 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:23:10,930 - INFO - Running Simulation 9, Permutation 1
+2024-08-10 23:23:10,931 - INFO - Analyzing Dataset 4
+2024-08-10 23:23:10,931 - INFO - Computing tilde_S for dataframe with shape: (566, 7)
+2024-08-10 23:23:10,932 - INFO - Starting regularization parameter optimization
+2024-08-10 23:23:28,349 - INFO - Parameter evaluation completed in 17.42 seconds
+2024-08-10 23:23:28,349 - INFO - Optimal lambda1: 23.790754506740637, lambda2: 0.11252826795943728
+2024-08-10 23:23:46,115 - INFO - Analyzing Dataset 3
+2024-08-10 23:23:46,115 - INFO - Computing tilde_S for dataframe with shape: (564, 7)
+2024-08-10 23:23:46,116 - INFO - Starting regularization parameter optimization
+2024-08-10 23:24:03,057 - INFO - Parameter evaluation completed in 16.94 seconds
+2024-08-10 23:24:03,057 - INFO - Optimal lambda1: 23.748684174075834, lambda2: 0.11272760960011713
+2024-08-10 23:24:20,541 - INFO - Analyzing Dataset 2
+2024-08-10 23:24:20,541 - INFO - Computing tilde_S for dataframe with shape: (544, 7)
+2024-08-10 23:24:20,542 - INFO - Starting regularization parameter optimization
+2024-08-10 23:24:38,562 - INFO - Parameter evaluation completed in 18.02 seconds
+2024-08-10 23:24:38,562 - INFO - Optimal lambda1: 23.323807579381203, lambda2: 0.1147811046279746
+2024-08-10 23:24:55,521 - INFO - Analyzing Dataset 5
+2024-08-10 23:24:55,521 - INFO - Computing tilde_S for dataframe with shape: (576, 7)
+2024-08-10 23:24:55,522 - INFO - Starting regularization parameter optimization
+2024-08-10 23:25:13,398 - INFO - Parameter evaluation completed in 17.88 seconds
+2024-08-10 23:25:13,398 - INFO - Optimal lambda1: 24.0, lambda2: 0.11154718325382086
+2024-08-10 23:25:31,345 - INFO - Analyzing Dataset 6
+2024-08-10 23:25:31,345 - INFO - Computing tilde_S for dataframe with shape: (581, 7)
+2024-08-10 23:25:31,346 - INFO - Starting regularization parameter optimization
+2024-08-10 23:25:50,151 - INFO - Parameter evaluation completed in 18.81 seconds
+2024-08-10 23:25:50,151 - INFO - Optimal lambda1: 24.1039415863879, lambda2: 0.11106616685478297
+2024-08-10 23:26:08,379 - INFO - Analyzing Dataset 1
+2024-08-10 23:26:08,380 - INFO - Computing tilde_S for dataframe with shape: (577, 7)
+2024-08-10 23:26:08,381 - INFO - Starting regularization parameter optimization
+2024-08-10 23:26:27,745 - INFO - Parameter evaluation completed in 19.36 seconds
+2024-08-10 23:26:27,745 - INFO - Optimal lambda1: 24.020824298928627, lambda2: 0.11145047999918577
+2024-08-10 23:26:46,272 - INFO - Analyzing Dataset 7
+2024-08-10 23:26:46,272 - INFO - Computing tilde_S for dataframe with shape: (574, 7)
+2024-08-10 23:26:46,273 - INFO - Starting regularization parameter optimization
+2024-08-10 23:27:04,155 - INFO - Parameter evaluation completed in 17.88 seconds
+2024-08-10 23:27:04,156 - INFO - Optimal lambda1: 23.958297101421877, lambda2: 0.11174134734028396
+2024-08-10 23:27:22,314 - INFO - Estimating changepoints
+2024-08-10 23:27:22,315 - INFO - Estimated 1 changepoints
+2024-08-10 23:27:22,672 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim9_perm1.png'
+2024-08-10 23:27:22,683 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:27:22,684 - INFO - Running Simulation 2, Permutation 1
+2024-08-10 23:27:22,684 - INFO - Analyzing Dataset 4
+2024-08-10 23:27:22,684 - INFO - Computing tilde_S for dataframe with shape: (434, 7)
+2024-08-10 23:27:22,685 - INFO - Starting regularization parameter optimization
+2024-08-10 23:27:37,028 - INFO - Parameter evaluation completed in 14.34 seconds
+2024-08-10 23:27:37,028 - INFO - Optimal lambda1: 20.83266665599966, lambda2: 0.12850646738115523
+2024-08-10 23:27:50,237 - INFO - Analyzing Dataset 3
+2024-08-10 23:27:50,237 - INFO - Computing tilde_S for dataframe with shape: (473, 7)
+2024-08-10 23:27:50,238 - INFO - Starting regularization parameter optimization
+2024-08-10 23:28:04,659 - INFO - Parameter evaluation completed in 14.42 seconds
+2024-08-10 23:28:04,660 - INFO - Optimal lambda1: 21.748563170931547, lambda2: 0.12309467880939706
+2024-08-10 23:28:19,426 - INFO - Analyzing Dataset 2
+2024-08-10 23:28:19,426 - INFO - Computing tilde_S for dataframe with shape: (440, 7)
+2024-08-10 23:28:19,427 - INFO - Starting regularization parameter optimization
+2024-08-10 23:28:32,610 - INFO - Parameter evaluation completed in 13.18 seconds
+2024-08-10 23:28:32,611 - INFO - Optimal lambda1: 20.97617696340303, lambda2: 0.12762727940188873
+2024-08-10 23:28:46,065 - INFO - Analyzing Dataset 5
+2024-08-10 23:28:46,065 - INFO - Computing tilde_S for dataframe with shape: (447, 7)
+2024-08-10 23:28:46,066 - INFO - Starting regularization parameter optimization
+2024-08-10 23:28:59,329 - INFO - Parameter evaluation completed in 13.26 seconds
+2024-08-10 23:28:59,329 - INFO - Optimal lambda1: 21.142374511865974, lambda2: 0.12662401740112889
+2024-08-10 23:29:12,802 - INFO - Analyzing Dataset 6
+2024-08-10 23:29:12,802 - INFO - Computing tilde_S for dataframe with shape: (438, 7)
+2024-08-10 23:29:12,803 - INFO - Starting regularization parameter optimization
+2024-08-10 23:29:25,884 - INFO - Parameter evaluation completed in 13.08 seconds
+2024-08-10 23:29:25,885 - INFO - Optimal lambda1: 20.92844953645635, lambda2: 0.12791833400884595
+2024-08-10 23:29:39,146 - INFO - Analyzing Dataset 1
+2024-08-10 23:29:39,146 - INFO - Computing tilde_S for dataframe with shape: (423, 7)
+2024-08-10 23:29:39,147 - INFO - Starting regularization parameter optimization
+2024-08-10 23:29:53,097 - INFO - Parameter evaluation completed in 13.95 seconds
+2024-08-10 23:29:53,098 - INFO - Optimal lambda1: 20.566963801203133, lambda2: 0.13016663149546132
+2024-08-10 23:30:06,139 - INFO - Analyzing Dataset 7
+2024-08-10 23:30:06,140 - INFO - Computing tilde_S for dataframe with shape: (443, 7)
+2024-08-10 23:30:06,141 - INFO - Starting regularization parameter optimization
+2024-08-10 23:30:19,502 - INFO - Parameter evaluation completed in 13.36 seconds
+2024-08-10 23:30:19,502 - INFO - Optimal lambda1: 21.047565179849187, lambda2: 0.12719439874474275
+2024-08-10 23:30:32,959 - INFO - Estimating changepoints
+2024-08-10 23:30:32,960 - INFO - Estimated 1 changepoints
+2024-08-10 23:30:33,317 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim2_perm1.png'
+2024-08-10 23:30:33,327 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:30:33,327 - INFO - Running Simulation 36, Permutation 1
+2024-08-10 23:30:33,327 - INFO - Analyzing Dataset 4
+2024-08-10 23:30:33,327 - INFO - Computing tilde_S for dataframe with shape: (472, 7)
+2024-08-10 23:30:33,328 - INFO - Starting regularization parameter optimization
+2024-08-10 23:30:47,458 - INFO - Parameter evaluation completed in 14.13 seconds
+2024-08-10 23:30:47,458 - INFO - Optimal lambda1: 21.72556098240043, lambda2: 0.12322500672182447
+2024-08-10 23:31:01,850 - INFO - Analyzing Dataset 3
+2024-08-10 23:31:01,850 - INFO - Computing tilde_S for dataframe with shape: (496, 7)
+2024-08-10 23:31:01,851 - INFO - Starting regularization parameter optimization
+2024-08-10 23:31:18,039 - INFO - Parameter evaluation completed in 16.19 seconds
+2024-08-10 23:31:18,040 - INFO - Optimal lambda1: 22.271057451320086, lambda2: 0.12020679323123101
+2024-08-10 23:31:33,332 - INFO - Analyzing Dataset 2
+2024-08-10 23:31:33,332 - INFO - Computing tilde_S for dataframe with shape: (511, 7)
+2024-08-10 23:31:33,333 - INFO - Starting regularization parameter optimization
+2024-08-10 23:31:50,089 - INFO - Parameter evaluation completed in 16.76 seconds
+2024-08-10 23:31:50,090 - INFO - Optimal lambda1: 22.60530911091463, lambda2: 0.11842936475480832
+2024-08-10 23:32:05,919 - INFO - Analyzing Dataset 5
+2024-08-10 23:32:05,919 - INFO - Computing tilde_S for dataframe with shape: (478, 7)
+2024-08-10 23:32:05,920 - INFO - Starting regularization parameter optimization
+2024-08-10 23:32:20,305 - INFO - Parameter evaluation completed in 14.38 seconds
+2024-08-10 23:32:20,305 - INFO - Optimal lambda1: 21.863211109075447, lambda2: 0.12244918574565744
+2024-08-10 23:32:34,888 - INFO - Analyzing Dataset 6
+2024-08-10 23:32:34,888 - INFO - Computing tilde_S for dataframe with shape: (497, 7)
+2024-08-10 23:32:34,889 - INFO - Starting regularization parameter optimization
+2024-08-10 23:32:49,805 - INFO - Parameter evaluation completed in 14.92 seconds
+2024-08-10 23:32:49,805 - INFO - Optimal lambda1: 22.293496809607955, lambda2: 0.12008579995121814
+2024-08-10 23:33:05,003 - INFO - Analyzing Dataset 1
+2024-08-10 23:33:05,004 - INFO - Computing tilde_S for dataframe with shape: (503, 7)
+2024-08-10 23:33:05,004 - INFO - Starting regularization parameter optimization
+2024-08-10 23:33:21,643 - INFO - Parameter evaluation completed in 16.64 seconds
+2024-08-10 23:33:21,643 - INFO - Optimal lambda1: 22.427661492005804, lambda2: 0.11936743378465683
+2024-08-10 23:33:37,292 - INFO - Analyzing Dataset 7
+2024-08-10 23:33:37,293 - INFO - Computing tilde_S for dataframe with shape: (504, 7)
+2024-08-10 23:33:37,293 - INFO - Starting regularization parameter optimization
+2024-08-10 23:33:52,369 - INFO - Parameter evaluation completed in 15.08 seconds
+2024-08-10 23:33:52,370 - INFO - Optimal lambda1: 22.44994432064365, lambda2: 0.11924895491299581
+2024-08-10 23:34:07,912 - INFO - Estimating changepoints
+2024-08-10 23:34:07,914 - INFO - Estimated 1 changepoints
+2024-08-10 23:34:08,258 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim36_perm1.png'
+2024-08-10 23:34:08,269 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:34:08,269 - INFO - Running Simulation 10, Permutation 1
+2024-08-10 23:34:08,270 - INFO - Analyzing Dataset 5
+2024-08-10 23:34:08,270 - INFO - Computing tilde_S for dataframe with shape: (638, 7)
+2024-08-10 23:34:08,271 - INFO - Starting regularization parameter optimization
+2024-08-10 23:34:28,416 - INFO - Parameter evaluation completed in 20.15 seconds
+2024-08-10 23:34:28,417 - INFO - Optimal lambda1: 25.25866188063018, lambda2: 0.10598868660357193
+2024-08-10 23:34:48,641 - INFO - Analyzing Dataset 2
+2024-08-10 23:34:48,642 - INFO - Computing tilde_S for dataframe with shape: (631, 7)
+2024-08-10 23:34:48,642 - INFO - Starting regularization parameter optimization
+2024-08-10 23:35:08,381 - INFO - Parameter evaluation completed in 19.74 seconds
+2024-08-10 23:35:08,381 - INFO - Optimal lambda1: 25.11971337416094, lambda2: 0.10657495801068723
+2024-08-10 23:35:28,548 - INFO - Analyzing Dataset 3
+2024-08-10 23:35:28,548 - INFO - Computing tilde_S for dataframe with shape: (646, 7)
+2024-08-10 23:35:28,549 - INFO - Starting regularization parameter optimization
+2024-08-10 23:35:48,624 - INFO - Parameter evaluation completed in 20.07 seconds
+2024-08-10 23:35:48,624 - INFO - Optimal lambda1: 25.41653005427767, lambda2: 0.1053303654108021
+2024-08-10 23:36:09,367 - INFO - Analyzing Dataset 4
+2024-08-10 23:36:09,367 - INFO - Computing tilde_S for dataframe with shape: (624, 7)
+2024-08-10 23:36:09,368 - INFO - Starting regularization parameter optimization
+2024-08-10 23:36:28,763 - INFO - Parameter evaluation completed in 19.40 seconds
+2024-08-10 23:36:28,764 - INFO - Optimal lambda1: 24.979991993593593, lambda2: 0.1071710670995524
+2024-08-10 23:36:48,556 - INFO - Analyzing Dataset 7
+2024-08-10 23:36:48,557 - INFO - Computing tilde_S for dataframe with shape: (634, 7)
+2024-08-10 23:36:48,557 - INFO - Starting regularization parameter optimization
+2024-08-10 23:37:08,258 - INFO - Parameter evaluation completed in 19.70 seconds
+2024-08-10 23:37:08,258 - INFO - Optimal lambda1: 25.179356624028344, lambda2: 0.10632251006512798
+2024-08-10 23:37:28,447 - INFO - Analyzing Dataset 1
+2024-08-10 23:37:28,447 - INFO - Computing tilde_S for dataframe with shape: (613, 7)
+2024-08-10 23:37:28,448 - INFO - Starting regularization parameter optimization
+2024-08-10 23:37:47,442 - INFO - Parameter evaluation completed in 18.99 seconds
+2024-08-10 23:37:47,443 - INFO - Optimal lambda1: 24.758836806279895, lambda2: 0.10812835914055001
+2024-08-10 23:38:06,887 - INFO - Analyzing Dataset 6
+2024-08-10 23:38:06,887 - INFO - Computing tilde_S for dataframe with shape: (627, 7)
+2024-08-10 23:38:06,888 - INFO - Starting regularization parameter optimization
+2024-08-10 23:38:26,338 - INFO - Parameter evaluation completed in 19.45 seconds
+2024-08-10 23:38:26,338 - INFO - Optimal lambda1: 25.03996805109783, lambda2: 0.1069143695642346
+2024-08-10 23:38:46,202 - INFO - Estimating changepoints
+2024-08-10 23:38:46,203 - INFO - Estimated 1 changepoints
+2024-08-10 23:38:46,544 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim10_perm1.png'
+2024-08-10 23:38:46,555 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:38:46,555 - INFO - Running Simulation 44, Permutation 1
+2024-08-10 23:38:46,555 - INFO - Analyzing Dataset 3
+2024-08-10 23:38:46,555 - INFO - Computing tilde_S for dataframe with shape: (559, 7)
+2024-08-10 23:38:46,556 - INFO - Starting regularization parameter optimization
+2024-08-10 23:39:03,082 - INFO - Parameter evaluation completed in 16.53 seconds
+2024-08-10 23:39:03,083 - INFO - Optimal lambda1: 23.643180835073778, lambda2: 0.11323063579162218
+2024-08-10 23:39:20,106 - INFO - Analyzing Dataset 4
+2024-08-10 23:39:20,106 - INFO - Computing tilde_S for dataframe with shape: (549, 7)
+2024-08-10 23:39:20,107 - INFO - Starting regularization parameter optimization
+2024-08-10 23:39:36,827 - INFO - Parameter evaluation completed in 16.72 seconds
+2024-08-10 23:39:36,827 - INFO - Optimal lambda1: 23.430749027719962, lambda2: 0.11425722647297765
+2024-08-10 23:39:53,766 - INFO - Analyzing Dataset 5
+2024-08-10 23:39:53,766 - INFO - Computing tilde_S for dataframe with shape: (567, 7)
+2024-08-10 23:39:53,767 - INFO - Starting regularization parameter optimization
+2024-08-10 23:40:11,296 - INFO - Parameter evaluation completed in 17.53 seconds
+2024-08-10 23:40:11,296 - INFO - Optimal lambda1: 23.811761799581316, lambda2: 0.11242899289118426
+2024-08-10 23:40:29,274 - INFO - Analyzing Dataset 2
+2024-08-10 23:40:29,274 - INFO - Computing tilde_S for dataframe with shape: (580, 7)
+2024-08-10 23:40:29,275 - INFO - Starting regularization parameter optimization
+2024-08-10 23:40:47,098 - INFO - Parameter evaluation completed in 17.82 seconds
+2024-08-10 23:40:47,098 - INFO - Optimal lambda1: 24.08318915758459, lambda2: 0.11116187231575946
+2024-08-10 23:41:05,405 - INFO - Analyzing Dataset 1
+2024-08-10 23:41:05,405 - INFO - Computing tilde_S for dataframe with shape: (552, 7)
+2024-08-10 23:41:05,406 - INFO - Starting regularization parameter optimization
+2024-08-10 23:41:21,955 - INFO - Parameter evaluation completed in 16.55 seconds
+2024-08-10 23:41:21,956 - INFO - Optimal lambda1: 23.49468024894146, lambda2: 0.11394632187906951
+2024-08-10 23:41:38,916 - INFO - Analyzing Dataset 6
+2024-08-10 23:41:38,916 - INFO - Computing tilde_S for dataframe with shape: (544, 7)
+2024-08-10 23:41:38,917 - INFO - Starting regularization parameter optimization
+2024-08-10 23:41:56,699 - INFO - Parameter evaluation completed in 17.78 seconds
+2024-08-10 23:41:56,699 - INFO - Optimal lambda1: 23.323807579381203, lambda2: 0.1147811046279746
+2024-08-10 23:42:13,668 - INFO - Analyzing Dataset 7
+2024-08-10 23:42:13,669 - INFO - Computing tilde_S for dataframe with shape: (568, 7)
+2024-08-10 23:42:13,669 - INFO - Starting regularization parameter optimization
+2024-08-10 23:42:32,303 - INFO - Parameter evaluation completed in 18.63 seconds
+2024-08-10 23:42:32,303 - INFO - Optimal lambda1: 23.83275057562597, lambda2: 0.11232998010853329
+2024-08-10 23:42:50,238 - INFO - Estimating changepoints
+2024-08-10 23:42:50,239 - INFO - Estimated 1 changepoints
+2024-08-10 23:42:50,589 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim44_perm1.png'
+2024-08-10 23:42:50,599 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:42:50,600 - INFO - Running Simulation 25, Permutation 1
+2024-08-10 23:42:50,600 - INFO - Analyzing Dataset 7
+2024-08-10 23:42:50,600 - INFO - Computing tilde_S for dataframe with shape: (642, 7)
+2024-08-10 23:42:50,601 - INFO - Starting regularization parameter optimization
+2024-08-10 23:43:10,925 - INFO - Parameter evaluation completed in 20.32 seconds
+2024-08-10 23:43:10,926 - INFO - Optimal lambda1: 25.337718918639855, lambda2: 0.1056579878673392
+2024-08-10 23:43:31,659 - INFO - Analyzing Dataset 1
+2024-08-10 23:43:31,659 - INFO - Computing tilde_S for dataframe with shape: (630, 7)
+2024-08-10 23:43:31,660 - INFO - Starting regularization parameter optimization
+2024-08-10 23:43:52,903 - INFO - Parameter evaluation completed in 21.24 seconds
+2024-08-10 23:43:52,904 - INFO - Optimal lambda1: 25.099800796022265, lambda2: 0.10665950777250645
+2024-08-10 23:44:13,063 - INFO - Analyzing Dataset 6
+2024-08-10 23:44:13,064 - INFO - Computing tilde_S for dataframe with shape: (618, 7)
+2024-08-10 23:44:13,065 - INFO - Starting regularization parameter optimization
+2024-08-10 23:44:32,766 - INFO - Parameter evaluation completed in 19.70 seconds
+2024-08-10 23:44:32,766 - INFO - Optimal lambda1: 24.859605789312106, lambda2: 0.10769005835332596
+2024-08-10 23:44:52,665 - INFO - Analyzing Dataset 5
+2024-08-10 23:44:52,665 - INFO - Computing tilde_S for dataframe with shape: (627, 7)
+2024-08-10 23:44:52,666 - INFO - Starting regularization parameter optimization
+2024-08-10 23:45:12,081 - INFO - Parameter evaluation completed in 19.41 seconds
+2024-08-10 23:45:12,081 - INFO - Optimal lambda1: 25.03996805109783, lambda2: 0.1069143695642346
+2024-08-10 23:45:31,944 - INFO - Analyzing Dataset 2
+2024-08-10 23:45:31,945 - INFO - Computing tilde_S for dataframe with shape: (629, 7)
+2024-08-10 23:45:31,945 - INFO - Starting regularization parameter optimization
+2024-08-10 23:45:51,257 - INFO - Parameter evaluation completed in 19.31 seconds
+2024-08-10 23:45:51,258 - INFO - Optimal lambda1: 25.079872407968907, lambda2: 0.1067442590832745
+2024-08-10 23:46:11,236 - INFO - Analyzing Dataset 3
+2024-08-10 23:46:11,236 - INFO - Computing tilde_S for dataframe with shape: (625, 7)
+2024-08-10 23:46:11,237 - INFO - Starting regularization parameter optimization
+2024-08-10 23:46:30,516 - INFO - Parameter evaluation completed in 19.28 seconds
+2024-08-10 23:46:30,516 - INFO - Optimal lambda1: 25.0, lambda2: 0.10708529592366803
+2024-08-10 23:46:50,224 - INFO - Analyzing Dataset 4
+2024-08-10 23:46:50,224 - INFO - Computing tilde_S for dataframe with shape: (625, 7)
+2024-08-10 23:46:50,225 - INFO - Starting regularization parameter optimization
+2024-08-10 23:47:09,408 - INFO - Parameter evaluation completed in 19.18 seconds
+2024-08-10 23:47:09,408 - INFO - Optimal lambda1: 25.0, lambda2: 0.10708529592366803
+2024-08-10 23:47:29,027 - INFO - Estimating changepoints
+2024-08-10 23:47:29,028 - INFO - Estimated 1 changepoints
+2024-08-10 23:47:29,386 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim25_perm1.png'
+2024-08-10 23:47:29,396 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:47:29,396 - INFO - Running Simulation 21, Permutation 1
+2024-08-10 23:47:29,396 - INFO - Analyzing Dataset 4
+2024-08-10 23:47:29,396 - INFO - Computing tilde_S for dataframe with shape: (513, 7)
+2024-08-10 23:47:29,397 - INFO - Starting regularization parameter optimization
+2024-08-10 23:47:44,863 - INFO - Parameter evaluation completed in 15.47 seconds
+2024-08-10 23:47:44,863 - INFO - Optimal lambda1: 22.64950330581225, lambda2: 0.11819828284731979
+2024-08-10 23:48:00,811 - INFO - Analyzing Dataset 3
+2024-08-10 23:48:00,811 - INFO - Computing tilde_S for dataframe with shape: (517, 7)
+2024-08-10 23:48:00,812 - INFO - Starting regularization parameter optimization
+2024-08-10 23:48:16,394 - INFO - Parameter evaluation completed in 15.58 seconds
+2024-08-10 23:48:16,394 - INFO - Optimal lambda1: 22.737634001804146, lambda2: 0.11774014824406445
+2024-08-10 23:48:32,374 - INFO - Analyzing Dataset 2
+2024-08-10 23:48:32,375 - INFO - Computing tilde_S for dataframe with shape: (528, 7)
+2024-08-10 23:48:32,376 - INFO - Starting regularization parameter optimization
+2024-08-10 23:48:48,742 - INFO - Parameter evaluation completed in 16.37 seconds
+2024-08-10 23:48:48,743 - INFO - Optimal lambda1: 22.978250586152114, lambda2: 0.11650723313571484
+2024-08-10 23:49:05,228 - INFO - Analyzing Dataset 5
+2024-08-10 23:49:05,228 - INFO - Computing tilde_S for dataframe with shape: (526, 7)
+2024-08-10 23:49:05,229 - INFO - Starting regularization parameter optimization
+2024-08-10 23:49:22,714 - INFO - Parameter evaluation completed in 17.49 seconds
+2024-08-10 23:49:22,714 - INFO - Optimal lambda1: 22.93468988235943, lambda2: 0.1167285196278524
+2024-08-10 23:49:38,945 - INFO - Analyzing Dataset 6
+2024-08-10 23:49:38,945 - INFO - Computing tilde_S for dataframe with shape: (507, 7)
+2024-08-10 23:49:38,946 - INFO - Starting regularization parameter optimization
+2024-08-10 23:49:54,397 - INFO - Parameter evaluation completed in 15.45 seconds
+2024-08-10 23:49:54,398 - INFO - Optimal lambda1: 22.516660498395403, lambda2: 0.11889562389957782
+2024-08-10 23:50:10,286 - INFO - Analyzing Dataset 1
+2024-08-10 23:50:10,286 - INFO - Computing tilde_S for dataframe with shape: (500, 7)
+2024-08-10 23:50:10,287 - INFO - Starting regularization parameter optimization
+2024-08-10 23:50:26,866 - INFO - Parameter evaluation completed in 16.58 seconds
+2024-08-10 23:50:26,867 - INFO - Optimal lambda1: 22.360679774997898, lambda2: 0.11972500053800142
+2024-08-10 23:50:42,428 - INFO - Analyzing Dataset 7
+2024-08-10 23:50:42,428 - INFO - Computing tilde_S for dataframe with shape: (505, 7)
+2024-08-10 23:50:42,429 - INFO - Starting regularization parameter optimization
+2024-08-10 23:50:57,504 - INFO - Parameter evaluation completed in 15.08 seconds
+2024-08-10 23:50:57,504 - INFO - Optimal lambda1: 22.47220505424423, lambda2: 0.11913082813322237
+2024-08-10 23:51:13,115 - INFO - Estimating changepoints
+2024-08-10 23:51:13,117 - INFO - Estimated 1 changepoints
+2024-08-10 23:51:13,476 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim21_perm1.png'
+2024-08-10 23:51:13,487 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:51:13,487 - INFO - Running Simulation 14, Permutation 1
+2024-08-10 23:51:13,487 - INFO - Analyzing Dataset 6
+2024-08-10 23:51:13,487 - INFO - Computing tilde_S for dataframe with shape: (512, 7)
+2024-08-10 23:51:13,488 - INFO - Starting regularization parameter optimization
+2024-08-10 23:51:28,778 - INFO - Parameter evaluation completed in 15.29 seconds
+2024-08-10 23:51:28,779 - INFO - Optimal lambda1: 22.627416997969522, lambda2: 0.11831365455155284
+2024-08-10 23:51:44,361 - INFO - Analyzing Dataset 1
+2024-08-10 23:51:44,361 - INFO - Computing tilde_S for dataframe with shape: (525, 7)
+2024-08-10 23:51:44,362 - INFO - Starting regularization parameter optimization
+2024-08-10 23:52:00,056 - INFO - Parameter evaluation completed in 15.69 seconds
+2024-08-10 23:52:00,056 - INFO - Optimal lambda1: 22.9128784747792, lambda2: 0.11683963675879876
+2024-08-10 23:52:16,186 - INFO - Analyzing Dataset 7
+2024-08-10 23:52:16,186 - INFO - Computing tilde_S for dataframe with shape: (496, 7)
+2024-08-10 23:52:16,187 - INFO - Starting regularization parameter optimization
+2024-08-10 23:52:32,171 - INFO - Parameter evaluation completed in 15.98 seconds
+2024-08-10 23:52:32,171 - INFO - Optimal lambda1: 22.271057451320086, lambda2: 0.12020679323123101
+2024-08-10 23:52:47,316 - INFO - Analyzing Dataset 4
+2024-08-10 23:52:47,317 - INFO - Computing tilde_S for dataframe with shape: (491, 7)
+2024-08-10 23:52:47,317 - INFO - Starting regularization parameter optimization
+2024-08-10 23:53:03,638 - INFO - Parameter evaluation completed in 16.32 seconds
+2024-08-10 23:53:03,639 - INFO - Optimal lambda1: 22.15851980616034, lambda2: 0.12081729382246124
+2024-08-10 23:53:18,510 - INFO - Analyzing Dataset 3
+2024-08-10 23:53:18,510 - INFO - Computing tilde_S for dataframe with shape: (516, 7)
+2024-08-10 23:53:18,511 - INFO - Starting regularization parameter optimization
+2024-08-10 23:53:34,120 - INFO - Parameter evaluation completed in 15.61 seconds
+2024-08-10 23:53:34,121 - INFO - Optimal lambda1: 22.715633383201094, lambda2: 0.11785418231267643
+2024-08-10 23:53:49,624 - INFO - Analyzing Dataset 2
+2024-08-10 23:53:49,624 - INFO - Computing tilde_S for dataframe with shape: (502, 7)
+2024-08-10 23:53:49,625 - INFO - Starting regularization parameter optimization
+2024-08-10 23:54:04,530 - INFO - Parameter evaluation completed in 14.91 seconds
+2024-08-10 23:54:04,530 - INFO - Optimal lambda1: 22.40535650240808, lambda2: 0.11948626650077933
+2024-08-10 23:54:19,714 - INFO - Analyzing Dataset 5
+2024-08-10 23:54:19,714 - INFO - Computing tilde_S for dataframe with shape: (510, 7)
+2024-08-10 23:54:19,715 - INFO - Starting regularization parameter optimization
+2024-08-10 23:54:36,021 - INFO - Parameter evaluation completed in 16.31 seconds
+2024-08-10 23:54:36,022 - INFO - Optimal lambda1: 22.58317958127243, lambda2: 0.11854541511558311
+2024-08-10 23:54:51,459 - INFO - Estimating changepoints
+2024-08-10 23:54:51,460 - INFO - Estimated 2 changepoints
+2024-08-10 23:54:51,929 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim14_perm1.png'
+2024-08-10 23:54:51,939 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:54:51,939 - INFO - Running Simulation 32, Permutation 1
+2024-08-10 23:54:51,939 - INFO - Analyzing Dataset 7
+2024-08-10 23:54:51,939 - INFO - Computing tilde_S for dataframe with shape: (453, 7)
+2024-08-10 23:54:51,940 - INFO - Starting regularization parameter optimization
+2024-08-10 23:55:05,412 - INFO - Parameter evaluation completed in 13.47 seconds
+2024-08-10 23:55:05,412 - INFO - Optimal lambda1: 21.283796653792763, lambda2: 0.12578265248623471
+2024-08-10 23:55:19,154 - INFO - Analyzing Dataset 1
+2024-08-10 23:55:19,155 - INFO - Computing tilde_S for dataframe with shape: (449, 7)
+2024-08-10 23:55:19,155 - INFO - Starting regularization parameter optimization
+2024-08-10 23:55:32,499 - INFO - Parameter evaluation completed in 13.34 seconds
+2024-08-10 23:55:32,499 - INFO - Optimal lambda1: 21.18962010041709, lambda2: 0.12634168925185235
+2024-08-10 23:55:46,136 - INFO - Analyzing Dataset 6
+2024-08-10 23:55:46,136 - INFO - Computing tilde_S for dataframe with shape: (436, 7)
+2024-08-10 23:55:46,137 - INFO - Starting regularization parameter optimization
+2024-08-10 23:55:59,086 - INFO - Parameter evaluation completed in 12.95 seconds
+2024-08-10 23:55:59,087 - INFO - Optimal lambda1: 20.8806130178211, lambda2: 0.1282113889954683
+2024-08-10 23:56:12,437 - INFO - Analyzing Dataset 5
+2024-08-10 23:56:12,438 - INFO - Computing tilde_S for dataframe with shape: (436, 7)
+2024-08-10 23:56:12,439 - INFO - Starting regularization parameter optimization
+2024-08-10 23:56:26,924 - INFO - Parameter evaluation completed in 14.49 seconds
+2024-08-10 23:56:26,924 - INFO - Optimal lambda1: 20.8806130178211, lambda2: 0.1282113889954683
+2024-08-10 23:56:40,256 - INFO - Analyzing Dataset 2
+2024-08-10 23:56:40,256 - INFO - Computing tilde_S for dataframe with shape: (444, 7)
+2024-08-10 23:56:40,257 - INFO - Starting regularization parameter optimization
+2024-08-10 23:56:53,538 - INFO - Parameter evaluation completed in 13.28 seconds
+2024-08-10 23:56:53,538 - INFO - Optimal lambda1: 21.071307505705477, lambda2: 0.12705108106684
+2024-08-10 23:57:07,071 - INFO - Analyzing Dataset 3
+2024-08-10 23:57:07,072 - INFO - Computing tilde_S for dataframe with shape: (441, 7)
+2024-08-10 23:57:07,073 - INFO - Starting regularization parameter optimization
+2024-08-10 23:57:20,204 - INFO - Parameter evaluation completed in 13.13 seconds
+2024-08-10 23:57:20,205 - INFO - Optimal lambda1: 21.0, lambda2: 0.12748249514722385
+2024-08-10 23:57:33,680 - INFO - Analyzing Dataset 4
+2024-08-10 23:57:33,680 - INFO - Computing tilde_S for dataframe with shape: (442, 7)
+2024-08-10 23:57:33,681 - INFO - Starting regularization parameter optimization
+2024-08-10 23:57:48,236 - INFO - Parameter evaluation completed in 14.56 seconds
+2024-08-10 23:57:48,236 - INFO - Optimal lambda1: 21.02379604162864, lambda2: 0.12733820252017214
+2024-08-10 23:58:01,926 - INFO - Estimating changepoints
+2024-08-10 23:58:01,927 - INFO - Estimated 1 changepoints
+2024-08-10 23:58:02,297 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim32_perm1.png'
+2024-08-10 23:58:02,307 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-10 23:58:02,308 - INFO - Running Simulation 6, Permutation 1
+2024-08-10 23:58:02,308 - INFO - Analyzing Dataset 7
+2024-08-10 23:58:02,308 - INFO - Computing tilde_S for dataframe with shape: (496, 7)
+2024-08-10 23:58:02,309 - INFO - Starting regularization parameter optimization
+2024-08-10 23:58:17,485 - INFO - Parameter evaluation completed in 15.18 seconds
+2024-08-10 23:58:17,485 - INFO - Optimal lambda1: 22.271057451320086, lambda2: 0.12020679323123101
+2024-08-10 23:58:32,504 - INFO - Analyzing Dataset 1
+2024-08-10 23:58:32,504 - INFO - Computing tilde_S for dataframe with shape: (481, 7)
+2024-08-10 23:58:32,505 - INFO - Starting regularization parameter optimization
+2024-08-10 23:58:47,248 - INFO - Parameter evaluation completed in 14.74 seconds
+2024-08-10 23:58:47,248 - INFO - Optimal lambda1: 21.93171219946131, lambda2: 0.12206673030104129
+2024-08-10 23:59:02,068 - INFO - Analyzing Dataset 6
+2024-08-10 23:59:02,068 - INFO - Computing tilde_S for dataframe with shape: (506, 7)
+2024-08-10 23:59:02,069 - INFO - Starting regularization parameter optimization
+2024-08-10 23:59:17,377 - INFO - Parameter evaluation completed in 15.31 seconds
+2024-08-10 23:59:17,377 - INFO - Optimal lambda1: 22.494443758403985, lambda2: 0.1190130517048912
+2024-08-10 23:59:32,808 - INFO - Analyzing Dataset 5
+2024-08-10 23:59:32,809 - INFO - Computing tilde_S for dataframe with shape: (505, 7)
+2024-08-10 23:59:32,809 - INFO - Starting regularization parameter optimization
+2024-08-10 23:59:47,845 - INFO - Parameter evaluation completed in 15.04 seconds
+2024-08-10 23:59:47,845 - INFO - Optimal lambda1: 22.47220505424423, lambda2: 0.11913082813322237
+2024-08-11 00:00:03,255 - INFO - Analyzing Dataset 2
+2024-08-11 00:00:03,255 - INFO - Computing tilde_S for dataframe with shape: (482, 7)
+2024-08-11 00:00:03,256 - INFO - Starting regularization parameter optimization
+2024-08-11 00:00:17,478 - INFO - Parameter evaluation completed in 14.22 seconds
+2024-08-11 00:00:17,478 - INFO - Optimal lambda1: 21.95449840010015, lambda2: 0.12194003931693052
+2024-08-11 00:00:31,973 - INFO - Analyzing Dataset 3
+2024-08-11 00:00:31,974 - INFO - Computing tilde_S for dataframe with shape: (513, 7)
+2024-08-11 00:00:31,974 - INFO - Starting regularization parameter optimization
+2024-08-11 00:00:47,484 - INFO - Parameter evaluation completed in 15.51 seconds
+2024-08-11 00:00:47,484 - INFO - Optimal lambda1: 22.64950330581225, lambda2: 0.11819828284731979
+2024-08-11 00:01:03,246 - INFO - Analyzing Dataset 4
+2024-08-11 00:01:03,246 - INFO - Computing tilde_S for dataframe with shape: (484, 7)
+2024-08-11 00:01:03,247 - INFO - Starting regularization parameter optimization
+2024-08-11 00:01:17,905 - INFO - Parameter evaluation completed in 14.66 seconds
+2024-08-11 00:01:17,905 - INFO - Optimal lambda1: 22.0, lambda2: 0.12168783627689549
+2024-08-11 00:01:32,606 - INFO - Estimating changepoints
+2024-08-11 00:01:32,607 - INFO - Estimated 1 changepoints
+2024-08-11 00:01:32,981 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim6_perm1.png'
+2024-08-11 00:01:32,993 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:01:32,993 - INFO - Running Simulation 39, Permutation 1
+2024-08-11 00:01:32,993 - INFO - Analyzing Dataset 7
+2024-08-11 00:01:32,993 - INFO - Computing tilde_S for dataframe with shape: (497, 7)
+2024-08-11 00:01:32,994 - INFO - Starting regularization parameter optimization
+2024-08-11 00:01:49,351 - INFO - Parameter evaluation completed in 16.36 seconds
+2024-08-11 00:01:49,351 - INFO - Optimal lambda1: 22.293496809607955, lambda2: 0.12008579995121814
+2024-08-11 00:02:04,892 - INFO - Analyzing Dataset 1
+2024-08-11 00:02:04,892 - INFO - Computing tilde_S for dataframe with shape: (484, 7)
+2024-08-11 00:02:04,893 - INFO - Starting regularization parameter optimization
+2024-08-11 00:02:19,384 - INFO - Parameter evaluation completed in 14.49 seconds
+2024-08-11 00:02:19,385 - INFO - Optimal lambda1: 22.0, lambda2: 0.12168783627689549
+2024-08-11 00:02:34,216 - INFO - Analyzing Dataset 6
+2024-08-11 00:02:34,216 - INFO - Computing tilde_S for dataframe with shape: (516, 7)
+2024-08-11 00:02:34,217 - INFO - Starting regularization parameter optimization
+2024-08-11 00:02:49,881 - INFO - Parameter evaluation completed in 15.66 seconds
+2024-08-11 00:02:49,881 - INFO - Optimal lambda1: 22.715633383201094, lambda2: 0.11785418231267643
+2024-08-11 00:03:05,945 - INFO - Analyzing Dataset 5
+2024-08-11 00:03:05,945 - INFO - Computing tilde_S for dataframe with shape: (468, 7)
+2024-08-11 00:03:05,945 - INFO - Starting regularization parameter optimization
+2024-08-11 00:03:20,577 - INFO - Parameter evaluation completed in 14.63 seconds
+2024-08-11 00:03:20,578 - INFO - Optimal lambda1: 21.633307652783937, lambda2: 0.12375048887853204
+2024-08-11 00:03:35,037 - INFO - Analyzing Dataset 2
+2024-08-11 00:03:35,037 - INFO - Computing tilde_S for dataframe with shape: (512, 7)
+2024-08-11 00:03:35,038 - INFO - Starting regularization parameter optimization
+2024-08-11 00:03:51,577 - INFO - Parameter evaluation completed in 16.54 seconds
+2024-08-11 00:03:51,578 - INFO - Optimal lambda1: 22.627416997969522, lambda2: 0.11831365455155284
+2024-08-11 00:04:07,582 - INFO - Analyzing Dataset 3
+2024-08-11 00:04:07,582 - INFO - Computing tilde_S for dataframe with shape: (515, 7)
+2024-08-11 00:04:07,583 - INFO - Starting regularization parameter optimization
+2024-08-11 00:04:23,596 - INFO - Parameter evaluation completed in 16.01 seconds
+2024-08-11 00:04:23,597 - INFO - Optimal lambda1: 22.693611435820433, lambda2: 0.11796854835832854
+2024-08-11 00:04:39,868 - INFO - Analyzing Dataset 4
+2024-08-11 00:04:39,868 - INFO - Computing tilde_S for dataframe with shape: (485, 7)
+2024-08-11 00:04:39,869 - INFO - Starting regularization parameter optimization
+2024-08-11 00:04:54,412 - INFO - Parameter evaluation completed in 14.54 seconds
+2024-08-11 00:04:54,412 - INFO - Optimal lambda1: 22.02271554554524, lambda2: 0.12156232016688022
+2024-08-11 00:05:09,351 - INFO - Estimating changepoints
+2024-08-11 00:05:09,353 - INFO - Estimated 1 changepoints
+2024-08-11 00:05:09,684 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim39_perm1.png'
+2024-08-11 00:05:09,694 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:05:09,695 - INFO - Running Simulation 40, Permutation 1
+2024-08-11 00:05:09,695 - INFO - Analyzing Dataset 7
+2024-08-11 00:05:09,695 - INFO - Computing tilde_S for dataframe with shape: (480, 7)
+2024-08-11 00:05:09,696 - INFO - Starting regularization parameter optimization
+2024-08-11 00:05:23,857 - INFO - Parameter evaluation completed in 14.16 seconds
+2024-08-11 00:05:23,857 - INFO - Optimal lambda1: 21.908902300206645, lambda2: 0.1221938169885604
+2024-08-11 00:05:38,440 - INFO - Analyzing Dataset 6
+2024-08-11 00:05:38,440 - INFO - Computing tilde_S for dataframe with shape: (479, 7)
+2024-08-11 00:05:38,441 - INFO - Starting regularization parameter optimization
+2024-08-11 00:05:52,782 - INFO - Parameter evaluation completed in 14.34 seconds
+2024-08-11 00:05:52,782 - INFO - Optimal lambda1: 21.88606862823929, lambda2: 0.12232130144366969
+2024-08-11 00:06:07,517 - INFO - Analyzing Dataset 1
+2024-08-11 00:06:07,518 - INFO - Computing tilde_S for dataframe with shape: (478, 7)
+2024-08-11 00:06:07,518 - INFO - Starting regularization parameter optimization
+2024-08-11 00:06:21,946 - INFO - Parameter evaluation completed in 14.43 seconds
+2024-08-11 00:06:21,946 - INFO - Optimal lambda1: 21.863211109075447, lambda2: 0.12244918574565744
+2024-08-11 00:06:36,504 - INFO - Analyzing Dataset 2
+2024-08-11 00:06:36,504 - INFO - Computing tilde_S for dataframe with shape: (477, 7)
+2024-08-11 00:06:36,505 - INFO - Starting regularization parameter optimization
+2024-08-11 00:06:50,675 - INFO - Parameter evaluation completed in 14.17 seconds
+2024-08-11 00:06:50,675 - INFO - Optimal lambda1: 21.840329667841555, lambda2: 0.12257747198906074
+2024-08-11 00:07:05,140 - INFO - Analyzing Dataset 5
+2024-08-11 00:07:05,140 - INFO - Computing tilde_S for dataframe with shape: (492, 7)
+2024-08-11 00:07:05,141 - INFO - Starting regularization parameter optimization
+2024-08-11 00:07:21,147 - INFO - Parameter evaluation completed in 16.01 seconds
+2024-08-11 00:07:21,147 - INFO - Optimal lambda1: 22.181073012818835, lambda2: 0.12069444956718453
+2024-08-11 00:07:36,183 - INFO - Analyzing Dataset 4
+2024-08-11 00:07:36,183 - INFO - Computing tilde_S for dataframe with shape: (492, 7)
+2024-08-11 00:07:36,184 - INFO - Starting regularization parameter optimization
+2024-08-11 00:07:51,017 - INFO - Parameter evaluation completed in 14.83 seconds
+2024-08-11 00:07:51,017 - INFO - Optimal lambda1: 22.181073012818835, lambda2: 0.12069444956718453
+2024-08-11 00:08:06,329 - INFO - Analyzing Dataset 3
+2024-08-11 00:08:06,330 - INFO - Computing tilde_S for dataframe with shape: (469, 7)
+2024-08-11 00:08:06,331 - INFO - Starting regularization parameter optimization
+2024-08-11 00:08:21,589 - INFO - Parameter evaluation completed in 15.26 seconds
+2024-08-11 00:08:21,589 - INFO - Optimal lambda1: 21.656407827707714, lambda2: 0.12361848831949473
+2024-08-11 00:08:35,911 - INFO - Estimating changepoints
+2024-08-11 00:08:35,913 - INFO - Estimated 1 changepoints
+2024-08-11 00:08:36,268 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim40_perm1.png'
+2024-08-11 00:08:36,280 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:08:36,280 - INFO - Running Simulation 1, Permutation 1
+2024-08-11 00:08:36,280 - INFO - Analyzing Dataset 5
+2024-08-11 00:08:36,280 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-11 00:08:36,281 - INFO - Starting regularization parameter optimization
+2024-08-11 00:08:53,327 - INFO - Parameter evaluation completed in 17.05 seconds
+2024-08-11 00:08:53,327 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-11 00:09:10,218 - INFO - Analyzing Dataset 2
+2024-08-11 00:09:10,218 - INFO - Computing tilde_S for dataframe with shape: (548, 7)
+2024-08-11 00:09:10,219 - INFO - Starting regularization parameter optimization
+2024-08-11 00:09:27,193 - INFO - Parameter evaluation completed in 16.97 seconds
+2024-08-11 00:09:27,194 - INFO - Optimal lambda1: 23.40939982143925, lambda2: 0.11436142825156403
+2024-08-11 00:09:44,295 - INFO - Analyzing Dataset 3
+2024-08-11 00:09:44,295 - INFO - Computing tilde_S for dataframe with shape: (556, 7)
+2024-08-11 00:09:44,296 - INFO - Starting regularization parameter optimization
+2024-08-11 00:10:01,378 - INFO - Parameter evaluation completed in 17.08 seconds
+2024-08-11 00:10:01,378 - INFO - Optimal lambda1: 23.57965224510319, lambda2: 0.11353570316744867
+2024-08-11 00:10:18,973 - INFO - Analyzing Dataset 4
+2024-08-11 00:10:18,973 - INFO - Computing tilde_S for dataframe with shape: (537, 7)
+2024-08-11 00:10:18,974 - INFO - Starting regularization parameter optimization
+2024-08-11 00:10:35,213 - INFO - Parameter evaluation completed in 16.24 seconds
+2024-08-11 00:10:35,214 - INFO - Optimal lambda1: 23.173260452512935, lambda2: 0.11552679018033431
+2024-08-11 00:10:51,818 - INFO - Analyzing Dataset 7
+2024-08-11 00:10:51,818 - INFO - Computing tilde_S for dataframe with shape: (551, 7)
+2024-08-11 00:10:51,819 - INFO - Starting regularization parameter optimization
+2024-08-11 00:11:08,518 - INFO - Parameter evaluation completed in 16.70 seconds
+2024-08-11 00:11:08,518 - INFO - Optimal lambda1: 23.473389188611005, lambda2: 0.1140496745732232
+2024-08-11 00:11:25,460 - INFO - Analyzing Dataset 1
+2024-08-11 00:11:25,460 - INFO - Computing tilde_S for dataframe with shape: (550, 7)
+2024-08-11 00:11:25,460 - INFO - Starting regularization parameter optimization
+2024-08-11 00:11:42,036 - INFO - Parameter evaluation completed in 16.57 seconds
+2024-08-11 00:11:42,036 - INFO - Optimal lambda1: 23.45207879911715, lambda2: 0.11415330901039276
+2024-08-11 00:11:58,979 - INFO - Analyzing Dataset 6
+2024-08-11 00:11:58,979 - INFO - Computing tilde_S for dataframe with shape: (564, 7)
+2024-08-11 00:11:58,980 - INFO - Starting regularization parameter optimization
+2024-08-11 00:12:16,177 - INFO - Parameter evaluation completed in 17.20 seconds
+2024-08-11 00:12:16,177 - INFO - Optimal lambda1: 23.748684174075834, lambda2: 0.11272760960011713
+2024-08-11 00:12:33,773 - INFO - Estimating changepoints
+2024-08-11 00:12:33,775 - INFO - Estimated 1 changepoints
+2024-08-11 00:12:34,201 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-11 00:12:34,212 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:12:34,212 - INFO - Running Simulation 35, Permutation 1
+2024-08-11 00:12:34,212 - INFO - Analyzing Dataset 5
+2024-08-11 00:12:34,213 - INFO - Computing tilde_S for dataframe with shape: (514, 7)
+2024-08-11 00:12:34,213 - INFO - Starting regularization parameter optimization
+2024-08-11 00:12:50,906 - INFO - Parameter evaluation completed in 16.69 seconds
+2024-08-11 00:12:50,906 - INFO - Optimal lambda1: 22.67156809750927, lambda2: 0.11808324799491104
+2024-08-11 00:13:06,692 - INFO - Analyzing Dataset 2
+2024-08-11 00:13:06,692 - INFO - Computing tilde_S for dataframe with shape: (491, 7)
+2024-08-11 00:13:06,693 - INFO - Starting regularization parameter optimization
+2024-08-11 00:13:21,714 - INFO - Parameter evaluation completed in 15.02 seconds
+2024-08-11 00:13:21,714 - INFO - Optimal lambda1: 22.15851980616034, lambda2: 0.12081729382246124
+2024-08-11 00:13:36,962 - INFO - Analyzing Dataset 3
+2024-08-11 00:13:36,963 - INFO - Computing tilde_S for dataframe with shape: (498, 7)
+2024-08-11 00:13:36,963 - INFO - Starting regularization parameter optimization
+2024-08-11 00:13:52,267 - INFO - Parameter evaluation completed in 15.30 seconds
+2024-08-11 00:13:52,267 - INFO - Optimal lambda1: 22.315913604421397, lambda2: 0.11996517129199169
+2024-08-11 00:14:07,747 - INFO - Analyzing Dataset 4
+2024-08-11 00:14:07,747 - INFO - Computing tilde_S for dataframe with shape: (484, 7)
+2024-08-11 00:14:07,748 - INFO - Starting regularization parameter optimization
+2024-08-11 00:14:23,485 - INFO - Parameter evaluation completed in 15.74 seconds
+2024-08-11 00:14:23,486 - INFO - Optimal lambda1: 22.0, lambda2: 0.12168783627689549
+2024-08-11 00:14:38,369 - INFO - Analyzing Dataset 7
+2024-08-11 00:14:38,369 - INFO - Computing tilde_S for dataframe with shape: (480, 7)
+2024-08-11 00:14:38,370 - INFO - Starting regularization parameter optimization
+2024-08-11 00:14:52,867 - INFO - Parameter evaluation completed in 14.50 seconds
+2024-08-11 00:14:52,867 - INFO - Optimal lambda1: 21.908902300206645, lambda2: 0.1221938169885604
+2024-08-11 00:15:07,653 - INFO - Analyzing Dataset 1
+2024-08-11 00:15:07,653 - INFO - Computing tilde_S for dataframe with shape: (494, 7)
+2024-08-11 00:15:07,654 - INFO - Starting regularization parameter optimization
+2024-08-11 00:15:22,395 - INFO - Parameter evaluation completed in 14.74 seconds
+2024-08-11 00:15:22,395 - INFO - Optimal lambda1: 22.22611077089287, lambda2: 0.12044988102901256
+2024-08-11 00:15:37,547 - INFO - Analyzing Dataset 6
+2024-08-11 00:15:37,547 - INFO - Computing tilde_S for dataframe with shape: (489, 7)
+2024-08-11 00:15:37,548 - INFO - Starting regularization parameter optimization
+2024-08-11 00:15:52,322 - INFO - Parameter evaluation completed in 14.77 seconds
+2024-08-11 00:15:52,322 - INFO - Optimal lambda1: 22.11334438749598, lambda2: 0.12106411184033694
+2024-08-11 00:16:07,387 - INFO - Estimating changepoints
+2024-08-11 00:16:07,388 - INFO - Estimated 1 changepoints
+2024-08-11 00:16:07,740 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim35_perm1.png'
+2024-08-11 00:16:07,749 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:16:07,749 - INFO - Running Simulation 18, Permutation 1
+2024-08-11 00:16:07,749 - INFO - Analyzing Dataset 4
+2024-08-11 00:16:07,749 - INFO - Computing tilde_S for dataframe with shape: (593, 7)
+2024-08-11 00:16:07,750 - INFO - Starting regularization parameter optimization
+2024-08-11 00:16:27,089 - INFO - Parameter evaluation completed in 19.34 seconds
+2024-08-11 00:16:27,089 - INFO - Optimal lambda1: 24.351591323771842, lambda2: 0.1099366510589517
+2024-08-11 00:16:45,689 - INFO - Analyzing Dataset 3
+2024-08-11 00:16:45,689 - INFO - Computing tilde_S for dataframe with shape: (603, 7)
+2024-08-11 00:16:45,690 - INFO - Starting regularization parameter optimization
+2024-08-11 00:17:04,214 - INFO - Parameter evaluation completed in 18.52 seconds
+2024-08-11 00:17:04,214 - INFO - Optimal lambda1: 24.55605831561735, lambda2: 0.109021259181042
+2024-08-11 00:17:23,173 - INFO - Analyzing Dataset 2
+2024-08-11 00:17:23,173 - INFO - Computing tilde_S for dataframe with shape: (596, 7)
+2024-08-11 00:17:23,174 - INFO - Starting regularization parameter optimization
+2024-08-11 00:17:41,449 - INFO - Parameter evaluation completed in 18.28 seconds
+2024-08-11 00:17:41,449 - INFO - Optimal lambda1: 24.413111231467404, lambda2: 0.10965961579862042
+2024-08-11 00:18:00,309 - INFO - Analyzing Dataset 5
+2024-08-11 00:18:00,309 - INFO - Computing tilde_S for dataframe with shape: (605, 7)
+2024-08-11 00:18:00,310 - INFO - Starting regularization parameter optimization
+2024-08-11 00:18:20,547 - INFO - Parameter evaluation completed in 20.24 seconds
+2024-08-11 00:18:20,547 - INFO - Optimal lambda1: 24.596747752497688, lambda2: 0.10884090958000128
+2024-08-11 00:18:39,430 - INFO - Analyzing Dataset 6
+2024-08-11 00:18:39,431 - INFO - Computing tilde_S for dataframe with shape: (585, 7)
+2024-08-11 00:18:39,431 - INFO - Starting regularization parameter optimization
+2024-08-11 00:18:57,600 - INFO - Parameter evaluation completed in 18.17 seconds
+2024-08-11 00:18:57,601 - INFO - Optimal lambda1: 24.186773244895647, lambda2: 0.11068580215249174
+2024-08-11 00:19:15,865 - INFO - Analyzing Dataset 1
+2024-08-11 00:19:15,865 - INFO - Computing tilde_S for dataframe with shape: (618, 7)
+2024-08-11 00:19:15,866 - INFO - Starting regularization parameter optimization
+2024-08-11 00:19:35,157 - INFO - Parameter evaluation completed in 19.29 seconds
+2024-08-11 00:19:35,157 - INFO - Optimal lambda1: 24.859605789312106, lambda2: 0.10769005835332596
+2024-08-11 00:19:54,931 - INFO - Analyzing Dataset 7
+2024-08-11 00:19:54,931 - INFO - Computing tilde_S for dataframe with shape: (583, 7)
+2024-08-11 00:19:54,932 - INFO - Starting regularization parameter optimization
+2024-08-11 00:20:12,879 - INFO - Parameter evaluation completed in 17.95 seconds
+2024-08-11 00:20:12,880 - INFO - Optimal lambda1: 24.145392935299274, lambda2: 0.11087549518309459
+2024-08-11 00:20:31,261 - INFO - Estimating changepoints
+2024-08-11 00:20:31,262 - INFO - Estimated 1 changepoints
+2024-08-11 00:20:31,615 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim18_perm1.png'
+2024-08-11 00:20:31,624 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:20:31,625 - INFO - Running Simulation 13, Permutation 1
+2024-08-11 00:20:31,625 - INFO - Analyzing Dataset 4
+2024-08-11 00:20:31,625 - INFO - Computing tilde_S for dataframe with shape: (569, 7)
+2024-08-11 00:20:31,626 - INFO - Starting regularization parameter optimization
+2024-08-11 00:20:49,251 - INFO - Parameter evaluation completed in 17.63 seconds
+2024-08-11 00:20:49,251 - INFO - Optimal lambda1: 23.853720883753127, lambda2: 0.11223122845858012
+2024-08-11 00:21:07,150 - INFO - Analyzing Dataset 3
+2024-08-11 00:21:07,150 - INFO - Computing tilde_S for dataframe with shape: (557, 7)
+2024-08-11 00:21:07,151 - INFO - Starting regularization parameter optimization
+2024-08-11 00:21:24,142 - INFO - Parameter evaluation completed in 16.99 seconds
+2024-08-11 00:21:24,142 - INFO - Optimal lambda1: 23.600847442411894, lambda2: 0.1134337402342918
+2024-08-11 00:21:41,539 - INFO - Analyzing Dataset 2
+2024-08-11 00:21:41,539 - INFO - Computing tilde_S for dataframe with shape: (582, 7)
+2024-08-11 00:21:41,540 - INFO - Starting regularization parameter optimization
+2024-08-11 00:22:00,702 - INFO - Parameter evaluation completed in 19.16 seconds
+2024-08-11 00:22:00,702 - INFO - Optimal lambda1: 24.124676163629637, lambda2: 0.11097070816344244
+2024-08-11 00:22:19,095 - INFO - Analyzing Dataset 5
+2024-08-11 00:22:19,095 - INFO - Computing tilde_S for dataframe with shape: (568, 7)
+2024-08-11 00:22:19,096 - INFO - Starting regularization parameter optimization
+2024-08-11 00:22:36,311 - INFO - Parameter evaluation completed in 17.21 seconds
+2024-08-11 00:22:36,311 - INFO - Optimal lambda1: 23.83275057562597, lambda2: 0.11232998010853329
+2024-08-11 00:22:54,012 - INFO - Analyzing Dataset 6
+2024-08-11 00:22:54,012 - INFO - Computing tilde_S for dataframe with shape: (570, 7)
+2024-08-11 00:22:54,013 - INFO - Starting regularization parameter optimization
+2024-08-11 00:23:11,941 - INFO - Parameter evaluation completed in 17.93 seconds
+2024-08-11 00:23:11,941 - INFO - Optimal lambda1: 23.874672772626646, lambda2: 0.1121327367955028
+2024-08-11 00:23:29,839 - INFO - Analyzing Dataset 1
+2024-08-11 00:23:29,839 - INFO - Computing tilde_S for dataframe with shape: (578, 7)
+2024-08-11 00:23:29,840 - INFO - Starting regularization parameter optimization
+2024-08-11 00:23:48,851 - INFO - Parameter evaluation completed in 19.01 seconds
+2024-08-11 00:23:48,851 - INFO - Optimal lambda1: 24.041630560342615, lambda2: 0.1113540278132262
+2024-08-11 00:24:07,132 - INFO - Analyzing Dataset 7
+2024-08-11 00:24:07,133 - INFO - Computing tilde_S for dataframe with shape: (564, 7)
+2024-08-11 00:24:07,133 - INFO - Starting regularization parameter optimization
+2024-08-11 00:24:25,578 - INFO - Parameter evaluation completed in 18.44 seconds
+2024-08-11 00:24:25,579 - INFO - Optimal lambda1: 23.748684174075834, lambda2: 0.11272760960011713
+2024-08-11 00:24:43,185 - INFO - Estimating changepoints
+2024-08-11 00:24:43,186 - INFO - Estimated 1 changepoints
+2024-08-11 00:24:43,645 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim13_perm1.png'
+2024-08-11 00:24:43,667 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:24:43,667 - INFO - Running Simulation 47, Permutation 1
+2024-08-11 00:24:43,667 - INFO - Analyzing Dataset 2
+2024-08-11 00:24:43,667 - INFO - Computing tilde_S for dataframe with shape: (531, 7)
+2024-08-11 00:24:43,668 - INFO - Starting regularization parameter optimization
+2024-08-11 00:25:01,249 - INFO - Parameter evaluation completed in 17.58 seconds
+2024-08-11 00:25:01,250 - INFO - Optimal lambda1: 23.043437243605826, lambda2: 0.11617765048634665
+2024-08-11 00:25:18,089 - INFO - Analyzing Dataset 5
+2024-08-11 00:25:18,089 - INFO - Computing tilde_S for dataframe with shape: (549, 7)
+2024-08-11 00:25:18,090 - INFO - Starting regularization parameter optimization
+2024-08-11 00:25:34,817 - INFO - Parameter evaluation completed in 16.73 seconds
+2024-08-11 00:25:34,817 - INFO - Optimal lambda1: 23.430749027719962, lambda2: 0.11425722647297765
+2024-08-11 00:25:51,850 - INFO - Analyzing Dataset 4
+2024-08-11 00:25:51,850 - INFO - Computing tilde_S for dataframe with shape: (562, 7)
+2024-08-11 00:25:51,851 - INFO - Starting regularization parameter optimization
+2024-08-11 00:26:09,034 - INFO - Parameter evaluation completed in 17.18 seconds
+2024-08-11 00:26:09,034 - INFO - Optimal lambda1: 23.706539182259394, lambda2: 0.11292801439761024
+2024-08-11 00:26:26,635 - INFO - Analyzing Dataset 3
+2024-08-11 00:26:26,635 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-11 00:26:26,636 - INFO - Starting regularization parameter optimization
+2024-08-11 00:26:43,026 - INFO - Parameter evaluation completed in 16.39 seconds
+2024-08-11 00:26:43,026 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-11 00:26:59,878 - INFO - Analyzing Dataset 7
+2024-08-11 00:26:59,878 - INFO - Computing tilde_S for dataframe with shape: (548, 7)
+2024-08-11 00:26:59,879 - INFO - Starting regularization parameter optimization
+2024-08-11 00:27:17,787 - INFO - Parameter evaluation completed in 17.91 seconds
+2024-08-11 00:27:17,787 - INFO - Optimal lambda1: 23.40939982143925, lambda2: 0.11436142825156403
+2024-08-11 00:27:34,849 - INFO - Analyzing Dataset 6
+2024-08-11 00:27:34,849 - INFO - Computing tilde_S for dataframe with shape: (533, 7)
+2024-08-11 00:27:34,850 - INFO - Starting regularization parameter optimization
+2024-08-11 00:27:50,952 - INFO - Parameter evaluation completed in 16.10 seconds
+2024-08-11 00:27:50,952 - INFO - Optimal lambda1: 23.08679276123039, lambda2: 0.11595947630228674
+2024-08-11 00:28:07,582 - INFO - Analyzing Dataset 1
+2024-08-11 00:28:07,583 - INFO - Computing tilde_S for dataframe with shape: (542, 7)
+2024-08-11 00:28:07,583 - INFO - Starting regularization parameter optimization
+2024-08-11 00:28:24,796 - INFO - Parameter evaluation completed in 17.21 seconds
+2024-08-11 00:28:24,796 - INFO - Optimal lambda1: 23.280893453645632, lambda2: 0.11499268288058248
+2024-08-11 00:28:41,883 - INFO - Estimating changepoints
+2024-08-11 00:28:41,884 - INFO - Estimated 1 changepoints
+2024-08-11 00:28:42,212 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim47_perm1.png'
+2024-08-11 00:28:42,230 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:28:42,230 - INFO - Running Simulation 26, Permutation 1
+2024-08-11 00:28:42,231 - INFO - Analyzing Dataset 6
+2024-08-11 00:28:42,231 - INFO - Computing tilde_S for dataframe with shape: (499, 7)
+2024-08-11 00:28:42,231 - INFO - Starting regularization parameter optimization
+2024-08-11 00:28:57,128 - INFO - Parameter evaluation completed in 14.90 seconds
+2024-08-11 00:28:57,129 - INFO - Optimal lambda1: 22.338307903688676, lambda2: 0.11984490542587747
+2024-08-11 00:29:12,524 - INFO - Analyzing Dataset 1
+2024-08-11 00:29:12,524 - INFO - Computing tilde_S for dataframe with shape: (482, 7)
+2024-08-11 00:29:12,525 - INFO - Starting regularization parameter optimization
+2024-08-11 00:29:27,172 - INFO - Parameter evaluation completed in 14.65 seconds
+2024-08-11 00:29:27,172 - INFO - Optimal lambda1: 21.95449840010015, lambda2: 0.12194003931693052
+2024-08-11 00:29:42,222 - INFO - Analyzing Dataset 7
+2024-08-11 00:29:42,223 - INFO - Computing tilde_S for dataframe with shape: (487, 7)
+2024-08-11 00:29:42,225 - INFO - Starting regularization parameter optimization
+2024-08-11 00:29:58,273 - INFO - Parameter evaluation completed in 16.05 seconds
+2024-08-11 00:29:58,273 - INFO - Optimal lambda1: 22.06807649071391, lambda2: 0.12131244874097744
+2024-08-11 00:30:13,315 - INFO - Analyzing Dataset 4
+2024-08-11 00:30:13,315 - INFO - Computing tilde_S for dataframe with shape: (470, 7)
+2024-08-11 00:30:13,316 - INFO - Starting regularization parameter optimization
+2024-08-11 00:30:28,748 - INFO - Parameter evaluation completed in 15.43 seconds
+2024-08-11 00:30:28,748 - INFO - Optimal lambda1: 21.6794833886788, lambda2: 0.12348690926324013
+2024-08-11 00:30:43,040 - INFO - Analyzing Dataset 3
+2024-08-11 00:30:43,040 - INFO - Computing tilde_S for dataframe with shape: (480, 7)
+2024-08-11 00:30:43,041 - INFO - Starting regularization parameter optimization
+2024-08-11 00:30:57,499 - INFO - Parameter evaluation completed in 14.46 seconds
+2024-08-11 00:30:57,499 - INFO - Optimal lambda1: 21.908902300206645, lambda2: 0.1221938169885604
+2024-08-11 00:31:12,295 - INFO - Analyzing Dataset 2
+2024-08-11 00:31:12,295 - INFO - Computing tilde_S for dataframe with shape: (503, 7)
+2024-08-11 00:31:12,296 - INFO - Starting regularization parameter optimization
+2024-08-11 00:31:27,577 - INFO - Parameter evaluation completed in 15.28 seconds
+2024-08-11 00:31:27,577 - INFO - Optimal lambda1: 22.427661492005804, lambda2: 0.11936743378465683
+2024-08-11 00:31:43,342 - INFO - Analyzing Dataset 5
+2024-08-11 00:31:43,343 - INFO - Computing tilde_S for dataframe with shape: (495, 7)
+2024-08-11 00:31:43,344 - INFO - Starting regularization parameter optimization
+2024-08-11 00:31:58,402 - INFO - Parameter evaluation completed in 15.06 seconds
+2024-08-11 00:31:58,402 - INFO - Optimal lambda1: 22.24859546128699, lambda2: 0.12032815297262094
+2024-08-11 00:32:13,782 - INFO - Estimating changepoints
+2024-08-11 00:32:13,784 - INFO - Estimated 1 changepoints
+2024-08-11 00:32:14,189 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim26_perm1.png'
+2024-08-11 00:32:14,201 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:32:14,201 - INFO - Running Simulation 22, Permutation 1
+2024-08-11 00:32:14,201 - INFO - Analyzing Dataset 5
+2024-08-11 00:32:14,201 - INFO - Computing tilde_S for dataframe with shape: (562, 7)
+2024-08-11 00:32:14,202 - INFO - Starting regularization parameter optimization
+2024-08-11 00:32:32,381 - INFO - Parameter evaluation completed in 18.18 seconds
+2024-08-11 00:32:32,381 - INFO - Optimal lambda1: 23.706539182259394, lambda2: 0.11292801439761024
+2024-08-11 00:32:49,821 - INFO - Analyzing Dataset 2
+2024-08-11 00:32:49,821 - INFO - Computing tilde_S for dataframe with shape: (561, 7)
+2024-08-11 00:32:49,822 - INFO - Starting regularization parameter optimization
+2024-08-11 00:33:06,896 - INFO - Parameter evaluation completed in 17.07 seconds
+2024-08-11 00:33:06,897 - INFO - Optimal lambda1: 23.68543856465402, lambda2: 0.11302861843929746
+2024-08-11 00:33:24,385 - INFO - Analyzing Dataset 3
+2024-08-11 00:33:24,385 - INFO - Computing tilde_S for dataframe with shape: (586, 7)
+2024-08-11 00:33:24,386 - INFO - Starting regularization parameter optimization
+2024-08-11 00:33:42,989 - INFO - Parameter evaluation completed in 18.60 seconds
+2024-08-11 00:33:42,989 - INFO - Optimal lambda1: 24.20743687382041, lambda2: 0.11059132001649197
+2024-08-11 00:34:01,640 - INFO - Analyzing Dataset 4
+2024-08-11 00:34:01,641 - INFO - Computing tilde_S for dataframe with shape: (579, 7)
+2024-08-11 00:34:01,642 - INFO - Starting regularization parameter optimization
+2024-08-11 00:34:20,652 - INFO - Parameter evaluation completed in 19.01 seconds
+2024-08-11 00:34:20,653 - INFO - Optimal lambda1: 24.06241883103193, lambda2: 0.11125782561141176
+2024-08-11 00:34:38,804 - INFO - Analyzing Dataset 7
+2024-08-11 00:34:38,804 - INFO - Computing tilde_S for dataframe with shape: (572, 7)
+2024-08-11 00:34:38,805 - INFO - Starting regularization parameter optimization
+2024-08-11 00:34:56,314 - INFO - Parameter evaluation completed in 17.51 seconds
+2024-08-11 00:34:56,314 - INFO - Optimal lambda1: 23.916521486202797, lambda2: 0.11193652888176533
+2024-08-11 00:35:14,276 - INFO - Analyzing Dataset 1
+2024-08-11 00:35:14,276 - INFO - Computing tilde_S for dataframe with shape: (576, 7)
+2024-08-11 00:35:14,278 - INFO - Starting regularization parameter optimization
+2024-08-11 00:35:32,240 - INFO - Parameter evaluation completed in 17.96 seconds
+2024-08-11 00:35:32,240 - INFO - Optimal lambda1: 24.0, lambda2: 0.11154718325382086
+2024-08-11 00:35:50,305 - INFO - Analyzing Dataset 6
+2024-08-11 00:35:50,305 - INFO - Computing tilde_S for dataframe with shape: (566, 7)
+2024-08-11 00:35:50,306 - INFO - Starting regularization parameter optimization
+2024-08-11 00:36:07,542 - INFO - Parameter evaluation completed in 17.24 seconds
+2024-08-11 00:36:07,543 - INFO - Optimal lambda1: 23.790754506740637, lambda2: 0.11252826795943728
+2024-08-11 00:36:25,241 - INFO - Estimating changepoints
+2024-08-11 00:36:25,242 - INFO - Estimated 1 changepoints
+2024-08-11 00:36:25,665 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim22_perm1.png'
+2024-08-11 00:36:25,686 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:36:25,686 - INFO - Running Simulation 17, Permutation 1
+2024-08-11 00:36:25,686 - INFO - Analyzing Dataset 7
+2024-08-11 00:36:25,686 - INFO - Computing tilde_S for dataframe with shape: (592, 7)
+2024-08-11 00:36:25,688 - INFO - Starting regularization parameter optimization
+2024-08-11 00:36:43,601 - INFO - Parameter evaluation completed in 17.91 seconds
+2024-08-11 00:36:43,601 - INFO - Optimal lambda1: 24.331050121192877, lambda2: 0.11002946378215955
+2024-08-11 00:37:02,024 - INFO - Analyzing Dataset 1
+2024-08-11 00:37:02,024 - INFO - Computing tilde_S for dataframe with shape: (589, 7)
+2024-08-11 00:37:02,025 - INFO - Starting regularization parameter optimization
+2024-08-11 00:37:20,143 - INFO - Parameter evaluation completed in 18.12 seconds
+2024-08-11 00:37:20,143 - INFO - Optimal lambda1: 24.269322199023193, lambda2: 0.11030931874147896
+2024-08-11 00:37:38,800 - INFO - Analyzing Dataset 6
+2024-08-11 00:37:38,800 - INFO - Computing tilde_S for dataframe with shape: (567, 7)
+2024-08-11 00:37:38,801 - INFO - Starting regularization parameter optimization
+2024-08-11 00:37:57,701 - INFO - Parameter evaluation completed in 18.90 seconds
+2024-08-11 00:37:57,701 - INFO - Optimal lambda1: 23.811761799581316, lambda2: 0.11242899289118426
+2024-08-11 00:38:15,686 - INFO - Analyzing Dataset 5
+2024-08-11 00:38:15,687 - INFO - Computing tilde_S for dataframe with shape: (584, 7)
+2024-08-11 00:38:15,687 - INFO - Starting regularization parameter optimization
+2024-08-11 00:38:34,239 - INFO - Parameter evaluation completed in 18.55 seconds
+2024-08-11 00:38:34,239 - INFO - Optimal lambda1: 24.166091947189145, lambda2: 0.1107805268614435
+2024-08-11 00:38:52,749 - INFO - Analyzing Dataset 2
+2024-08-11 00:38:52,750 - INFO - Computing tilde_S for dataframe with shape: (575, 7)
+2024-08-11 00:38:52,750 - INFO - Starting regularization parameter optimization
+2024-08-11 00:39:11,697 - INFO - Parameter evaluation completed in 18.95 seconds
+2024-08-11 00:39:11,697 - INFO - Optimal lambda1: 23.979157616563597, lambda2: 0.11164413866826048
+2024-08-11 00:39:29,954 - INFO - Analyzing Dataset 3
+2024-08-11 00:39:29,954 - INFO - Computing tilde_S for dataframe with shape: (575, 7)
+2024-08-11 00:39:29,955 - INFO - Starting regularization parameter optimization
+2024-08-11 00:39:48,819 - INFO - Parameter evaluation completed in 18.86 seconds
+2024-08-11 00:39:48,819 - INFO - Optimal lambda1: 23.979157616563597, lambda2: 0.11164413866826048
+2024-08-11 00:40:06,942 - INFO - Analyzing Dataset 4
+2024-08-11 00:40:06,942 - INFO - Computing tilde_S for dataframe with shape: (587, 7)
+2024-08-11 00:40:06,943 - INFO - Starting regularization parameter optimization
+2024-08-11 00:40:25,940 - INFO - Parameter evaluation completed in 19.00 seconds
+2024-08-11 00:40:25,941 - INFO - Optimal lambda1: 24.228082879171435, lambda2: 0.11049707941989897
+2024-08-11 00:40:44,398 - INFO - Estimating changepoints
+2024-08-11 00:40:44,399 - INFO - Estimated 1 changepoints
+2024-08-11 00:40:44,753 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim17_perm1.png'
+2024-08-11 00:40:44,774 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:40:44,774 - INFO - Running Simulation 43, Permutation 1
+2024-08-11 00:40:44,774 - INFO - Analyzing Dataset 1
+2024-08-11 00:40:44,774 - INFO - Computing tilde_S for dataframe with shape: (514, 7)
+2024-08-11 00:40:44,775 - INFO - Starting regularization parameter optimization
+2024-08-11 00:41:01,148 - INFO - Parameter evaluation completed in 16.37 seconds
+2024-08-11 00:41:01,148 - INFO - Optimal lambda1: 22.67156809750927, lambda2: 0.11808324799491104
+2024-08-11 00:41:16,877 - INFO - Analyzing Dataset 6
+2024-08-11 00:41:16,877 - INFO - Computing tilde_S for dataframe with shape: (529, 7)
+2024-08-11 00:41:16,878 - INFO - Starting regularization parameter optimization
+2024-08-11 00:41:32,955 - INFO - Parameter evaluation completed in 16.08 seconds
+2024-08-11 00:41:32,955 - INFO - Optimal lambda1: 23.0, lambda2: 0.11639706078659567
+2024-08-11 00:41:49,500 - INFO - Analyzing Dataset 7
+2024-08-11 00:41:49,500 - INFO - Computing tilde_S for dataframe with shape: (554, 7)
+2024-08-11 00:41:49,501 - INFO - Starting regularization parameter optimization
+2024-08-11 00:42:07,610 - INFO - Parameter evaluation completed in 18.11 seconds
+2024-08-11 00:42:07,611 - INFO - Optimal lambda1: 23.53720459187964, lambda2: 0.11374045663074679
+2024-08-11 00:42:24,956 - INFO - Analyzing Dataset 3
+2024-08-11 00:42:24,956 - INFO - Computing tilde_S for dataframe with shape: (520, 7)
+2024-08-11 00:42:24,957 - INFO - Starting regularization parameter optimization
+2024-08-11 00:42:40,771 - INFO - Parameter evaluation completed in 15.81 seconds
+2024-08-11 00:42:40,771 - INFO - Optimal lambda1: 22.80350850198276, lambda2: 0.11740002192464921
+2024-08-11 00:42:56,896 - INFO - Analyzing Dataset 4
+2024-08-11 00:42:56,897 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-11 00:42:56,897 - INFO - Starting regularization parameter optimization
+2024-08-11 00:43:14,799 - INFO - Parameter evaluation completed in 17.90 seconds
+2024-08-11 00:43:14,800 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-11 00:43:31,840 - INFO - Analyzing Dataset 5
+2024-08-11 00:43:31,841 - INFO - Computing tilde_S for dataframe with shape: (533, 7)
+2024-08-11 00:43:31,842 - INFO - Starting regularization parameter optimization
+2024-08-11 00:43:48,734 - INFO - Parameter evaluation completed in 16.89 seconds
+2024-08-11 00:43:48,734 - INFO - Optimal lambda1: 23.08679276123039, lambda2: 0.11595947630228674
+2024-08-11 00:44:05,506 - INFO - Analyzing Dataset 2
+2024-08-11 00:44:05,506 - INFO - Computing tilde_S for dataframe with shape: (547, 7)
+2024-08-11 00:44:05,507 - INFO - Starting regularization parameter optimization
+2024-08-11 00:44:22,176 - INFO - Parameter evaluation completed in 16.67 seconds
+2024-08-11 00:44:22,176 - INFO - Optimal lambda1: 23.388031127053, lambda2: 0.11446591564499221
+2024-08-11 00:44:39,417 - INFO - Estimating changepoints
+2024-08-11 00:44:39,418 - INFO - Estimated 1 changepoints
+2024-08-11 00:44:39,758 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim43_perm1.png'
+2024-08-11 00:44:39,769 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:44:39,769 - INFO - Running Simulation 48, Permutation 1
+2024-08-11 00:44:39,769 - INFO - Analyzing Dataset 1
+2024-08-11 00:44:39,769 - INFO - Computing tilde_S for dataframe with shape: (524, 7)
+2024-08-11 00:44:39,770 - INFO - Starting regularization parameter optimization
+2024-08-11 00:44:55,639 - INFO - Parameter evaluation completed in 15.87 seconds
+2024-08-11 00:44:55,639 - INFO - Optimal lambda1: 22.891046284519195, lambda2: 0.11695107182157058
+2024-08-11 00:45:12,003 - INFO - Analyzing Dataset 6
+2024-08-11 00:45:12,003 - INFO - Computing tilde_S for dataframe with shape: (526, 7)
+2024-08-11 00:45:12,004 - INFO - Starting regularization parameter optimization
+2024-08-11 00:45:27,823 - INFO - Parameter evaluation completed in 15.82 seconds
+2024-08-11 00:45:27,824 - INFO - Optimal lambda1: 22.93468988235943, lambda2: 0.1167285196278524
+2024-08-11 00:45:44,137 - INFO - Analyzing Dataset 7
+2024-08-11 00:45:44,137 - INFO - Computing tilde_S for dataframe with shape: (529, 7)
+2024-08-11 00:45:44,138 - INFO - Starting regularization parameter optimization
+2024-08-11 00:46:01,150 - INFO - Parameter evaluation completed in 17.01 seconds
+2024-08-11 00:46:01,151 - INFO - Optimal lambda1: 23.0, lambda2: 0.11639706078659567
+2024-08-11 00:46:17,240 - INFO - Analyzing Dataset 3
+2024-08-11 00:46:17,240 - INFO - Computing tilde_S for dataframe with shape: (545, 7)
+2024-08-11 00:46:17,241 - INFO - Starting regularization parameter optimization
+2024-08-11 00:46:35,020 - INFO - Parameter evaluation completed in 17.78 seconds
+2024-08-11 00:46:35,020 - INFO - Optimal lambda1: 23.345235059857504, lambda2: 0.11467575251341425
+2024-08-11 00:46:52,002 - INFO - Analyzing Dataset 4
+2024-08-11 00:46:52,002 - INFO - Computing tilde_S for dataframe with shape: (517, 7)
+2024-08-11 00:46:52,003 - INFO - Starting regularization parameter optimization
+2024-08-11 00:47:07,190 - INFO - Parameter evaluation completed in 15.19 seconds
+2024-08-11 00:47:07,190 - INFO - Optimal lambda1: 22.737634001804146, lambda2: 0.11774014824406445
+2024-08-11 00:47:22,933 - INFO - Analyzing Dataset 5
+2024-08-11 00:47:22,933 - INFO - Computing tilde_S for dataframe with shape: (529, 7)
+2024-08-11 00:47:22,934 - INFO - Starting regularization parameter optimization
+2024-08-11 00:47:40,087 - INFO - Parameter evaluation completed in 17.15 seconds
+2024-08-11 00:47:40,087 - INFO - Optimal lambda1: 23.0, lambda2: 0.11639706078659567
+2024-08-11 00:47:56,428 - INFO - Analyzing Dataset 2
+2024-08-11 00:47:56,428 - INFO - Computing tilde_S for dataframe with shape: (524, 7)
+2024-08-11 00:47:56,429 - INFO - Starting regularization parameter optimization
+2024-08-11 00:48:11,821 - INFO - Parameter evaluation completed in 15.39 seconds
+2024-08-11 00:48:11,822 - INFO - Optimal lambda1: 22.891046284519195, lambda2: 0.11695107182157058
+2024-08-11 00:48:27,687 - INFO - Estimating changepoints
+2024-08-11 00:48:27,688 - INFO - Estimated 2 changepoints
+2024-08-11 00:48:28,046 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim48_perm1.png'
+2024-08-11 00:48:28,056 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:48:28,056 - INFO - Running Simulation 29, Permutation 1
+2024-08-11 00:48:28,056 - INFO - Analyzing Dataset 5
+2024-08-11 00:48:28,056 - INFO - Computing tilde_S for dataframe with shape: (679, 7)
+2024-08-11 00:48:28,057 - INFO - Starting regularization parameter optimization
+2024-08-11 00:48:50,015 - INFO - Parameter evaluation completed in 21.96 seconds
+2024-08-11 00:48:50,015 - INFO - Optimal lambda1: 26.057628441590765, lambda2: 0.10273891210370897
+2024-08-11 00:49:11,920 - INFO - Analyzing Dataset 2
+2024-08-11 00:49:11,920 - INFO - Computing tilde_S for dataframe with shape: (683, 7)
+2024-08-11 00:49:11,921 - INFO - Starting regularization parameter optimization
+2024-08-11 00:49:33,326 - INFO - Parameter evaluation completed in 21.40 seconds
+2024-08-11 00:49:33,326 - INFO - Optimal lambda1: 26.13426869074396, lambda2: 0.10243762432272946
+2024-08-11 00:49:55,472 - INFO - Analyzing Dataset 3
+2024-08-11 00:49:55,472 - INFO - Computing tilde_S for dataframe with shape: (652, 7)
+2024-08-11 00:49:55,473 - INFO - Starting regularization parameter optimization
+2024-08-11 00:50:15,718 - INFO - Parameter evaluation completed in 20.24 seconds
+2024-08-11 00:50:15,718 - INFO - Optimal lambda1: 25.534290669607408, lambda2: 0.10484459634033223
+2024-08-11 00:50:36,438 - INFO - Analyzing Dataset 4
+2024-08-11 00:50:36,438 - INFO - Computing tilde_S for dataframe with shape: (675, 7)
+2024-08-11 00:50:36,439 - INFO - Starting regularization parameter optimization
+2024-08-11 00:50:57,697 - INFO - Parameter evaluation completed in 21.26 seconds
+2024-08-11 00:50:57,698 - INFO - Optimal lambda1: 25.98076211353316, lambda2: 0.10304287404630079
+2024-08-11 00:51:19,531 - INFO - Analyzing Dataset 7
+2024-08-11 00:51:19,531 - INFO - Computing tilde_S for dataframe with shape: (698, 7)
+2024-08-11 00:51:19,532 - INFO - Starting regularization parameter optimization
+2024-08-11 00:51:41,826 - INFO - Parameter evaluation completed in 22.29 seconds
+2024-08-11 00:51:41,826 - INFO - Optimal lambda1: 26.419689627245813, lambda2: 0.10133095565705875
+2024-08-11 00:52:04,783 - INFO - Analyzing Dataset 1
+2024-08-11 00:52:04,783 - INFO - Computing tilde_S for dataframe with shape: (667, 7)
+2024-08-11 00:52:04,784 - INFO - Starting regularization parameter optimization
+2024-08-11 00:52:25,347 - INFO - Parameter evaluation completed in 20.56 seconds
+2024-08-11 00:52:25,347 - INFO - Optimal lambda1: 25.826343140289914, lambda2: 0.10365898042744151
+2024-08-11 00:52:46,564 - INFO - Analyzing Dataset 6
+2024-08-11 00:52:46,565 - INFO - Computing tilde_S for dataframe with shape: (688, 7)
+2024-08-11 00:52:46,565 - INFO - Starting regularization parameter optimization
+2024-08-11 00:53:09,340 - INFO - Parameter evaluation completed in 22.77 seconds
+2024-08-11 00:53:09,341 - INFO - Optimal lambda1: 26.229754097208, lambda2: 0.10206471582502046
+2024-08-11 00:53:31,553 - INFO - Estimating changepoints
+2024-08-11 00:53:31,555 - INFO - Estimated 1 changepoints
+2024-08-11 00:53:31,915 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim29_perm1.png'
+2024-08-11 00:53:31,926 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:53:31,926 - INFO - Running Simulation 31, Permutation 1
+2024-08-11 00:53:31,927 - INFO - Analyzing Dataset 6
+2024-08-11 00:53:31,927 - INFO - Computing tilde_S for dataframe with shape: (584, 7)
+2024-08-11 00:53:31,928 - INFO - Starting regularization parameter optimization
+2024-08-11 00:53:50,449 - INFO - Parameter evaluation completed in 18.52 seconds
+2024-08-11 00:53:50,450 - INFO - Optimal lambda1: 24.166091947189145, lambda2: 0.1107805268614435
+2024-08-11 00:54:08,925 - INFO - Analyzing Dataset 1
+2024-08-11 00:54:08,925 - INFO - Computing tilde_S for dataframe with shape: (579, 7)
+2024-08-11 00:54:08,926 - INFO - Starting regularization parameter optimization
+2024-08-11 00:54:26,381 - INFO - Parameter evaluation completed in 17.46 seconds
+2024-08-11 00:54:26,381 - INFO - Optimal lambda1: 24.06241883103193, lambda2: 0.11125782561141176
+2024-08-11 00:54:44,515 - INFO - Analyzing Dataset 7
+2024-08-11 00:54:44,515 - INFO - Computing tilde_S for dataframe with shape: (590, 7)
+2024-08-11 00:54:44,516 - INFO - Starting regularization parameter optimization
+2024-08-11 00:55:03,836 - INFO - Parameter evaluation completed in 19.32 seconds
+2024-08-11 00:55:03,836 - INFO - Optimal lambda1: 24.289915602982237, lambda2: 0.11021579662314722
+2024-08-11 00:55:22,213 - INFO - Analyzing Dataset 4
+2024-08-11 00:55:22,213 - INFO - Computing tilde_S for dataframe with shape: (575, 7)
+2024-08-11 00:55:22,214 - INFO - Starting regularization parameter optimization
+2024-08-11 00:55:41,284 - INFO - Parameter evaluation completed in 19.07 seconds
+2024-08-11 00:55:41,285 - INFO - Optimal lambda1: 23.979157616563597, lambda2: 0.11164413866826048
+2024-08-11 00:55:59,643 - INFO - Analyzing Dataset 3
+2024-08-11 00:55:59,643 - INFO - Computing tilde_S for dataframe with shape: (597, 7)
+2024-08-11 00:55:59,644 - INFO - Starting regularization parameter optimization
+2024-08-11 00:56:19,335 - INFO - Parameter evaluation completed in 19.69 seconds
+2024-08-11 00:56:19,335 - INFO - Optimal lambda1: 24.43358344574123, lambda2: 0.10956773508219582
+2024-08-11 00:56:38,371 - INFO - Analyzing Dataset 2
+2024-08-11 00:56:38,371 - INFO - Computing tilde_S for dataframe with shape: (573, 7)
+2024-08-11 00:56:38,372 - INFO - Starting regularization parameter optimization
+2024-08-11 00:56:55,650 - INFO - Parameter evaluation completed in 17.28 seconds
+2024-08-11 00:56:55,651 - INFO - Optimal lambda1: 23.93741840717165, lambda2: 0.11183881037437321
+2024-08-11 00:57:13,451 - INFO - Analyzing Dataset 5
+2024-08-11 00:57:13,451 - INFO - Computing tilde_S for dataframe with shape: (555, 7)
+2024-08-11 00:57:13,452 - INFO - Starting regularization parameter optimization
+2024-08-11 00:57:30,278 - INFO - Parameter evaluation completed in 16.83 seconds
+2024-08-11 00:57:30,278 - INFO - Optimal lambda1: 23.558437978779494, lambda2: 0.11363794155211629
+2024-08-11 00:57:47,677 - INFO - Estimating changepoints
+2024-08-11 00:57:47,678 - INFO - Estimated 1 changepoints
+2024-08-11 00:57:48,040 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim31_perm1.png'
+2024-08-11 00:57:48,051 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 00:57:48,051 - INFO - Running Simulation 50, Permutation 1
+2024-08-11 00:57:48,051 - INFO - Analyzing Dataset 2
+2024-08-11 00:57:48,051 - INFO - Computing tilde_S for dataframe with shape: (541, 7)
+2024-08-11 00:57:48,052 - INFO - Starting regularization parameter optimization
+2024-08-11 00:58:04,448 - INFO - Parameter evaluation completed in 16.40 seconds
+2024-08-11 00:58:04,448 - INFO - Optimal lambda1: 23.259406699226016, lambda2: 0.11509891170959169
+2024-08-11 00:58:21,221 - INFO - Analyzing Dataset 5
+2024-08-11 00:58:21,221 - INFO - Computing tilde_S for dataframe with shape: (520, 7)
+2024-08-11 00:58:21,222 - INFO - Starting regularization parameter optimization
+2024-08-11 00:58:37,890 - INFO - Parameter evaluation completed in 16.67 seconds
+2024-08-11 00:58:37,890 - INFO - Optimal lambda1: 22.80350850198276, lambda2: 0.11740002192464921
+2024-08-11 00:58:53,705 - INFO - Analyzing Dataset 4
+2024-08-11 00:58:53,705 - INFO - Computing tilde_S for dataframe with shape: (533, 7)
+2024-08-11 00:58:53,706 - INFO - Starting regularization parameter optimization
+2024-08-11 00:59:09,921 - INFO - Parameter evaluation completed in 16.21 seconds
+2024-08-11 00:59:09,921 - INFO - Optimal lambda1: 23.08679276123039, lambda2: 0.11595947630228674
+2024-08-11 00:59:26,699 - INFO - Analyzing Dataset 3
+2024-08-11 00:59:26,699 - INFO - Computing tilde_S for dataframe with shape: (556, 7)
+2024-08-11 00:59:26,701 - INFO - Starting regularization parameter optimization
+2024-08-11 00:59:43,945 - INFO - Parameter evaluation completed in 17.24 seconds
+2024-08-11 00:59:43,945 - INFO - Optimal lambda1: 23.57965224510319, lambda2: 0.11353570316744867
+2024-08-11 01:00:01,377 - INFO - Analyzing Dataset 7
+2024-08-11 01:00:01,377 - INFO - Computing tilde_S for dataframe with shape: (543, 7)
+2024-08-11 01:00:01,378 - INFO - Starting regularization parameter optimization
+2024-08-11 01:00:19,075 - INFO - Parameter evaluation completed in 17.70 seconds
+2024-08-11 01:00:19,075 - INFO - Optimal lambda1: 23.302360395462088, lambda2: 0.11488674763664915
+2024-08-11 01:00:35,990 - INFO - Analyzing Dataset 6
+2024-08-11 01:00:35,990 - INFO - Computing tilde_S for dataframe with shape: (533, 7)
+2024-08-11 01:00:35,991 - INFO - Starting regularization parameter optimization
+2024-08-11 01:00:52,215 - INFO - Parameter evaluation completed in 16.22 seconds
+2024-08-11 01:00:52,215 - INFO - Optimal lambda1: 23.08679276123039, lambda2: 0.11595947630228674
+2024-08-11 01:01:08,884 - INFO - Analyzing Dataset 1
+2024-08-11 01:01:08,884 - INFO - Computing tilde_S for dataframe with shape: (527, 7)
+2024-08-11 01:01:08,885 - INFO - Starting regularization parameter optimization
+2024-08-11 01:01:24,606 - INFO - Parameter evaluation completed in 15.72 seconds
+2024-08-11 01:01:24,606 - INFO - Optimal lambda1: 22.956480566497994, lambda2: 0.11661771891979941
+2024-08-11 01:01:40,892 - INFO - Estimating changepoints
+2024-08-11 01:01:40,893 - INFO - Estimated 1 changepoints
+2024-08-11 01:01:41,258 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim50_perm1.png'
+2024-08-11 01:01:41,269 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 01:01:41,269 - INFO - Running Simulation 5, Permutation 1
+2024-08-11 01:01:41,269 - INFO - Analyzing Dataset 6
+2024-08-11 01:01:41,269 - INFO - Computing tilde_S for dataframe with shape: (509, 7)
+2024-08-11 01:01:41,270 - INFO - Starting regularization parameter optimization
+2024-08-11 01:01:56,802 - INFO - Parameter evaluation completed in 15.53 seconds
+2024-08-11 01:01:56,802 - INFO - Optimal lambda1: 22.561028345356956, lambda2: 0.11866180730377268
+2024-08-11 01:02:12,754 - INFO - Analyzing Dataset 1
+2024-08-11 01:02:12,754 - INFO - Computing tilde_S for dataframe with shape: (523, 7)
+2024-08-11 01:02:12,755 - INFO - Starting regularization parameter optimization
+2024-08-11 01:02:29,939 - INFO - Parameter evaluation completed in 17.18 seconds
+2024-08-11 01:02:29,939 - INFO - Optimal lambda1: 22.869193252058544, lambda2: 0.11706282633519317
+2024-08-11 01:02:46,378 - INFO - Analyzing Dataset 7
+2024-08-11 01:02:46,378 - INFO - Computing tilde_S for dataframe with shape: (496, 7)
+2024-08-11 01:02:46,379 - INFO - Starting regularization parameter optimization
+2024-08-11 01:03:02,731 - INFO - Parameter evaluation completed in 16.35 seconds
+2024-08-11 01:03:02,732 - INFO - Optimal lambda1: 22.271057451320086, lambda2: 0.12020679323123101
+2024-08-11 01:03:18,207 - INFO - Analyzing Dataset 4
+2024-08-11 01:03:18,207 - INFO - Computing tilde_S for dataframe with shape: (514, 7)
+2024-08-11 01:03:18,208 - INFO - Starting regularization parameter optimization
+2024-08-11 01:03:33,808 - INFO - Parameter evaluation completed in 15.60 seconds
+2024-08-11 01:03:33,808 - INFO - Optimal lambda1: 22.67156809750927, lambda2: 0.11808324799491104
+2024-08-11 01:03:49,953 - INFO - Analyzing Dataset 3
+2024-08-11 01:03:49,953 - INFO - Computing tilde_S for dataframe with shape: (517, 7)
+2024-08-11 01:03:49,954 - INFO - Starting regularization parameter optimization
+2024-08-11 01:04:07,248 - INFO - Parameter evaluation completed in 17.29 seconds
+2024-08-11 01:04:07,249 - INFO - Optimal lambda1: 22.737634001804146, lambda2: 0.11774014824406445
+2024-08-11 01:04:23,579 - INFO - Analyzing Dataset 2
+2024-08-11 01:04:23,580 - INFO - Computing tilde_S for dataframe with shape: (494, 7)
+2024-08-11 01:04:23,580 - INFO - Starting regularization parameter optimization
+2024-08-11 01:04:38,747 - INFO - Parameter evaluation completed in 15.17 seconds
+2024-08-11 01:04:38,748 - INFO - Optimal lambda1: 22.22611077089287, lambda2: 0.12044988102901256
+2024-08-11 01:04:54,075 - INFO - Analyzing Dataset 5
+2024-08-11 01:04:54,075 - INFO - Computing tilde_S for dataframe with shape: (510, 7)
+2024-08-11 01:04:54,076 - INFO - Starting regularization parameter optimization
+2024-08-11 01:05:09,556 - INFO - Parameter evaluation completed in 15.48 seconds
+2024-08-11 01:05:09,556 - INFO - Optimal lambda1: 22.58317958127243, lambda2: 0.11854541511558311
+2024-08-11 01:05:25,478 - INFO - Estimating changepoints
+2024-08-11 01:05:25,480 - INFO - Estimated 1 changepoints
+2024-08-11 01:05:25,827 - INFO - Changepoint estimation plot saved as 'simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/plots/changepoint_estimation_sim5_perm1.png'
+2024-08-11 01:05:25,838 - INFO - Results updated in CSV: simulation_study_101/number_changepoints_1/number_nodes_7/number_samples_1000/results/simulation_results.csv
+2024-08-11 01:05:25,838 - INFO - All simulations completed
+2024-08-11 01:05:25,839 - INFO - Memory usage: 235.30 MB
+2024-08-11 01:05:25,845 - INFO - Total execution time: 11661.54 seconds

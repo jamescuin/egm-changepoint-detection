@@ -1,0 +1,1038 @@
+2024-08-15 15:45:00,554 - WARNING - The results.csv file: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv already exists. Renaming the existing file.
+2024-08-15 15:45:00,555 - INFO - Starting simulation in directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250
+2024-08-15 15:45:00,555 - INFO - Loading data from directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/csv_files
+2024-08-15 15:45:00,654 - INFO - Loaded 50 simulations and 50 changepoints
+2024-08-15 15:45:00,654 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=5.0, total_original_samples=250)
+2024-08-15 15:45:00,662 - INFO - Running Simulation 23, Permutation 1
+2024-08-15 15:45:00,662 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:00,662 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:45:00,664 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:01,129 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:01,129 - INFO - Computing tilde_S for dataframe with shape: (168, 5)
+2024-08-15 15:45:01,130 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:01,589 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:01,589 - INFO - Computing tilde_S for dataframe with shape: (166, 5)
+2024-08-15 15:45:01,589 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:02,069 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:02,069 - INFO - Computing tilde_S for dataframe with shape: (175, 5)
+2024-08-15 15:45:02,069 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:02,555 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:02,555 - INFO - Computing tilde_S for dataframe with shape: (159, 5)
+2024-08-15 15:45:02,555 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:02,993 - INFO - Estimating changepoints
+2024-08-15 15:45:02,995 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:03,197 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim23_perm1.png'
+2024-08-15 15:45:03,198 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:03,199 - INFO - Running Simulation 12, Permutation 1
+2024-08-15 15:45:03,199 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:03,199 - INFO - Computing tilde_S for dataframe with shape: (139, 5)
+2024-08-15 15:45:03,199 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:03,623 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:03,623 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:45:03,623 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:03,976 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:03,976 - INFO - Computing tilde_S for dataframe with shape: (134, 5)
+2024-08-15 15:45:03,976 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:04,341 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:04,342 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:45:04,342 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:04,750 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:04,750 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:04,750 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:05,135 - INFO - Estimating changepoints
+2024-08-15 15:45:05,136 - INFO - Estimated 4 changepoints
+2024-08-15 15:45:05,234 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim12_perm1.png'
+2024-08-15 15:45:05,234 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:05,235 - INFO - Running Simulation 20, Permutation 1
+2024-08-15 15:45:05,235 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:05,235 - INFO - Computing tilde_S for dataframe with shape: (100, 5)
+2024-08-15 15:45:05,235 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:05,524 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:05,525 - INFO - Computing tilde_S for dataframe with shape: (110, 5)
+2024-08-15 15:45:05,525 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:05,809 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:05,809 - INFO - Computing tilde_S for dataframe with shape: (116, 5)
+2024-08-15 15:45:05,809 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:06,132 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:06,132 - INFO - Computing tilde_S for dataframe with shape: (118, 5)
+2024-08-15 15:45:06,132 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:06,467 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:06,467 - INFO - Computing tilde_S for dataframe with shape: (117, 5)
+2024-08-15 15:45:06,467 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:06,928 - INFO - Estimating changepoints
+2024-08-15 15:45:06,928 - INFO - Estimated 7 changepoints
+2024-08-15 15:45:07,048 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim20_perm1.png'
+2024-08-15 15:45:07,048 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:07,048 - INFO - Running Simulation 27, Permutation 1
+2024-08-15 15:45:07,049 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:07,049 - INFO - Computing tilde_S for dataframe with shape: (168, 5)
+2024-08-15 15:45:07,049 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:07,525 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:07,525 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:45:07,525 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:07,946 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:07,946 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:07,947 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:08,397 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:08,397 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:08,397 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:08,836 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:08,836 - INFO - Computing tilde_S for dataframe with shape: (158, 5)
+2024-08-15 15:45:08,837 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:09,273 - INFO - Estimating changepoints
+2024-08-15 15:45:09,273 - INFO - Estimated 3 changepoints
+2024-08-15 15:45:09,373 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim27_perm1.png'
+2024-08-15 15:45:09,373 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:09,374 - INFO - Running Simulation 29, Permutation 1
+2024-08-15 15:45:09,374 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:09,374 - INFO - Computing tilde_S for dataframe with shape: (172, 5)
+2024-08-15 15:45:09,374 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:09,875 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:09,876 - INFO - Computing tilde_S for dataframe with shape: (154, 5)
+2024-08-15 15:45:09,876 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:10,302 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:10,302 - INFO - Computing tilde_S for dataframe with shape: (172, 5)
+2024-08-15 15:45:10,303 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:10,789 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:10,789 - INFO - Computing tilde_S for dataframe with shape: (160, 5)
+2024-08-15 15:45:10,789 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:11,254 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:11,254 - INFO - Computing tilde_S for dataframe with shape: (159, 5)
+2024-08-15 15:45:11,254 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:11,715 - INFO - Estimating changepoints
+2024-08-15 15:45:11,715 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:11,808 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim29_perm1.png'
+2024-08-15 15:45:11,808 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:11,809 - INFO - Running Simulation 18, Permutation 1
+2024-08-15 15:45:11,809 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:11,809 - INFO - Computing tilde_S for dataframe with shape: (125, 5)
+2024-08-15 15:45:11,809 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:12,163 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:12,163 - INFO - Computing tilde_S for dataframe with shape: (121, 5)
+2024-08-15 15:45:12,163 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:12,499 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:12,499 - INFO - Computing tilde_S for dataframe with shape: (138, 5)
+2024-08-15 15:45:12,499 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:12,849 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:12,849 - INFO - Computing tilde_S for dataframe with shape: (127, 5)
+2024-08-15 15:45:12,850 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:13,211 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:13,211 - INFO - Computing tilde_S for dataframe with shape: (138, 5)
+2024-08-15 15:45:13,211 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:13,598 - INFO - Estimating changepoints
+2024-08-15 15:45:13,598 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:13,692 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim18_perm1.png'
+2024-08-15 15:45:13,693 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:13,693 - INFO - Running Simulation 16, Permutation 1
+2024-08-15 15:45:13,693 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:13,693 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:13,694 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:14,121 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:14,122 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:14,122 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:14,546 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:14,546 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:14,546 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:14,914 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:14,914 - INFO - Computing tilde_S for dataframe with shape: (150, 5)
+2024-08-15 15:45:14,914 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:15,312 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:15,312 - INFO - Computing tilde_S for dataframe with shape: (153, 5)
+2024-08-15 15:45:15,312 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:15,720 - INFO - Estimating changepoints
+2024-08-15 15:45:15,720 - INFO - Estimated 2 changepoints
+2024-08-15 15:45:15,815 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim16_perm1.png'
+2024-08-15 15:45:15,815 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:15,816 - INFO - Running Simulation 11, Permutation 1
+2024-08-15 15:45:15,816 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:15,816 - INFO - Computing tilde_S for dataframe with shape: (166, 5)
+2024-08-15 15:45:15,816 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:16,263 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:16,263 - INFO - Computing tilde_S for dataframe with shape: (163, 5)
+2024-08-15 15:45:16,263 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:16,684 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:16,684 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:16,684 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:17,108 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:17,108 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:45:17,108 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:17,522 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:17,523 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:45:17,523 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:17,938 - INFO - Estimating changepoints
+2024-08-15 15:45:17,938 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:18,028 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim11_perm1.png'
+2024-08-15 15:45:18,028 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:18,029 - INFO - Running Simulation 24, Permutation 1
+2024-08-15 15:45:18,029 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:18,029 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:45:18,029 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:18,386 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:18,386 - INFO - Computing tilde_S for dataframe with shape: (128, 5)
+2024-08-15 15:45:18,386 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:18,689 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:18,689 - INFO - Computing tilde_S for dataframe with shape: (130, 5)
+2024-08-15 15:45:18,689 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:19,031 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:19,031 - INFO - Computing tilde_S for dataframe with shape: (136, 5)
+2024-08-15 15:45:19,031 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:19,397 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:19,397 - INFO - Computing tilde_S for dataframe with shape: (123, 5)
+2024-08-15 15:45:19,397 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:19,723 - INFO - Estimating changepoints
+2024-08-15 15:45:19,723 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:19,814 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim24_perm1.png'
+2024-08-15 15:45:19,815 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:19,815 - INFO - Running Simulation 15, Permutation 1
+2024-08-15 15:45:19,815 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:19,815 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:19,816 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:20,176 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:20,176 - INFO - Computing tilde_S for dataframe with shape: (149, 5)
+2024-08-15 15:45:20,177 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:20,564 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:20,564 - INFO - Computing tilde_S for dataframe with shape: (150, 5)
+2024-08-15 15:45:20,565 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:20,959 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:20,959 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:20,959 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:21,360 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:21,360 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:21,360 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:21,773 - INFO - Estimating changepoints
+2024-08-15 15:45:21,773 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:21,870 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim15_perm1.png'
+2024-08-15 15:45:21,871 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:21,871 - INFO - Running Simulation 50, Permutation 1
+2024-08-15 15:45:21,871 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:21,871 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:21,871 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:22,283 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:22,283 - INFO - Computing tilde_S for dataframe with shape: (158, 5)
+2024-08-15 15:45:22,283 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:22,661 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:22,661 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:22,661 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:23,038 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:23,038 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:23,038 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:23,425 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:23,425 - INFO - Computing tilde_S for dataframe with shape: (160, 5)
+2024-08-15 15:45:23,426 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:23,859 - INFO - Estimating changepoints
+2024-08-15 15:45:23,859 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:23,950 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim50_perm1.png'
+2024-08-15 15:45:23,950 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:23,951 - INFO - Running Simulation 25, Permutation 1
+2024-08-15 15:45:23,951 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:23,951 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:23,951 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:24,375 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:24,375 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:24,375 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:24,736 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:24,736 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:45:24,737 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:25,164 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:25,164 - INFO - Computing tilde_S for dataframe with shape: (142, 5)
+2024-08-15 15:45:25,165 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:25,542 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:25,542 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:45:25,542 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:25,909 - INFO - Estimating changepoints
+2024-08-15 15:45:25,909 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:26,003 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim25_perm1.png'
+2024-08-15 15:45:26,003 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:26,004 - INFO - Running Simulation 14, Permutation 1
+2024-08-15 15:45:26,004 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:26,004 - INFO - Computing tilde_S for dataframe with shape: (159, 5)
+2024-08-15 15:45:26,004 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:26,428 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:26,428 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:45:26,428 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:26,803 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:26,803 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:26,803 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:27,220 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:27,220 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:27,220 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:27,634 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:27,634 - INFO - Computing tilde_S for dataframe with shape: (164, 5)
+2024-08-15 15:45:27,634 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:28,064 - INFO - Estimating changepoints
+2024-08-15 15:45:28,065 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:28,160 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim14_perm1.png'
+2024-08-15 15:45:28,160 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:28,161 - INFO - Running Simulation 13, Permutation 1
+2024-08-15 15:45:28,161 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:28,161 - INFO - Computing tilde_S for dataframe with shape: (163, 5)
+2024-08-15 15:45:28,161 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:28,593 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:28,593 - INFO - Computing tilde_S for dataframe with shape: (144, 5)
+2024-08-15 15:45:28,594 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:28,932 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:28,932 - INFO - Computing tilde_S for dataframe with shape: (168, 5)
+2024-08-15 15:45:28,932 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:29,369 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:29,369 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:29,369 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:29,765 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:29,765 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:45:29,765 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:30,135 - INFO - Estimating changepoints
+2024-08-15 15:45:30,136 - INFO - Estimated 6 changepoints
+2024-08-15 15:45:30,234 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim13_perm1.png'
+2024-08-15 15:45:30,235 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:30,235 - INFO - Running Simulation 21, Permutation 1
+2024-08-15 15:45:30,235 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:30,236 - INFO - Computing tilde_S for dataframe with shape: (154, 5)
+2024-08-15 15:45:30,236 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:30,658 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:30,658 - INFO - Computing tilde_S for dataframe with shape: (148, 5)
+2024-08-15 15:45:30,658 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:31,016 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:31,016 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:45:31,016 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:31,390 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:31,390 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:45:31,391 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:31,763 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:31,763 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:45:31,764 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:32,144 - INFO - Estimating changepoints
+2024-08-15 15:45:32,144 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:32,236 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim21_perm1.png'
+2024-08-15 15:45:32,236 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:32,237 - INFO - Running Simulation 19, Permutation 1
+2024-08-15 15:45:32,237 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:32,237 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:32,237 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:32,655 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:32,656 - INFO - Computing tilde_S for dataframe with shape: (144, 5)
+2024-08-15 15:45:32,656 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:33,042 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:33,042 - INFO - Computing tilde_S for dataframe with shape: (150, 5)
+2024-08-15 15:45:33,042 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:33,444 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:33,445 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:33,445 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:33,840 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:33,840 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:33,841 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:34,211 - INFO - Estimating changepoints
+2024-08-15 15:45:34,211 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:34,303 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim19_perm1.png'
+2024-08-15 15:45:34,303 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:34,304 - INFO - Running Simulation 10, Permutation 1
+2024-08-15 15:45:34,304 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:34,304 - INFO - Computing tilde_S for dataframe with shape: (158, 5)
+2024-08-15 15:45:34,304 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:34,724 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:34,724 - INFO - Computing tilde_S for dataframe with shape: (142, 5)
+2024-08-15 15:45:34,724 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:35,098 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:35,098 - INFO - Computing tilde_S for dataframe with shape: (147, 5)
+2024-08-15 15:45:35,098 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:35,484 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:35,484 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:35,484 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:35,855 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:35,855 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:45:35,855 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:36,231 - INFO - Estimating changepoints
+2024-08-15 15:45:36,231 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:36,321 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim10_perm1.png'
+2024-08-15 15:45:36,322 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:36,322 - INFO - Running Simulation 28, Permutation 1
+2024-08-15 15:45:36,322 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:36,322 - INFO - Computing tilde_S for dataframe with shape: (129, 5)
+2024-08-15 15:45:36,322 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:36,679 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:36,679 - INFO - Computing tilde_S for dataframe with shape: (126, 5)
+2024-08-15 15:45:36,679 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:36,981 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:36,981 - INFO - Computing tilde_S for dataframe with shape: (117, 5)
+2024-08-15 15:45:36,982 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:37,294 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:37,294 - INFO - Computing tilde_S for dataframe with shape: (135, 5)
+2024-08-15 15:45:37,294 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:37,616 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:37,616 - INFO - Computing tilde_S for dataframe with shape: (112, 5)
+2024-08-15 15:45:37,616 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:37,918 - INFO - Estimating changepoints
+2024-08-15 15:45:37,918 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:38,012 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim28_perm1.png'
+2024-08-15 15:45:38,013 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:38,013 - INFO - Running Simulation 22, Permutation 1
+2024-08-15 15:45:38,014 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:38,014 - INFO - Computing tilde_S for dataframe with shape: (126, 5)
+2024-08-15 15:45:38,014 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:38,323 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:38,323 - INFO - Computing tilde_S for dataframe with shape: (134, 5)
+2024-08-15 15:45:38,324 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:38,683 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:38,684 - INFO - Computing tilde_S for dataframe with shape: (112, 5)
+2024-08-15 15:45:38,684 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:38,979 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:38,979 - INFO - Computing tilde_S for dataframe with shape: (117, 5)
+2024-08-15 15:45:38,979 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:39,299 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:39,299 - INFO - Computing tilde_S for dataframe with shape: (106, 5)
+2024-08-15 15:45:39,299 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:39,587 - INFO - Estimating changepoints
+2024-08-15 15:45:39,587 - INFO - Estimated 2 changepoints
+2024-08-15 15:45:39,679 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim22_perm1.png'
+2024-08-15 15:45:39,679 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:39,680 - INFO - Running Simulation 26, Permutation 1
+2024-08-15 15:45:39,680 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:39,680 - INFO - Computing tilde_S for dataframe with shape: (150, 5)
+2024-08-15 15:45:39,680 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:40,050 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:40,050 - INFO - Computing tilde_S for dataframe with shape: (142, 5)
+2024-08-15 15:45:40,050 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:40,429 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:40,429 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:40,429 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:40,767 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:40,767 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:40,767 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:41,181 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:41,181 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:45:41,181 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:41,545 - INFO - Estimating changepoints
+2024-08-15 15:45:41,545 - INFO - Estimated 5 changepoints
+2024-08-15 15:45:41,640 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim26_perm1.png'
+2024-08-15 15:45:41,640 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:41,641 - INFO - Running Simulation 17, Permutation 1
+2024-08-15 15:45:41,641 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:41,641 - INFO - Computing tilde_S for dataframe with shape: (171, 5)
+2024-08-15 15:45:41,641 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:42,097 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:42,098 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:45:42,099 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:42,471 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:42,471 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:42,471 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:42,880 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:42,880 - INFO - Computing tilde_S for dataframe with shape: (154, 5)
+2024-08-15 15:45:42,880 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:43,294 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:43,294 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:45:43,294 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:43,672 - INFO - Estimating changepoints
+2024-08-15 15:45:43,672 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:43,771 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim17_perm1.png'
+2024-08-15 15:45:43,771 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:43,772 - INFO - Running Simulation 34, Permutation 1
+2024-08-15 15:45:43,772 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:43,772 - INFO - Computing tilde_S for dataframe with shape: (185, 5)
+2024-08-15 15:45:43,772 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:44,280 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:44,280 - INFO - Computing tilde_S for dataframe with shape: (182, 5)
+2024-08-15 15:45:44,280 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:44,763 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:44,763 - INFO - Computing tilde_S for dataframe with shape: (191, 5)
+2024-08-15 15:45:44,763 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:45,264 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:45,264 - INFO - Computing tilde_S for dataframe with shape: (184, 5)
+2024-08-15 15:45:45,264 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:45,746 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:45,746 - INFO - Computing tilde_S for dataframe with shape: (187, 5)
+2024-08-15 15:45:45,746 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:46,248 - INFO - Estimating changepoints
+2024-08-15 15:45:46,248 - INFO - Estimated 3 changepoints
+2024-08-15 15:45:46,341 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim34_perm1.png'
+2024-08-15 15:45:46,342 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:46,342 - INFO - Running Simulation 5, Permutation 1
+2024-08-15 15:45:46,342 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:46,342 - INFO - Computing tilde_S for dataframe with shape: (132, 5)
+2024-08-15 15:45:46,343 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:46,681 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:46,681 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:46,681 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:47,060 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:47,061 - INFO - Computing tilde_S for dataframe with shape: (139, 5)
+2024-08-15 15:45:47,061 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:47,389 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:47,389 - INFO - Computing tilde_S for dataframe with shape: (145, 5)
+2024-08-15 15:45:47,389 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:47,789 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:47,789 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:45:47,789 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:48,205 - INFO - Estimating changepoints
+2024-08-15 15:45:48,205 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:48,301 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim5_perm1.png'
+2024-08-15 15:45:48,301 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:48,302 - INFO - Running Simulation 2, Permutation 1
+2024-08-15 15:45:48,302 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:48,302 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:45:48,302 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:48,635 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:48,635 - INFO - Computing tilde_S for dataframe with shape: (130, 5)
+2024-08-15 15:45:48,635 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:48,994 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:48,994 - INFO - Computing tilde_S for dataframe with shape: (142, 5)
+2024-08-15 15:45:48,994 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:49,370 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:49,370 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:45:49,371 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:49,718 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:49,718 - INFO - Computing tilde_S for dataframe with shape: (134, 5)
+2024-08-15 15:45:49,718 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:50,074 - INFO - Estimating changepoints
+2024-08-15 15:45:50,075 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:50,166 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim2_perm1.png'
+2024-08-15 15:45:50,167 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:50,167 - INFO - Running Simulation 41, Permutation 1
+2024-08-15 15:45:50,167 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:50,167 - INFO - Computing tilde_S for dataframe with shape: (139, 5)
+2024-08-15 15:45:50,167 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:50,583 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:50,583 - INFO - Computing tilde_S for dataframe with shape: (129, 5)
+2024-08-15 15:45:50,583 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:50,902 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:50,902 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:45:50,903 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:51,257 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:51,257 - INFO - Computing tilde_S for dataframe with shape: (139, 5)
+2024-08-15 15:45:51,257 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:51,584 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:51,584 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:45:51,584 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:51,943 - INFO - Estimating changepoints
+2024-08-15 15:45:51,943 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:52,038 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim41_perm1.png'
+2024-08-15 15:45:52,039 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:52,039 - INFO - Running Simulation 45, Permutation 1
+2024-08-15 15:45:52,039 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:52,039 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:52,039 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:52,373 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:52,373 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:45:52,373 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:52,773 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:52,773 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:52,773 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:53,254 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:53,254 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:45:53,255 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:53,630 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:53,630 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:53,630 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:54,003 - INFO - Estimating changepoints
+2024-08-15 15:45:54,003 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:54,094 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim45_perm1.png'
+2024-08-15 15:45:54,095 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:54,095 - INFO - Running Simulation 30, Permutation 1
+2024-08-15 15:45:54,095 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:54,095 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:54,096 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:54,522 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:54,522 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:45:54,523 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:54,881 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:54,881 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:54,881 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:55,303 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:55,303 - INFO - Computing tilde_S for dataframe with shape: (163, 5)
+2024-08-15 15:45:55,304 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:55,729 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:55,729 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:45:55,729 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:56,110 - INFO - Estimating changepoints
+2024-08-15 15:45:56,110 - INFO - Estimated 1 changepoints
+2024-08-15 15:45:56,203 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim30_perm1.png'
+2024-08-15 15:45:56,203 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:56,203 - INFO - Running Simulation 8, Permutation 1
+2024-08-15 15:45:56,203 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:56,203 - INFO - Computing tilde_S for dataframe with shape: (163, 5)
+2024-08-15 15:45:56,204 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:56,676 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:56,676 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:45:56,676 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:57,081 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:57,081 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:45:57,081 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:57,451 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:57,451 - INFO - Computing tilde_S for dataframe with shape: (171, 5)
+2024-08-15 15:45:57,451 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:57,901 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:57,901 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:45:57,901 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:58,329 - INFO - Estimating changepoints
+2024-08-15 15:45:58,329 - INFO - Estimated 5 changepoints
+2024-08-15 15:45:58,421 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim8_perm1.png'
+2024-08-15 15:45:58,421 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:45:58,422 - INFO - Running Simulation 6, Permutation 1
+2024-08-15 15:45:58,422 - INFO - Analyzing Dataset 4
+2024-08-15 15:45:58,422 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:45:58,422 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:58,774 - INFO - Analyzing Dataset 5
+2024-08-15 15:45:58,774 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:45:58,774 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:59,174 - INFO - Analyzing Dataset 2
+2024-08-15 15:45:59,174 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:45:59,175 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:59,572 - INFO - Analyzing Dataset 3
+2024-08-15 15:45:59,572 - INFO - Computing tilde_S for dataframe with shape: (148, 5)
+2024-08-15 15:45:59,572 - INFO - Starting regularization parameter optimization
+2024-08-15 15:45:59,956 - INFO - Analyzing Dataset 1
+2024-08-15 15:45:59,956 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:45:59,956 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:00,419 - INFO - Estimating changepoints
+2024-08-15 15:46:00,420 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:00,516 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim6_perm1.png'
+2024-08-15 15:46:00,516 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:00,517 - INFO - Running Simulation 39, Permutation 1
+2024-08-15 15:46:00,517 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:00,517 - INFO - Computing tilde_S for dataframe with shape: (123, 5)
+2024-08-15 15:46:00,517 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:00,824 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:00,824 - INFO - Computing tilde_S for dataframe with shape: (141, 5)
+2024-08-15 15:46:00,824 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:01,217 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:01,217 - INFO - Computing tilde_S for dataframe with shape: (132, 5)
+2024-08-15 15:46:01,217 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:01,578 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:01,578 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:46:01,578 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:01,965 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:01,965 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:46:01,965 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:02,366 - INFO - Estimating changepoints
+2024-08-15 15:46:02,366 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:02,477 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim39_perm1.png'
+2024-08-15 15:46:02,477 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:02,478 - INFO - Running Simulation 46, Permutation 1
+2024-08-15 15:46:02,478 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:02,478 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:46:02,479 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:02,822 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:02,823 - INFO - Computing tilde_S for dataframe with shape: (125, 5)
+2024-08-15 15:46:02,823 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:03,212 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:03,212 - INFO - Computing tilde_S for dataframe with shape: (112, 5)
+2024-08-15 15:46:03,212 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:03,492 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:03,492 - INFO - Computing tilde_S for dataframe with shape: (110, 5)
+2024-08-15 15:46:03,493 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:03,844 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:03,844 - INFO - Computing tilde_S for dataframe with shape: (117, 5)
+2024-08-15 15:46:03,845 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:04,226 - INFO - Estimating changepoints
+2024-08-15 15:46:04,226 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:04,335 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim46_perm1.png'
+2024-08-15 15:46:04,335 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:04,336 - INFO - Running Simulation 33, Permutation 1
+2024-08-15 15:46:04,336 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:04,336 - INFO - Computing tilde_S for dataframe with shape: (169, 5)
+2024-08-15 15:46:04,336 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:04,865 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:04,865 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:46:04,866 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:05,262 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:05,263 - INFO - Computing tilde_S for dataframe with shape: (168, 5)
+2024-08-15 15:46:05,263 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:05,754 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:05,754 - INFO - Computing tilde_S for dataframe with shape: (159, 5)
+2024-08-15 15:46:05,754 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:06,186 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:06,186 - INFO - Computing tilde_S for dataframe with shape: (157, 5)
+2024-08-15 15:46:06,186 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:06,565 - INFO - Estimating changepoints
+2024-08-15 15:46:06,566 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:06,660 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim33_perm1.png'
+2024-08-15 15:46:06,660 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:06,661 - INFO - Running Simulation 48, Permutation 1
+2024-08-15 15:46:06,661 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:06,661 - INFO - Computing tilde_S for dataframe with shape: (128, 5)
+2024-08-15 15:46:06,661 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:07,018 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:07,018 - INFO - Computing tilde_S for dataframe with shape: (141, 5)
+2024-08-15 15:46:07,018 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:07,359 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:07,359 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:46:07,359 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:07,743 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:07,743 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:46:07,744 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:08,098 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:08,098 - INFO - Computing tilde_S for dataframe with shape: (139, 5)
+2024-08-15 15:46:08,098 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:08,472 - INFO - Estimating changepoints
+2024-08-15 15:46:08,472 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:08,570 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim48_perm1.png'
+2024-08-15 15:46:08,571 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:08,571 - INFO - Running Simulation 42, Permutation 1
+2024-08-15 15:46:08,571 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:08,571 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:46:08,571 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:09,009 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:09,009 - INFO - Computing tilde_S for dataframe with shape: (146, 5)
+2024-08-15 15:46:09,010 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:09,365 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:09,365 - INFO - Computing tilde_S for dataframe with shape: (138, 5)
+2024-08-15 15:46:09,365 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:09,749 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:09,750 - INFO - Computing tilde_S for dataframe with shape: (144, 5)
+2024-08-15 15:46:09,750 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:10,091 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:10,091 - INFO - Computing tilde_S for dataframe with shape: (144, 5)
+2024-08-15 15:46:10,092 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:10,493 - INFO - Estimating changepoints
+2024-08-15 15:46:10,493 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:10,595 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim42_perm1.png'
+2024-08-15 15:46:10,596 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:10,596 - INFO - Running Simulation 37, Permutation 1
+2024-08-15 15:46:10,596 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:10,596 - INFO - Computing tilde_S for dataframe with shape: (132, 5)
+2024-08-15 15:46:10,597 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:10,959 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:10,959 - INFO - Computing tilde_S for dataframe with shape: (119, 5)
+2024-08-15 15:46:10,959 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:11,337 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:11,337 - INFO - Computing tilde_S for dataframe with shape: (104, 5)
+2024-08-15 15:46:11,338 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:11,593 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:11,593 - INFO - Computing tilde_S for dataframe with shape: (120, 5)
+2024-08-15 15:46:11,593 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:11,930 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:11,930 - INFO - Computing tilde_S for dataframe with shape: (113, 5)
+2024-08-15 15:46:11,930 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:12,199 - INFO - Estimating changepoints
+2024-08-15 15:46:12,199 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:12,295 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim37_perm1.png'
+2024-08-15 15:46:12,296 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:12,296 - INFO - Running Simulation 1, Permutation 1
+2024-08-15 15:46:12,296 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:12,296 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:46:12,297 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:12,624 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:12,624 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:46:12,624 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:12,992 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:12,992 - INFO - Computing tilde_S for dataframe with shape: (126, 5)
+2024-08-15 15:46:12,992 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:13,295 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:13,295 - INFO - Computing tilde_S for dataframe with shape: (132, 5)
+2024-08-15 15:46:13,295 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:13,664 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:13,664 - INFO - Computing tilde_S for dataframe with shape: (133, 5)
+2024-08-15 15:46:13,665 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:13,978 - INFO - Estimating changepoints
+2024-08-15 15:46:13,978 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:14,078 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-15 15:46:14,079 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:14,079 - INFO - Running Simulation 47, Permutation 1
+2024-08-15 15:46:14,079 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:14,079 - INFO - Computing tilde_S for dataframe with shape: (172, 5)
+2024-08-15 15:46:14,079 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:14,580 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:14,580 - INFO - Computing tilde_S for dataframe with shape: (175, 5)
+2024-08-15 15:46:14,581 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:15,063 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:15,063 - INFO - Computing tilde_S for dataframe with shape: (170, 5)
+2024-08-15 15:46:15,063 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:15,460 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:15,461 - INFO - Computing tilde_S for dataframe with shape: (173, 5)
+2024-08-15 15:46:15,461 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:15,921 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:15,921 - INFO - Computing tilde_S for dataframe with shape: (182, 5)
+2024-08-15 15:46:15,921 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:16,402 - INFO - Estimating changepoints
+2024-08-15 15:46:16,403 - INFO - Estimated 4 changepoints
+2024-08-15 15:46:16,496 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim47_perm1.png'
+2024-08-15 15:46:16,496 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:16,497 - INFO - Running Simulation 49, Permutation 1
+2024-08-15 15:46:16,497 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:16,497 - INFO - Computing tilde_S for dataframe with shape: (100, 5)
+2024-08-15 15:46:16,497 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:16,791 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:16,792 - INFO - Computing tilde_S for dataframe with shape: (98, 5)
+2024-08-15 15:46:16,792 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:17,048 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:17,048 - INFO - Computing tilde_S for dataframe with shape: (107, 5)
+2024-08-15 15:46:17,049 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:17,360 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:17,361 - INFO - Computing tilde_S for dataframe with shape: (97, 5)
+2024-08-15 15:46:17,361 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:17,596 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:17,596 - INFO - Computing tilde_S for dataframe with shape: (115, 5)
+2024-08-15 15:46:17,596 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:17,868 - INFO - Estimating changepoints
+2024-08-15 15:46:17,868 - INFO - Estimated 6 changepoints
+2024-08-15 15:46:17,965 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim49_perm1.png'
+2024-08-15 15:46:17,965 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:17,965 - INFO - Running Simulation 32, Permutation 1
+2024-08-15 15:46:17,966 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:17,966 - INFO - Computing tilde_S for dataframe with shape: (138, 5)
+2024-08-15 15:46:17,966 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:18,369 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:18,369 - INFO - Computing tilde_S for dataframe with shape: (128, 5)
+2024-08-15 15:46:18,370 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:18,673 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:18,673 - INFO - Computing tilde_S for dataframe with shape: (125, 5)
+2024-08-15 15:46:18,673 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:19,020 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:19,020 - INFO - Computing tilde_S for dataframe with shape: (123, 5)
+2024-08-15 15:46:19,020 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:19,312 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:19,313 - INFO - Computing tilde_S for dataframe with shape: (121, 5)
+2024-08-15 15:46:19,313 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:19,648 - INFO - Estimating changepoints
+2024-08-15 15:46:19,648 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:19,739 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim32_perm1.png'
+2024-08-15 15:46:19,739 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:19,740 - INFO - Running Simulation 4, Permutation 1
+2024-08-15 15:46:19,740 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:19,740 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:46:19,740 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:20,090 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:20,090 - INFO - Computing tilde_S for dataframe with shape: (141, 5)
+2024-08-15 15:46:20,090 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:20,474 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:20,474 - INFO - Computing tilde_S for dataframe with shape: (141, 5)
+2024-08-15 15:46:20,474 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:20,856 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:20,856 - INFO - Computing tilde_S for dataframe with shape: (148, 5)
+2024-08-15 15:46:20,856 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:21,206 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:21,206 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:46:21,206 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:21,607 - INFO - Estimating changepoints
+2024-08-15 15:46:21,607 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:21,706 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim4_perm1.png'
+2024-08-15 15:46:21,706 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:21,707 - INFO - Running Simulation 36, Permutation 1
+2024-08-15 15:46:21,707 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:21,707 - INFO - Computing tilde_S for dataframe with shape: (120, 5)
+2024-08-15 15:46:21,707 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:22,000 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:22,000 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:46:22,000 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:22,313 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:22,313 - INFO - Computing tilde_S for dataframe with shape: (122, 5)
+2024-08-15 15:46:22,313 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:22,653 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:22,653 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:46:22,653 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:22,961 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:22,962 - INFO - Computing tilde_S for dataframe with shape: (140, 5)
+2024-08-15 15:46:22,962 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:23,358 - INFO - Estimating changepoints
+2024-08-15 15:46:23,358 - INFO - Estimated 4 changepoints
+2024-08-15 15:46:23,453 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim36_perm1.png'
+2024-08-15 15:46:23,453 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:23,453 - INFO - Running Simulation 31, Permutation 1
+2024-08-15 15:46:23,453 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:23,453 - INFO - Computing tilde_S for dataframe with shape: (120, 5)
+2024-08-15 15:46:23,453 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:23,747 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:23,747 - INFO - Computing tilde_S for dataframe with shape: (124, 5)
+2024-08-15 15:46:23,747 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:24,089 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:24,089 - INFO - Computing tilde_S for dataframe with shape: (122, 5)
+2024-08-15 15:46:24,089 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:24,378 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:24,378 - INFO - Computing tilde_S for dataframe with shape: (131, 5)
+2024-08-15 15:46:24,378 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:24,742 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:24,742 - INFO - Computing tilde_S for dataframe with shape: (126, 5)
+2024-08-15 15:46:24,742 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:25,047 - INFO - Estimating changepoints
+2024-08-15 15:46:25,048 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:25,143 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim31_perm1.png'
+2024-08-15 15:46:25,143 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:25,143 - INFO - Running Simulation 38, Permutation 1
+2024-08-15 15:46:25,143 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:25,143 - INFO - Computing tilde_S for dataframe with shape: (121, 5)
+2024-08-15 15:46:25,144 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:25,438 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:25,438 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:46:25,438 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:25,812 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:25,812 - INFO - Computing tilde_S for dataframe with shape: (135, 5)
+2024-08-15 15:46:25,812 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:26,132 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:26,132 - INFO - Computing tilde_S for dataframe with shape: (123, 5)
+2024-08-15 15:46:26,132 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:26,473 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:26,473 - INFO - Computing tilde_S for dataframe with shape: (134, 5)
+2024-08-15 15:46:26,473 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:26,795 - INFO - Estimating changepoints
+2024-08-15 15:46:26,796 - INFO - Estimated 8 changepoints
+2024-08-15 15:46:26,895 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim38_perm1.png'
+2024-08-15 15:46:26,895 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:26,896 - INFO - Running Simulation 43, Permutation 1
+2024-08-15 15:46:26,896 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:26,896 - INFO - Computing tilde_S for dataframe with shape: (137, 5)
+2024-08-15 15:46:26,896 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:27,286 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:27,286 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:46:27,286 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:27,633 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:27,633 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:46:27,633 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:28,025 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:28,025 - INFO - Computing tilde_S for dataframe with shape: (150, 5)
+2024-08-15 15:46:28,025 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:28,383 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:28,383 - INFO - Computing tilde_S for dataframe with shape: (130, 5)
+2024-08-15 15:46:28,383 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:28,738 - INFO - Estimating changepoints
+2024-08-15 15:46:28,738 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:28,828 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim43_perm1.png'
+2024-08-15 15:46:28,828 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:28,829 - INFO - Running Simulation 44, Permutation 1
+2024-08-15 15:46:28,829 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:28,829 - INFO - Computing tilde_S for dataframe with shape: (143, 5)
+2024-08-15 15:46:28,829 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:29,183 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:29,183 - INFO - Computing tilde_S for dataframe with shape: (144, 5)
+2024-08-15 15:46:29,184 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:29,574 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:29,574 - INFO - Computing tilde_S for dataframe with shape: (142, 5)
+2024-08-15 15:46:29,574 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:29,911 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:29,911 - INFO - Computing tilde_S for dataframe with shape: (132, 5)
+2024-08-15 15:46:29,911 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:30,281 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:30,281 - INFO - Computing tilde_S for dataframe with shape: (145, 5)
+2024-08-15 15:46:30,281 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:30,626 - INFO - Estimating changepoints
+2024-08-15 15:46:30,626 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:30,722 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim44_perm1.png'
+2024-08-15 15:46:30,722 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:30,722 - INFO - Running Simulation 7, Permutation 1
+2024-08-15 15:46:30,722 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:30,722 - INFO - Computing tilde_S for dataframe with shape: (181, 5)
+2024-08-15 15:46:30,723 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:31,214 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:31,214 - INFO - Computing tilde_S for dataframe with shape: (182, 5)
+2024-08-15 15:46:31,214 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:31,643 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:31,643 - INFO - Computing tilde_S for dataframe with shape: (179, 5)
+2024-08-15 15:46:31,644 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:32,134 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:32,135 - INFO - Computing tilde_S for dataframe with shape: (175, 5)
+2024-08-15 15:46:32,136 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:32,630 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:32,630 - INFO - Computing tilde_S for dataframe with shape: (172, 5)
+2024-08-15 15:46:32,630 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:33,039 - INFO - Estimating changepoints
+2024-08-15 15:46:33,039 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:33,132 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim7_perm1.png'
+2024-08-15 15:46:33,132 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:33,132 - INFO - Running Simulation 40, Permutation 1
+2024-08-15 15:46:33,132 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:33,132 - INFO - Computing tilde_S for dataframe with shape: (156, 5)
+2024-08-15 15:46:33,133 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:33,569 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:33,570 - INFO - Computing tilde_S for dataframe with shape: (161, 5)
+2024-08-15 15:46:33,570 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:33,948 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:33,948 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:46:33,949 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:34,370 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:34,370 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:46:34,370 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:34,726 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:34,726 - INFO - Computing tilde_S for dataframe with shape: (163, 5)
+2024-08-15 15:46:34,727 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:35,166 - INFO - Estimating changepoints
+2024-08-15 15:46:35,166 - INFO - Estimated 2 changepoints
+2024-08-15 15:46:35,256 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim40_perm1.png'
+2024-08-15 15:46:35,256 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:35,257 - INFO - Running Simulation 35, Permutation 1
+2024-08-15 15:46:35,257 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:35,257 - INFO - Computing tilde_S for dataframe with shape: (162, 5)
+2024-08-15 15:46:35,257 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:35,650 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:35,650 - INFO - Computing tilde_S for dataframe with shape: (159, 5)
+2024-08-15 15:46:35,650 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:36,084 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:36,085 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:46:36,085 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:36,506 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:36,506 - INFO - Computing tilde_S for dataframe with shape: (151, 5)
+2024-08-15 15:46:36,506 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:36,859 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:36,859 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:46:36,859 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:37,280 - INFO - Estimating changepoints
+2024-08-15 15:46:37,281 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:37,372 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim35_perm1.png'
+2024-08-15 15:46:37,373 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:37,373 - INFO - Running Simulation 3, Permutation 1
+2024-08-15 15:46:37,373 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:37,373 - INFO - Computing tilde_S for dataframe with shape: (167, 5)
+2024-08-15 15:46:37,373 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:37,781 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:37,781 - INFO - Computing tilde_S for dataframe with shape: (177, 5)
+2024-08-15 15:46:37,781 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:38,310 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:38,311 - INFO - Computing tilde_S for dataframe with shape: (173, 5)
+2024-08-15 15:46:38,311 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:38,730 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:38,730 - INFO - Computing tilde_S for dataframe with shape: (169, 5)
+2024-08-15 15:46:38,730 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:39,184 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:39,184 - INFO - Computing tilde_S for dataframe with shape: (181, 5)
+2024-08-15 15:46:39,184 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:39,611 - INFO - Estimating changepoints
+2024-08-15 15:46:39,611 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:39,706 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim3_perm1.png'
+2024-08-15 15:46:39,707 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:39,707 - INFO - Running Simulation 9, Permutation 1
+2024-08-15 15:46:39,707 - INFO - Analyzing Dataset 5
+2024-08-15 15:46:39,707 - INFO - Computing tilde_S for dataframe with shape: (155, 5)
+2024-08-15 15:46:39,708 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:40,139 - INFO - Analyzing Dataset 4
+2024-08-15 15:46:40,139 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:46:40,139 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:40,497 - INFO - Analyzing Dataset 1
+2024-08-15 15:46:40,497 - INFO - Computing tilde_S for dataframe with shape: (149, 5)
+2024-08-15 15:46:40,498 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:40,909 - INFO - Analyzing Dataset 3
+2024-08-15 15:46:40,909 - INFO - Computing tilde_S for dataframe with shape: (160, 5)
+2024-08-15 15:46:40,909 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:41,341 - INFO - Analyzing Dataset 2
+2024-08-15 15:46:41,342 - INFO - Computing tilde_S for dataframe with shape: (152, 5)
+2024-08-15 15:46:41,342 - INFO - Starting regularization parameter optimization
+2024-08-15 15:46:41,702 - INFO - Estimating changepoints
+2024-08-15 15:46:41,702 - INFO - Estimated 1 changepoints
+2024-08-15 15:46:41,797 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/plots/changepoint_estimation_sim9_perm1.png'
+2024-08-15 15:46:41,797 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_101/number_changepoints_1/number_nodes_5/number_samples_250/results/simulation_results.csv
+2024-08-15 15:46:41,798 - INFO - All simulations completed
+2024-08-15 15:46:41,798 - INFO - Memory usage: 330.81 MB
+2024-08-15 15:46:41,799 - INFO - Total execution time: 101.25 seconds
+2024-08-15 20:25:04,367 - INFO - Starting simulation in directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_3/number_nodes_6/number_samples_500
+2024-08-15 20:25:04,368 - INFO - Loading data from directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_3/number_nodes_6/number_samples_500/csv_files
+2024-08-15 20:25:04,420 - INFO - Loaded 1 simulations and 1 changepoints
+2024-08-15 20:25:04,420 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=3.3333333333333335, total_original_samples=500)
+2024-08-15 20:25:04,423 - INFO - Running Simulation 1, Permutation 1
+2024-08-15 20:25:04,423 - INFO - Analyzing Dataset 1
+2024-08-15 20:25:04,423 - INFO - Computing tilde_S for dataframe with shape: (301, 6)
+2024-08-15 20:25:04,426 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:05,787 - INFO - Analyzing Dataset 3
+2024-08-15 20:25:05,787 - INFO - Computing tilde_S for dataframe with shape: (279, 6)
+2024-08-15 20:25:05,787 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:06,865 - INFO - Analyzing Dataset 2
+2024-08-15 20:25:06,865 - INFO - Computing tilde_S for dataframe with shape: (298, 6)
+2024-08-15 20:25:06,865 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:07,957 - INFO - Analyzing Dataset 6
+2024-08-15 20:25:07,958 - INFO - Computing tilde_S for dataframe with shape: (288, 6)
+2024-08-15 20:25:07,958 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:09,008 - INFO - Analyzing Dataset 5
+2024-08-15 20:25:09,009 - INFO - Computing tilde_S for dataframe with shape: (292, 6)
+2024-08-15 20:25:09,009 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:10,036 - INFO - Analyzing Dataset 4
+2024-08-15 20:25:10,036 - INFO - Computing tilde_S for dataframe with shape: (280, 6)
+2024-08-15 20:25:10,036 - INFO - Starting regularization parameter optimization
+2024-08-15 20:25:11,122 - INFO - Estimating changepoints
+2024-08-15 20:25:11,124 - INFO - Estimated 2 changepoints
+2024-08-15 20:25:11,229 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_3/number_nodes_6/number_samples_500/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-15 20:25:11,230 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_3/number_nodes_6/number_samples_500/results/simulation_results.csv
+2024-08-15 20:25:11,231 - INFO - All simulations completed
+2024-08-15 20:25:11,231 - INFO - Memory usage: 275.23 MB
+2024-08-15 20:25:11,231 - INFO - Total execution time: 6.86 seconds
