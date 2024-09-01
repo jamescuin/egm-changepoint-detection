@@ -1,0 +1,43 @@
+2024-08-29 12:44:15,608 - WARNING - The results.csv file: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_2/number_nodes_6/number_samples_500/results/simulation_results.csv already exists. Renaming the existing file.
+2024-08-29 12:44:15,610 - INFO - Starting simulation in directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_2/number_nodes_6/number_samples_500
+2024-08-29 12:44:15,610 - INFO - Loading data from directory: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_2/number_nodes_6/number_samples_500/csv_files
+2024-08-29 12:44:15,617 - INFO - Loaded 1 simulations and 1 changepoints
+2024-08-29 12:44:15,617 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=5.0, total_original_samples=500)
+2024-08-29 12:44:15,627 - INFO - Running Simulation 1, Permutation 1
+2024-08-29 12:44:15,627 - INFO - Analyzing Dataset 5
+2024-08-29 12:44:15,628 - INFO - Computing tilde_S for dataframe with shape: (216, 6)
+2024-08-29 12:44:15,629 - INFO - Starting regularization parameter optimization
+2024-08-29 12:45:09,973 - INFO - Parameter evaluation completed in 54.34 seconds
+2024-08-29 12:45:09,975 - INFO - Optimal lambda1: 27.325587199460266, lambda2: 0.14385395745238502
+2024-08-29 12:45:10,984 - INFO - Analyzing Dataset 4
+2024-08-29 12:45:10,984 - INFO - Computing tilde_S for dataframe with shape: (213, 6)
+2024-08-29 12:45:10,985 - INFO - Starting regularization parameter optimization
+2024-08-29 12:45:57,168 - INFO - Parameter evaluation completed in 46.18 seconds
+2024-08-29 12:45:57,169 - INFO - Optimal lambda1: 29.189039038652847, lambda2: 0.08692552293342444
+2024-08-29 12:45:58,084 - INFO - Analyzing Dataset 6
+2024-08-29 12:45:58,084 - INFO - Computing tilde_S for dataframe with shape: (228, 6)
+2024-08-29 12:45:58,084 - INFO - Starting regularization parameter optimization
+2024-08-29 12:46:48,828 - INFO - Parameter evaluation completed in 50.74 seconds
+2024-08-29 12:46:48,831 - INFO - Optimal lambda1: 26.098928838449396, lambda2: 0.10457594412565507
+2024-08-29 12:46:49,840 - INFO - Analyzing Dataset 3
+2024-08-29 12:46:49,840 - INFO - Computing tilde_S for dataframe with shape: (235, 6)
+2024-08-29 12:46:49,840 - INFO - Starting regularization parameter optimization
+2024-08-29 12:47:41,708 - INFO - Parameter evaluation completed in 51.87 seconds
+2024-08-29 12:47:41,709 - INFO - Optimal lambda1: 30.659419433511786, lambda2: 0.08275670346143979
+2024-08-29 12:47:42,672 - INFO - Analyzing Dataset 2
+2024-08-29 12:47:42,672 - INFO - Computing tilde_S for dataframe with shape: (215, 6)
+2024-08-29 12:47:42,673 - INFO - Starting regularization parameter optimization
+2024-08-29 12:48:28,620 - INFO - Parameter evaluation completed in 45.95 seconds
+2024-08-29 12:48:28,621 - INFO - Optimal lambda1: 25.343960888373967, lambda2: 0.3460810941326123
+2024-08-29 12:48:29,550 - INFO - Analyzing Dataset 1
+2024-08-29 12:48:29,550 - INFO - Computing tilde_S for dataframe with shape: (218, 6)
+2024-08-29 12:48:29,550 - INFO - Starting regularization parameter optimization
+2024-08-29 12:49:18,805 - INFO - Parameter evaluation completed in 49.25 seconds
+2024-08-29 12:49:18,805 - INFO - Optimal lambda1: 25.52016667816564, lambda2: 0.0859228882055743
+2024-08-29 12:49:19,688 - INFO - Estimating changepoints
+2024-08-29 12:49:19,690 - INFO - Estimated 2 changepoints
+2024-08-29 12:49:19,845 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_2/number_nodes_6/number_samples_500/plots/changepoint_estimation_sim1_perm1.png'
+2024-08-29 12:49:19,846 - INFO - Results updated in CSV: /Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/Simulation Studies/simulation_study_example/number_changepoints_2/number_nodes_6/number_samples_500/results/simulation_results.csv
+2024-08-29 12:49:19,848 - INFO - All simulations completed
+2024-08-29 12:49:19,848 - INFO - Memory usage: 208.62 MB
+2024-08-29 12:49:19,848 - INFO - Total execution time: 304.24 seconds
