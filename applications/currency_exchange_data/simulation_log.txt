@@ -1,12 +1,50 @@
-2024-08-30 16:30:58,973 - INFO - Substituting symbol T from STIXNonUnicode
-2024-08-30 16:30:59,001 - INFO - Substituting symbol T from STIXNonUnicode
-2024-08-30 16:30:59,080 - INFO - Plot created for DataFrame 5
-2024-08-30 16:30:59,080 - INFO - Starting simulation: 1
-2024-08-30 16:30:59,080 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=17.58, total_original_samples=1758)
-2024-08-30 16:30:59,080 - INFO - Running Simulation 1
-2024-08-30 16:30:59,080 - INFO - Analyzing Dataset 5
-2024-08-30 16:30:59,080 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
-2024-08-30 16:32:07,316 - INFO - Parameter evaluation completed in 68.24 seconds
-2024-08-30 16:32:07,316 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.044964772422347817
-2024-08-30 16:32:12,094 - INFO - Analyzing Dataset 4
-2024-08-30 16:32:12,095 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 16:37:52,435 - INFO - Substituting symbol T from STIXNonUnicode
+2024-08-30 16:37:52,465 - INFO - Substituting symbol T from STIXNonUnicode
+2024-08-30 16:37:52,549 - INFO - Plot created for DataFrame 5
+2024-08-30 16:37:52,550 - INFO - Starting simulation: 1
+2024-08-30 16:37:52,550 - INFO - Simulation parameters: SimulationParams(gaussian_sigma=17.58, total_original_samples=1758)
+2024-08-30 16:37:52,550 - INFO - Running Simulation 1
+2024-08-30 16:37:52,550 - INFO - Analyzing Dataset 5
+2024-08-30 16:37:52,550 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 16:39:01,294 - INFO - Parameter evaluation completed in 68.74 seconds
+2024-08-30 16:39:01,295 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.044964772422347817
+2024-08-30 16:39:06,096 - INFO - Analyzing Dataset 4
+2024-08-30 16:39:06,096 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 16:40:14,705 - INFO - Parameter evaluation completed in 68.61 seconds
+2024-08-30 16:40:14,706 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.05495694407175844
+2024-08-30 16:40:19,322 - INFO - Analyzing Dataset 6
+2024-08-30 16:40:19,322 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 16:41:32,893 - INFO - Parameter evaluation completed in 73.57 seconds
+2024-08-30 16:41:32,894 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.044964772422347817
+2024-08-30 16:41:37,762 - INFO - Analyzing Dataset 7
+2024-08-30 16:41:37,762 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:16:08,519 - INFO - Parameter evaluation completed in 2070.76 seconds
+2024-08-30 17:16:08,520 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.06494911572116907
+2024-08-30 17:16:13,288 - INFO - Analyzing Dataset 3
+2024-08-30 17:16:13,289 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:34:48,158 - INFO - Parameter evaluation completed in 1114.87 seconds
+2024-08-30 17:34:48,158 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.06494911572116907
+2024-08-30 17:34:53,098 - INFO - Analyzing Dataset 2
+2024-08-30 17:34:53,098 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:36:12,030 - INFO - Parameter evaluation completed in 78.93 seconds
+2024-08-30 17:36:12,031 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.05495694407175844
+2024-08-30 17:36:16,962 - INFO - Analyzing Dataset 1
+2024-08-30 17:36:16,962 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:37:34,107 - INFO - Parameter evaluation completed in 77.14 seconds
+2024-08-30 17:37:34,107 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.1149099739682222
+2024-08-30 17:37:39,031 - INFO - Analyzing Dataset 10
+2024-08-30 17:37:39,031 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:38:55,712 - INFO - Parameter evaluation completed in 76.68 seconds
+2024-08-30 17:38:55,712 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.05495694407175844
+2024-08-30 17:39:00,777 - INFO - Analyzing Dataset 9
+2024-08-30 17:39:00,778 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 17:56:19,806 - INFO - Parameter evaluation completed in 1039.03 seconds
+2024-08-30 17:56:19,807 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.05495694407175844
+2024-08-30 17:56:24,649 - INFO - Analyzing Dataset 8
+2024-08-30 17:56:24,649 - INFO - Computing tilde_S for dataframe with shape: (483, 10)
+2024-08-30 18:14:02,767 - INFO - Parameter evaluation completed in 1058.12 seconds
+2024-08-30 18:14:02,768 - INFO - Optimal lambda1: 65.93178292750773, lambda2: 0.06494911572116907
+2024-08-30 18:14:07,794 - INFO - Estimating changepoints
+2024-08-30 18:14:07,795 - INFO - Estimated 4 changepoints
+2024-08-30 18:14:07,899 - INFO - Changepoint estimation plot saved as '/Users/jamiecuin/Documents/University/Imperial/MSc Statistics/Summer Project/EGM Changepoint Detection/Code/egm-changepoint-detection/applications/currency_exchange_data/plots/changepoint_estimation_sim1.png'
+2024-08-30 18:14:07,899 - INFO - Simulation 1 completed. Results saved.
