@@ -1,0 +1,265 @@
+---
+title: "Simulation Study 101 - Generating Datasets Final"
+output: pdf_document
+date: "2024-07-28"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The following file contains the code used to generate the datasets that are part of the large scale simulation study.
+
+# Imports 
+```{r load-packages, echo=TRUE, message=FALSE, warning=FALSE}
+library(graphicalExtremes)
+library(dplyr)
+library(ggplot2)
+library(igraph)
+library(genlasso)
+library(tidyr)
+library(combinat)
+```
+
+
+```{r}
+generate_graph_sequence = function(d, N_C, CSI, base_sparsity = 0.3, min_changes = 1) {
+  generate_base_graph = function(d, base_sparsity) {
+    edge_count = round(base_sparsity * d * (d-1) / 2)
+    base_graph = make_empty_graph(d, directed = FALSE)
+    possible_edges = combn(1:d, 2)
+    edges_to_add = possible_edges[, sample(ncol(possible_edges), min(edge_count, ncol(possible_edges)))]
+    base_graph = add_edges(base_graph, as.vector(edges_to_add))
+    
+    while (!is_connected(base_graph)) {
+      new_edge = possible_edges[, sample(ncol(possible_edges), 1)]
+      if (!are_adjacent(base_graph, new_edge[1], new_edge[2])) {
+        base_graph = add_edges(base_graph, new_edge)
+      }
+    }
+    
+    return(base_graph)
+  }
+  
+  if (N_C == 0) {
+    base_graph = generate_base_graph(d, base_sparsity)
+    gamma = generate_random_graphical_Gamma(base_graph)
+    return(list(graphs = list(base_graph), gammas = list(gamma)))
+  }
+  
+  generate_sequence = function() {
+    graphs = list()
+    gammas = list()
+    
+    base_graph = generate_base_graph(d, base_sparsity)
+    
+    graphs[[1]] = base_graph
+    gammas[[1]] = generate_random_graphical_Gamma(base_graph)
+    
+    for (i in 1:N_C) {
+      prev_graph = graphs[[i]]
+      new_graph = prev_graph
+      changes_made = 0
+      
+      target_changes = max(min_changes, round(CSI * ecount(prev_graph)))
+      
+      while (changes_made < target_changes) {
+        if (runif(1) < 0.5) {  # 50% chance to add edge
+          adj_matrix = as_adjacency_matrix(new_graph, sparse = FALSE)
+          possible_new_edges = which(adj_matrix == 0 & upper.tri(adj_matrix), arr.ind = TRUE)
+          if (nrow(possible_new_edges) > 0) {
+            new_edge = possible_new_edges[sample(nrow(possible_new_edges), 1), ]
+            new_graph = add_edges(new_graph, as.vector(new_edge))
+            changes_made = changes_made + 1
+          }
+        } else {  # 50% chance to remove edge
+          if (ecount(new_graph) > d - 1) {  # Ensure we don't disconnect the graph
+            e = sample(E(new_graph), 1)
+            test_graph = delete_edges(new_graph, e)
+            if (is_connected(test_graph)) {
+              new_graph = test_graph
+              changes_made = changes_made + 1
+            }
+          }
+        }
+      }
+      
+      graphs[[i+1]] = new_graph
+      gammas[[i+1]] = generate_random_graphical_Gamma(new_graph)
+    }
+    
+    return(list(graphs = graphs, gammas = gammas))
+  }
+  
+  graph_hash = function(g) {
+    paste(sort(sapply(E(g), function(e) paste(ends(g, e), collapse="-"))), collapse=",")
+  }
+  
+  are_all_graphs_distinct = function(graph_list) {
+    hashes = sapply(graph_list, graph_hash)
+    length(unique(hashes)) == length(hashes)
+  }
+  
+  are_all_gammas_distinct = function(gamma_list) {
+    !any(duplicated(lapply(gamma_list, function(g) paste(g, collapse=","))))
+  }
+  
+  result = generate_sequence()
+  
+  if (!are_all_graphs_distinct(result$graphs)) {
+    if (are_all_gammas_distinct(result$gammas)) {
+      warning("Generated sequence with some identical graph structures but distinct Gamma matrices.")
+    } else {
+      warning("Could not generate sequence with all distinct graphs or Gamma matrices. Returning best attempt.")
+    }
+  }
+  
+  return(result)
+}
+
+simulate_and_save = function(N_C, d, n_samples, min_distance, simulation_number, base_dir = "simulation_study_001", single_permutation = FALSE) {
+  # Generate graph sequence and Gamma matrices
+  result = generate_graph_sequence(d, N_C, CSI = 0.3, base_sparsity = 0.1, min_changes = 1) 
+  
+  # Handle changepoints
+  if (N_C == 0) {
+    changepoint_locations = integer(0)
+    segment_sizes = n_samples
+  } else {
+    # Generate changepoint locations
+    generate_changepoints = function(n, count, min_dist) {
+      points = sort(sample(min_dist:(n-min_dist), count))
+      while (any(diff(points) < min_dist) || any(diff(c(0, points, n)) < min_dist)) {
+        points = sort(sample(min_dist:(n-min_dist), count))
+      }
+      return(points)
+    }
+    
+    changepoint_locations = generate_changepoints(n_samples, N_C, min_distance)
+    segment_sizes = diff(c(0, changepoint_locations, n_samples))
+  }
+  
+  # Generate all permutations of Gamma matrices
+  all_permutations = if (single_permutation || N_C == 0) list(1:(N_C + 1)) else permn(1:(N_C + 1))
+  
+  # Create subdirectories
+  subdir = file.path(base_dir,
+                     paste0("number_changepoints_", N_C),
+                     paste0("number_nodes_", d),
+                     paste0("number_samples_", n_samples))
+  dir.create(subdir, showWarnings = FALSE, recursive = TRUE)
+
+  # Create separate directories for CSV files and plots
+  csv_dir = file.path(subdir, "csv_files")
+  plot_dir = file.path(subdir, "plots")
+  results_dir = file.path(subdir, "results")
+  dir.create(csv_dir, showWarnings = FALSE, recursive = TRUE)
+  dir.create(plot_dir, showWarnings = FALSE, recursive = TRUE)
+  dir.create(results_dir, showWarnings = FALSE, recursive = TRUE)
+  
+  # Prepare changepoint data
+  changepoint_df = data.frame(
+    simulation = integer(),
+    permutation = integer(),
+    changepoint_indices = I(list()),
+    changepoint_proportions = I(list())
+  )
+  
+  for (perm_num in 1:length(all_permutations)) {
+    perm = all_permutations[[perm_num]]
+    
+    # Permute Gamma matrices (or use the single Gamma for N_C = 0)
+    permuted_gammas = if (N_C == 0) result$gammas else result$gammas[perm]
+    
+    # Generate samples for each segment using permuted Gamma matrices
+    y_all = matrix(nrow = 0, ncol = d)
+    for (i in 1:length(segment_sizes)) {
+      y_segment = rmpareto(n = segment_sizes[i], model = "HR", par = permuted_gammas[[i]])
+      y_all = rbind(y_all, y_segment)
+    }
+    
+    # Logarithmic Transformation and Data Saving
+    for (k in 1:d) {
+      idx_k = which(y_all[, k] > 1)
+      X = log(y_all[idx_k, -k, drop = FALSE] / y_all[idx_k, k])
+      X_with_idx = cbind(idx_k, X)
+      X_with_idx_df = as.data.frame(X_with_idx)
+      colnames(X_with_idx_df)[1] = "original_index"
+      
+      filename = sprintf("simulation_%d_%d_%d_simulation%d_permutation%d_node%d.csv",
+                         N_C, d, n_samples, simulation_number, perm_num, k)
+      output_file = file.path(csv_dir, filename)
+      write.csv(X_with_idx_df, output_file, row.names = FALSE)
+    }
+    
+    # Visualisation
+    y_all_df = as.data.frame(y_all)
+    y_all_df$Index = 1:nrow(y_all_df)
+    y_long = pivot_longer(y_all_df, cols = -c("Index"), names_to = "Dimension", values_to = "Value")
+    
+    p = ggplot(y_long, aes(x = Index, y = Value)) +
+      geom_line() +
+      facet_wrap(~ Dimension, scales = "free_y") +
+      geom_vline(xintercept = changepoint_locations, linetype = "dashed", color = "red") +
+      theme_minimal() +
+      theme(panel.background = element_rect(fill = "white", colour = "white"),
+            plot.background = element_rect(fill = "white", colour = "white")) +
+      labs(title = paste("Time Series Plot - Simulation", simulation_number, "Permutation", perm_num),
+           x = "Sample Index", y = "Value")
+    
+    # Save plot
+    plot_file = file.path(plot_dir, sprintf("time_series_plot_simulation%d_permutation%d.png", simulation_number, perm_num))
+    ggsave(plot_file, p, width = 12, height = 8, bg = "white")
+    
+    # Add changepoint data
+    changepoint_df = rbind(changepoint_df, data.frame(
+      simulation = simulation_number,
+      permutation = perm_num,
+      changepoint_indices = I(list(changepoint_locations)),
+      changepoint_proportions = I(list(changepoint_locations / n_samples))
+    ))
+  }
+  
+  # Save changepoint data
+  master_changepoint_file = file.path(results_dir, "master_changepoint_locations.csv")
+  
+  list_to_string = function(x) sapply(x, function(y) paste(y, collapse = ";"))
+  
+  # Convert list columns to strings
+  changepoint_df$changepoint_indices = list_to_string(changepoint_df$changepoint_indices)
+  changepoint_df$changepoint_proportions = list_to_string(changepoint_df$changepoint_proportions)
+  
+  # Write or append to master changepoint file
+  if (!file.exists(master_changepoint_file)) {
+    write.csv(changepoint_df, master_changepoint_file, row.names = FALSE)
+  } else {
+    write.table(changepoint_df, master_changepoint_file, sep = ",", row.names = FALSE, col.names = FALSE, append = TRUE)
+  }
+  
+  print(paste("Completed simulation", simulation_number))
+}
+
+# Create base directory structure
+simulation_study_directory = "simulation_study_101"
+dir.create(simulation_study_directory, showWarnings = FALSE, recursive = TRUE)
+
+# Data generating hyperparameters
+N_C = 3
+d = 20
+n_samples = 1000
+min_distance = 50
+num_simulations = 50
+
+# Create subdirectories
+sub_directories = file.path(simulation_study_directory,
+                            paste0("number_changepoints_", N_C),
+                            paste0("number_nodes_", d),
+                            paste0("number_samples_", n_samples))
+dir.create(sub_directories, showWarnings = FALSE, recursive = TRUE)
+
+set.seed(142)
+for (sim in 1:num_simulations) {
+  simulate_and_save(N_C, d, n_samples, min_distance, sim, base_dir = simulation_study_directory, single_permutation = TRUE)
+}
+```
+
